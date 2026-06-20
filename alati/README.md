@@ -39,3 +39,4 @@ Skripta podržava i obradu Word dokumenata, za šta joj je potreban jedan mali d
 5. Jednostavno **prevucite dokument koji želite očistiti** u prozor i pritisnite **Enter**.
 
 💡 *Novi, bezbjedni dokument sa oznakom `_anonimizovano` biće kreiran u istom folderu gdje se nalazio i vaš originalni dokument!*
+*Prije slanja ovakvog dokumenta, još jednom provjerite da li su svi lični podaci uspješno anonimizovani!*

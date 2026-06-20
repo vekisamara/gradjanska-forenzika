@@ -5,7 +5,6 @@ Dobrodošli u zvanični repozitorijum sa otvorenim materijalima, strukturisanim 
 Ovaj prostor obezbjeđuje tehničke i metodološke instrumente za primjenu **građanske forenzike** u svakodnevnom nadzoru rada javnih institucija, pretvarajući administrativnu netransparentnost u provjerljive činjenice.
 
 🔗 **Glavni portal:** [gradjanskaforenzika.org](https://gradjanskaforenzika.org)
-📖 **Radionička podrška:** [restartsrpska.org](https://restartsrpska.org)
 
 ---
 

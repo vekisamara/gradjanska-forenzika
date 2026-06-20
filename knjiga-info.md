@@ -45,3 +45,6 @@ Ukoliko koristite metodologiju ili tekstove iz ovog priručnika u svojim istraž
 
 ---
 🔗 **Zvanični resursi projekta:** [gradjanskaforenzika.org](https://gradjanskaforenzika.org)
+
+![Naslovna stranica - Vještačka inteligencija i birokratija](naslovna.jpg)
+

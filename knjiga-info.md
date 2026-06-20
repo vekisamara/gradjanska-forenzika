@@ -44,4 +44,4 @@ Ukoliko koristite metodologiju ili tekstove iz ovog priručnika u svojim istraž
   > Šamara, *Vještačka inteligencija i birokratija*, 2026.
 
 ---
-🔗 **Zvanični resursi projekta:** [gradjanskaforenzika.org](https://gradjanskaforenzika.org) | Radionički materijali: [restartsrpska.org](https://restartsrpska.org)
+🔗 **Zvanični resursi projekta:** [gradjanskaforenzika.org](https://gradjanskaforenzika.org)

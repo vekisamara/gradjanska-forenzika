@@ -37,11 +37,12 @@ Pratimo stroge metodološke principe definisane u pratećim dokumentima:
 
 ## 📂 Struktura repozitorijuma
 
-- 🤖 [`promptovi/`](promptovi/README.md) — prompt biblioteka za terenski rad: brza provjera akta, duboka analiza rješenja, pisanje žalbe, FOI zahtjevi i urgencije zbog ćutanja uprave.
+- 🤖 [`promptovi/`](promptovi/README.md) — glavna prompt biblioteka za terenski rad: brza provjera akta, duboka analiza rješenja, pisanje žalbe, FOI zahtjevi i urgencije zbog ćutanja uprave.
+- 🧭 [`promptovi/disciplinovani-administrativni-pritisak/`](promptovi/disciplinovani-administrativni-pritisak/README.md) — praktični primjeri koji prate stručni rad **„Metod disciplinovanog administrativnog pritiska“**: detektor formalizma, dokaz iza fraze, matrica neodgovorenih pitanja, FOI za dokumente, rokovnik, eskalacija i javna objava zasnovana na dokumentima.
 - 🎛️ [`promptovi/dashboard/`](promptovi/dashboard/revizor_narativa.md) — rani AI prototipovi za analizu institucionalnih narativa, kontradikcija i spin obrazaca.
 - 🛠️ [`alati/`](alati/README.md) — lokalni softverski alati za digitalni integritet, PDF metapodatke i buduću anonimizaciju podataka.
 - 🌐 [`research-concepts/`](research-concepts/README.md) — strateški koncepti za Civic Intelligence Dashboard, MVP, partnerstva i data šeme.
-- 📋 `sheme/` — planirani prostor za JSON data šeme za strukturisanje birokratskih anomalija.
+- 📋 `sheme/` — planirani prostor za JSON data šeme za strukturisanje birokratskih anomalija, formalističkih obrazaca i indikatora javnog interesa.
 
 ---
 
@@ -51,10 +52,13 @@ Pratimo stroge metodološke principe definisane u pratećim dokumentima:
 2. **Anonimizuj osjetljive podatke** — ukloni JMBG, broj lične karte, privatne adrese, telefone i podatke koji nisu nužni za javni interes.
 3. **Uradi brzu trijažu** — koristi `promptovi/02_brza_provjera.md`.
 4. **Uradi dubinsku analizu** — koristi `promptovi/01_analiza_rjesenja.md`.
-5. **Pribavi dodatne dokaze** — koristi `promptovi/04_foi_generator.md`.
-6. **Reaguj na ćutanje uprave** — koristi `promptovi/05_urgencija_cutanje_uprave.md`.
-7. **Napiši pravni nacrt** — koristi `promptovi/03_pisanje_zalbe.md`.
-8. **Izvuci dashboard indikator** — koristi `promptovi/dashboard/revizor_narativa.md`.
+5. **Prepoznaj formalistički odgovor** — koristi `promptovi/disciplinovani-administrativni-pritisak/01_detektor_formalizma.md`.
+6. **Pretvori frazu u dokazni trag** — koristi `promptovi/disciplinovani-administrativni-pritisak/02_dokaz_iza_fraze.md` i `promptovi/disciplinovani-administrativni-pritisak/03_matrica_neodgovorenih_pitanja.md`.
+7. **Pribavi dodatne dokaze** — koristi `promptovi/04_foi_generator.md` ili praktični FOI primjer `promptovi/disciplinovani-administrativni-pritisak/04_foi_dokumenti_ne_misljenja.md`.
+8. **Reaguj na ćutanje uprave** — koristi `promptovi/05_urgencija_cutanje_uprave.md` ili `promptovi/disciplinovani-administrativni-pritisak/08_rokovnik_i_urgencija.md`.
+9. **Napiši pravni nacrt** — koristi `promptovi/03_pisanje_zalbe.md`.
+10. **Eskaliraj uredno i dokumentovano** — koristi `promptovi/disciplinovani-administrativni-pritisak/09_plan_eskalacije.md`.
+11. **Izvuci dashboard indikator** — koristi `promptovi/dashboard/revizor_narativa.md`.
 
 ---
 

@@ -9,7 +9,8 @@ Ovaj folder sadrži operativnu biblioteku promptova za analizu upravnih akata, b
 3. `03_pisanje_zalbe.md` — generisanje smirenog i pravno upotrebljivog nacrta žalbe na osnovu prethodne analize.
 4. `04_foi_generator.md` — izrada zahtjeva za pristup informacijama kada je potrebno pribaviti dokaze, pravni osnov, zapisnike ili interne akte.
 5. `05_urgencija_cutanje_uprave.md` — izrada urgencije ili prigovora kada organ ne odgovori u zakonskom ili razumnom roku.
-6. `dashboard/revizor_narativa.md` — poređenje javnog narativa institucije sa stvarnim administrativnim aktima i priprema indikatora za dashboard.
+6. `disciplinovani-administrativni-pritisak/` — praktični primjeri koji prate stručni rad o metodu disciplinovanog administrativnog pritiska: detektor formalizma, dokaz iza fraze, matrica neodgovorenih pitanja, FOI za dokumente, rokovnik, eskalacija i javna objava zasnovana na dokumentima.
+7. `dashboard/revizor_narativa.md` — poređenje javnog narativa institucije sa stvarnim administrativnim aktima i priprema indikatora za dashboard.
 
 ## Pravilo provjerljivosti
 

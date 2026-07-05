@@ -1,6 +1,6 @@
 # Metod disciplinovanog administrativnog pritiska
 
-Ovaj podfolder sadrži praktične AI promptove koji prate stručni rad **"Metod disciplinovanog administrativnog pritiska: kako svaki formalistički odgovor pretvoriti u dokazni trag"**.
+Ovaj podfolder sadrži praktične AI promptove koji prate stručni rad **["Metod disciplinovanog administrativnog pritiska: kako svaki formalistički odgovor pretvoriti u dokazni trag"](https://gradjanskaforenzika.org/metod-disciplinovanog-administrativnog-pritiska)**.
 
 Promptovi su namijenjeni građanima, ZEV-ovima, lokalnim inicijativama, novinarima i organizacijama civilnog društva koje žele da prepoznaju birokratski formalizam u aktima lokalne uprave i da na njega odgovore mirno, zakonito i dokumentovano.
 

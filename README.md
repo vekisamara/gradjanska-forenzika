@@ -37,8 +37,9 @@ Pratimo stroge metodološke principe definisane u pratećim dokumentima:
 
 ## 📂 Struktura repozitorijuma
 
-- 🤖 [`promptovi/`](promptovi/README.md) — glavna prompt biblioteka za terenski rad: brza provjera akta, duboka analiza rješenja, pisanje žalbe, FOI zahtjevi i urgencije zbog ćutanja uprave.
+- 🤖 [`promptovi/`](promptovi/README.md) — glavna prompt biblioteka za terenski rad: analiza akata i javnih izjava, brza provjera, pisanje žalbe, FOI zahtjevi i urgencije zbog ćutanja uprave.
 - 🧭 [`promptovi/disciplinovani-administrativni-pritisak/`](promptovi/disciplinovani-administrativni-pritisak/README.md) — praktični primjeri koji prate stručni rad **„Metod disciplinovanog administrativnog pritiska“**: detektor formalizma, dokaz iza fraze, matrica neodgovorenih pitanja, FOI za dokumente, rokovnik, eskalacija i javna objava zasnovana na dokumentima.
+- 🗣️ [`promptovi/izjave-funkcionera/`](promptovi/izjave-funkcionera/README.md) — edukativni AI set za višeslojnu analizu javnih izjava, saopštenja i obećanja: anatomija tvrdnje, dokazna podloga, logika, retorika, brojevi, odgovornost, prećutani kontekst, formalizam, dosljednost i građanska provjera.
 - 🎛️ [`promptovi/dashboard/`](promptovi/dashboard/revizor_narativa.md) — rani AI prototipovi za analizu institucionalnih narativa, kontradikcija i spin obrazaca.
 - 🛠️ [`alati/`](alati/README.md) — lokalni softverski alati za digitalni integritet, PDF metapodatke i buduću anonimizaciju podataka.
 - 🌐 [`research-concepts/`](research-concepts/README.md) — strateški koncepti za Civic Intelligence Dashboard, MVP, partnerstva i data šeme.
@@ -58,7 +59,8 @@ Pratimo stroge metodološke principe definisane u pratećim dokumentima:
 8. **Reaguj na ćutanje uprave** — koristi `promptovi/05_urgencija_cutanje_uprave.md` ili `promptovi/disciplinovani-administrativni-pritisak/08_rokovnik_i_urgencija.md`.
 9. **Napiši pravni nacrt** — koristi `promptovi/03_pisanje_zalbe.md`.
 10. **Eskaliraj uredno i dokumentovano** — koristi `promptovi/disciplinovani-administrativni-pritisak/09_plan_eskalacije.md`.
-11. **Izvuci dashboard indikator** — koristi `promptovi/dashboard/revizor_narativa.md`.
+11. **Analiziraj javnu izjavu iz više uglova** — koristi kompletan set u `promptovi/izjave-funkcionera/`, od anatomije tvrdnje do građanskog testa provjerljivosti.
+12. **Izvuci dashboard indikator** — koristi `promptovi/dashboard/revizor_narativa.md`.
 
 ---
 

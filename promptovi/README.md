@@ -12,6 +12,7 @@ Ovaj folder sadrži operativnu biblioteku promptova za analizu upravnih akata, b
 6. `disciplinovani-administrativni-pritisak/` — praktični primjeri koji prate stručni rad o metodu disciplinovanog administrativnog pritiska: detektor formalizma, dokaz iza fraze, matrica neodgovorenih pitanja, FOI za dokumente, rokovnik, eskalacija i javna objava zasnovana na dokumentima.
 7. `dashboard/revizor_narativa.md` — poređenje javnog narativa institucije sa stvarnim administrativnim aktima i priprema indikatora za dashboard.
 8. `analiza-izjava-iz-medija/` — detaljni i pojednostavljeni AI promptovi za provjeru javnih izjava, sa uputstvima za novinare, NVO sektor i građane.
+9. `izborni-kontekst-2026/` — brza forenzička analiza političkih izjava u izbornom kontekstu, sa obaveznim razdvajanjem činjenica, vrijednosnih sudova, obećanja, predviđanja i analitičkih procjena.
 
 ## Pravilo provjerljivosti
 

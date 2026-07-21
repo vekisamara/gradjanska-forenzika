@@ -14,6 +14,7 @@ Ovaj folder sadrži operativnu biblioteku promptova za analizu upravnih akata, b
 8. `analiza-izjava-iz-medija/` — detaljni i pojednostavljeni AI promptovi za provjeru javnih izjava, sa uputstvima za novinare, NVO sektor i građane.
 9. `izborni-kontekst-2026/` — brza forenzička analiza političkih izjava u izbornom kontekstu, sa obaveznim razdvajanjem činjenica, vrijednosnih sudova, obećanja, predviđanja i analitičkih procjena.
 10. `analiza-medijske-manipulacije/` — analiza konkretnih vijesti i medijskih sadržaja kroz šest pokazatelja: ukupna manipulativnost poruke, doprinos sagovornika, doprinos autora, uredničko pojačavanje, clickbait i političko-manipulativno usmjeravanje.
+11. `analiza-pr-saopstenja/` — brza i proširena građanska forenzička analiza institucionalnih PR saopštenja, sa provjerom dokazivosti, transparentnosti, odnosa prema dokazima, javne korekcije, potencijalne štete i nivoa institucionalnog prikrivanja.
 
 ## Pravilo provjerljivosti
 

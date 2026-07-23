@@ -1,38 +1,57 @@
 # Promptovi za građansku forenziku
 
-Ovaj folder sadrži operativnu biblioteku promptova za analizu upravnih akata, brzu terensku trijažu, izradu nacrta žalbi i pripremu indikatora za budući Civic Intelligence Dashboard.
+Ovaj folder sadrži operativnu biblioteku za analizu upravnih akata, javnih izjava, dokaznih praznina i institucionalnih reakcija.
+
+## Zajedničko pravilo
+
+Svaki prompt mora primjenjivati `00_forenzicko_jezgro.md` (**GF-PROMPT-CORE 1.0**). Posebni prompt može proširiti zadatak, ali ne smije ukinuti obavezno razdvajanje činjenica, tvrdnji izvora, tumačenja, pretpostavki i nepoznatih okolnosti.
 
 ## Preporučeni redoslijed rada
 
-1. `02_brza_provjera.md` — petominutna procjena da li dokument predstavlja stvarno odlučivanje ili birokratski ritual.
-2. `01_analiza_rjesenja.md` — dubinska analiza zakonitosti, obrazloženja, javnog interesa, rokova i pravne ranjivosti akta.
-3. `03_pisanje_zalbe.md` — generisanje smirenog i pravno upotrebljivog nacrta žalbe na osnovu prethodne analize.
-4. `04_foi_generator.md` — izrada zahtjeva za pristup informacijama kada je potrebno pribaviti dokaze, pravni osnov, zapisnike ili interne akte.
-5. `05_urgencija_cutanje_uprave.md` — izrada urgencije ili prigovora kada organ ne odgovori u zakonskom ili razumnom roku.
-6. `disciplinovani-administrativni-pritisak/` — praktični primjeri koji prate stručni rad o metodu disciplinovanog administrativnog pritiska: detektor formalizma, dokaz iza fraze, matrica neodgovorenih pitanja, FOI za dokumente, rokovnik, eskalacija i javna objava zasnovana na dokumentima.
-7. `dashboard/revizor_narativa.md` — poređenje javnog narativa institucije sa stvarnim administrativnim aktima i priprema indikatora za dashboard.
-8. `analiza-izjava-iz-medija/` — detaljni i pojednostavljeni AI promptovi za provjeru javnih izjava, sa uputstvima za novinare, NVO sektor i građane.
-9. `izborni-kontekst-2026/` — brza forenzička analiza političkih izjava u izbornom kontekstu, sa obaveznim razdvajanjem činjenica, vrijednosnih sudova, obećanja, predviđanja i analitičkih procjena.
-10. `analiza-medijske-manipulacije/` — analiza konkretnih vijesti i medijskih sadržaja kroz šest pokazatelja: ukupna manipulativnost poruke, doprinos sagovornika, doprinos autora, uredničko pojačavanje, clickbait i političko-manipulativno usmjeravanje.
-11. `analiza-pr-saopstenja/` — brza i proširena građanska forenzička analiza institucionalnih PR saopštenja, sa provjerom dokazivosti, transparentnosti, odnosa prema dokazima, javne korekcije, potencijalne štete i nivoa institucionalnog prikrivanja.
+1. `02_brza_provjera.md` — početna trijaža dokumenta.
+2. `06_plan_dokazivanja.md` — definiše odlučne činjenice, potrebne dokaze, njihove izvore i redoslijed pribavljanja.
+3. `01_analiza_rjesenja.md` — dubinska analiza akta i lanca pitanje–činjenica–dokaz–pravilo–obrazloženje–zaključak.
+4. `disciplinovani-administrativni-pritisak/` — detektor formalizma, dokaz iza fraze, matrica neodgovorenih pitanja, rokovnik i eskalacija.
+5. `04_foi_generator.md` — priprema preciznog zahtjeva za postojeće dokumente, evidencije i procesne tragove.
+6. `05_urgencija_cutanje_uprave.md` — reakcija na propušten rok ili nerazumno odlaganje.
+7. `03_pisanje_zalbe.md` — nacrt pravnog podneska zasnovan na prethodno utvrđenim činjenicama i dokazima.
+8. `07_kontrolna_analiza.md` — nezavisni red-team pregled koji pokušava osporiti, ograničiti ili precizirati prvi nalaz.
+9. `analiza-izjava-iz-medija/`, `izjave-funkcionera/`, `izborni-kontekst-2026/`, `analiza-medijske-manipulacije/` i `analiza-pr-saopstenja/` — specijalizovane analize javnih komunikacija.
+10. `dashboard/revizor_narativa.md` — poređenje javnog narativa sa dokumentima i priprema indikatora.
 
-## Pravilo provjerljivosti
+## Građanski forenzički ciklus
 
-Svaki rezultat dobijen pomoću ovih promptova mora biti vezan za konkretan dokaz: citat iz akta, broj predmeta, datum, potpisnika, rok, pravni osnov ili drugi provjerljiv administrativni trag. Zaključci bez dokaza ne smatraju se građanskom forenzikom.
+> problem → uzroci → akteri → dokazi → analiza → intervencija → rezultat → učenje
 
-## Privatnost i anonimizacija
+Prompt nije završen objavljivanjem zaključka. Novi dokument ili odgovor mora se uporediti sa prethodnim nalazom i označiti kao: potvrđeno, izmijenjeno, opovrgnuto, novo ili i dalje otvoreno.
 
-Prije unošenja dokumenata u AI alat potrebno je ukloniti ili zamijeniti osjetljive lične podatke, naročito JMBG, broj lične karte, privatnu adresu, privatni telefon, medicinske podatke i podatke o maloljetnicima.
+## Dokazni standard
 
-Fokus analize mora ostati na zakonitosti postupanja institucije, zaštiti javnog interesa i provjerljivim dokumentima, a ne na privatnom životu pojedinaca.
+Svaka važna tvrdnja dobija oznaku T1, T2, T3... i vezu sa konkretnim dokazom. Obavezni statusi su:
+
+- potvrđeno;
+- djelimično potvrđeno;
+- nepotvrđeno;
+- kontradiktorno;
+- opovrgnuto;
+- nije moguće provjeriti.
+
+Odsustvo dokumenta nije automatski dokaz da dokument ne postoji.
 
 ## Izlazni standard
 
-Kada god je moguće, rezultat treba sadržavati:
+Kada je primjenjivo, rezultat sadrži:
 
-- kratak zaključak običnim jezikom,
-- tabelu nalaza,
-- citatni trag,
-- razdvajanje povreda postupka od materijalnopravnih problema,
-- preporučeni naredni korak,
-- procjenu rizika za javni interes.
+1. predmet i centralno pitanje;
+2. pouzdano utvrđene činjenice;
+3. registar tvrdnji i dokaznu matricu;
+4. procesne radnje i nedostajuće tragove;
+5. uočene obrasce;
+6. uzroke, posljedice i alternativna objašnjenja;
+7. nivo pouzdanosti;
+8. sljedeći dokazni ili procesni korak;
+9. test ponovljivosti.
+
+## Privatnost
+
+Prije unosa u AI ukloniti JMBG, brojeve ličnih dokumenata, privatne adrese, telefone, medicinske podatke i podatke o maloljetnicima kada nisu neophodni za javni interes. Izvorni dokument čuva se odvojeno od anonimizovane radne kopije.

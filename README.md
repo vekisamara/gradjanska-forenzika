@@ -1,97 +1,64 @@
 # 🏛️ Građanska Forenzika (Civic Forensics)
 
-Dobrodošli u zvanični repozitorijum sa otvorenim materijalima, strukturisanim AI promptovima i praktičnim alatima iz priručnika **„Vještačka inteligencija i birokratija – terenski priručnik za građansku forenziku“** autora Velimira Šamare.
+Zvanični repozitorijum sa otvorenim metodološkim materijalima, strukturisanim AI promptovima i praktičnim alatima iz priručnika **„Vještačka inteligencija i birokratija – terenski priručnik za građansku forenziku“** autora Velimira Samare.
 
-Ovaj prostor obezbjeđuje tehničke i metodološke instrumente za primjenu **građanske forenzike** u svakodnevnom nadzoru rada javnih institucija, pretvarajući administrativnu netransparentnost u provjerljive činjenice.
+Građanska forenzika pretvara administrativnu netransparentnost, javne tvrdnje i institucionalne propuste u provjerljive činjenice, dokazne matrice i konkretne korake građanskog nadzora.
 
 🔗 **Glavni portal:** [gradjanskaforenzika.org](https://gradjanskaforenzika.org)
 
----
+## Metodološka osnova
 
-## 🌐 Future Roadmap: Civic Intelligence Dashboard (`civicforensics.org`)
+- 🔬 [Metodologija Građanske Forenzike 2.0](metodologija_gradjanske_forenzike.md)
+- ⚖️ [Standard Otvorene Javne Politike 2.0](standard_otvorene_javne_politike.md)
+- 🧠 [Zajedničko forenzičko jezgro AI promptova](promptovi/00_forenzicko_jezgro.md)
 
-**Status: Conceptual & Research Phase**
+Osnovni operativni ciklus je:
 
-Razvijamo osnovu za **Civic Intelligence Dashboard** — AI-asistiranu platformu za praćenje javnih narativa, institucionalnih odluka i governance rizika kroz strukturisanu analizu podataka i Civic Forensics metodologiju.
+> **problem → uzroci → akteri → dokazi → analiza → intervencija → rezultat → učenje**
 
-### 📊 Platform objectives
+Analiza nije završena objavljivanjem nalaza. Novi odgovor ili dokument postaje novi dokazni unos, a prethodni zaključak se označava kao potvrđen, izmijenjen, opovrgnut ili dopunjen.
 
-- **Visual Accountability:** pretvaranje birokratskog teksta u mjerljive indikatore rizika.
-- **Inconsistency Auditing:** mapiranje kontradikcija između javnih izjava institucija i stvarnih pravnih/administrativnih akata.
-- **Democratic Resilience:** praćenje obrazaca netransparentnosti, formalizma i institucionalnog izbjegavanja odgovornosti.
+## Struktura repozitorijuma
 
-🤝 **Call for Collaboration:** Tražimo strateške partnere, tehničke saradnike (AI/data/UI/UX) i finansijsku podršku za razvoj skalabilne infrastrukture demokratske odgovornosti za regionalne i EU slučajeve. Pogledajte [research-concepts/VISION.md](research-concepts/VISION.md).
-
----
-
-## 🔍 Šta je Građanska forenzika?
-
-Građanska forenzika je analitički metod provjere javnih odluka koji kombinuje kritičko čitanje administrativnih dokumenata, digitalne alate i važeći pravni okvir. Vještačka inteligencija se koristi kao **analitičko ogledalo** za prepoznavanje ponavljajućih birokratskih obrazaca, izbjegavanja odgovornosti i raskoraka između forme i suštine.
-
-Pratimo stroge metodološke principe definisane u pratećim dokumentima:
-
-- 🔬 [Metodologija Građanske Forenzike](metodologija_gradjanske_forenzike.md)
-- ⚖️ [Standard Otvorene Javne Politike](standard_otvorene_javne_politike.md)
-
----
-
-## 📂 Struktura repozitorijuma
-
-- 🤖 [`promptovi/`](promptovi/README.md) — glavna prompt biblioteka za terenski rad: analiza akata i javnih izjava, brza provjera, pisanje žalbe, FOI zahtjevi i urgencije zbog ćutanja uprave.
-- 🧭 [`promptovi/disciplinovani-administrativni-pritisak/`](promptovi/disciplinovani-administrativni-pritisak/README.md) — praktični primjeri koji prate stručni rad **„Metod disciplinovanog administrativnog pritiska“**: detektor formalizma, dokaz iza fraze, matrica neodgovorenih pitanja, FOI za dokumente, rokovnik, eskalacija i javna objava zasnovana na dokumentima.
-- 🗣️ [`promptovi/izjave-funkcionera/`](promptovi/izjave-funkcionera/README.md) — edukativni AI set za višeslojnu analizu javnih izjava, saopštenja i obećanja: anatomija tvrdnje, dokazna podloga, logika, retorika, brojevi, odgovornost, prećutani kontekst, formalizam, dosljednost i građanska provjera.
-- 🎛️ [`promptovi/dashboard/`](promptovi/dashboard/revizor_narativa.md) — rani AI prototipovi za analizu institucionalnih narativa, kontradikcija i spin obrazaca.
-- 🛠️ [`alati/`](alati/README.md) — lokalni softverski alati za digitalni integritet, PDF metapodatke i buduću anonimizaciju podataka.
+- 🤖 [`promptovi/`](promptovi/README.md) — prompt biblioteka za analizu akata, javnih izjava, dokaznih praznina, žalbi, FOI zahtjeva i kontrole kvaliteta.
+- 🧭 [`promptovi/disciplinovani-administrativni-pritisak/`](promptovi/disciplinovani-administrativni-pritisak/README.md) — alati za detekciju formalizma, dokaz iza fraze, neodgovorena pitanja, rokove i dokumentovanu eskalaciju.
+- 🗣️ [`promptovi/izjave-funkcionera/`](promptovi/izjave-funkcionera/README.md) — višeslojna analiza javnih izjava, saopštenja i obećanja.
+- 🎛️ [`promptovi/dashboard/`](promptovi/dashboard/revizor_narativa.md) — prototipovi za analizu institucionalnih narativa i kontradikcija.
+- 🛠️ [`alati/`](alati/README.md) — lokalni alati za digitalni integritet, PDF metapodatke i anonimizaciju.
 - 🌐 [`research-concepts/`](research-concepts/README.md) — strateški koncepti za Civic Intelligence Dashboard, MVP, partnerstva i data šeme.
-- 📋 `sheme/` — planirani prostor za JSON data šeme za strukturisanje birokratskih anomalija, formalističkih obrazaca i indikatora javnog interesa.
+- 📋 `sheme/` — prostor za strukturisanje tvrdnji, dokaza, formalističkih obrazaca i indikatora javnog interesa.
 
----
+## Operativni tok rada
 
-## 🧭 Operativni tok rada
+1. **Definiši predmet i centralno pitanje.**
+2. **Sačuvaj izvorni materijal i napravi anonimizovanu radnu kopiju.**
+3. **Uradi brzu trijažu** pomoću `promptovi/02_brza_provjera.md`.
+4. **Napravi plan dokazivanja** pomoću `promptovi/06_plan_dokazivanja.md`.
+5. **Mapiraj tvrdnje, aktere, nadležnosti i nedostajuće dokumente.**
+6. **Uradi dubinsku analizu** pomoću `promptovi/01_analiza_rjesenja.md` ili odgovarajućeg specijalizovanog prompta.
+7. **Provjeri lanac** pitanje → činjenica → dokaz → pravilo → obrazloženje → zaključak.
+8. **Pribavi dodatne dokaze** kroz FOI, uvid u spis, terensku provjeru ili drugi odgovarajući postupak.
+9. **Preduzmi dokumentovanu intervenciju**: dopuna, žalba, urgencija, prijava, zahtjev za nadzor ili javna analiza.
+10. **Uradi nezavisnu kontrolu** pomoću `promptovi/07_kontrolna_analiza.md`.
+11. **Evidentiraj rezultat** i označi šta je potvrđeno, izmijenjeno, opovrgnuto i novo.
+12. **Ažuriraj bazu obrazaca, prompt ili metodologiju** kada predmet donese novo provjerljivo saznanje.
 
-1. **Pribavi dokument** — akt, rješenje, zaključak, odgovor, zapisnik ili javnu izjavu.
-2. **Anonimizuj osjetljive podatke** — ukloni JMBG, broj lične karte, privatne adrese, telefone i podatke koji nisu nužni za javni interes.
-3. **Uradi brzu trijažu** — koristi `promptovi/02_brza_provjera.md`.
-4. **Uradi dubinsku analizu** — koristi `promptovi/01_analiza_rjesenja.md`.
-5. **Prepoznaj formalistički odgovor** — koristi `promptovi/disciplinovani-administrativni-pritisak/01_detektor_formalizma.md`.
-6. **Pretvori frazu u dokazni trag** — koristi `promptovi/disciplinovani-administrativni-pritisak/02_dokaz_iza_fraze.md` i `promptovi/disciplinovani-administrativni-pritisak/03_matrica_neodgovorenih_pitanja.md`.
-7. **Pribavi dodatne dokaze** — koristi `promptovi/04_foi_generator.md` ili praktični FOI primjer `promptovi/disciplinovani-administrativni-pritisak/04_foi_dokumenti_ne_misljenja.md`.
-8. **Reaguj na ćutanje uprave** — koristi `promptovi/05_urgencija_cutanje_uprave.md` ili `promptovi/disciplinovani-administrativni-pritisak/08_rokovnik_i_urgencija.md`.
-9. **Napiši pravni nacrt** — koristi `promptovi/03_pisanje_zalbe.md`.
-10. **Eskaliraj uredno i dokumentovano** — koristi `promptovi/disciplinovani-administrativni-pritisak/09_plan_eskalacije.md`.
-11. **Analiziraj javnu izjavu iz više uglova** — koristi kompletan set u `promptovi/izjave-funkcionera/`, od anatomije tvrdnje do građanskog testa provjerljivosti.
-12. **Izvuci dashboard indikator** — koristi `promptovi/dashboard/revizor_narativa.md`.
+## Pravilo dokazivanja
 
----
+Svaka važna tvrdnja mora biti povezana sa citatom, dokumentom, brojem predmeta, datumom, potpisnikom, zapisnikom, mjerenjem, metapodatkom ili drugim provjerljivim tragom. Odsustvo dokaza nije automatski dokaz odsustva.
 
-## 💡 Istaknuti alat: Ekstraktor PDF metapodataka
+## Privatnost i etika
 
-Ako želite brzo testirati digitalni integritet dokumenta, skripta `alati/forenzika_pdf.py` izvlači skrivene sistemske podatke o autoru računara i softveru koji je kreirao dokument.
+Dokumenti sa osjetljivim ličnim podacima ne smiju se javno objavljivati niti slati komercijalnim AI modelima bez anonimizacije. Fokus je na institucionalnom postupanju, javnom interesu i dokazivim administrativnim tragovima, ne na privatnom životu pojedinaca.
 
-```text
-==================================================
-🔍 FORENZIČKI IZVJEŠTAJ METAPODATAKA DOKUMENTA
-==================================================
-📌 Autor (Korisnik računara): Milan_Privatni_PC
-📌 Kreator (Aplikacija): Microsoft® Word 2019
-📌 Kompanija: Privatna Pravna Radnja d.o.o.
-==================================================
-```
+## Civic Intelligence Dashboard
 
-Ako se sistemski autor razlikuje od potpisnika dokumenta, to nije automatski dokaz nezakonitosti, ali jeste važan digitalni trag za dodatnu provjeru.
+**Status: konceptualna i istraživačka faza.** Razvija se osnova za AI-asistiranu platformu koja strukturisane tvrdnje, dokaze, kontradikcije, rokove i institucionalne reakcije pretvara u mjerljive indikatore rizika i odgovornosti. Pogledajte [research-concepts/VISION.md](research-concepts/VISION.md).
 
----
+## Otvorena saradnja
 
-## 🔒 Privatnost i etika
+Za prijavu anomalije ili prijedlog novog prompta koristite strukturisan opis: dokument, organ, datum, centralno pitanje, tvrdnje, dokazni trag, nedostajući dokaz, javni interes i prethodno preduzete radnje.
 
-Dokumenti koji sadrže osjetljive lične podatke ne smiju se javno objavljivati niti slati AI modelima bez prethodne anonimizacije. Fokus analize je zakonitost rada institucija, javni interes i provjerljivi administrativni tragovi, a ne privatni život pojedinaca.
+## Licenca
 
----
-
-## 🤝 Otvorena saradnja (Open Source Civics)
-
-Ako želite prijaviti anomaliju sa terena, predložiti novi prompt ili podijeliti zanimljive metapodatke, otvorite **Issue** i koristite strukturisan opis: dokument, organ, datum, problem, dokazni trag i javni interes.
-
-## 📜 Licenca
-
-Svi materijali su licencirani pod uslovima međunarodne licence **Creative Commons Autorstvo-Nekomercijalno-Dijeliti pod istim uslovima 4.0 (CC BY-NC-SA 4.0)**. Detalje pogledajte u datoteci [LICENSE](LICENSE).
+Materijali su licencirani pod **Creative Commons Autorstvo-Nekomercijalno-Dijeliti pod istim uslovima 4.0 (CC BY-NC-SA 4.0)**. Detalji su u datoteci [LICENSE](LICENSE).

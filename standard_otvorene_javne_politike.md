@@ -1,42 +1,98 @@
-# 📋 Standard Otvorene Javne Politike (Open Policy Standard)
+# 📋 Standard Otvorene Javne Politike 2.0
 
-Ovaj standard definiše normativni i etički okvir za sprovođenje građanske forenzike. Njegova svrha je postavljanje jasnih pravila kako bi svaka analiza bila objektivna, provjerljiva, ponovljiva i otporna na političke ili lične pristrasnosti.
+**Autor:** Velimir Samara  
+**Verzija:** 2.0  
+**Datum:** 23.07.2026.
 
-Svaka studija slučaja i analiza unutar ovog projekta mora ispunjavati sljedećih 5 osnovnih principa:
+Ovaj standard definiše normativni, dokazni i etički okvir Građanske forenzike. Svaka analiza mora biti objektivna, provjerljiva, ponovljiva, proporcionalna dostupnim dokazima i otporna na političke, lične i algoritamske pristrasnosti.
 
----
+## Osnovni principi
 
-## ⚖️ Osnovni principi standarda
+### 1. Javna dostupnost
 
-### 1. Javna dostupnost (Public Access)
+Metodološki koraci, zaključci i ograničenja objavljuju se besplatno i jezikom razumljivim građanima, osim podataka koji moraju biti zaštićeni.
 
-Sve analize, zaključci i metodološki koraci moraju biti javno objavljeni, besplatni i napisani jezikom koji je razumljiv prosječnom građaninu.
+### 2. Provjerljivost
 
-### 2. Provjerljivost (Verifiability)
+Svaka činjenična tvrdnja mora biti povezana sa dokumentom, datumom, brojem akta, citatom, metapodatkom, zapisnikom, fotografijom, mjerenjem ili drugim provjerljivim tragom.
 
-Svaka tvrdnja iznesena u analizi mora biti direktno potkrijepljena dokazima iz zvaničnih administrativnih dokumenata. Nema mjesta pretpostavkama bez dokaznog traga; fokus je na dokumentima, datumima, rokovima, potpisnicima, pravnim osnovima i službenoj prepisci.
+### 3. Ponovljivost
 
-### 3. Ponovljivost (Replicability)
+Druga osoba, koristeći isti materijal, istu verziju metodologije i iste promptove, mora moći ponoviti postupak i dobiti uporediv nalaz.
 
-Metodologija mora biti dovoljno jasna da sekundarni istraživač, koristeći iste dokumente, iste AI promptove i isti dokazni trag, može ponoviti postupak i doći do uporedivog zaključka.
+### 4. Anti-formalizam
 
-### 4. Anti-formalizam (Anti-formalism)
+Uredna forma ne nadomješta nedostatak činjenica, dokaza, razloga, nadležnosti ili stvarno izvršene procesne radnje. Analiza mora pokazati tačan prekid između pitanja, činjenice, dokaza, pravila, obrazloženja i zaključka.
 
-Eksplicitno se odbacuje strogo formalističko tumačenje prava koje javna uprava koristi kako bi opravdala kršenje ili ignorisanje suštine javnog interesa. Suština i svrha zakona imaju prednost nad golom administrativnom formom.
+### 5. Digitalni integritet
 
-### 5. Digitalni integritet (Digital Integrity)
+Prednost imaju izvorni digitalni dokumenti sa provjerljivim metapodacima, vremenskim pečatom, digitalnim potpisom, izvornom ekstenzijom ili drugim tragom autentičnosti. Radna kopija se čuva odvojeno od izvornika.
 
-Prilikom prikupljanja dokaza i dokumenata na terenu, prednost se daje digitalnim materijalima sa provjerljivim metapodacima, vremenskim pečatom, digitalnim potpisom, izvornom ekstenzijom ili drugim tragovima autentičnosti.
+### 6. Precizno definisan predmet
 
----
+Analiza mora početi konkretnim pitanjem, odlukom, tvrdnjom, propuštenom radnjom ili odlučnom činjenicom. Opšte nezadovoljstvo radom institucije nije dovoljan predmet analize.
 
-## 🔒 Standardi privatnosti i etike
+### 7. Razdvajanje činjenica i zaključaka
 
-- **Obavezna anonimizacija:** Nijedan dokument ne smije biti proslijeđen komercijalnim AI modelima ili objavljen u repozitorijumu ukoliko prethodno nisu uklonjeni osjetljivi lični podaci, naročito JMBG, broj lične karte, privatna adresa, privatni telefon, medicinski podaci i podaci o maloljetnicima.
-- **Fokus na instituciju:** Predmet analize je zakonitost postupanja organa vlasti i zaštita javnog interesa, a ne privatni život pojedinaca obuhvaćenih postupkom.
-- **Minimizacija podataka:** U analizi treba koristiti samo one lične podatke koji su nužni za razumijevanje institucionalnog postupanja. Sve ostalo treba anonimizovati ili izostaviti.
-- **Citatni standard:** Kada se navodi tvrdnja, uz nju treba navesti izvor: dokument, datum, broj akta, citat ili drugi dokazni trag.
+Rezultat mora jasno razlikovati:
 
----
+- činjenicu utvrđenu iz dokaza;
+- tvrdnju izvora;
+- tumačenje;
+- pretpostavku;
+- nepoznatu ili nepotvrđenu okolnost.
 
-🔗 **Zvanična dokumentacija:** [Standard otvorene javne politike na gradjanskaforenzika.org](https://gradjanskaforenzika.org/standard-otvorene-javne-politike/)
+### 8. Plan dokaza prije konačnog zaključka
+
+Za ključne tvrdnje mora se evidentirati potreban, dostupan i nedostajući dokaz, njegov izvor, način provjere i status. Odsustvo dokaza nije automatski dokaz odsustva.
+
+### 9. Razdvajanje simptoma, uzroka i posljedica
+
+Formalna fraza, ćutanje, prebacivanje nadležnosti ili neodređeno obećanje mogu biti simptomi. Analiza mora razmotriti neposredne i sistemske uzroke, posljedice i razumna alternativna objašnjenja.
+
+### 10. Mapa odgovornosti
+
+Kod složenih predmeta moraju se razlikovati formalna nadležnost, stvarni uticaj, posjedovanje dokumenata i mogućnost preduzimanja radnje. Potpisnik nije nužno obrađivač, donosilac odluke ili jedino odgovorno lice.
+
+### 11. Proporcionalnost zaključka
+
+Zaključak ne smije biti širi ili kategoričniji od dokaza. Pravna, politička ili etička kvalifikacija mora biti odvojena od činjeničnog nalaza i označena odgovarajućim nivoom pouzdanosti.
+
+### 12. Alternativna objašnjenja i kontrola pristrasnosti
+
+Za važan negativni nalaz treba razmotriti najmanje jedno razumno objašnjenje koje ne pretpostavlja nezakonitost, manipulaciju ili namjeru. Ako ga dostupni dokazi isključuju, navesti zbog čega.
+
+### 13. Operativni nastavak
+
+Analiza treba završiti konkretnim sljedećim korakom: pribavljanje dokumenta, precizno pitanje, uvid u spis, terenska provjera, žalba, nadzor, javna objava ili prijedlog izmjene procedure.
+
+### 14. Povratna petlja
+
+Novi odgovor, dokument ili institucionalna reakcija postaje novi dokazni unos. Prethodni nalaz se označava kao potvrđen, izmijenjen, opovrgnut ili dopunjen, uz očuvanje istorije verzija.
+
+## Standard dokazne matrice
+
+| Polje | Obavezni sadržaj |
+|---|---|
+| ID tvrdnje | Jedinstvena oznaka T1, T2, T3... |
+| Tvrdnja | Precizan sadržaj bez proširivanja |
+| Vrsta | činjenična / pravna / brojčana / uzročna / vrijednosna |
+| Potreban dokaz | Šta može potvrditi ili opovrgnuti tvrdnju |
+| Dostupan dokaz | Tačan izvor i citatni trag |
+| Nedostajući dokaz | Šta još treba pribaviti |
+| Status | potvrđeno / djelimično / nepotvrđeno / kontradiktorno / opovrgnuto |
+| Pouzdanost | visoka / srednja / niska, uz razlog |
+
+## Standard privatnosti i etike
+
+- Obavezno ukloniti JMBG, brojeve ličnih dokumenata, privatne adrese, telefone, medicinske podatke i podatke o maloljetnicima kada nisu nužni za javni interes.
+- Predmet analize je institucionalno postupanje, ne privatni život pojedinca.
+- Koristiti najmanji potreban obim ličnih podataka.
+- Ne objavljivati materijal koji može ugroziti svjedoka, podnosioca prijave ili ranjivu osobu bez jasnog javnog interesa i zaštitnih mjera.
+- AI rezultat mora biti pregledan prije javne ili pravne upotrebe.
+
+## Citatni i verzijski standard
+
+Svaki objavljeni nalaz navodi korištene izvore, datum analize, verziju metodologije i prompta, autora ili urednika analize, poznata ograničenja i datum posljednje dopune.
+
+🔗 **Zvanična dokumentacija:** [gradjanskaforenzika.org](https://gradjanskaforenzika.org/standard-otvorene-javne-politike/)

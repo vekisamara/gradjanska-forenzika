@@ -1,20 +1,18 @@
 ---
-title: "MUP RS i slučaj David Dragičević: kada saopštenje brani instituciju, a ne objašnjava javnosti?"
-post_title: "MUP RS i slučaj David Dragičević: kada saopštenje brani instituciju, a ne objašnjava javnosti?"
+title: "MUP RS i konferencija o smrti Davida Dragičevića: kada preliminarna verzija postane javni zaključak?"
+post_title: "MUP RS i konferencija o smrti Davida Dragičevića: kada preliminarna verzija postane javni zaključak?"
 date: "2026-07-25"
 post_type: post
 post_status: publish
 category: "PR pod lupom"
 categories: ["PR pod lupom", "Medijska manipulacija", "Građanska forenzika"]
 method: "Građanska forenzička analiza institucionalnog PR saopštenja + analiza medijske manipulacije"
-tags: ["MUP RS", "David Dragičević", "krizni PR", "institucionalno saopštenje", "medijska manipulacija", "javna odgovornost"]
+tags: ["MUP RS", "David Dragičević", "krizni PR", "institucionalna komunikacija", "medijska manipulacija", "javna odgovornost"]
 risk: "visok"
-pregled: "Analiza javne komunikacije MUP-a RS u slučaju David Dragičević, sa fokusom na reputacijsku odbranu institucije, označavanje kritičara kao izvora lažnih optužbi i nedovoljno jasno razdvajanje dokaza, istrage i institucionalnog PR-a."
+pregled: "Analiza konferencije za medije MUP-a RS od 26. marta 2018. godine nakon pronalaska tijela Davida Dragičevića, sa fokusom na razliku između preliminarnih saznanja, javno predstavljenih zaključaka i kasnijeg institucionalnog razvoja predmeta."
 sources:
-  - title: "Banjaluka.com: MUP RS: Neistinite tvrdnje da su policijski službenici doprinijeli smrti Dragičevića"
-    url: "https://www.banjaluka.com/drustvo/mup-rs-neistinite-tvrdnje-da-su-policijski-sluzbenici-doprinijeli-smrti-dragicevica/"
-  - title: "Analiziraj.ba: Fake & Spin: Kako od žrtve napraviti kriminalca i narkomana, po receptu MUP-a RS"
-    url: "https://analiziraj.ba/fake-spin-kako-od-zrtve-napraviti-kriminalca-i-narkomana-po-receptu-mup-a-rs/"
+  - title: "Objavljena prva verzija analize uz AI alat: Analiza PR saopštenja"
+    url: "https://gradjanskaforenzika.org/sr/analiza-pr-saopstenja/"
   - title: "Ustavni sud BiH, AP-1140/19, Odluka o dopustivosti i meritumu"
     url: "https://www.ustavnisud.ba/uploads/odluke/_bs/AP-1140-19-1273862.pdf"
 ---
@@ -22,187 +20,405 @@ sources:
 **Metodologija:** Građanska forenzička analiza institucionalnog PR saopštenja + analiza medijske manipulacije  
 **Kategorije:** PR pod lupom; Medijska manipulacija; Građanska forenzika  
 **Rizik:** visok  
-**Pregled:** Ova analiza ne utvrđuje krivičnu odgovornost, niti presuđuje šta se dogodilo Davidu Dragičeviću. Analizira se način na koji je institucija komunicirala sa javnošću u kriznom slučaju visokog javnog interesa.  
-**Forenzička formula:** nerazjašnjen događaj + reputacijski osjetljiva institucija + diskvalifikacija kritičara = visok rizik kriznog PR-a.
+**Pregled:** Analiza se odnosi na konferenciju za medije MUP-a RS održanu 26. marta 2018. godine, nakon pronalaska tijela Davida Dragičevića. Fokus nije na utvrđivanju krivične odgovornosti, nego na javnoj komunikaciji institucije, stepenu dokazne sigurnosti, reputacijskom preusmjeravanju i naknadnoj potrebi za korekcijom.  
+**Forenzička formula:** preliminarna policijska verzija + visok stepen javne sigurnosti + otvoreno centralno pitanje = ozbiljan rizik kriznog institucionalnog PR-a.
 
-## 1. Analizirani sadržaj
+## 1. Predmet analize
 
-Predmet analize je javno dostupno medijsko prenošenje saopštenja Ministarstva unutrašnjih poslova Republike Srpske u slučaju Davida Dragičevića, posebno dio u kojem MUP RS odbacuje tvrdnje da su policijski službenici na bilo koji način doprinijeli tragediji, odnosno da su prikrivali rasvjetljavanje slučaja.
+Analizirana je konferencija za medije održana 26. marta 2018. godine nakon pronalaska tijela Davida Dragičevića.
 
-U saopštenju se, prema medijskom prenošenju, osuđuju „lažne optužbe“ pojedinaca i medija, a komunikacijski fokus se pomjera sa otvorenih pitanja o istrazi na odbranu institucije i njenih službenika.
+Na konferenciji je predstavljena policijska rekonstrukcija njegovog kretanja, uključujući fizički sukob, kretanje kroz više lokala i navodnu provalnu krađu. Patolog Željko Karan naveo je da je neposredni uzrok smrti utapanje, ali i da obdukcija ne može utvrditi da li je osoba pala, skočila ili bila gurnuta u vodu. Darko Ilić je istovremeno rekao da tada nema indicija za krivično djelo, dok je tvrdnja o navodnoj provalnoj krađi predstavljena kao dio rekonstrukcije.
 
-Za dodatni kontekst korišteni su kasniji javno dostupni izvori: medijska analiza o načinu na koji je MUP RS komunicirao o Davidu Dragičeviću, te odluka Ustavnog suda BiH u predmetu AP-1140/19, u kojoj su detaljno evidentirani brojni navodi, dokazni problemi, javne posljedice konferencije za štampu i kasnije proceduralne okolnosti.
+Istog dana porodica i građani najavili su okupljanje na Trgu Krajine, iz kojeg je kasnije nastao dugotrajan pokret „Pravda za Davida“.
+
+Tužilaštvo BiH je 2021. preuzelo predmet koji se odnosi na krivično djelo protiv života, kao i poseban predmet protiv više osoba zbog mogućih radnji protiv službene dužnosti povezanih sa slučajem. Ta odluka potvrđuje postojanje i nastavak istrage, ali ne utvrđuje ničiju krivicu.
+
+Prema kasnije javno dostupnim informacijama, istraga je ostala aktivna, uz veliki broj saslušanih svjedoka i naređenih vještačenja, ali bez pravosnažnog epiloga koji bi javnosti dao konačan sudski odgovor na centralna pitanja.
 
 ## 2. Korišteni AI prompt / metodološki okvir
 
 Korišten je puni okvir prompta **Građanska forenzička analiza institucionalnog PR saopštenja**, uz dopunski okvir **Građanska forenzička analiza medijske manipulacije**.
 
-Prvi prompt je primijenjen zato što se analizira javna komunikacija policijskog organa, dakle institucije koja koristi javna ovlaštenja i ima posebnu obavezu preciznosti, uzdržanosti i dokazivosti.
+Prvi prompt je relevantan jer se analizira nastup institucije koja raspolaže javnim ovlaštenjima, dokazima i autoritetom službenog izvora.
 
-Drugi prompt je primijenjen zato što saopštenje i prateći javni nastupi imaju potencijalne elemente medijskog i reputacijskog uokviravanja: označavanje kritičara kao izvora neistina, pomjeranje fokusa sa dokaznih pitanja na zaštitu institucije, te mogućnost reputacijskog opterećivanja žrtve, porodice, medija ili građana koji postavljaju pitanja.
+Drugi prompt je relevantan jer je konferencija imala snažan komunikacijski efekat: javnost nije dobila samo informaciju o toku provjera, nego i zaokruženu priču o kretanju, ponašanju i navodnoj krivici preminulog, iako su centralna pitanja ostala otvorena.
 
-## 3. Šta je rečeno
+## 3. Zaključak u tri rečenice
 
-Institucionalna poruka MUP-a RS, prema dostupnom medijskom prenošenju, može se svesti na nekoliko tvrdnji.
+Konferencija je predstavljala odbrambeni krizni PR sa ozbiljnim indikatorima komunikacijskog i institucionalnog prikrivanja, prvenstveno zato što je radna policijska verzija javno predstavljena sa većim stepenom sigurnosti nego što su dopuštali tada dostupni i javno prikazani dokazi.
 
-Prvo, MUP RS odbacuje tvrdnje da su policijski službenici doprinijeli smrti Davida Dragičevića.
+Dominantni obrazac bio je spajanje potvrđenih činjenica, preliminarnih zaključaka i nepotvrđenih uzročnih veza u jedinstvenu priču, uz snažno reputacijsko preusmjeravanje prema preminulom.
 
-Drugo, MUP RS odbacuje tvrdnje da su policijski službenici prikrivali rasvjetljavanje slučaja.
+Najveći nedostatak bio je izostanak jasnog razdvajanja između onoga što je dokazano, onoga što je bilo radna hipoteza i onoga što je ostalo otvoreno.
 
-Treće, MUP RS javno označava dio optužbi pojedinaca i medija kao lažne.
+## 4. Neutralna verzija konferencije
 
-Četvrto, institucija komunikacijski insistira na zaštiti sopstvenog integriteta i integriteta policijskih službenika.
+Tijelo Davida Dragičevića pronađeno je nakon prijavljenog nestanka. Policija je prikupila određene video-snimke, izjave i predmete i na osnovu njih predstavila preliminarnu rekonstrukciju dijela njegovog kretanja.
 
-Sama po sebi, institucionalna odbrana nije sporna. Svaka institucija ima pravo da reaguje na netačne optužbe, posebno ako se one odnose na ozbiljne tvrdnje o postupanju službenika. Problem nastaje ako je takva reakcija jača, jasnija i konkretnija od objašnjenja šta je tačno provjereno, koji dokazi postoje, šta još nije utvrđeno i ko je odgovoran za dalje radnje.
+Obdukcijom je utvrđeno utapanje kao neposredni uzrok smrti, ali način dospijevanja u vodu nije bio utvrđen. Tvrdnje o navodnoj provalnoj krađi i odsustvu indicija za krivično djelo u tom trenutku nisu predstavljale konačno tužilačko ili sudsko utvrđenje.
 
-## 4. Neutralni pregled konteksta
+Ovo je neutralna verzija zato što razdvaja ono što se može saopštiti od onoga što se ne smije predstaviti kao završena činjenica.
 
-Slučaj Davida Dragičevića od početka je imao izuzetno visok javni interes. Riječ je o smrti mladog čovjeka, o postupanju policije i tužilaštva, o javnim konferencijama, o svakodnevnim građanskim okupljanjima i o dugotrajnom nepovjerenju dijela javnosti u službenu verziju događaja.
+## 5. Komunikacijski povod i funkcija
 
-Kasniji javni izvori pokazuju da je predmet bio opterećen brojnim spornim pitanjima: rekonstrukcijom kretanja, navodima o krađi, tvrdnjama o pronađenim predmetima, nalazima obdukcije, vremenom smrti, videosnimcima, radnjama policije i tužilaštva, kao i političkim i društvenim posljedicama slučaja.
+Konferencija je imala najmanje tri funkcije:
 
-Ustavni sud BiH je u odluci AP-1140/19 evidentirao navode apelanta o brojnim neprovjerenim ili spornim okolnostima, uključujući tvrdnje o potrebi forenzičkog vještačenja videosnimaka, nestanku izvještaja mrtvozornika, kontradiktornim nalazima i nedovoljno provjerenim okolnostima događaja. U toj odluci se takođe navodi da su konferencija za štampu pripadnika MUP-a i nedonošenje blagovremene naredbe o provođenju istrage izazvali uznemirenje javnosti i svakodnevna mirna okupljanja građana.
+- informisanje o dotadašnjim nalazima;
+- smirivanje uznemirene javnosti;
+- zaštitu institucionalnog autoriteta policije.
 
-Ovaj kontekst je važan zato što pokazuje da javna komunikacija MUP-a nije bila obična informativna objava, nego komunikacija u slučaju u kojem su svaka riječ, svaka kvalifikacija i svaki izostavljeni podatak mogli uticati na povjerenje javnosti.
+Problem nije u tome što je policija komunicirala sa javnošću. Problem je što je komunikacija bila strukturisana kao gotovo završena rekonstrukcija, iako su centralna pitanja ostala otvorena.
 
-## 5. Forenzičko razdvajanje tvrdnji
+Institucija u takvoj situaciji mora imati stroži komunikacijski standard. Što je slučaj teži, a javni interes veći, to je opasnije predstaviti preliminarnu verziju kao gotovo konačno objašnjenje.
 
-U saopštenju treba razdvojiti najmanje četiri nivoa.
+## 6. Hronologija institucionalne priče
 
-Prvi nivo je dokazna tvrdnja: da policijski službenici nisu doprinijeli smrti Davida Dragičevića. Takva tvrdnja zahtijeva precizan dokazni osnov: koje radnje su provedene, ko ih je proveo, kada, kojim dokumentima i kojim dokazima je zaključak podržan.
+| Datum | Institucionalni događaj | Forenzički značaj |
+|---|---|---|
+| 24. mart 2018. | Pronađeno tijelo Davida Dragičevića | Počinje uviđaj i forenzička obrada. |
+| 26. mart 2018. | MUP RS predstavlja rekonstrukciju i navodi da nema indicija za krivično djelo | Rana institucionalna verzija dobija snažan javni efekat. |
+| 26. mart 2018. | Patolog navodi da obdukcija ne može utvrditi način dospijevanja u vodu | Centralno pitanje ostaje otvoreno. |
+| Juni/juli 2018. | Predmet dobija okvir istrage krivičnog djela protiv života | Početna verzija nije bila konačna. |
+| April 2021. | Tužilaštvo BiH preuzima dva povezana predmeta | Nastavlja se krivična provjera i institucionalno odvajanje predmeta. |
+| Mart 2026. | Istraga i dalje traje bez dovoljno dokaza za potvrđivanje optužnice | Nema pravosnažnog epiloga niti utvrđene individualne krivice. |
 
-Drugi nivo je institucionalna tvrdnja: da MUP RS nije prikrivao rasvjetljavanje slučaja. To nije samo tvrdnja o jednom događaju, nego tvrdnja o pravilnosti postupanja institucije. Ona zahtijeva pregled radnji, rokova, zapisnika, naloga, službenih zabilješki i komunikacije sa tužilaštvom.
+Ova hronologija ne dokazuje da je prvobitna verzija bila svjesno lažna. Dokazuje da nije bila konačna i da je zahtijevala znatno oprezniju javnu formulaciju.
 
-Treći nivo je reputacijska tvrdnja: da pojedinci i mediji iznose lažne optužbe. Ova tvrdnja zahtijeva oprez, jer može obeshrabriti legitimna javna pitanja, posebno ako institucija ne razlikuje netačnu optužbu, nedokazanu tvrdnju, sumnju, pitanje porodice, novinarsko istraživanje i građanski protest.
+## 7. Mapa centralnih tvrdnji
 
-Četvrti nivo je komunikacijski efekat: fokus javnosti može se premjestiti sa pitanja „šta se dogodilo i šta je dokazano“ na pitanje „ko napada instituciju“. To je tipičan obrazac kriznog PR-a.
+| Tvrdnja | Status u vrijeme konferencije | Kako je predstavljena |
+|---|---|---|
+| David je učestvovao u fizičkom sukobu | Policijska saznanja i izjave | Kao dio rekonstrukcije. |
+| David je izvršio provalnu krađu | Rana policijska tvrdnja | Kao utvrđena činjenica. |
+| Predmeti kod tijela potiču iz kuće | Zahtijevalo forenzičko povezivanje | Kao dokaz veze. |
+| Smrt je nastupila utapanjem | Medicinski nalaz o neposrednom uzroku | Korektno u ograničenom smislu. |
+| Povrede nisu uzrok smrti | Medicinska procjena | Kao argument protiv nasilnog ishoda. |
+| Nema indicija za krivično djelo | Rana policijska procjena | Sa visokim stepenom sigurnosti. |
+| Način dospijevanja u vodu nije utvrđen | Otvoreno pitanje | Komunikacijski potisnuto. |
 
-## 6. Provjerljive činjenice
+## 8. Preliminarno, planirano i završeno
 
-Provjerljivo je da je MUP RS javno reagovao na optužbe u vezi sa slučajem Davida Dragičevića i da je medijski prenošeno saopštenje u kojem se tvrdi da su navodi o doprinosu policijskih službenika tragediji i prikrivanju rasvjetljavanja slučaja neistiniti.
+| Institucionalna formulacija | Stvarni status | Ocjena |
+|---|---|---|
+| Navodna provala | Radna policijska verzija | Preliminarno predstavljeno kao konačno. |
+| Povezanost predmeta sa provalom | Forenzička veza u provjeri | Značajno prenaglašeno. |
+| Rekonstrukcija noći | Djelimična hronologija | Predstavljena kao zaokružena priča. |
+| Nema indicija krivičnog djela | Rana procjena | Predstavljena sa pretjeranom sigurnošću. |
+| Smrt utapanjem | Neposredni medicinski uzrok | Korektno, ali ne odgovara na način dospijevanja u vodu. |
 
-Provjerljivo je i da su raniji javni nastupi policijskih predstavnika izazvali snažnu reakciju javnosti. Medijska analiza Analiziraj.ba opisuje način na koji je MUP RS na konferenciji za javnost rekonstruisao Davidovo kretanje, govorio o navodnoj krađi i iznosio podatke koji su u javnosti doživljeni kao pokušaj diskreditacije žrtve.
+## 9. Aktivnost nasuprot rezultatu
 
-Provjerljivo je da je Ustavni sud BiH u predmetu AP-1140/19 evidentirao brojne navode apelanta o spornim okolnostima istrage i javne komunikacije, uključujući okolnost da je konferencija za štampu pripadnika MUP-a doprinijela uznemirenju javnosti.
+Policija je:
 
-Ono što nije moguće zaključiti samo iz saopštenja jeste da li su sve sporne okolnosti bile provjerene, da li su dokazi bili potpuni, da li su kvalifikacije bile proporcionalne i da li je javnost dobila dovoljno informacija da samostalno razumije status istrage.
+- prikupila snimke;
+- uzela izjave;
+- pregledala predmete;
+- rekonstruisala dio kretanja;
+- dobila preliminarne medicinske informacije.
 
-## 7. Šta nedostaje u komunikaciji
+To su istražne aktivnosti.
 
-Nedostaje jasna tabela provjerenih i neprovjerenih činjenica.
+One nisu automatski dokazivale:
 
-Nedostaje objašnjenje koje su tačno tvrdnje pojedinaca i medija neistinite, po kojem dokazu, na osnovu kojeg dokumenta i u kojem obimu.
+- ko je nanio sve povrede;
+- kako je David dospio u vodu;
+- da između posljednjeg snimka i smrti nije bilo drugih događaja;
+- da je izvršio provalnu krađu;
+- da nije postojalo krivično djelo.
 
-Nedostaje razlika između lažne optužbe i javno postavljenog pitanja. U demokratskom društvu pitanje porodice, novinara ili građana o postupanju policije ne smije biti automatski tretirano kao napad na instituciju.
+Ovo razdvajanje je ključno. U javnoj komunikaciji institucije često koriste popis aktivnosti kao zamjenu za rezultat. Ali aktivnost nije isto što i dokazani zaključak.
 
-Nedostaje objašnjenje šta je institucija preduzela da sama provjeri moguće propuste svojih službenika. Posebno u slučajevima gdje se javno dovodi u pitanje postupanje policije, sama tvrdnja institucije da nije bilo propusta ne može biti dovoljna. Potrebna je provjerljiva, nezavisna ili barem dokumentovana procedura.
+## 10. Prenaglašavanje učinka i sigurnosti
 
-Nedostaje komunikacijska zaštita dostojanstva žrtve. U ovakvim predmetima institucija mora biti naročito oprezna da javna rekonstrukcija događaja ne proizvede efekat moralnog ili reputacijskog tereta prema preminuloj osobi.
+Najveće prenaglašavanje nije bilo promotivno u klasičnom smislu. Radilo se o prenaglašavanju dokazne sigurnosti.
 
-## 8. Pokazatelji PR rizika
+Potvrđeni elementi, preliminarne procjene i istražne pretpostavke spojeni su u narativ koji je djelovao kao gotovo završeno objašnjenje.
 
-**Rizik 1: Odbrana institucije ispred objašnjenja javnosti.**  
-Saopštenje primarno brani MUP RS od optužbi. To može biti legitimno, ali javni interes traži više od odbrane reputacije. Traži objašnjenje postupka, dokaza, rokova i otvorenih pitanja.
+To je posebno problematično kada institucija ima:
 
-**Rizik 2: Diskvalifikacija kritičara.**  
-Korištenje formulacija poput „lažne optužbe“ može biti opravdano ako su tvrdnje precizno identifikovane i dokazno demantovane. Ako nisu, takva formulacija može imati zastrašujući efekat prema medijima, građanima i porodici.
+- kontrolu nad većinom dokaza;
+- autoritet službenog izvora;
+- neposredan pristup medijima;
+- mogućnost da oblikuje početnu javnu percepciju.
 
-**Rizik 3: Pretvaranje istrage u komunikacijsku pobjedu.**  
-Institucija u kriznom slučaju ne bi trebalo da komunicira kao da je cilj pobijediti u javnom sporu. Cilj mora biti povjerenje kroz dokumente, provjeru i transparentnost.
+## 11. Test akutnosti i proporcionalnosti
 
-**Rizik 4: Reputacijsko opterećenje žrtve.**  
-Prema medijskoj analizi, raniji javni nastupi MUP-a uključivali su rekonstrukciju Davidovog kretanja, navode o krađi i podatke o navodnim drogama. Takva komunikacija može proizvesti efekat da se žrtva prikazuje kao problematična osoba, čime se javna pažnja pomjera sa okolnosti smrti na karakter žrtve.
+Institucionalna reakcija bila je brza, ali ne i proporcionalno oprezna.
 
-**Rizik 5: Nedovoljno označena neizvjesnost.**  
-U slučajevima sa otvorenim dokaznim pitanjima, institucija mora jasno reći šta je utvrđeno, šta se još utvrđuje i šta nije moguće zaključiti. Preuranjena sigurnost u komunikaciji može kasnije dodatno urušiti povjerenje.
+Kod smrti pod nejasnim okolnostima proporcionalna komunikacija bi zahtijevala:
 
-## 9. Mogući manipulativni obrasci
+- jasno označavanje preliminarnih nalaza;
+- razdvajanje činjenice i hipoteze;
+- izbjegavanje javnog pripisivanja krivičnog djela bez završene provjere;
+- jasno navođenje otvorenih pitanja;
+- zaštitu dostojanstva preminulog;
+- izbjegavanje zaključka o odsustvu krivičnog djela dok način dospijevanja u vodu nije poznat.
 
-Prvi obrazac je **zamjena pitanja o činjenicama pitanjem lojalnosti instituciji**. Umjesto da javnost dobije odgovor na konkretna pitanja, komunikacija može proizvesti utisak da je svako osporavanje službene verzije napad na instituciju.
+Ocjena: komunikacija je bila pravovremena, ali dokazno i reputacijski neproporcionalna.
 
-Drugi obrazac je **etiketiranje sumnje kao neistine**. Nije svaka sumnja tačna, ali sumnja u nerazjašnjenom slučaju nije isto što i laž. Ako institucija ne pravi tu razliku, javni prostor se sužava.
+## 12. Događaj, šteta i odgovornost
 
-Treći obrazac je **prebacivanje reputacijskog tereta na građane i medije**. Kada se kritičari označe kao problem, institucija dobija komunikacijsku zaštitu, ali javnost ne dobija nužno bolju provjeru činjenica.
+Događaj je priznat: pronađeno je tijelo i postojale su određene povrede.
 
-Četvrti obrazac je **selektivna konkretnost**. Institucija može biti vrlo konkretna kada govori o ponašanju žrtve ili navodima kritičara, a istovremeno manje konkretna kada treba objasniti sopstvene radnje, propuste, rokove i interne provjere.
+Mogućnost štete je umanjena: povrede su predstavljene kao lake i nepovezane sa neposrednim uzrokom smrti.
 
-Peti obrazac je **institucionalni autoritet kao zamjena za dokaz**. Tvrdnja policije ima težinu, ali u slučaju u kojem se upravo rad policije dovodi u pitanje, autoritet institucije ne može biti jedini dokaz.
+Način nastanka centralne posljedice nije objašnjen: obdukcija nije mogla odgovoriti kako je David dospio u vodu.
 
-## 10. Test javnog interesa
+Institucionalna odgovornost za javni narativ nije objašnjena:
 
-Javni interes je izuzetno visok.
+- ko je odobrio sadržaj konferencije;
+- ko je odredio stepen sigurnosti tvrdnji;
+- na osnovu kojih završenih nalaza je provala predstavljena kao činjenica;
+- da li je kasnije izvršena interna evaluacija konferencije.
 
-Riječ je o smrti mlade osobe, postupanju policije i tužilaštva, javnim okupljanjima, povjerenju u institucije i pravu porodice i građana da dobiju jasne odgovore.
+## 13. Reputacijsko preusmjeravanje
 
-Građanin iz saopštenja mora moći razumjeti:
+Ovo je centralni komunikacijski nalaz.
 
-- šta je tačno utvrđeno;
-- šta je još predmet provjere;
-- koje tvrdnje su netačne i zašto;
-- koji dokumenti potvrđuju institucionalnu tvrdnju;
-- ko je nezavisno provjerio postupanje policijskih službenika;
-- da li je javna komunikacija mogla nanijeti dodatnu štetu porodici ili dostojanstvu žrtve;
-- koje radnje su preduzete nakon javnih primjedbi.
+Institucionalni reputacijski rizik preusmjeren je prema Davidu kroz javno isticanje:
 
-Ako saopštenje daje više odgovora o reputaciji institucije nego o ovim pitanjima, ono ne zadovoljava puni test javnog interesa.
+- tuče;
+- kretanja kroz noćne lokale;
+- navodne provale;
+- predmeta pronađenih kod tijela;
+- ponašanja koje je moglo proizvesti sliku kriminalne ili rizične osobe.
 
-## 11. Pitanja za institucije
+Neki od tih elemenata mogli su biti istražno relevantni. Međutim, komunikacijski izbor i način povezivanja imali su posljedicu da se javna pažnja sa pitanja:
 
-Za MUP RS:
+**Kako je stradao?**
 
-1. Koje su tačno tvrdnje pojedinaca i medija označene kao lažne?
-2. Kojim dokumentima je svaka od tih tvrdnji demantovana?
-3. Da li je provedena interna kontrola postupanja policijskih službenika u ovom predmetu?
-4. Ako jeste, kada, ko ju je proveo i da li je nalaz javno dostupan?
-5. Da li je neko procjenjivao štetu koju su javne kvalifikacije mogle nanijeti dostojanstvu žrtve i porodici?
-6. Ko je odobrio komunikacijski pristup u kojem se javno iznose detalji o navodnom ponašanju preminule osobe?
-7. Da li su kasnije, nakon novih nalaza, sudskih odluka ili javnih reakcija, korigovane ranije komunikacijske tvrdnje?
+preusmjerila na pitanje:
 
-Za Tužilaštvo:
+**Šta je navodno radio prije smrti?**
 
-1. Koje radnje su provedene radi provjere navoda o postupanju policijskih službenika?
-2. Da li su svi snimci videonadzora forenzički vještačeni?
-3. Da li su provjerene okolnosti nestanka pojedinih dokumenata ili navoda o njima?
-4. Da li su javne konferencije i službena saopštenja imala uticaj na tok istrage i povjerenje javnosti?
+David nije mogao odgovoriti na javno iznesene tvrdnje. Zbog toga je dokazni standard morao biti posebno visok.
 
-Za medije:
+## 14. Četiri vrste transparentnosti
 
-1. Da li su službene tvrdnje prenošene kao činjenice ili kao tvrdnje institucije?
-2. Da li je javnosti jasno objašnjeno šta je dokazano, a šta osporeno?
-3. Da li je medijsko izvještavanje dodatno stigmatizovalo žrtvu?
-4. Da li su kasnije objavljene korekcije ili dopune kada su se pojavili novi dokazi ili institucionalne odluke?
-
-## 12. Ocjena po metodologiji
-
-| Element | Ocjena | Obrazloženje |
+| Vrsta transparentnosti | Rezultat | Glavni nedostatak |
 |---|---:|---|
-| Javni interes | visok | Slučaj uključuje smrt mlade osobe, rad policije, istragu i povjerenje u institucije. |
-| Provjerljivost saopštenja | srednja | Saopštenje je javno preneseno, ali za punu provjeru potrebni su originalni dokumenti i interni akti. |
-| Dokazna preciznost | niska do srednja | Saopštenje demantuje optužbe, ali javno dostupno prenošenje ne daje detaljnu matricu tvrdnja-dokaz. |
-| PR rizik | visok | Komunikacija brani instituciju i označava kritičare, a ne daje dovoljno građanski provjerljivih odgovora. |
-| Rizik reputacijskog opterećenja žrtve | visok | Raniji javni nastupi i medijske analize ukazuju na mogućnost diskreditacije žrtve kroz detalje o ponašanju i navodima. |
-| Potreba za naknadnom korekcijom | visoka | Ako su kasniji nalazi ili odluke problematizovali raniju komunikaciju, javnost ima pravo na vidljivu korekciju ili objašnjenje. |
-| Edukativni potencijal | visok | Slučaj jasno pokazuje razliku između informisanja javnosti i krizne reputacijske odbrane institucije. |
+| Dokumentarna | 21% | Izvorni dokazi i puni nalazi nisu bili javno dostupni. |
+| Podatkovna | 38% | Objavljeno je mnogo detalja, ali ne i puna forenzička osnova. |
+| Uzročna | 17% | Fragmenti su povezani bez prikaza alternativnih hipoteza. |
+| Transparentnost odgovornosti | 13% | Nije jasno ko je odobrio zaključke i ko odgovara za korekciju. |
 
-## 13. Zaključak
+Konferencija je imala visok obim informacija, ali nizak kapacitet nezavisne provjere.
 
-Forenzički problem u ovom slučaju nije samo sadržaj jedne rečenice iz saopštenja MUP-a RS. Problem je obrazac komunikacije u kojem institucija, suočena sa ozbiljnim javnim sumnjama, primarno brani sebe, dok građanima ne pruža dovoljno jasnu, dokumentovanu i nezavisno provjerljivu sliku o tome šta je utvrđeno, šta nije utvrđeno i šta ostaje otvoreno.
+## 15. Nezavisnost provjere
 
-MUP RS ima pravo da demantuje neistinite tvrdnje. Ali u slučaju smrti Davida Dragičevića, zbog težine slučaja i mogućeg konflikta interesa, standard komunikacije mora biti viši od običnog demantija. Institucija mora pokazati dokaze, jasno označiti neizvjesnost, zaštititi dostojanstvo žrtve i ne tretirati svako pitanje kao napad.
+U početnoj fazi MUP je:
 
-Građanska forenzika ovdje ne presuđuje krivičnu odgovornost. Ona utvrđuje komunikacijski rizik: kada institucija koja je predmet javnih pitanja sama sebe brani opštim tvrdnjama, bez dovoljno javno prikazane dokazne matrice, saopštenje može postati krizni PR umjesto javnog obavještavanja.
+- prikupljao dokaze;
+- čuvao ih;
+- tumačio ih;
+- rekonstruisao događaj;
+- predstavljao javni zaključak.
+
+Takva koncentracija funkcija može biti redovna u početnoj fazi istrage. Sama po sebi nije dokaz zataškavanja.
+
+Rizik nastaje jer je institucija iznijela kategorične zaključke prije spoljne ili nezavisne potvrde.
+
+Naknadno preuzimanje predmeta od Tužilaštva BiH povećalo je institucionalnu odvojenost provjere, ali preuzimanje predmeta ne predstavlja utvrđivanje krivice.
+
+## 16. Odnos institucije prema dokazima
+
+| Odnos prema dokazima | Status |
+|---|---|
+| Redovna institucionalna kontrola | Potvrđena. |
+| Nezavisna provjera ograničena u početnoj fazi | Da. |
+| Neobrazloženo uskraćivanje | Postoje javni sporovi i navodi, ali analiza nema dovoljno neposrednih dokaza za konačan zaključak. |
+| Prikrivanje, izmjena ili uništavanje | Nije dokazano ovom analizom. |
+
+Ovo razdvajanje je važno. Činjenica da policija kontroliše dokaze u istrazi nije sama po sebi nepravilnost. Problem je kada se na osnovu dokaza koje javnost ne može provjeriti iznose kategorički i reputacijski štetni zaključci.
+
+## 17. Zamjena centralnog pitanja
+
+Centralna pitanja bila su:
+
+- kako je David zadobio povrede;
+- kako je dospio u vodu;
+- kada je nastupila smrt;
+- da li je bilo drugih osoba;
+- da li je izvršeno krivično djelo.
+
+Konferencija je veliki prostor posvetila:
+
+- njegovom kretanju;
+- lokalima;
+- hrani;
+- tuči;
+- navodnoj provali;
+- predmetima u džepovima.
+
+To su potencijalno relevantni detalji, ali ne odgovaraju neposredno na centralno pitanje načina smrti.
+
+## 18. Naknadna javna korekcija
+
+Kasniji institucionalni razvoj pokazao je da početna verzija nije bila konačna:
+
+- predmet je nastavljen kao istraga krivičnog djela protiv života;
+- Tužilaštvo BiH je preuzelo predmet;
+- provjere su proširene i na moguće radnje protiv službene dužnosti.
+
+Nije pronađena potpuna javna korekcija konferencije koja bi:
+
+- jasno navela koje tvrdnje više ne važe;
+- povukla ili dodatno objasnila tvrdnju o provalnoj krađi;
+- objasnila koji novi dokazi su promijenili okvir;
+- označila prethodni nastup kao preliminaran;
+- rehabilitovala ugled preminulog;
+- bila približno jednako vidljiva kao prvobitna konferencija.
+
+Klasifikacija: tiha promjena institucionalnog okvira, bez potpune javne korekcije.
+
+## 19. Institucionalni status korištenih izvora
+
+| Izvor | Status | Šta potvrđuje | Šta ne potvrđuje |
+|---|---|---|---|
+| Medijski izvještaji sa konferencije | Sekundarni zapis javnog nastupa | Sadržaj javno iznesenih tvrdnji | Konačnu istinitost tvrdnji. |
+| Izjava patologa na konferenciji | Stručna procjena u ranoj fazi | Neposredni uzrok smrti i ograničenja obdukcije | Način dospijevanja u vodu. |
+| Odluka Tužilaštva BiH o preuzimanju | Zvanična tužilačka odluka | Postojanje istrage i preuzetih predmeta | Krivicu bilo kojeg lica. |
+| Odgovor Tužilaštva BiH iz 2026. | Zvanična informacija prenesena medijima | Da istraga traje i da nema dovoljno dokaza za optužnicu | Konačni ishod. |
+| Medijski izvještaji o protestima | Sekundarni izvor | Razvoj javne reakcije | Pojedinačnu pravnu odgovornost. |
+
+## 20. Indikatori komunikacijskog i institucionalnog prikrivanja
+
+| Indikator | Težina | Nalaz |
+|---|---:|---|
+| Preliminarna verzija predstavljena kao konačna | srednja/teška | Jasno prisutno. |
+| Javna optužujuća tvrdnja bez završenog dokaznog osnova | teška | Snažan indikator. |
+| Reputacijsko preusmjeravanje prema preminulom | srednja/teška | Dominantno. |
+| Zamjena centralnog pitanja | srednja | Dominantno. |
+| Ograničena nezavisna provjera | srednja | Prisutno. |
+| Neobjašnjena promjena institucionalnog okvira | srednja/teška | Prisutno. |
+| Izostanak potpune javne korekcije | srednja/teška | Prisutno. |
+| Neobrazloženo uskraćivanje dokaza | srednja/teška | Nije dovoljno dokazano. |
+| Fabrikovanje ili uništavanje dokaza | teška | Nije dokazano. |
+| Koordinisana institucionalna radnja prikrivanja | teška | Nije dokazano. |
+
+## 21. Stepen institucionalnog prikrivanja
+
+**Nivo 5 od 6 — ozbiljni indikatori komunikacijskog i institucionalnog prikrivanja.**
+
+Ova ocjena se odnosi na komunikacijske i proceduralne indikatore, a ne na dokazanu krivičnu odgovornost bilo kojeg lica.
+
+Nivo 5 je opravdan težinom povezanih indikatora:
+
+- optužujuće tvrdnje prema osobi koja se ne može braniti;
+- prerano zatvaranje alternativnih hipoteza;
+- radna rekonstrukcija predstavljena kao gotovo završena;
+- ograničena nezavisna provjera;
+- kasniji bitno drugačiji pravni okvir;
+- izostanak jasne i vidljive korekcije;
+- izostanak reputacijske rehabilitacije.
+
+Nivo 6 nije opravdan jer javno dostupni materijal korišten u ovoj analizi ne dokazuje:
+
+- svjesno fabrikovanje dokaza;
+- uništavanje ili izmjenu evidencije;
+- formalnu naredbu za prikrivanje;
+- koordinisano lažno saopštavanje;
+- pravosnažno utvrđenu krivičnu odgovornost učesnika konferencije.
+
+## 22. Pokazatelji
+
+### Pozitivni pokazatelji
+
+| Pokazatelj | Rezultat | Dokazna osnova |
+|---|---:|---|
+| Dokazivost | 29% | srednja |
+| Nezavisnost provjere u početnoj fazi | 13% | visoka |
+| Zaštita javnog interesa | 17% | visoka |
+| Pravovremenost i proporcionalnost | 29% | visoka |
+| Kvalitet naknadne korekcije | 8% | srednja |
+
+### Pokazatelji PR rizika
+
+| Pokazatelj | Rezultat | Dokazna osnova |
+|---|---:|---|
+| Institucionalno prenaglašavanje | 79% | visoka |
+| Umanjivanje odgovornosti ili štete | 88% | visoka |
+| Jaz formalne transparentnosti | 92% | visoka |
+| Političko-promotivno usmjeravanje | 38% | srednja |
+| Reputacijsko upravljanje | 96% | visoka |
+| Reputacijsko preusmjeravanje | 92% | visoka |
+
+### Pokazatelji rizika prikrivanja
+
+| Pokazatelj | Rezultat | Dokazna osnova |
+|---|---:|---|
+| Kontradikcije kroz vrijeme | 83% | visoka |
+| Ograničena nezavisna provjera | 88% | visoka |
+| Neobrazloženo uskraćivanje ili prikrivanje | N/P | nedovoljna |
+| Zamjena centralnog pitanja | 96% | visoka |
+| Prebacivanje odgovornosti | 83% | visoka |
+| Proceduralno odlaganje | 58% | srednja |
+| Naknadna legalizacija | N/P | — |
+| Izostanak korektivnih mjera | 88% | visoka |
+
+## 23. Šta konferencija pouzdano pokazuje
+
+Konferencija pouzdano pokazuje da je MUP RS predstavio vrlo određenu rekonstrukciju u ranoj fazi; da je tvrdnja o provalnoj krađi javno predstavljena kao činjenica; da je rečeno da tada nema indicija za krivično djelo; da je patolog istovremeno naveo da način dospijevanja u vodu nije moguće utvrditi obdukcijom; da je predmet kasnije nastavljen kao istraga krivičnog djela protiv života; da je Tužilaštvo BiH preuzelo i predmet mogućih radnji protiv službene dužnosti; i da do kasnijeg perioda nije postojao javno poznat pravosnažni epilog.
+
+## 24. Šta konferencija snažno sugeriše
+
+Konferencija snažno sugeriše da je jedan od ciljeva bio smirivanje javnosti; da je institucija pokušala ponuditi zaokruženu priču prije završene provjere; da je reputacijski rizik preusmjeren prema Davidu; da stepen sigurnosti javnih tvrdnji nije odgovarao stepenu završenosti istrage; i da kasnija promjena pravnog okvira nije praćena adekvatnom javnom korekcijom.
+
+## 25. Šta nije moguće dokazati
+
+Na osnovu javno dostupnog materijala korištenog u ovoj analizi nije moguće dokazati:
+
+- da su učesnici konferencije svjesno iznosili neistine;
+- da je konferencija bila dio koordinisanog plana zataškavanja;
+- da su dokazi fabrikovani, izmijenjeni ili uništeni;
+- ko je odgovoran za Davidovu smrt;
+- da su osobe obuhvaćene istragama krive;
+- da je postojala formalna politička naredba za oblikovanje konferencije.
+
+## 26. Dokumenti koje treba zatražiti
+
+Za potpuniju javnu provjeru potrebno je tražiti:
+
+- kompletan video i transkript konferencije;
+- službenu odluku o organizovanju i odobravanju sadržaja konferencije;
+- policijski izvještaj dostavljen tužilaštvu neposredno nakon događaja;
+- forenzičke nalaze o predmetima povezanim sa navodnom provalom;
+- cjelovite snimke video-nadzora i evidenciju njihovog čuvanja;
+- internu evaluaciju komunikacije MUP-a;
+- dokumentaciju o eventualnoj javnoj ili internoj korekciji iznesenih tvrdnji.
+
+## 27. Neutralniji naslov koji je institucija mogla koristiti
+
+**MUP predstavio preliminarnu rekonstrukciju kretanja Davida Dragičevića; način dospijevanja u vodu i dalje nije utvrđen.**
+
+Ovakav naslov bi javnosti dao informaciju, ali ne bi zatvorio pitanje koje tada nije bilo zatvoreno.
+
+## 28. Tri pitanja za MUP RS
+
+1. Koji su forenzički nalazi bili završeni do 26. marta 2018. i omogućavali da se navodna provalna krađa javno predstavi kao utvrđena činjenica?
+2. Ko je odobrio zaključak da nema indicija za krivično djelo, iako način dospijevanja u vodu tada nije bio utvrđen?
+3. Da li je MUP ikada objavio formalnu korekciju konferencije i jasno naveo koje tvrdnje su ostale na snazi, a koje su povučene ili izmijenjene?
+
+## 29. Završna ocjena
+
+Konferencija MUP-a RS predstavlja primjer odbrambenog kriznog PR-a sa ozbiljnim indikatorima komunikacijskog i institucionalnog prikrivanja.
+
+Centralni problem nije samo mogućnost da su pojedine tvrdnje bile pogrešne. Problem je način na koji su radne hipoteze predstavljene kao činjenice, otvorena pitanja komunikacijski potisnuta, reputacijski teret prebačen na preminulog, a kasniji institucionalni razvoj ostao bez jasne javne korekcije.
+
+Dostupni izvori nisu dovoljni za zaključak o dokumentovanom zataškavanju ili krivičnoj odgovornosti konkretnih osoba.
+
+**Stepen institucionalnog prikrivanja:** nivo 5 od 6, isključivo u smislu komunikacijskih i proceduralnih indikatora.
+
+**Pouzdanost zaključka:** visoka za komunikacijski obrazac, srednja za motive, nedovoljna za tvrdnju o koordinisanom i svjesnom zataškavanju.
 
 **Kratka forenzička formula:**
 
-Institucija ne vraća povjerenje time što kaže da su optužbe lažne. Povjerenje se vraća tek kada pokaže šta je provjerila, kako je provjerila i ko je mogao nezavisno provjeriti nju.
+Kada institucija preliminarnu verziju predstavi kao gotovo završenu istinu, a zatim ne objavi jednako vidljivu korekciju nakon promjene pravnog i istražnog okvira, javnost ne dobija transparentnost nego kontrolisani narativ.
 
 ## Izvori
 
-- Banjaluka.com, „MUP RS: Neistinite tvrdnje da su policijski službenici doprinijeli smrti Dragičevića“  
-  https://www.banjaluka.com/drustvo/mup-rs-neistinite-tvrdnje-da-su-policijski-sluzbenici-doprinijeli-smrti-dragicevica/
-
-- Analiziraj.ba, „Fake & Spin: Kako od žrtve napraviti kriminalca i narkomana, po receptu MUP-a RS“  
-  https://analiziraj.ba/fake-spin-kako-od-zrtve-napraviti-kriminalca-i-narkomana-po-receptu-mup-a-rs/
+- Građanska forenzika, prva verzija primjera uz AI alat „Analiza PR saopštenja“  
+  https://gradjanskaforenzika.org/sr/analiza-pr-saopstenja/
 
 - Ustavni sud BiH, AP-1140/19, Odluka o dopustivosti i meritumu  
   https://www.ustavnisud.ba/uploads/odluke/_bs/AP-1140-19-1273862.pdf

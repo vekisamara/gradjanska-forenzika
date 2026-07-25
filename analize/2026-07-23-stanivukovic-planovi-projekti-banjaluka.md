@@ -1,8 +1,30 @@
-# Brza forenzička analiza političke izjave
+---
+title: "Stanivuković i najavljeni projekti: kada planovi postaju dokaz razvoja?"
+post_title: "Stanivuković i najavljeni projekti: kada planovi postaju dokaz razvoja?"
+post_type: "post"
+post_status: "publish"
+date: "2026-07-23"
+category: "Izborni kontekst"
+categories:
+  - "Izborni kontekst"
+  - "PR pod lupom"
+tags:
+  - "Banja Luka"
+  - "Draško Stanivuković"
+  - "izbori 2026"
+  - "javni prevoz"
+  - "infrastruktura"
+  - "PR analiza"
+method: "Brza forenzička analiza političke izjave – Izborni kontekst 2026"
+risk: "srednji"
+summary: "Analiza izjave o najavljenim projektima u Banjaluci kroz pitanje razlike između planiranja, pripreme, ugovaranja i stvarne realizacije."
+source: "https://srpskainfo.com/banjaluka/stanivukovic-iznio-planove-za-projekte-banjaluka-nastavlja-da-se-razvija-velikim-koracima/"
+---
 
+**Metodologija:** Brza forenzička analiza političke izjave – Izborni kontekst 2026  
+**Kategorije:** Izborni kontekst; PR pod lupom  
+**Rizik:** srednji  
 **Analizirani sadržaj:** „Stanivuković iznio planove za projekte: Banjaluka nastavlja da se razvija velikim koracima“, Srpskainfo, 23. jul 2026.
-
-**Metodologija:** „Brza forenzička analiza političke izjave – Izborni kontekst 2026“.
 
 ## 1. Izvor i kontekst
 
@@ -12,8 +34,6 @@
 **Izvor:** Srpskainfo, na osnovu izjava gradonačelnika i materijala Grada Banja Luka.
 
 Tekst nije samostalni intervju niti analiza realizacije projekata, već kratko medijsko prepričavanje promotivne izjave gradonačelnika. Fotografiju je takođe dostavio Grad, a članak ne sadrži odgovore drugih gradskih organa, stručnjaka ili odbornika.
-
-**Izvorni članak:** https://srpskainfo.com/banjaluka/stanivukovic-iznio-planove-za-projekte-banjaluka-nastavlja-da-se-razvija-velikim-koracima/
 
 ## 2. Neutralni sažetak
 
@@ -68,18 +88,11 @@ Da bi zaključak djelovao uvjerljivo, publika mora prihvatiti sljedeće pretpost
 
 ### Superlativ bez kriterijuma
 
-> „velika reforma javnog prevoza“
-
-Nisu navedeni početno stanje, ciljni pokazatelji, ukupni trošak, broj novih linija ni očekivano povećanje broja polazaka. Izraz „velika“ unaprijed određuje značaj projekta prije predstavljanja mjerljivih elemenata.
+Izraz „velika reforma javnog prevoza“ nije praćen početnim stanjem, ciljnim pokazateljima, ukupnim troškom, brojem novih linija ni očekivanim povećanjem broja polazaka. Izraz „velika“ unaprijed određuje značaj projekta prije predstavljanja mjerljivih elemenata.
 
 ### Plan i očekivanje predstavljeni uz jezik izvjesnog razvoja
 
-Većina ključnih formulacija odnosi se na budućnost:
-
-- vozila se „očekuju“;
-- Grad se „priprema“ za most;
-- pasarela je „projekat“;
-- dokumentacija za kružne tokove je „u izradi“.
+Većina ključnih formulacija odnosi se na budućnost: vozila se „očekuju“, Grad se „priprema“ za most, pasarela je „projekat“, dokumentacija za kružne tokove je „u izradi“.
 
 Ipak, zaključak je formulisan u sadašnjem vremenu: grad se već razvija „velikim koracima“. Tako se zbir planova i pripremnih aktivnosti koristi kao dokaz već ostvarenog rezultata.
 
@@ -91,10 +104,6 @@ U kratkom tekstu povezani su autobusi, tramvaji, aplikacija, stajališta, most, 
 
 Za pasarelu se tvrdi da će „povećati protok saobraćaja“ i „značajno unaprijediti bezbjednost“, ali nisu navedeni saobraćajna studija, sadašnji broj pješaka, broj nezgoda niti procjena očekivanog efekta.
 
-### Predstavljanje političke vizije kao opšteg interesa
-
-Projekti se opisuju kao nova urbana cjelina i jedna od najvažnijih saobraćajnih veza. Moguće je da imaju javnu vrijednost, ali članak ne prikazuje troškove, alternativna rješenja, javne konsultacije niti prioritete drugih dijelova grada.
-
 ## 7. Logička provjera
 
 **Da li zaključak proizlazi iz ponuđenih činjenica?**  
@@ -105,9 +114,6 @@ Dolazak električnih vozila i tramvaja tokom 2026, početak izgradnje mosta u Do
 
 **Da li se miješaju pojmovi?**  
 Da. U istu cjelinu stavljeni su projekti „u toku“, projekti u fazi pripreme, izrada dokumentacije i buduće nabavke. Time se administrativna faza približava fizičkoj realizaciji.
-
-**Postoji li alternativno objašnjenje?**  
-Izjava može predstavljati redovno informisanje o planu rada gradske administracije. Međutim, u izbornom kontekstu istovremeno funkcioniše i kao predstavljanje gradonačelnika kao pokretača modernizacije, čak i kada konkretni pokazatelji realizacije još nisu dostupni.
 
 ## 8. Šta je prećutano
 
@@ -130,21 +136,18 @@ Za most u Docu postoji budžetski i politički plan, ali članak ne objašnjava 
 
 ## 11. Ocjena
 
-### Transparentnost: 2/5
-
+**Transparentnost:** 2/5  
 Navedeni su projekti i približni politički rokovi, ali nedostaju troškovi, ugovori, izvori finansiranja, faze postupka i mjerljivi pokazatelji.
 
-### Činjenična utemeljenost: 2/5
-
+**Činjenična utemeljenost:** 2/5  
 Potvrđeno je da su pojedini projekti dio gradskih planova i budžetskih prioriteta, ali glavne tvrdnje o skorom početku ili dolasku vozila nisu dokumentovane u tekstu.
 
-### Logička konzistentnost: 3/5
-
+**Logička konzistentnost:** 3/5  
 Iz planiranih projekata razumno proizlazi da administracija ima razvojne namjere, ali ne i da je najavljena reforma već ostvarena ili da se grad dokazano razvija brzinom koju slogan sugeriše.
 
 ## 12. Indikator predizborne manipulacije
 
-**DJELIMIČNO.**
+**Djelimično.**
 
 Konkretni elementi su:
 
@@ -165,18 +168,8 @@ Potvrđeno je da gradska administracija planira više saobraćajnih i urbanisti�
 
 ## Izvori
 
-### Primarni izvor
-
 - Srpskainfo, „Stanivuković iznio planove za projekte: Banjaluka nastavlja da se razvija velikim koracima“, 23. jul 2026.  
   https://srpskainfo.com/banjaluka/stanivukovic-iznio-planove-za-projekte-banjaluka-nastavlja-da-se-razvija-velikim-koracima/
-
-### Sekundarni izvori
-
-- Medijski izvještaji o predstavljanju i usvajanju budžeta Grada Banja Luka za 2026. godinu.
-
-### Izvori za provjeru činjenica
-
-Dostupni podaci potvrđuju planski status mosta u Docu i drugih kapitalnih projekata, ali u pregledanim izvorima nisu pronađeni ugovori ili službena dokumentacija koja bi potvrdila najavljenu nabavku tramvaja i precizan početak radova.
 
 ---
 

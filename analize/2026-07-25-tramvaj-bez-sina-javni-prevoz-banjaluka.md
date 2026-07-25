@@ -16,7 +16,7 @@ tags:
   - "lokalna samouprava"
 method: "Analiza PR saopštenja"
 risk: "srednji do visok"
-summary: "Analiza najava o električnim autobusima i tramvaju bez šina u Banjaluci kroz pitanje dokumentovanosti, rokova, finansiranja i razlike između razvojne vizije i javnog PR-a."
+pregled: "Analiza najava o električnim autobusima i tramvaju bez šina u Banjaluci kroz pitanje dokumentovanosti, rokova, finansiranja i razlike između razvojne vizije i javnog PR-a."
 sources:
   - title: "Nezavisne novine: Banjaluka bi ove godine mogla dobiti prve električne autobuse i tramvaje"
     url: "https://www.nezavisne.com/novosti/banjaluka/banjaluka-elektricni-autobusi-tramvaji-reforma-javnog-prevoza/974772"
@@ -31,6 +31,7 @@ sources:
 **Metodologija:** Analiza PR saopštenja  
 **Kategorija:** PR pod lupom  
 **Rizik:** srednji do visok  
+**Pregled:** Analiza najava o električnim autobusima i tramvaju bez šina u Banjaluci kroz pitanje dokumentovanosti, rokova, finansiranja i razlike između razvojne vizije i javnog PR-a.  
 **Forenzička formula:** Modernizacija javnog prevoza ne dokazuje se riječju „tramvaj“, nego dokumentima, rokovima, budžetom i odgovornim operaterom.
 
 ## 1. Šta je rečeno

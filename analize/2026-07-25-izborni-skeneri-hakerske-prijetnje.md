@@ -1,15 +1,21 @@
 ---
 title: "Skeneri, hakeri i povjerenje birača: gdje prestaje upozorenje, a počinje izborni strah?"
+post_title: "Skeneri, hakeri i povjerenje birača: gdje prestaje upozorenje, a počinje izborni strah?"
+post_type: "post"
+post_status: "publish"
 date: "2026-07-25"
 category: "Izborni kontekst"
-method: "Izborni kontekst + medijska manipulacija"
+categories:
+  - "Izborni kontekst"
+  - "Medijska manipulacija"
 tags:
-  - izbori 2026
-  - CIK BiH
-  - skeneri
-  - cyber sigurnost
-  - hakerske prijetnje
-  - medijska manipulacija
+  - "izbori 2026"
+  - "CIK BiH"
+  - "skeneri"
+  - "cyber sigurnost"
+  - "hakerske prijetnje"
+  - "medijska manipulacija"
+method: "Izborni kontekst + medijska manipulacija"
 risk: "visok"
 summary: "Analiza javnih tvrdnji o novim izbornim tehnologijama, skenerima i navodnim hakerskim prijetnjama kroz pitanje dokaznog standarda, povjerenja birača i mogućeg manipulativnog efekta."
 sources:
@@ -19,13 +25,12 @@ sources:
     url: "https://www.oslobodjenje.ba/vijesti/bih/hakeri-mogu-napasti-izborni-sistem-ali-kradu-sprecavaju-papirni-listici/"
   - title: "Oslobođenje: Najave hakerskih napada na izbore: Sistem nije 100% zaštićen, ali prevara je teža"
     url: "https://www.oslobodjenje.ba/vijesti/bih/najave-hakerskih-napada-na-izbore-sistem-nije-100-zasticen-ali-prevara-je-teza/"
-  - title: "Oslobođenje: Potpisan ugovor za nabavku novih tehnologija za izbore u Bosni i Hercegovini"
-    url: "https://www.oslobodjenje.ba/vijesti/bih/potpisan-ugovor-za-nabavku-novih-tehnologija-za-izbore-u-bosni-i-hercegovini/"
-  - title: "Oslobođenje: Rezultati istraživanja govore da u nove izborne tehnologije vjeruje 83 posto BiH"
-    url: "https://www.oslobodjenje.ba/vijesti/bih/rezultati-istrazivanja-govore-da-u-nove-izborne-tehnologije-vjeruje-83-posto-bi-h/"
 ---
 
-# Skeneri, hakeri i povjerenje birača: gdje prestaje upozorenje, a počinje izborni strah?
+**Metodologija:** Izborni kontekst + medijska manipulacija  
+**Kategorije:** Izborni kontekst; Medijska manipulacija  
+**Rizik:** visok  
+**Forenzička formula:** Ozbiljna bezbjednosna tvrdnja mora preći iz političkog prostora u institucionalni zapisnik.
 
 ## 1. Šta je rečeno
 
@@ -75,7 +80,7 @@ Cyber-rizik zaista može postojati. Ali stepen dramatičnosti mora pratiti stepe
 
 Crnadak se poziva na izvor kojem vjeruje. To može biti politički razumljivo, ali nije dovoljno za javni dokazni standard.
 
-Pouzdan izvor za političara nije isto što i provjerljiv dokaz za javnost.
+**Pouzdan izvor za političara nije isto što i provjerljiv dokaz za javnost.**
 
 ### 4.3. Spajanje provjerljivog i neprovjerljivog
 
@@ -170,24 +175,22 @@ Skeneri, nabavka i procedure su provjerljivi. Tvrdnja o hakerskim grupama za sad
 Izjava može povećati oprez i izlaznost, ali i proizvesti sumnju u rezultat izbora prije nego što se pojavi dokaz incidenta.
 
 **Manipulativni potencijal:** visok.  
-Rizik proizlazi iz dramatičnog jezika, neimenovanog izvora i odsustva javno vidljivog institucionalnog traga.
+Rizik proizlazi iz dramatizacije, pozivanja na neimenovani izvor i nedostatka javnog institucionalnog traga.
 
 **Javni interes:** visok.  
-Integritet izbora mora biti zaštićen, ali baš zato tvrdnje o napadu moraju biti precizne i provjerljive.
-
-**Potencijal za Građansku forenziku:** visok.  
-Ovo je dobar primjer za praćenje razlike između opravdanog upozorenja, političke mobilizacije i medijskog širenja straha.
+Integritet izbora je tema od najvišeg javnog interesa, ali baš zato zahtijeva preciznost.
 
 ## 12. Zaključak
 
-Crnadakova izjava nije problematična zato što govori o zaštiti izbora. To je legitimna i važna tema. Problem nastaje kada se ozbiljna cyber-bezbjednosna tvrdnja iznosi kroz dramatičan jezik, uz pozivanje na neimenovani izvor i bez javno vidljivog institucionalnog traga.
+Crnadakova izjava nije problematična zato što govori o zaštiti izbora. To je legitimna i važna tema. Problematična je zato što ozbiljnu cyber-bezbjednosnu tvrdnju iznosi kroz dramatičan jezik, uz pozivanje na neimenovani izvor i bez javno vidljivog institucionalnog traga.
 
-Skeneri mogu povećati integritet izbornog procesa. Hakerski rizici se ne smiju ignorisati. Ali tvrdnja o moćnim hakerskim grupama ne smije ostati samo politička rečenica.
+Za Građansku forenziku, glavna lekcija je jednostavna: u izbornom periodu tvrdnje o krađi, hakerima i manipulaciji ne smiju ostati u prostoru političke sugestije. Ili se pretvaraju u institucionalnu prijavu i provjerljiv dokazni lanac, ili ostaju nedokazana tvrdnja sa visokim potencijalom da utiče na povjerenje birača.
 
-Ako je informacija ozbiljna, mora postojati prijava, nadležni organ i dokazni trag.
+## Izvori
 
-Ako tog traga nema, tvrdnja ostaje javno nedokazana i ima visok potencijal da utiče na povjerenje birača.
-
-Najkraća forenzička formula glasi:
-
-**U izbornom periodu tvrdnje o krađi, hakerima i manipulaciji moraju preći iz političke sugestije u provjerljiv institucionalni lanac.**
+- Oslobođenje, „Crnadak za Oslobođenje.ba o izbornim prevarama“  
+  https://www.oslobodjenje.ba/vijesti/bih/crnadak-za-oslobodjenje-ba-o-izbornim-prevarama-neko-se-boji-novih-izbornih-tehnologija/
+- Oslobođenje, „Hakeri mogu napasti izborni sistem, ali krađu sprečavaju papirni listići“  
+  https://www.oslobodjenje.ba/vijesti/bih/hakeri-mogu-napasti-izborni-sistem-ali-kradu-sprecavaju-papirni-listici/
+- Oslobođenje, „Najave hakerskih napada na izbore: Sistem nije 100% zaštićen, ali prevara je teža“  
+  https://www.oslobodjenje.ba/vijesti/bih/najave-hakerskih-napada-na-izbore-sistem-nije-100-zasticen-ali-prevara-je-teza/

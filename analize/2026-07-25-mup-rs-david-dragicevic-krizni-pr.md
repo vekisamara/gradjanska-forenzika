@@ -11,8 +11,6 @@ tags: ["MUP RS", "David Dragičević", "krizni PR", "institucionalna komunikacij
 risk: "visok"
 pregled: "Analiza konferencije za medije MUP-a RS od 26. marta 2018. godine nakon pronalaska tijela Davida Dragičevića, sa fokusom na razliku između preliminarnih saznanja, javno predstavljenih zaključaka i kasnijeg institucionalnog razvoja predmeta."
 sources:
-  - title: "Objavljena prva verzija analize uz AI alat: Analiza PR saopštenja"
-    url: "https://gradjanskaforenzika.org/sr/analiza-pr-saopstenja/"
   - title: "Ustavni sud BiH, AP-1140/19, Odluka o dopustivosti i meritumu"
     url: "https://www.ustavnisud.ba/uploads/odluke/_bs/AP-1140-19-1273862.pdf"
 ---
@@ -154,7 +152,7 @@ Kod smrti pod nejasnim okolnostima proporcionalna komunikacija bi zahtijevala:
 - zaštitu dostojanstva preminulog;
 - izbjegavanje zaključka o odsustvu krivičnog djela dok način dospijevanja u vodu nije poznat.
 
-Ocjena: komunikacija je bila pravovremena, ali dokazno i reputacijski neproporcionalna.
+Ocjena: pravovremena, ali dokazno i reputacijski neproporcionalna komunikacija.
 
 ## 12. Događaj, šteta i odgovornost
 
@@ -198,7 +196,7 @@ David nije mogao odgovoriti na javno iznesene tvrdnje. Zbog toga je dokazni stan
 | Vrsta transparentnosti | Rezultat | Glavni nedostatak |
 |---|---:|---|
 | Dokumentarna | 21% | Izvorni dokazi i puni nalazi nisu bili javno dostupni. |
-| Podatkovna | 38% | Objavljeno je mnogo detalja, ali ne i puna forenzička osnova. |
+| Podatkovna | 38% | Objavljeno mnogo detalja, ali ne i puna forenzička osnova. |
 | Uzročna | 17% | Fragmenti su povezani bez prikaza alternativnih hipoteza. |
 | Transparentnost odgovornosti | 13% | Nije jasno ko je odobrio zaključke i ko odgovara za korekciju. |
 
@@ -263,7 +261,7 @@ Kasniji institucionalni razvoj pokazao je da početna verzija nije bila konačna
 Nije pronađena potpuna javna korekcija konferencije koja bi:
 
 - jasno navela koje tvrdnje više ne važe;
-- povukla ili dodatno objasnila tvrdnju o provalnoj krađi;
+- povukla tvrdnju o provalnoj krađi;
 - objasnila koji novi dokazi su promijenili okvir;
 - označila prethodni nastup kao preliminaran;
 - rehabilitovala ugled preminulog;
@@ -278,7 +276,7 @@ Klasifikacija: tiha promjena institucionalnog okvira, bez potpune javne korekcij
 | Medijski izvještaji sa konferencije | Sekundarni zapis javnog nastupa | Sadržaj javno iznesenih tvrdnji | Konačnu istinitost tvrdnji. |
 | Izjava patologa na konferenciji | Stručna procjena u ranoj fazi | Neposredni uzrok smrti i ograničenja obdukcije | Način dospijevanja u vodu. |
 | Odluka Tužilaštva BiH o preuzimanju | Zvanična tužilačka odluka | Postojanje istrage i preuzetih predmeta | Krivicu bilo kojeg lica. |
-| Odgovor Tužilaštva BiH iz 2026. | Zvanična informacija prenesena medijima | Da istraga traje i da nema dovoljno dokaza za optužnicu | Konačni ishod. |
+| Kasnije informacije o toku istrage | Zvanične ili medijski prenesene informacije | Da istraga traje i da nema potvrđene optužnice | Konačni ishod. |
 | Medijski izvještaji o protestima | Sekundarni izvor | Razvoj javne reakcije | Pojedinačnu pravnu odgovornost. |
 
 ## 20. Indikatori komunikacijskog i institucionalnog prikrivanja
@@ -292,15 +290,15 @@ Klasifikacija: tiha promjena institucionalnog okvira, bez potpune javne korekcij
 | Ograničena nezavisna provjera | srednja | Prisutno. |
 | Neobjašnjena promjena institucionalnog okvira | srednja/teška | Prisutno. |
 | Izostanak potpune javne korekcije | srednja/teška | Prisutno. |
-| Neobrazloženo uskraćivanje dokaza | srednja/teška | Nije dovoljno dokazano. |
-| Fabrikovanje ili uništavanje dokaza | teška | Nije dokazano. |
-| Koordinisana institucionalna radnja prikrivanja | teška | Nije dokazano. |
+| Neobrazloženo uskraćivanje dokaza | srednja/teška | Nije dovoljno dokazano ovom analizom. |
+| Fabrikovanje ili uništavanje dokaza | teška | Nije dokazano ovom analizom. |
+| Koordinisana institucionalna radnja prikrivanja | teška | Nije dokazano ovom analizom. |
 
-## 21. Stepen institucionalnog prikrivanja
+## 21. Stepen komunikacijskog i institucionalnog prikrivanja
 
-**Nivo 5 od 6 — ozbiljni indikatori komunikacijskog i institucionalnog prikrivanja.**
+**Nivo 5 od 6 — ozbiljni komunikacijski i proceduralni indikatori prikrivanja.**
 
-Ova ocjena se odnosi na komunikacijske i proceduralne indikatore, a ne na dokazanu krivičnu odgovornost bilo kojeg lica.
+Ovaj nivo se odnosi na način javne komunikacije, dokaznu strukturu, vremenski razvoj tvrdnji i izostanak vidljive korekcije. Ne predstavlja tvrdnju da je pravosnažno dokazana krivična odgovornost bilo kojeg lica.
 
 Nivo 5 je opravdan težinom povezanih indikatora:
 
@@ -326,58 +324,64 @@ Nivo 6 nije opravdan jer javno dostupni materijal korišten u ovoj analizi ne do
 
 | Pokazatelj | Rezultat | Dokazna osnova |
 |---|---:|---|
-| Dokazivost | 29% | srednja |
-| Nezavisnost provjere u početnoj fazi | 13% | visoka |
-| Zaštita javnog interesa | 17% | visoka |
-| Pravovremenost i proporcionalnost | 29% | visoka |
-| Kvalitet naknadne korekcije | 8% | srednja |
+| Dokazivost | 29% | Srednja. |
+| Nezavisnost provjere u početnoj fazi | 13% | Visoka. |
+| Zaštita javnog interesa | 17% | Visoka. |
+| Pravovremenost i proporcionalnost | 29% | Visoka. |
+| Kvalitet naknadne korekcije | 8% | Srednja. |
 
 ### Pokazatelji PR rizika
 
 | Pokazatelj | Rezultat | Dokazna osnova |
 |---|---:|---|
-| Institucionalno prenaglašavanje | 79% | visoka |
-| Umanjivanje odgovornosti ili štete | 88% | visoka |
-| Jaz formalne transparentnosti | 92% | visoka |
-| Političko-promotivno usmjeravanje | 38% | srednja |
-| Reputacijsko upravljanje | 96% | visoka |
-| Reputacijsko preusmjeravanje | 92% | visoka |
+| Institucionalno prenaglašavanje | 79% | Visoka. |
+| Umanjivanje odgovornosti ili štete | 88% | Visoka. |
+| Jaz formalne transparentnosti | 92% | Visoka. |
+| Političko-promotivno usmjeravanje | 38% | Srednja. |
+| Reputacijsko upravljanje | 96% | Visoka. |
+| Reputacijsko preusmjeravanje | 92% | Visoka. |
 
 ### Pokazatelji rizika prikrivanja
 
 | Pokazatelj | Rezultat | Dokazna osnova |
 |---|---:|---|
-| Kontradikcije kroz vrijeme | 83% | visoka |
-| Ograničena nezavisna provjera | 88% | visoka |
-| Neobrazloženo uskraćivanje ili prikrivanje | N/P | nedovoljna |
-| Zamjena centralnog pitanja | 96% | visoka |
-| Prebacivanje odgovornosti | 83% | visoka |
-| Proceduralno odlaganje | 58% | srednja |
-| Naknadna legalizacija | N/P | — |
-| Izostanak korektivnih mjera | 88% | visoka |
+| Kontradikcije kroz vrijeme | 83% | Visoka. |
+| Ograničena nezavisna provjera | 88% | Visoka. |
+| Neobrazloženo uskraćivanje ili prikrivanje | N/P | Nedovoljna. |
+| Zamjena centralnog pitanja | 96% | Visoka. |
+| Prebacivanje odgovornosti | 83% | Visoka. |
+| Proceduralno odlaganje | 58% | Srednja. |
+| Naknadna legalizacija | N/P | Nije primjenjivo. |
+| Izostanak korektivnih mjera | 88% | Visoka. |
 
 ## 23. Šta konferencija pouzdano pokazuje
 
-Konferencija pouzdano pokazuje da je MUP RS predstavio vrlo određenu rekonstrukciju u ranoj fazi; da je tvrdnja o provalnoj krađi javno predstavljena kao činjenica; da je rečeno da tada nema indicija za krivično djelo; da je patolog istovremeno naveo da način dospijevanja u vodu nije moguće utvrditi obdukcijom; da je predmet kasnije nastavljen kao istraga krivičnog djela protiv života; da je Tužilaštvo BiH preuzelo i predmet mogućih radnji protiv službene dužnosti; i da do kasnijeg perioda nije postojao javno poznat pravosnažni epilog.
+- MUP RS je predstavio vrlo određenu rekonstrukciju u ranoj fazi.
+- Tvrdnja o provalnoj krađi javno je predstavljena kao činjenica.
+- Rečeno je da tada nema indicija za krivično djelo.
+- Patolog je istovremeno naveo da način dospijevanja u vodu nije moguće utvrditi obdukcijom.
+- Predmet je kasnije nastavljen kao istraga krivičnog djela protiv života.
+- Tužilaštvo BiH je preuzelo i predmet mogućih radnji protiv službene dužnosti.
+- Do kasnijeg javno dostupnog perioda nije postojao pravosnažan epilog koji bi potvrdio individualnu krivičnu odgovornost.
 
 ## 24. Šta konferencija snažno sugeriše
 
-Konferencija snažno sugeriše da je jedan od ciljeva bio smirivanje javnosti; da je institucija pokušala ponuditi zaokruženu priču prije završene provjere; da je reputacijski rizik preusmjeren prema Davidu; da stepen sigurnosti javnih tvrdnji nije odgovarao stepenu završenosti istrage; i da kasnija promjena pravnog okvira nije praćena adekvatnom javnom korekcijom.
+- Da je jedan od ciljeva bio smirivanje javnosti.
+- Da je institucija pokušala ponuditi zaokruženu priču prije završene provjere.
+- Da je reputacijski rizik preusmjeren prema Davidu.
+- Da stepen sigurnosti javnih tvrdnji nije odgovarao stepenu završenosti istrage.
+- Da kasnija promjena pravnog okvira nije praćena adekvatnom javnom korekcijom.
 
-## 25. Šta nije moguće dokazati
+## 25. Šta nije moguće dokazati ovom analizom
 
-Na osnovu javno dostupnog materijala korištenog u ovoj analizi nije moguće dokazati:
-
-- da su učesnici konferencije svjesno iznosili neistine;
-- da je konferencija bila dio koordinisanog plana zataškavanja;
-- da su dokazi fabrikovani, izmijenjeni ili uništeni;
-- ko je odgovoran za Davidovu smrt;
-- da su osobe obuhvaćene istragama krive;
-- da je postojala formalna politička naredba za oblikovanje konferencije.
+- Da su učesnici konferencije svjesno iznosili neistine.
+- Da je konferencija bila dio koordinisanog plana zataškavanja.
+- Da su dokazi fabrikovani, izmijenjeni ili uništeni.
+- Ko je odgovoran za Davidovu smrt.
+- Da su osobe obuhvaćene istragama krive.
+- Da je postojala formalna politička naredba za oblikovanje konferencije.
 
 ## 26. Dokumenti koje treba zatražiti
-
-Za potpuniju javnu provjeru potrebno je tražiti:
 
 - kompletan video i transkript konferencije;
 - službenu odluku o organizovanju i odobravanju sadržaja konferencije;
@@ -387,38 +391,33 @@ Za potpuniju javnu provjeru potrebno je tražiti:
 - internu evaluaciju komunikacije MUP-a;
 - dokumentaciju o eventualnoj javnoj ili internoj korekciji iznesenih tvrdnji.
 
-## 27. Neutralniji naslov koji je institucija mogla koristiti
+## 27. Neutralniji naslov
 
-**MUP predstavio preliminarnu rekonstrukciju kretanja Davida Dragičevića; način dospijevanja u vodu i dalje nije utvrđen.**
+„MUP RS predstavio preliminarnu rekonstrukciju kretanja Davida Dragičevića; način dospijevanja u vodu i dalje nije utvrđen“
 
-Ovakav naslov bi javnosti dao informaciju, ali ne bi zatvorio pitanje koje tada nije bilo zatvoreno.
-
-## 28. Tri pitanja za MUP RS
-
-1. Koji su forenzički nalazi bili završeni do 26. marta 2018. i omogućavali da se navodna provalna krađa javno predstavi kao utvrđena činjenica?
-2. Ko je odobrio zaključak da nema indicija za krivično djelo, iako način dospijevanja u vodu tada nije bio utvrđen?
-3. Da li je MUP ikada objavio formalnu korekciju konferencije i jasno naveo koje tvrdnje su ostale na snazi, a koje su povučene ili izmijenjene?
-
-## 29. Završna ocjena
+## 28. Završna ocjena
 
 Konferencija MUP-a RS predstavlja primjer odbrambenog kriznog PR-a sa ozbiljnim indikatorima komunikacijskog i institucionalnog prikrivanja.
 
-Centralni problem nije samo mogućnost da su pojedine tvrdnje bile pogrešne. Problem je način na koji su radne hipoteze predstavljene kao činjenice, otvorena pitanja komunikacijski potisnuta, reputacijski teret prebačen na preminulog, a kasniji institucionalni razvoj ostao bez jasne javne korekcije.
+Centralni problem nije samo mogućnost da su pojedine tvrdnje bile pogrešne. Problem je način na koji su:
+
+- radne hipoteze predstavljene kao činjenice;
+- otvorena pitanja komunikacijski potisnuta;
+- reputacijski teret prebačen na preminulog;
+- kasniji institucionalni razvoj ostao bez jasne javne korekcije.
 
 Dostupni izvori nisu dovoljni za zaključak o dokumentovanom zataškavanju ili krivičnoj odgovornosti konkretnih osoba.
 
-**Stepen institucionalnog prikrivanja:** nivo 5 od 6, isključivo u smislu komunikacijskih i proceduralnih indikatora.
-
+**Stepen komunikacijskog i institucionalnog prikrivanja:** nivo 5 od 6.  
 **Pouzdanost zaključka:** visoka za komunikacijski obrazac, srednja za motive, nedovoljna za tvrdnju o koordinisanom i svjesnom zataškavanju.
 
-**Kratka forenzička formula:**
+## 29. Tri pitanja za MUP RS
 
-Kada institucija preliminarnu verziju predstavi kao gotovo završenu istinu, a zatim ne objavi jednako vidljivu korekciju nakon promjene pravnog i istražnog okvira, javnost ne dobija transparentnost nego kontrolisani narativ.
+1. Koji su forenzički nalazi bili završeni do 26. marta 2018. i omogućavali da se navodna provalna krađa javno predstavi kao utvrđena činjenica?
+2. Ko je odobrio zaključak da nema indicija za krivično djelo, iako način dospijevanja u vodu tada nije bio utvrđen?
+3. Da li je MUP RS ikada objavio formalnu korekciju konferencije i jasno naveo koje tvrdnje su ostale na snazi, a koje su povučene ili izmijenjene?
 
 ## Izvori
-
-- Građanska forenzika, prva verzija primjera uz AI alat „Analiza PR saopštenja“  
-  https://gradjanskaforenzika.org/sr/analiza-pr-saopstenja/
 
 - Ustavni sud BiH, AP-1140/19, Odluka o dopustivosti i meritumu  
   https://www.ustavnisud.ba/uploads/odluke/_bs/AP-1140-19-1273862.pdf

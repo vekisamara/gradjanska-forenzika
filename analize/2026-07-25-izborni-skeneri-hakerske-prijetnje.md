@@ -17,7 +17,7 @@ tags:
   - "medijska manipulacija"
 method: "Izborni kontekst + medijska manipulacija"
 risk: "visok"
-summary: "Analiza javnih tvrdnji o novim izbornim tehnologijama, skenerima i navodnim hakerskim prijetnjama kroz pitanje dokaznog standarda, povjerenja birača i mogućeg manipulativnog efekta."
+pregled: "Analiza javnih tvrdnji o novim izbornim tehnologijama, skenerima i navodnim hakerskim prijetnjama kroz pitanje dokaznog standarda, povjerenja birača i mogućeg manipulativnog efekta."
 sources:
   - title: "Oslobođenje: Crnadak za Oslobođenje.ba o izbornim prevarama"
     url: "https://www.oslobodjenje.ba/vijesti/bih/crnadak-za-oslobodjenje-ba-o-izbornim-prevarama-neko-se-boji-novih-izbornih-tehnologija/"
@@ -30,6 +30,7 @@ sources:
 **Metodologija:** Izborni kontekst + medijska manipulacija  
 **Kategorije:** Izborni kontekst; Medijska manipulacija  
 **Rizik:** visok  
+**Pregled:** Analiza javnih tvrdnji o novim izbornim tehnologijama, skenerima i navodnim hakerskim prijetnjama kroz pitanje dokaznog standarda, povjerenja birača i mogućeg manipulativnog efekta.  
 **Forenzička formula:** Ozbiljna bezbjednosna tvrdnja mora preći iz političkog prostora u institucionalni zapisnik.
 
 ## 1. Šta je rečeno

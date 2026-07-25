@@ -1,15 +1,20 @@
 ---
 title: "Tramvaj bez šina i projekat bez dokumenata: gdje prestaje vizija, a počinje PR?"
+post_title: "Tramvaj bez šina i projekat bez dokumenata: gdje prestaje vizija, a počinje PR?"
+post_type: "post"
+post_status: "publish"
 date: "2026-07-25"
 category: "PR pod lupom"
-method: "Analiza PR saopštenja"
+categories:
+  - "PR pod lupom"
 tags:
-  - Banja Luka
-  - javni prevoz
-  - električni autobusi
-  - tramvaj bez šina
-  - PR analiza
-  - lokalna samouprava
+  - "Banja Luka"
+  - "javni prevoz"
+  - "električni autobusi"
+  - "tramvaj bez šina"
+  - "PR analiza"
+  - "lokalna samouprava"
+method: "Analiza PR saopštenja"
 risk: "srednji do visok"
 summary: "Analiza najava o električnim autobusima i tramvaju bez šina u Banjaluci kroz pitanje dokumentovanosti, rokova, finansiranja i razlike između razvojne vizije i javnog PR-a."
 sources:
@@ -23,7 +28,10 @@ sources:
     url: "https://www.banjaluka.com/drustvo/tramvaj-u-banjaluci-novo-lice-grada-ili-jos-jedno-predizborno-obecanje/"
 ---
 
-# Tramvaj bez šina i projekat bez dokumenata: gdje prestaje vizija, a počinje PR?
+**Metodologija:** Analiza PR saopštenja  
+**Kategorija:** PR pod lupom  
+**Rizik:** srednji do visok  
+**Forenzička formula:** Modernizacija javnog prevoza ne dokazuje se riječju „tramvaj“, nego dokumentima, rokovima, budžetom i odgovornim operaterom.
 
 ## 1. Šta je rečeno
 
@@ -55,7 +63,7 @@ Ako se prvi „tramvaj“ očekuje u septembru, trebalo bi već sada da postoje 
 
 Bez toga, rok djeluje više kao PR marker nego kao upravljački plan.
 
-### Alarm 2: „Tramvaj bez šina“ kao snažan komunikacijski pojam
+### Alarm 2: „Tramvaj bez šina“ kao komunikacijski pojam
 
 Naziv „tramvaj“ proizvodi veći politički i emocionalni efekat od naziva „električno vođeno vozilo“, „električni autobus“ ili „testno urbano vozilo“. Ako termin nije precizan, javna najava može povećati očekivanja građana više nego što ih projekat realno može ispuniti.
 
@@ -149,6 +157,13 @@ Banjaluci treba kvalitetniji javni prevoz. Električni autobusi, bolja stajališ
 
 Ali velika razvojna najava mora imati dokumente. Ako se građanima najavljuje „tramvaj“ u septembru, građani imaju pravo da znaju šta tačno stiže, koliko košta, ko plaća, ko upravlja sistemom, da li je vozilo testno ili linijsko i da li je riječ o stvarnoj reformi javnog prevoza ili o promotivnom simbolu sa velikim PR efektom.
 
-Najkraća forenzička formula glasi:
+## Izvori
 
-**Modernizacija javnog prevoza ne dokazuje se riječju „tramvaj“, nego dokumentima, rokovima, budžetom i odgovornim operaterom.**
+- Nezavisne novine, „Banjaluka bi ove godine mogla dobiti prve električne autobuse i tramvaje“  
+  https://www.nezavisne.com/novosti/banjaluka/banjaluka-elektricni-autobusi-tramvaji-reforma-javnog-prevoza/974772
+- Banjaluka.com, „Stanivuković: Prvi tramvaj u Banjaluci u septembru“  
+  https://www.banjaluka.com/drustvo/stanivukovic-prvi-tramvaj-u-banjaluci-u-septembru/
+- Banjaluka.com, „Banjaluka dobija prve električne autobuse i tramvaje“  
+  https://www.banjaluka.com/drustvo/banjaluka-dobija-prve-elektricne-autobuse-i-tramvaje-video/
+- Banjaluka.com, „Tramvaj u Banjaluci: Novo lice grada ili još jedno predizborno obećanje?“  
+  https://www.banjaluka.com/drustvo/tramvaj-u-banjaluci-novo-lice-grada-ili-jos-jedno-predizborno-obecanje/

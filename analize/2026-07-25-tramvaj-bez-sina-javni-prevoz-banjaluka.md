@@ -82,7 +82,7 @@ Ako se javnosti predstavlja samo cijena vozila, bez ukupnog troška sistema, sli
 
 ## 5. Šta je provjerljivo
 
-Ova tema je pogodna za dokumentovanu provjeru. Mogu se tražiti i analizirati:
+Mogu se tražiti i analizirati:
 
 - odluka Grada ili Skupštine grada o pokretanju projekta,
 - budžetska stavka ili rebalans kojim se projekat finansira,
@@ -148,9 +148,6 @@ Tema se može provjeravati kroz odluke, budžet, nabavke, ugovore, tehničku dok
 
 **Rizik manipulacije:** srednji do visok.  
 Rizik ne proizlazi iz same ideje, nego iz mogućnosti da se atraktivan simbol „tramvaja“ koristi za politički efekat prije nego što postoji operativno dokazan projekat.
-
-**Potencijal za Građansku forenziku:** visok.  
-Najava ima mjerljive rokove i može se pratiti kroz model: obećano, dokumentovano, realizovano.
 
 ## 10. Zaključak
 

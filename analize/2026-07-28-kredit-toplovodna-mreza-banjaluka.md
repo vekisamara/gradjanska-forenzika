@@ -251,8 +251,6 @@ Forenzički fokus je u modelu otplate i vlasništva. Dostupne objave i vijesti n
 **Forenzička formula:**  
 **Javni kredit + komunalna mreža + privatno-javni operater + nejasna otplata + nejasno vlasništvo = potreba za ugovorom, imovinskom evidencijom i planom otplate.**
 
-Preliminarna ocjena: tema je pogodna za objavu kao jača PR analiza, ali bi bila još snažnija ako se pribavi sama odluka Skupštine, obrazloženje prijedloga i eventualni ugovor između Grada i „Eko toplana“ o otplati i korištenju mreže.
-
 ## Izvori
 
 - Grad Banja Luka — ranije objave o sanaciji toplovodne mreže i prijedlogu ulaganja u rekonstrukciju mreže.

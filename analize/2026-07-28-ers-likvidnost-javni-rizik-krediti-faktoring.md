@@ -198,8 +198,6 @@ Da li se finansijski pritisak prikazuje kroz niz tehničkih odluka umjesto kroz 
 | Provjerljivost stvarne namjene | niska bez dodatnih dokumenata |
 | Rizik fragmentacije podataka | visok |
 | Rizik slabe konkurencije | srednji do visok |
-| Potencijal za studiju slučaja | visok |
-| Prioritet za obradu | visok |
 
 ## 13. Mogući zahtjev za pristup informacijama
 
@@ -247,8 +245,6 @@ Forenzički fokus nije tvrdnja da su postupci nezakoniti. Fokus je javna razumlj
 
 **Forenzička formula:**  
 **Niz finansijskih odluka + jedna prihvatljiva ponuda po postupku + izuzeće od pune primjene javnih nabavki + visoka cijena finansiranja = potreba za jedinstvenom javnom slikom likvidnosti ERS-a.**
-
-Ova tema je pogodna za studiju slučaja jer pokazuje kako se javni rizik ne mora uvijek pojaviti u jednoj spornoj rečenici ili jednom velikom saopštenju. Ponekad se vidi tek kada se tehničke odluke spoje u lanac.
 
 ## Izvori
 

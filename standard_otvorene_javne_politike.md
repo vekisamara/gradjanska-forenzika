@@ -1,152 +1,242 @@
-# 📋 Standard Otvorene Javne Politike 2.1
+# Standard za analizu javnih odluka i institucionalnog postupanja
 
-**Autor:** Velimir Samara  
-**Verzija:** 2.1  
-**Datum:** 29.07.2026.
+**Metodologija:** Građanska forenzika  
+**Verzija:** 3.2  
+**Status:** Konačna dopunjena verzija  
+**Datum:** Jul 2026. godine  
+**Urednik:** Velimir Šamara  
+**Licenca:** Creative Commons BY-SA 4.0
 
-Ovaj standard definiše normativni, dokazni i etički okvir Građanske forenzike. Svaka analiza mora biti objektivna, provjerljiva, ponovljiva, proporcionalna dostupnim dokazima i otporna na političke, lične, institucionalne i algoritamske pristrasnosti.
+## Predgovor verziji 3.2
 
-## Osnovni principi
+Verzija 3.2 zadržava životni ciklus predmeta, nivoe dokaza, status izvora O/K/R/N, Protokol jednog pitanja, efektivnost zaštite, mapu preklapanja i obavezni praktični test iz verzije 3.1. Novi sloj uvodi kvantitativnu građansku forenziku: provjeru brojčanih, statističkih, komparativnih, prediktivnih i uzročnih tvrdnji, razlikovanje aktivnosti od stvarnog ishoda, provjeru brojioca i imenioca, pristrasnosti, šuma, uzorka, povratka ka prosjeku i materijalnog značaja. Uvedeni su pojam kvantitativnog formalizma, obavezni AI modul za podatke i poseban okvir za analizu izvještaja o radu.
 
-### 1. Javna dostupnost
+## 1. Predmet, cilj i korisnici
 
-Metodološki koraci, zaključci i ograničenja objavljuju se besplatno i jezikom razumljivim građanima, osim podataka koji moraju biti zaštićeni.
+Standard utvrđuje minimalna pravila za sistematsku, provjerljivu i ponovljivu analizu javnih odluka, upravnih postupaka, institucionalnih odgovora i nepostupanja. Namijenjen je građanima, novinarima, istraživačima, organizacijama civilnog društva i stručnjacima koji dokumentuju zaštitu javnog interesa.
 
-### 2. Provjerljivost
+## 2. Osnovni principi
 
-Svaka činjenična tvrdnja mora biti povezana sa dokumentom, datumom, brojem akta, citatom, metapodatkom, zapisnikom, fotografijom, mjerenjem ili drugim provjerljivim tragom.
-
-### 3. Ponovljivost
-
-Druga osoba, koristeći isti materijal, istu verziju metodologije i iste promptove, mora moći ponoviti postupak i dobiti uporediv nalaz.
-
-### 4. Anti-formalizam
-
-Uredna forma ne nadomješta nedostatak činjenica, dokaza, razloga, nadležnosti ili stvarno izvršene procesne radnje. Analiza mora pokazati tačan prekid između pitanja, činjenice, dokaza, pravila, obrazloženja i zaključka.
-
-### 5. Digitalni integritet
-
-Prednost imaju izvorni digitalni dokumenti sa provjerljivim metapodacima, vremenskim pečatom, digitalnim potpisom, izvornom ekstenzijom ili drugim tragom autentičnosti. Radna kopija se čuva odvojeno od izvornika.
-
-### 6. Precizno definisan predmet
-
-Analiza mora početi konkretnim pitanjem, odlukom, tvrdnjom, propuštenom radnjom ili odlučnom činjenicom. Opšte nezadovoljstvo radom institucije nije dovoljan predmet analize.
-
-### 7. Razdvajanje činjenica i zaključaka
-
-Rezultat mora jasno razlikovati:
-
-- činjenicu utvrđenu iz dokaza;
-- tvrdnju izvora;
-- tumačenje;
-- pretpostavku;
-- nepoznatu ili nepotvrđenu okolnost.
-
-### 8. Plan dokaza prije konačnog zaključka
-
-Za ključne tvrdnje mora se evidentirati potreban, dostupan i nedostajući dokaz, njegov izvor, način provjere i status. Odsustvo dokaza nije automatski dokaz odsustva.
-
-### 9. Razdvajanje simptoma, uzroka i posljedica
-
-Formalna fraza, ćutanje, prebacivanje nadležnosti ili neodređeno obećanje mogu biti simptomi. Analiza mora razmotriti neposredne i sistemske uzroke, posljedice i razumna alternativna objašnjenja.
-
-### 10. Mapa odgovornosti
-
-Kod složenih predmeta moraju se razlikovati formalna nadležnost, stvarni uticaj, posjedovanje dokumenata i mogućnost preduzimanja radnje. Potpisnik nije nužno obrađivač, donosilac odluke ili jedino odgovorno lice.
-
-### 11. Proporcionalnost zaključka
-
-Zaključak ne smije biti širi ili kategoričniji od dokaza. Pravna, politička ili etička kvalifikacija mora biti odvojena od činjeničnog nalaza i označena odgovarajućim nivoom pouzdanosti.
-
-### 12. Alternativna objašnjenja i kontrola pristrasnosti
-
-Za važan negativni nalaz treba razmotriti najmanje jedno razumno objašnjenje koje ne pretpostavlja nezakonitost, manipulaciju ili namjeru. Ako ga dostupni dokazi isključuju, navesti zbog čega.
-
-### 13. Operativni nastavak
-
-Analiza treba završiti konkretnim sljedećim korakom: pribavljanje dokumenta, precizno pitanje, uvid u spis, terenska provjera, žalba, nadzor, javna objava ili prijedlog izmjene procedure.
-
-### 14. Povratna petlja
-
-Novi odgovor, dokument ili institucionalna reakcija postaje novi dokazni unos. Prethodni nalaz se označava kao potvrđen, izmijenjen, opovrgnut ili dopunjen, uz očuvanje istorije verzija.
-
-## Standard dokazne matrice
-
-| Polje | Obavezni sadržaj |
+| Princip | Operativno značenje |
 |---|---|
-| ID tvrdnje | Jedinstvena oznaka T1, T2, T3... |
-| Tvrdnja | Precizan sadržaj bez proširivanja |
-| Vrsta | činjenična / pravna / brojčana / uzročna / vrijednosna |
-| Potreban dokaz | Šta može potvrditi ili opovrgnuti tvrdnju |
-| Dostupan dokaz | Tačan izvor i citatni trag |
-| Nedostajući dokaz | Šta još treba pribaviti |
-| Status | potvrđeno / djelimično / nepotvrđeno / kontradiktorno / opovrgnuto |
-| Pouzdanost | visoka / srednja / niska, uz razlog |
+| Javni pristup | Nalazi se objavljuju u razumljivom obliku, uz zaštitu ličnih i povjerljivih podataka. |
+| Provjerljivost | Svaka činjenična tvrdnja mora imati označen izvor i lokaciju u dokaznom materijalu. |
+| Ponovljivost | Druga osoba mora moći rekonstruisati analizu iz istog spisa. |
+| Antiformalizam | Formalna urednost akta ne zamjenjuje provjeru činjenica, obrazloženja i javnog interesa. |
+| Proporcionalnost | Obim analize i eskalacije mora biti razmjeran riziku i raspoloživim dokazima. |
+| Procesna neutralnost | Ne pretpostavlja se krivica, namjera ili korupcija prije odgovarajućih dokaza. |
+| Digitalni integritet | Čuvaju se originalni fajlovi, metapodaci, hash vrijednosti kada je potrebno i trag porijekla. |
+| Pravo na ispravku | Instituciji i pogođenim licima omogućava se razumno izjašnjenje prije konačne objave. |
+| AI transparentnost | AI se koristi kao pomoć, uz ljudsku provjeru i označavanje ključnih pretpostavki. |
+| Kvantitativna provjerljivost | Broj, procenat ili indikator ne prihvata se kao dokaz bez definicije, izvora, obuhvata, poređenja i veze sa javnim ciljem. |
 
-# Kvantitativne tvrdnje, pokazatelji i uzročna obrazloženja
+## 3. Predmeti analize
 
-## 15. Predmet i svrha kvantitativne analize
+Standard obuhvata upravne akte, zaključke, službene dopise, ćutanje uprave, kašnjenja i neizvršenje; urbanističke, građevinske, komunalne i okolišne postupke; javne nabavke, koncesije, javnu imovinu i budžetske odluke; inspekcijske i nadzorne akte; postupanje po žalbama, presudama i preporukama; službene evidencije, ovlašćenja i potpise; te javne izjave povezane sa institucionalnim odlukama ili javnim sredstvima.
 
-Ovo poglavlje primjenjuje se na brojčane, statističke, komparativne, prediktivne i uzročne tvrdnje sadržane u javnim odlukama, službenim odgovorima, izvještajima, obrazloženjima, budžetskim dokumentima, javnim politikama i izjavama funkcionera.
+## 4. Struktura radnog spisa
 
-Svrha nije samo utvrditi da li je institucija navela podatak, nego provjeriti:
+| Oznaka | Element | Minimalni sadržaj |
+|---|---|---|
+| A | Kartica predmeta | Predmet, šteta/rizik, ključna nepoznanica, nadležni organ. |
+| B | Hronologija | Datum, događaj, izvor, rok, posljedica. |
+| C | Registar dokaza | ID, naziv, datum, porijeklo, status O/K/R/N, integritet, relevantnost. |
+| D | Mapa aktera | Organ, funkcija, nadležnost, potpisnik, interes, odnos. |
+| E | Matrica tvrdnji | Tvrdnja, dokaz, protivdokaz, status, pouzdanost. |
+| F | Matrica neodgovorenih pitanja | Pitanje, odgovor, nedostatak, sljedeći korak. |
+| G | Rokovnik | Pravni rok, datum isteka, status, urgencija. |
+| H | Akcioni plan | Instrument, cilj, rizik, očekivani trag, rezultat. |
+| I | Dnevnik AI upotrebe | Prompt, ulaz, izlaz, ljudska korekcija. |
+| J | Završna odluka | Zatvaranje, eskalacija, objava ili praćenje. |
 
-- šta je stvarno mjereno;
-- šta se podatkom pokušava dokazati;
-- da li pokazatelj odgovara stvarnoj pojavi i javnom cilju;
-- da li su podaci potpuni, uporedivi i provjerljivi;
-- da li zaključak proizlazi iz podataka;
-- da li je povezanost pogrešno predstavljena kao uzročnost;
-- koje pristrasnosti, neizvjesnosti i alternativna objašnjenja postoje.
+## 5. Nivoi dokaza i status izvora
 
-Brojčana preciznost sama po sebi nije dokaz tačnosti, zakonitosti ili objektivnosti zaključka.
+| Nivo | Vrsta dokaza | Primjeri | Težina |
+|---|---|---|---|
+| D1 | Primarni službeni dokaz | Rješenje, zapisnik, ugovor, evidencija, dostavnica. | Vrlo visoka |
+| D2 | Autentični digitalni ili terenski dokaz | Originalna fotografija, video, metapodaci, mjerenje. | Visoka |
+| D3 | Potvrđeni sekundarni dokaz | Više nezavisnih izvora, stručni nalaz. | Srednja do visoka |
+| D4 | Posredni indikator | Dosljedna hronologija, kontradikcija, obrazac nepostupanja. | Srednja |
+| D5 | Navod ili hipoteza | Izjava bez dokumenta, pretpostavka, anonimna informacija. | Niska |
 
-## 16. Osnovne formule
+Status izvora je odvojen od težine dokaza:
 
-U kvantitativnoj analizi koristi se okvir:
+- **O – original:** izvorni fizički dokument ili izvorna digitalna datoteka;
+- **K – potvrđena kopija:** identitet, potpunost i porijeklo su provjereni;
+- **R – rekonstruisan izvor:** sadržaj je poznat iz bilješke, prepiske ili ranije analize, ali original nije dostupan;
+- **N – nepotvrđen navod:** informacija zahtijeva dodatnu provjeru.
+
+Izvori R i N mogu usmjeriti istraživanje, ali se ne predstavljaju kao konačan citat ili potvrđena činjenica. Zaključak o ozbiljnoj nepravilnosti ne smije počivati samo na D5.
+
+## 6. Metodologija analize
+
+1. Definisati konkretan problem, štetu ili rizik bez prejudiciranja krivice.
+2. Formulisati provjerljivu hipotezu i najmanje jedno alternativno objašnjenje.
+3. Pribaviti službene akte, terenske dokaze i trag komunikacije.
+4. Provjeriti izvor, datum, potpunost, metapodatke i verziju dokumenta.
+5. Povezati događaje sa pravnim i internim rokovima.
+6. Uporediti dispozitiv, obrazloženje, činjenice, dokaze i pravni osnov.
+7. Evidentirati protivrječnosti između dokumenata, terena i izjava.
+8. Razložiti složeni problem na pojedinačne provjerljive činjenice.
+9. Primijeniti Protokol jednog pitanja za ključne nepoznanice.
+10. Ocijeniti transparentnost, rokove, dosljednost, izvršenje i javni interes.
+11. Odvojiti dokazanu činjenicu, pravno tumačenje, inferenciju i sumnju.
+12. Odrediti sljedeći proporcionalni korak i očekivani dokazni trag.
+13. Omogućiti nezavisnu provjeru i pravo na odgovor.
+14. Objaviti sažetak, dokaze, ograničenja i status predmeta.
+
+## 7. Standard analize pojedinačnog akta
+
+Obavezno se provjeravaju identitet akta, nadležnost, ovlašćenje potpisnika, učešće stranaka, utvrđene činjenice, korišteni dokazi, obrazloženje, pravni osnov, rokovi, izvršenje, javni interes i djelotvornost pravnog lijeka. Ključni test je lanac:
+
+> pitanje → utvrđena činjenica → dokaz → primijenjeno pravilo → obrazloženje → zaključak
+
+Svaka karika označava se kao prisutna, djelimična, nedostaje ili kontradiktorna.
+
+## 8. Standard analize institucionalnog postupanja
+
+Institucionalno postupanje procjenjuje se kroz transparentnost, procesnu zakonitost, činjeničnu utemeljenost, dosljednost, ažurnost, efektivnost zaštite i javni interes. Ažurnost i efektivnost nisu isto: organ može odgovoriti u roku, a da šteta ostane neotklonjena.
+
+Kod aktivne štete odvojeno se navode:
+
+- administrativni ishod;
+- zaštitni ishod;
+- preostali rizik.
+
+Predmet se ne označava riješenim samo zato što je organ dostavio dopis.
+
+## 9. Indeks institucionalnog integriteta 3.2
+
+Sedam dimenzija ocjenjuje se od 0 do 5: transparentnost, procesna zakonitost, činjenična utemeljenost, dosljednost, ažurnost, efektivnost zaštite i javni interes. Ocjena je indikator za poređenje i prioritizaciju, a ne dokaz korupcije. Ako nema dovoljno dokaza, koristi se oznaka **neocjenjivo**.
+
+| Zbir | Tumačenje |
+|---:|---|
+| 29–35 | Visok nivo institucionalnog integriteta. |
+| 20–28 | Uglavnom funkcionalno postupanje uz uočene slabosti. |
+| 10–19 | Sistemski propusti i potreba za pojačanim nadzorom. |
+| 0–9 | Kritični rizik institucionalnog nepostupanja ili zarobljavanja; potrebna nezavisna provjera. |
+
+## 10. Mapa preklapanja i proporcionalnost podnesaka
+
+Prije slanja više pitanja izrađuje se mapa preklapanja. Svako pitanje mora imati različitu činjenicu, evidenciju ili mogući rezultat. Pitanja koja traže isti dokument i proizvode isti procesni učinak spajaju se. Prvi talas ograničava se na pitanja najveće zaštitne, pravne i dokazne vrijednosti.
+
+## 11. Praktični test standarda
+
+Za složene predmete i metodološke izmjene obavezno je:
+
+- popuniti radni spis A–J;
+- svakom izvoru dodijeliti D1–D5 i O/K/R/N;
+- navesti alternativno objašnjenje za ključni nalaz;
+- odvojiti zaštitna, procesna i sistemska pitanja;
+- napraviti mapu preklapanja;
+- za svaki mogući odgovor definisati procesni okidač;
+- odvojeno ocijeniti ažurnost i efektivnost zaštite;
+- evidentirati izmjene potrebne u obrascima, promptovima ili kriterijumima.
+
+## 12. Format konačnog forenzičkog izvještaja
+
+1. Izvršni sažetak.
+2. Predmet i javni interes.
+3. Metod i izvori.
+4. Hronologija.
+5. Ključni dokumenti.
+6. Utvrđene činjenice.
+7. Protivrječnosti i neodgovorena pitanja.
+8. Pravna i institucionalna analiza.
+9. Indeks integriteta sa obrazloženjem.
+10. Rizici i ograničenja.
+11. Preporuke i sljedeći koraci.
+12. Pravo na odgovor institucije.
+13. Prilozi i registar dokaza.
+
+## 13. AI u standardu
+
+AI može ubrzati ekstrakciju, strukturisanje i poređenje, ali ne smije izmišljati činjenice, pravne izvore ili sadržaj dokumenata. Svaki važan rezultat mora se provjeriti prema originalu.
+
+Obavezno je:
+
+- navesti jurisdikciju, vrstu dokumenta i cilj analize;
+- odvojiti činjenice, tvrdnje izvora, tumačenja, pretpostavke i nepoznato;
+- navesti tačnu lokaciju u izvoru;
+- označiti status O/K/R/N, nivo D1–D5 i pouzdanost;
+- zabraniti dopunjavanje praznina nagađanjem;
+- označiti inferenciju i činjenice na kojima počiva;
+- kod aktivne štete odvojiti zaštitni i dokazno-procesni korak;
+- čuvati verziju prompta i ključne ljudske korekcije.
+
+## 14. Kvantitativne, komparativne i uzročne tvrdnje
+
+Osnovni okvir glasi:
 
 > **Procjena = predmet procjene + pristrasnost + šum**
 
-Za potrebe Građanske forenzike koristi se i proširena formula:
+Za građansku forenziku koristi se i operativna formula:
 
 > **Službeni podatak = stvarna pojava + institucionalna pristrasnost + administrativni šum**
 
-Institucionalna pristrasnost može nastati izborom povoljnog pokazatelja, izostavljanjem nepovoljnih podataka, selektivnim obuhvatom ili interesom institucije da vlastiti rad predstavi uspješnijim.
+Svaka materijalno značajna brojčana tvrdnja klasifikuje se kao opisna, komparativna, prediktivna, uzročna ili vrijednosna tvrdnja izražena brojem.
 
-Administrativni šum može nastati zbog promjene evidencija, metodologije, organizacije, kadrova, obima posla, klasifikacije predmeta ili kvaliteta unosa.
+Obavezno se provjerava:
 
-Veliki uzorak i matematička preciznost mogu smanjiti slučajni šum, ali ne uklanjaju nužno sistematsku pristrasnost.
+- šta se stvarno mjeri i kojom jedinicom;
+- odnos pokazatelja prema zakonskoj i javnoj misiji;
+- izvor, metodologija, period, teritorija, populacija i uzorak;
+- brojilac, imenilac i isključene kategorije;
+- početna, završna, apsolutna i relativna vrijednost;
+- osnov poređenja i promjene metodologije;
+- selekcijska, mjerna, izvještajna i institucionalna pristrasnost;
+- slučajni šum, sezonalnost, mali uzorak i ekstremne vrijednosti;
+- povratak ka prosjeku;
+- korelacija, obrnuta uzročnost i zajednički uzroci;
+- unutrašnja i spoljna valjanost;
+- praktični, pravni, budžetski i društveni značaj;
+- mogućnost formalnog optimizovanja indikatora bez stvarnog poboljšanja.
 
-## 17. Vrste kvantitativnih tvrdnji
+### Skala dokazne snage kvantitativne tvrdnje
 
-Svaka tvrdnja označava se kao jedna ili više sljedećih vrsta:
+| Ocjena | Značenje |
+|---:|---|
+| 0 | Tvrdnja bez provjerljivih podataka. |
+| 1 | Anegdotalni, fragmentarni ili neprovjerljivi podaci. |
+| 2 | Opisni podaci bez odgovarajućeg poređenja. |
+| 3 | Uvjerljiva povezanost bez dovoljnog osnova za uzročnost. |
+| 4 | Snažan komparativni ili kvazieksperimentalni dokaz uz jasne pretpostavke. |
+| 5 | Snažan uzročni dokaz, provjerljiv postupak, jasna ograničenja i potvrda iz više izvora. |
 
-- **opisna** — prikazuje broj, učestalost, raspodjelu ili stanje;
-- **komparativna** — poredi periode, grupe, institucije ili teritorije;
-- **prediktivna** — koristi podatke za procjenu budućeg ishoda;
-- **uzročna** — tvrdi da je odluka, mjera ili događaj proizveo ishod;
-- **vrijednosna izražena brojem** — broj koristi za kvalifikacije poput uspješno, prihvatljivo, efikasno ili previše skupo.
+## 15. Kvantitativni formalizam
 
-Opisna i prediktivna tvrdnja ne dokazuju same po sebi uzročnost.
+Kvantitativni formalizam je oblik institucionalnog formalizma u kojem se brojevi, procenti, statistike, pokazatelji, rangiranja, modeli ili grafikoni koriste radi stvaranja privida objektivnosti, efikasnosti ili dokazne utemeljenosti, iako nije dokazana veza između podatka i stvarne pravne, društvene ili institucionalne pojave.
 
-## 18. Definisanje predmeta mjerenja
+> **Kvantitativni formalizam = tačan ili prividno precizan podatak + pogrešan indikator, nepotpuno poređenje ili neopravdan zaključak**
 
-Za svaku značajnu brojčanu tvrdnju mora se utvrditi:
+Podvrste uključuju formalizam aktivnosti, riješenog predmeta, procenta, prosjeka, roka, budžetske realizacije, kontrole i sankcije, poređenja, uzorka, korelacije, grafikona, rangiranja, preciznosti i AI formalizam.
 
-- stvarna pojava od interesa;
-- korišteni pokazatelj;
-- jedinica mjerenja;
-- period i teritorijalni obuhvat;
-- populacija ili uzorak;
-- izvor i metod prikupljanja;
-- metod obračuna;
-- datum ažurnosti.
+Broj može biti matematički tačan, ali dokazno nerelevantan, nepotpun ili pogrešno protumačen.
 
-Izrazi „efikasnost“, „realizacija“, „većina“, „napredak“, „rast“ ili „smanjenje“ nisu dovoljno određeni bez objašnjenja šta je mjereno i na koji način.
+## 16. Univerzalni AI modul
 
-## 19. Razdvajanje resursa, aktivnosti, rezultata i misije
+Kada ulaz sadrži broj, procenat, trend, rang, indikator, poređenje ili uzročnu tvrdnju, AI mora analizirati:
 
-Analiza mora razlikovati:
+1. originalnu tvrdnju i njenu vrstu;
+2. predmet koji bi trebalo mjeriti;
+3. stvarno korišteni indikator;
+4. izvor, obuhvat i metodologiju;
+5. brojilac i imenilac;
+6. apsolutne i relativne vrijednosti;
+7. osnov poređenja;
+8. selekciju, pristrasnost i šum;
+9. povratak ka prosjeku;
+10. korelaciju i uzročnost;
+11. alternativna objašnjenja;
+12. materijalni i pravni značaj;
+13. nedostajuće podatke;
+14. ocjenu dokazne snage 0–5.
+
+AI ne smije izmišljati nedostajuće podatke. Koristi oznaku **nije utvrđeno** kada dokument ne daje odgovor.
+
+## 17. Poseban okvir za izvještaje o radu
+
+Izvještaj o radu analizira se kao artefakt javne odgovornosti. Pokazatelji se razvrstavaju na:
 
 1. uložene resurse;
 2. sprovedene aktivnosti;
@@ -154,241 +244,34 @@ Analiza mora razlikovati:
 4. stvarne pravne ili društvene ishode;
 5. ostvarenje zakonske i javne svrhe.
 
-| Nivo | Primjer pokazatelja inspekcije |
-|---|---|
-| Resurs | broj zaposlenih inspektora |
-| Aktivnost | broj izvršenih kontrola |
-| Administrativni rezultat | broj donesenih rješenja |
-| Stvarni ishod | broj otklonjenih nepravilnosti |
-| Javna svrha | zaštita zdravlja, bezbjednosti i zakonitosti |
-
-Povećanje aktivnosti ne dokazuje automatski poboljšanje ishoda. Broj kontrola ne dokazuje otklanjanje nepravilnosti, broj odgovora ne dokazuje transparentnost, a broj zatvorenih predmeta ne dokazuje zakonitost, izvršenje ili ostvarivanje prava.
-
-## 20. Provjerljivost izvora i metodologije
-
-Za svaki podatak treba utvrditi:
-
-- ko ga je proizveo;
-- iz koje evidencije potiče;
-- ko vodi evidenciju;
-- da li je metodologija javna;
-- da li se rezultat može nezavisno reprodukovati;
-- da li su dostupni izvorni ili samo zbirni podaci;
-- da li je metodologija mijenjana.
-
-Pozivanje na „službene evidencije“ bez identifikovanja evidencije i načina vođenja nije puna provjerljivost.
-
-## 21. Brojilac, imenilac i apsolutne vrijednosti
-
-Svaki procenat, stopa ili odnos mora imati poznat brojilac i imenilac.
-
-Za tvrdnju „90% predmeta riješeno je u roku“ treba utvrditi ukupan broj predmeta, uključivanje neriješenih predmeta, tretman odbačenih i proslijeđenih predmeta, način računanja roka i isključene kategorije.
-
-Relativna promjena se, kada je moguće, prikazuje uz početnu vrijednost, završnu vrijednost i apsolutnu promjenu.
-
-Treba razlikovati:
-
-- procenat i procentni poen;
-- apsolutnu i relativnu promjenu;
-- nominalnu i realnu vrijednost;
-- ukupan iznos i iznos po korisniku, predmetu ili stanovniku.
-
-## 22. Odgovarajuće poređenje i varijacija
-
-Zaključak o uspjehu ili učinku mora navesti:
-
-- stanje prije i poslije mjere;
-- period poređenja;
-- uporedivost grupa ili perioda;
-- referentnu ili kontrolnu grupu kada je dostupna;
-- istovremene promjene drugih okolnosti;
-- sezonske i ciklične uticaje;
-- promjene metodologije.
-
-Samo stanje nakon mjere ne dokazuje njen učinak. Analiza samo uspješnih, poništenih, sankcionisanih ili prijavljenih slučajeva ne može pouzdano utvrditi šta razlikuje te slučajeve od ostalih.
-
-## 23. Korelacija, uzročnost i mehanizam
-
-Istovremeno pojavljivanje ili vremenski slijed ne dokazuju uzročnu vezu.
-
-Kod uzročne tvrdnje mora se ispitati:
-
-- mogući zajednički uzrok;
-- obrnuta uzročnost;
-- selekcijska pristrasnost;
-- izostavljene varijable;
-- istovremene mjere i događaji;
-- alternativni mehanizmi;
-- da li je pretpostavljeni mehanizam zaista provjeren.
-
-Posebno se označavaju greške: „nakon toga, dakle zbog toga“, korelacija predstavljena kao uzrok i nedokazani mehanizam predstavljen kao činjenica.
-
-## 24. Pristrasnost, šum i povratak ka prosjeku
-
-Za svaku važnu procjenu treba razmotriti:
-
-- selekcijsku pristrasnost;
-- pristrasnost mjerenja;
-- pristrasnost izvještavanja;
-- institucionalni interes;
-- mali broj slučajeva;
-- ekstremne vrijednosti;
-- slučajne i sezonske oscilacije;
-- povratak ka prosjeku.
-
-Poboljšanje nakon neuobičajeno lošeg perioda ne mora biti posljedica uvedene mjere. Potrebno je provjeriti dužu vremensku seriju i promjene u uporedivim slučajevima bez intervencije.
-
-## 25. Uzorak, obuhvat i generalizacija
-
-Mora se utvrditi da li analizirani podaci predstavljaju populaciju na koju se zaključak odnosi.
-
-Provjeravaju se:
-
-- način izbora i veličina uzorka;
-- struktura uzorka;
-- izostavljeni slučajevi;
-- stopa neodgovaranja;
-- selekcija dobrovoljnih ili lako dostupnih slučajeva;
-- selekcija prema ishodu.
-
-Veliki uzorak nije nužno reprezentativan. Nalaz iz jedne institucije, grada ili godine ne generalizuje se bez dodatnog opravdanja.
-
-## 26. Neizvjesnost i materijalni značaj
-
-Mora se razlikovati utvrđena činjenica od procjene, projekcije, pretpostavke, modeliranog rezultata i vjerovatnoće.
-
-Kada je primjenjivo, navode se raspon vrijednosti, interval pouzdanosti, standardna greška, osjetljivost na pretpostavke i kvalitet ulaznih podataka.
-
-Statistička značajnost nije isto što i praktični, društveni ili pravni značaj. Rezultat treba prevesti u stvarni broj ljudi, predmeta, dana, iznos po korisniku, promjenu prava, obaveze ili rizika.
-
-## 27. Strateško prilagođavanje indikatorima
-
-Kada se indikator koristi za ocjenjivanje, finansiranje, sankcionisanje ili nagrađivanje, mora se ispitati kako se ponašanje može prilagoditi mjeri bez stvarnog poboljšanja.
-
-Mogući obrasci su:
-
-- prioritetno zatvaranje lakih predmeta;
-- izbjegavanje složenih slučajeva;
-- formalno evidentiranje radnje bez ishoda;
-- promjena klasifikacije;
-- odgađanje registracije problema;
-- prebacivanje nadležnosti;
-- selektivno izvještavanje;
-- fokusiranje na prag umjesto na kvalitet.
-
-Indikator koji postane cilj može prestati biti pouzdana mjera učinka.
-
-## 28. Vrijednosne pretpostavke
-
-Kvantitativna analiza ne određuje sama šta je javni interes. Mora se utvrditi koje su vrijednosti ugrađene u izbor cilja, pokazatelja, prihvatljivog rizika, prioriteta i raspodjele koristi i tereta.
-
-Nedjelovanje nije neutralno samo zato što su dokazi nepotpuni; i ono proizvodi posljedice.
-
-## 29. Kvantitativni formalizam
-
-**Kvantitativni formalizam** je oblik institucionalnog formalizma u kojem se brojevi, procenti, statistike, pokazatelji, rangiranja, modeli ili grafikoni koriste radi stvaranja privida objektivnosti, efikasnosti ili dokazne utemeljenosti, iako nije dokazana veza između podatka i stvarne pravne, društvene ili institucionalne pojave.
-
-> **Kvantitativni formalizam = tačan ili prividno precizan podatak + pogrešan indikator, nepotpuno poređenje ili neopravdan zaključak**
-
-Broj može biti matematički tačan, ali dokazno nerelevantan, nepotpun ili pogrešno protumačen.
-
-Kvantitativni formalizam postoji naročito kada institucija:
-
-- mjeri aktivnost umjesto javnog rezultata;
-- koristi procenat bez imenitelja;
-- bira povoljnu početnu tačku;
-- izostavlja neriješene ili neuspješne slučajeve;
-- predstavlja korelaciju kao uzročnost;
-- prikazuje potrošnju kao ostvarenje cilja;
-- koristi prosjek koji skriva ekstremne slučajeve;
-- mijenja metodologiju bez objašnjenja;
-- bira indikator koji je lako formalno optimizovati;
-- prikazuje AI ili modelirani rezultat kao neutralnu činjenicu bez ulaznih podataka, pretpostavki i ljudske provjere.
-
-### Podvrste
-
-- formalizam aktivnosti;
-- formalizam riješenog predmeta;
-- formalizam procenta;
-- formalizam prosjeka;
-- formalizam roka;
-- formalizam budžetske realizacije;
-- formalizam kontrole i sankcije;
-- formalizam poređenja;
-- formalizam uzorka;
-- formalizam korelacije;
-- formalizam grafikona i rangiranja;
-- formalizam preciznosti;
-- AI formalizam.
-
-### Test prepoznavanja
-
-Povećan rizik postoji kada nije poznato:
-
-1. šta se mjeri;
-2. da li indikator odgovara javnom cilju;
-3. izvor i metodologija;
-4. brojilac i imenilac;
-5. apsolutna vrijednost;
-6. osnov poređenja;
-7. obuhvat neuspješnih i neriješenih slučajeva;
-8. ograničenja i neizvjesnost;
-9. razlika između korelacije i uzročnosti;
-10. praktični i pravni značaj;
-11. mogućnost formalnog optimizovanja indikatora;
-12. način nezavisne provjere.
-
-### Oznaka nalaza
-
-Nalaz se označava kao **KF-01, KF-02...** i sadrži:
-
-- sporni podatak;
-- stvarno značenje podatka;
-- nedostajući kontekst;
-- neopravdani zaključak;
-- potreban dodatni dokaz.
-
-## 30. Obavezni izlaz kvantitativne analize
-
-Kada dokument sadrži materijalno značajne brojčane ili uzročne tvrdnje, nalaz treba sadržavati:
-
-1. originalnu tvrdnju;
-2. vrstu tvrdnje;
-3. predmet koji bi trebalo mjeriti;
-4. stvarno korišteni pokazatelj;
-5. izvor, obuhvat i period;
-6. brojilac i imenilac;
-7. korišteno poređenje;
-8. moguću pristrasnost i šum;
-9. alternativna objašnjenja;
-10. procjenu uzročne opravdanosti;
-11. praktični i pravni značaj;
-12. nedostajuće podatke;
-13. ocjenu dokazne snage.
-
-## 31. Skala dokazne snage
-
-| Ocjena | Dokazna snaga |
-|---:|---|
-| 0 | tvrdnja bez provjerljivih podataka |
-| 1 | anegdotalni, fragmentarni ili neprovjerljivi podaci |
-| 2 | opisni podaci bez odgovarajućeg poređenja |
-| 3 | uvjerljiva povezanost bez dovoljnog osnova za uzročnost |
-| 4 | snažan komparativni ili kvazieksperimentalni dokaz uz navedene pretpostavke |
-| 5 | snažan uzročni dokaz, provjerljiv postupak, jasna ograničenja i potvrda iz više izvora |
-
-Ocjena mora biti obrazložena. Količina podataka, stručna terminologija, tabela ili grafikon sami ne podižu dokaznu snagu.
-
-## Standard privatnosti i etike
-
-- Obavezno ukloniti JMBG, brojeve ličnih dokumenata, privatne adrese, telefone, medicinske podatke i podatke o maloljetnicima kada nisu nužni za javni interes.
-- Predmet analize je institucionalno postupanje, ne privatni život pojedinca.
-- Koristiti najmanji potreban obim ličnih podataka.
-- Ne objavljivati materijal koji može ugroziti svjedoka, podnosioca prijave ili ranjivu osobu bez jasnog javnog interesa i zaštitnih mjera.
-- AI rezultat mora biti pregledan prije javne ili pravne upotrebe.
-
-## Citatni i verzijski standard
-
-Svaki objavljeni nalaz navodi korištene izvore, datum analize, verziju metodologije i prompta, autora ili urednika analize, poznata ograničenja i datum posljednje dopune.
-
-🔗 **Zvanična dokumentacija:** [gradjanskaforenzika.org](https://gradjanskaforenzika.org/standard-otvorene-javne-politike/)
+Posebno se provjeravaju neriješeni predmeti, predmeti izvan roka, poništene odluke, neizvršena rješenja, žalbe, presude, ponovljene povrede, prosjek nasuprot raspodjeli, uzročne tvrdnje, mogućnost igranja indikatorima i odnos budžeta prema stvarnom rezultatu.
+
+Konačna ocjena daje se u pet oblasti od 0 do 5: transparentnost podataka, kvalitet indikatora, dokazivanje stvarnih ishoda, opravdanost uzročnih tvrdnji i ostvarenje javne misije.
+
+## 18. Kriterijumi završetka predmeta
+
+| Ishod | Kriterijum | Radnja |
+|---|---|---|
+| Riješeno | Pravo ostvareno, akt izvršen ili problem otklonjen. | Zatvoriti predmet i objaviti ishod. |
+| Obrazloženo odbijeno | Potpun, provjerljiv i pravno obrazložen odgovor. | Procijeniti pravni lijek ili zatvoriti. |
+| Djelimično riješeno | Ključni dokumenti pribavljeni, ali ostaje materijalno pitanje. | Nastaviti ciljano. |
+| Sistemsko nepostupanje | Više rokova, evidencija ili organa pokazuje obrazac. | Nezavisni nadzor, ombudsman, revizija ili javna analiza. |
+| Nedovoljno dokaza | Hipoteza nije potvrđena. | Zabilježiti ograničenje i ne objavljivati jači zaključak. |
+
+## Sažetak izmjena u verziji 3.2
+
+- zadržani su status izvora O/K/R/N, efektivnost zaštite, mapa preklapanja i praktični test;
+- uvedena je kvantitativna građanska forenzika;
+- uvedena je provjera indikatora prema stvarnoj institucionalnoj misiji;
+- uvedeni su brojilac i imenilac, apsolutni i relativni prikaz, pristrasnost, šum, povratak ka prosjeku i ograničena generalizacija;
+- definisan je kvantitativni formalizam, uključujući AI formalizam;
+- uvedena je skala dokazne snage kvantitativnih tvrdnji 0–5;
+- uvedeni su univerzalni AI modul i poseban okvir za analizu izvještaja o radu.
+
+## Metodološke inspiracije
+
+- ranije verzije Standarda Građanske forenzike;
+- Metod disciplinovanog administrativnog pritiska;
+- *Thinking Clearly with Data*, Ethan Bueno de Mesquita i Anthony Fowler;
+- *Development Impact & You: Practical Tools to Trigger & Support Social Innovation*;
+- relevantni domaći propisi i standardi dobre uprave, koji se u svakom predmetu provjeravaju prema važećem tekstu.

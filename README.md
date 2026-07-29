@@ -8,8 +8,9 @@ Građanska forenzika pretvara administrativnu netransparentnost, javne tvrdnje i
 
 ## Metodološka osnova
 
+- ⚖️ [Standard za analizu javnih odluka i institucionalnog postupanja 3.2](standard_otvorene_javne_politike.md)
+- 🧭 [Metod disciplinovanog administrativnog pritiska 3.2](metod_disciplinovanog_administrativnog_pritiska.md)
 - 🔬 [Metodologija Građanske Forenzike 2.0](metodologija_gradjanske_forenzike.md)
-- ⚖️ [Standard Otvorene Javne Politike 2.1](standard_otvorene_javne_politike.md)
 - 🧠 [Zajedničko forenzičko jezgro AI promptova](promptovi/00_forenzicko_jezgro.md)
 - 📊 [Univerzalni modul za kvantitativne tvrdnje](promptovi/08_kvantitativni_modul.md)
 - 📈 [Forenzička analiza izvještaja o radu](promptovi/09_analiza_izvjestaja_o_radu.md)
@@ -32,9 +33,11 @@ Analiza nije završena objavljivanjem nalaza. Novi odgovor ili dokument postaje 
 
 ## Kvantitativna građanska forenzika
 
-Standard 2.1 uvodi provjeru brojčanih, komparativnih, prediktivnih i uzročnih tvrdnji. Analiza razlikuje stvarnu pojavu od korištenog pokazatelja, provjerava brojilac i imenilac, izvor i obuhvat, odgovarajuće poređenje, pristrasnost, šum, uzročnost i praktični ili pravni značaj.
+Standard 3.2 uvodi provjeru brojčanih, komparativnih, prediktivnih i uzročnih tvrdnji. Analiza razlikuje stvarnu pojavu od korištenog pokazatelja, provjerava brojilac i imenilac, izvor i obuhvat, odgovarajuće poređenje, pristrasnost, šum, uzročnost i praktični ili pravni značaj.
 
 Posebno se uvodi pojam **kvantitativni formalizam**: korištenje brojeva, procenata, statistike, rangiranja, grafikona ili AI rezultata radi stvaranja privida objektivnosti, iako podatak ne dokazuje stvarni javni rezultat.
+
+Metod 3.2 dodaje Protokol jednog podatkovnog pitanja, kvantitativni dokazni trag i procesne okidače za procenat bez imenioca, aktivnost predstavljenu kao ishod i promjenu metodologije.
 
 ## Operativni tok rada
 

@@ -12,15 +12,49 @@ This directory contains English-language Civic Forensics analyses concerning:
 - digital rights, automated decision-making and public-sector AI;
 - public spending, performance indicators and quantitative formalism.
 
-## Suggested classification
+## Published analyses
 
-Do not create empty category folders in advance. Add them when the first relevant analysis is published. Recommended categories are:
+### EU institutions
+
+- [When an AI Label Becomes Another Cookie Banner](institutions/2026-ai-transparency-labels/README.md) — analysis of Article 50 AI Act transparency obligations, user comprehension and the risk of label-based quantitative formalism.
+
+### EU Member States
+
+- [Portugal's First Lobbying Law: Transparency or Self-Supervision?](member-states/portugal/2026-lobbying-law-transparency-test/README.md) — institutional test of register coverage, verification, oversight independence and enforcement.
+
+### EU-funded programmes
+
+- [When an EU Agency Recovers an Entire Grant: What Must the File Show?](eu-funded-programmes/2026-cinea-grant-recovery/README.md) — analysis of CINEA grant termination and full recovery through procedural fairness, proportionality and financial-control evidence.
+
+## Publication standard
+
+Each analysis should:
+
+1. identify the authority, jurisdiction and public-interest question;
+2. distinguish established facts, legal interpretation, inference and allegation;
+3. identify the exact source and its status;
+4. include an evidence gap or expected evidence-trace section;
+5. consider alternative explanations;
+6. distinguish administrative activity from effective protection or real-world outcome;
+7. activate the quantitative module where a number, percentage, trend, comparison, ranking or causal claim is material;
+8. state limitations and avoid conclusions unsupported by the available record;
+9. record the methodology version and review status;
+10. preserve the right of reply where an analysis makes a material adverse institutional finding.
+
+## Directory classification
+
+Category folders are created only when the first relevant analysis is published. Current categories are:
 
 ```text
 institutions/
 member-states/
-accession-countries/
 eu-funded-programmes/
+```
+
+Future categories may include:
+
+```text
+accession-countries/
 ```
 
 ## Required jurisdiction note

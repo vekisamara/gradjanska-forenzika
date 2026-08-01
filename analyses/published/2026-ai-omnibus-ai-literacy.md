@@ -14,8 +14,6 @@ source_status: "Primary European Commission publication"
 licence: "CC BY-SA 4.0"
 ---
 
-# From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?
-
 ## Executive summary
 
 The European Commission announced that the AI Omnibus entered into force on 27 July 2026. The reform is presented as a targeted simplification of the EU AI rulebook that preserves safeguards while easing compliance, extending some timelines and supporting innovation.

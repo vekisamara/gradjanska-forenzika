@@ -22,8 +22,6 @@ tags:
   - "Proportionality"
 ---
 
-# When an EU Agency Recovers an Entire Grant: What Must the File Show?
-
 ## Executive summary
 
 In case 387/2025/JN, the European Ombudsman examined CINEA's decision to terminate a renewable-transport grant agreement and recover more than EUR 12.7 million, representing the full EU financial contribution paid to the project.

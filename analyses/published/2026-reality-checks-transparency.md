@@ -14,8 +14,6 @@ source_status: "Primary official source; inquiry ongoing"
 licence: "CC BY-SA 4.0"
 ---
 
-# When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?
-
 ## Executive summary
 
 The European Commission uses a consultation format known as a reality check to obtain information from stakeholders it has selected about practical obstacles in implementing EU rules.

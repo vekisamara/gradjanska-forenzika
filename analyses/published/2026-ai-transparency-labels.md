@@ -21,8 +21,6 @@ tags:
   - "Quantitative Formalism"
 ---
 
-# When an AI Label Becomes Another Cookie Banner
-
 ## Executive summary
 
 From 2 August 2026, transparency obligations under Article 50 of the EU AI Act apply to providers and deployers of certain AI systems. The rules concern disclosure when people interact with AI systems, machine-readable marking of AI-generated or manipulated content, labelling of deepfakes and disclosure of certain AI-generated public-interest texts without human editorial control.

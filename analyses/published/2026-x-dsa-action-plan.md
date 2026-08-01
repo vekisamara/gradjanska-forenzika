@@ -14,8 +14,6 @@ source_status: "Primary European Commission publication"
 licence: "CC BY-SA 4.0"
 ---
 
-# Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?
-
 ## Executive summary
 
 On 16 July 2026, the European Commission announced that it had accepted X's action plan concerning transparency obligations and researchers' access to data under the Digital Services Act.

@@ -21,8 +21,6 @@ tags:
   - "Good Administration"
 ---
 
-# Portugal's First Lobbying Law: Transparency or Self-Supervision?
-
 ## Executive summary
 
 Portugal's first lobbying-transparency framework entered the implementation phase in late July 2026. It creates a transparency register for legitimate interest representation before public bodies. The reform is important because it introduces a formal disclosure mechanism where Portugal previously lacked a comprehensive lobbying register.

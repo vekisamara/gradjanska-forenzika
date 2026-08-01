@@ -4,60 +4,49 @@ skip_file: true
 
 # European Union Analyses
 
-This directory contains English-language Civic Forensics analyses concerning:
-
-- EU institutions, bodies, offices and agencies;
-- EU Member States;
-- candidate and potential candidate countries;
-- EU-funded programmes, projects and procurement;
-- implementation of EU law by national and local authorities;
-- public administration reform, rule of law and democratic governance;
-- access to documents, open data and public participation;
-- digital rights, automated decision-making and public-sector AI;
-- public spending, performance indicators and quantitative formalism.
+This directory contains the organisational index and publication guidance for English-language Civic Forensics analyses concerning EU institutions, Member States, accession countries, EU-funded programmes, public administration, rule of law, access to documents, digital rights, public-sector AI and quantitative formalism.
 
 ## WordPress publication boundary
 
-Only Markdown files inside [`published/`](published/) are intended for automatic import into WordPress.
-
-Configure Git it Write to use:
+Because Git it Write 2.0 does not reliably process deeper repository paths, all Markdown files intended for automatic WordPress import are stored in the top-level publication folder:
 
 ```text
-analyses/eu/published
+analyses/published
 ```
 
-Repository instructions, templates, research notes, drafts, evidence registers and supporting files must remain outside that folder. No `README.md` or internal index should be placed inside `published/`.
+Configure Git it Write to use exactly that folder. Repository instructions, templates, research notes, evidence registers and drafts must remain outside it. Do not place a `README.md` or internal index inside `analyses/published`.
 
 ## Published analyses
 
-- [When an AI Label Becomes Another Cookie Banner](published/2026-ai-transparency-labels.md) — analysis of Article 50 AI Act transparency obligations, user comprehension and the risk of label-based quantitative formalism.
-- [Portugal's First Lobbying Law: Transparency or Self-Supervision?](published/2026-portugal-lobbying-law.md) — institutional test of register coverage, verification, oversight independence and enforcement.
-- [When an EU Agency Recovers an Entire Grant: What Must the File Show?](published/2026-cinea-grant-recovery.md) — analysis of CINEA grant termination and full recovery through procedural fairness, proportionality and financial-control evidence.
-- [When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case](published/2026-poklecani-eib-complaints-mechanism.md) — open-inquiry analysis of EIB environmental accountability and the evidence expected from an internal complaints mechanism.
-- [Strategic Project, Restricted Document: How the Jadar File Became Partly Public](published/2026-jadar-access-to-documents.md) — analysis of access to documents, international-relations exceptions and delayed confirmatory review.
-- [When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?](published/2026-reality-checks-transparency.md) — open-inquiry analysis of stakeholder selection, lobbying transparency and regulatory simplification.
-- [From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?](published/2026-ai-omnibus-ai-literacy.md) — analysis of the accountability shift from organisational duty to public-policy promotion.
-- [AI Will Simplify Bureaucracy — But What Evidence Would Prove It?](published/2026-genai-public-administration-pilots.md) — prospective evidence framework for evaluating generative AI pilots in public administration.
-- [Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?](published/2026-x-dsa-action-plan.md) — analysis of the distinction between an accepted remediation plan and demonstrated DSA compliance.
+- [When an AI Label Becomes Another Cookie Banner](../published/2026-ai-transparency-labels.md)
+- [Portugal's First Lobbying Law: Transparency or Self-Supervision?](../published/2026-portugal-lobbying-law.md)
+- [When an EU Agency Recovers an Entire Grant: What Must the File Show?](../published/2026-cinea-grant-recovery.md)
+- [When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case](../published/2026-poklecani-eib-complaints-mechanism.md)
+- [Strategic Project, Restricted Document: How the Jadar File Became Partly Public](../published/2026-jadar-access-to-documents.md)
+- [When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?](../published/2026-reality-checks-transparency.md)
+- [From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?](../published/2026-ai-omnibus-ai-literacy.md)
+- [AI Will Simplify Bureaucracy — But What Evidence Would Prove It?](../published/2026-genai-public-administration-pilots.md)
+- [Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?](../published/2026-x-dsa-action-plan.md)
 
 ## Current structure
 
 ```text
-analyses/eu/
-├── README.md
-└── published/
-    ├── 2026-ai-transparency-labels.md
-    ├── 2026-portugal-lobbying-law.md
-    ├── 2026-cinea-grant-recovery.md
-    ├── 2026-poklecani-eib-complaints-mechanism.md
-    ├── 2026-jadar-access-to-documents.md
-    ├── 2026-reality-checks-transparency.md
-    ├── 2026-ai-omnibus-ai-literacy.md
-    ├── 2026-genai-public-administration-pilots.md
-    └── 2026-x-dsa-action-plan.md
+analyses/
+├── published/
+│   ├── 2026-ai-transparency-labels.md
+│   ├── 2026-portugal-lobbying-law.md
+│   ├── 2026-cinea-grant-recovery.md
+│   ├── 2026-poklecani-eib-complaints-mechanism.md
+│   ├── 2026-jadar-access-to-documents.md
+│   ├── 2026-reality-checks-transparency.md
+│   ├── 2026-ai-omnibus-ai-literacy.md
+│   ├── 2026-genai-public-administration-pilots.md
+│   └── 2026-x-dsa-action-plan.md
+└── eu/
+    └── README.md
 ```
 
-Additional working directories may be added outside `published/`, preferably with an underscore prefix:
+Additional working directories may be used outside `published/`, preferably with an underscore prefix:
 
 ```text
 _drafts/
@@ -82,13 +71,7 @@ Each analysis should:
 
 ## Required jurisdiction note
 
-Every analysis must state:
-
-1. the authority and jurisdiction concerned;
-2. whether the matter concerns an EU institution, a Member State authority or an accession country;
-3. whether EU law is directly applicable, implemented through national law or used only as a methodological reference;
-4. the applicable national or institutional procedural framework;
-5. the available remedy or oversight route, if established.
+Every analysis must state the authority and jurisdiction concerned, the relevance of EU or national law, the applicable procedural framework and the available remedy or oversight route where established.
 
 EU standards must not be presented as directly enforceable in a national or accession-country procedure unless the legal basis has been verified.
 
@@ -116,4 +99,4 @@ tags:
 ---
 ```
 
-Use the templates in [`../templates/`](../templates/README.md) when opening a new analysis. Move only reviewed or final publication files into `published/`.
+Move only reviewed or final publication files into `analyses/published`.

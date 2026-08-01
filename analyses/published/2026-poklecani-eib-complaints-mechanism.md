@@ -14,8 +14,6 @@ source_status: "Primary official source; inquiry ongoing"
 licence: "CC BY-SA 4.0"
 ---
 
-# When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case
-
 ## Executive summary
 
 On 2 July 2026, the European Ombudsman opened an inquiry into how the European Investment Bank handled a complaint concerning the EIB-financed Poklečani Wind Farm in Bosnia and Herzegovina.

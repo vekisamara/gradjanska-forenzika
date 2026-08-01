@@ -14,8 +14,6 @@ source_status: "Primary European Commission publication"
 licence: "CC BY-SA 4.0"
 ---
 
-# AI Will Simplify Bureaucracy — But What Evidence Would Prove It?
-
 ## Executive summary
 
 Three new pilot projects supporting the use of generative AI in public administrations began on 1 July 2026: FLOODS & DROUGHTS, EUNOMIA.AI and EuropAI.

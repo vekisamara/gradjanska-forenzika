@@ -33,6 +33,12 @@ Repository instructions, templates, research notes, drafts, evidence registers a
 - [When an AI Label Becomes Another Cookie Banner](published/2026-ai-transparency-labels.md) — analysis of Article 50 AI Act transparency obligations, user comprehension and the risk of label-based quantitative formalism.
 - [Portugal's First Lobbying Law: Transparency or Self-Supervision?](published/2026-portugal-lobbying-law.md) — institutional test of register coverage, verification, oversight independence and enforcement.
 - [When an EU Agency Recovers an Entire Grant: What Must the File Show?](published/2026-cinea-grant-recovery.md) — analysis of CINEA grant termination and full recovery through procedural fairness, proportionality and financial-control evidence.
+- [When the Complaints Mechanism Is Also Under Review: The Poklečani Wind Farm Case](published/2026-poklecani-eib-complaints-mechanism.md) — open-inquiry analysis of EIB environmental accountability and the evidence expected from an internal complaints mechanism.
+- [Strategic Project, Restricted Document: How the Jadar File Became Partly Public](published/2026-jadar-access-to-documents.md) — analysis of access to documents, international-relations exceptions and delayed confirmatory review.
+- [When a Consultation Is Called a Reality Check: Does the Label Remove the Transparency Duty?](published/2026-reality-checks-transparency.md) — open-inquiry analysis of stakeholder selection, lobbying transparency and regulatory simplification.
+- [From Duty to Encouragement: What Does the AI Omnibus Mean for AI Literacy?](published/2026-ai-omnibus-ai-literacy.md) — analysis of the accountability shift from organisational duty to public-policy promotion.
+- [AI Will Simplify Bureaucracy — But What Evidence Would Prove It?](published/2026-genai-public-administration-pilots.md) — prospective evidence framework for evaluating generative AI pilots in public administration.
+- [Accepted but Not Fully Adequate: What Does Compliance Mean in the X Action Plan?](published/2026-x-dsa-action-plan.md) — analysis of the distinction between an accepted remediation plan and demonstrated DSA compliance.
 
 ## Current structure
 
@@ -42,7 +48,13 @@ analyses/eu/
 └── published/
     ├── 2026-ai-transparency-labels.md
     ├── 2026-portugal-lobbying-law.md
-    └── 2026-cinea-grant-recovery.md
+    ├── 2026-cinea-grant-recovery.md
+    ├── 2026-poklecani-eib-complaints-mechanism.md
+    ├── 2026-jadar-access-to-documents.md
+    ├── 2026-reality-checks-transparency.md
+    ├── 2026-ai-omnibus-ai-literacy.md
+    ├── 2026-genai-public-administration-pilots.md
+    └── 2026-x-dsa-action-plan.md
 ```
 
 Additional working directories may be added outside `published/`, preferably with an underscore prefix:

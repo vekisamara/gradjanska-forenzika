@@ -1,3 +1,7 @@
+---
+skip_file: true
+---
+
 # European Union Analyses
 
 This directory contains English-language Civic Forensics analyses concerning:
@@ -12,19 +16,42 @@ This directory contains English-language Civic Forensics analyses concerning:
 - digital rights, automated decision-making and public-sector AI;
 - public spending, performance indicators and quantitative formalism.
 
+## WordPress publication boundary
+
+Only Markdown files inside [`published/`](published/) are intended for automatic import into WordPress.
+
+Configure Git it Write to use:
+
+```text
+analyses/eu/published
+```
+
+Repository instructions, templates, research notes, drafts, evidence registers and supporting files must remain outside that folder. No `README.md` or internal index should be placed inside `published/`.
+
 ## Published analyses
 
-### EU institutions
+- [When an AI Label Becomes Another Cookie Banner](published/2026-ai-transparency-labels.md) — analysis of Article 50 AI Act transparency obligations, user comprehension and the risk of label-based quantitative formalism.
+- [Portugal's First Lobbying Law: Transparency or Self-Supervision?](published/2026-portugal-lobbying-law.md) — institutional test of register coverage, verification, oversight independence and enforcement.
+- [When an EU Agency Recovers an Entire Grant: What Must the File Show?](published/2026-cinea-grant-recovery.md) — analysis of CINEA grant termination and full recovery through procedural fairness, proportionality and financial-control evidence.
 
-- [When an AI Label Becomes Another Cookie Banner](institutions/2026-ai-transparency-labels/README.md) — analysis of Article 50 AI Act transparency obligations, user comprehension and the risk of label-based quantitative formalism.
+## Current structure
 
-### EU Member States
+```text
+analyses/eu/
+├── README.md
+└── published/
+    ├── 2026-ai-transparency-labels.md
+    ├── 2026-portugal-lobbying-law.md
+    └── 2026-cinea-grant-recovery.md
+```
 
-- [Portugal's First Lobbying Law: Transparency or Self-Supervision?](member-states/portugal/2026-lobbying-law-transparency-test/README.md) — institutional test of register coverage, verification, oversight independence and enforcement.
+Additional working directories may be added outside `published/`, preferably with an underscore prefix:
 
-### EU-funded programmes
-
-- [When an EU Agency Recovers an Entire Grant: What Must the File Show?](eu-funded-programmes/2026-cinea-grant-recovery/README.md) — analysis of CINEA grant termination and full recovery through procedural fairness, proportionality and financial-control evidence.
+```text
+_drafts/
+_research/
+_evidence/
+```
 
 ## Publication standard
 
@@ -40,22 +67,6 @@ Each analysis should:
 8. state limitations and avoid conclusions unsupported by the available record;
 9. record the methodology version and review status;
 10. preserve the right of reply where an analysis makes a material adverse institutional finding.
-
-## Directory classification
-
-Category folders are created only when the first relevant analysis is published. Current categories are:
-
-```text
-institutions/
-member-states/
-eu-funded-programmes/
-```
-
-Future categories may include:
-
-```text
-accession-countries/
-```
 
 ## Required jurisdiction note
 
@@ -86,7 +97,11 @@ methodology_version: "3.2"
 language: "English"
 source_status: ""
 licence: "CC BY-SA 4.0"
+categories:
+  - "Primary WordPress category"
+tags:
+  - "Topic tag"
 ---
 ```
 
-Use the templates in [`../templates/`](../templates/README.md) when opening a new analysis.
+Use the templates in [`../templates/`](../templates/README.md) when opening a new analysis. Move only reviewed or final publication files into `published/`.

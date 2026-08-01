@@ -6,10 +6,12 @@ The primary focus is the European Union, its institutions, Member States and acc
 
 ## Directory structure
 
-- [`eu/`](eu/README.md) — analyses focused on EU institutions, Member States, accession countries and EU-funded programmes.
-- [`global/`](global/README.md) — selected analyses from other jurisdictions with broader comparative or methodological value.
-- [`templates/`](templates/README.md) — standard templates for new analyses, quantitative reviews and source registers.
-- [`assets/`](assets/README.md) — public, redacted visual material used in published analyses.
+- [`published/`](published/) — publication-ready Markdown files imported into WordPress by Git it Write.
+- [`_global/`](_global/README.md) — selected analyses from other jurisdictions with broader comparative or methodological value.
+- [`_templates/`](_templates/README.md) — standard templates for new analyses, quantitative reviews and source registers.
+- [`_assets/`](_assets/README.md) — public, redacted visual material used in published analyses.
+
+Directories prefixed with an underscore contain supporting or working material and are not intended for WordPress import.
 
 ## Publication threshold
 

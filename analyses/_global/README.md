@@ -47,4 +47,4 @@ Where an analysis compares a global case with EU standards, clearly separate:
 - the EU comparison used for analytical purposes;
 - the author’s inference or recommendation.
 
-Use the templates in [`../templates/`](../templates/README.md) when opening a new analysis.
+Use the templates in [`../_templates/`](../_templates/README.md) when opening a new analysis.

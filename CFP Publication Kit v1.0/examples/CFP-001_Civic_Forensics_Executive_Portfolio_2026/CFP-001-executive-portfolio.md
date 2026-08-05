@@ -551,7 +551,7 @@ Banja Luka, Bosnia and Herzegovina
 - Web: https://civicforensics.org
 - Open repository: https://github.com/vekisamara/gradjanska-forenzika
 - Serbian-language portal: https://gradjanskaforenzika.org
-- Contact email: [insert official contact email]
+- Contact email: samara@civicforensics.org
 
 ### Proposed next step
 

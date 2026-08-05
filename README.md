@@ -8,6 +8,7 @@ Građanska forenzika pretvara administrativnu netransparentnost, javne tvrdnje i
 
 ## Metodološka osnova
 
+- 🧰 [Operativni standardi Građanske forenzike 1.0](metodologija/README.md)
 - ⚖️ [Standard za analizu javnih odluka i institucionalnog postupanja 3.2](standard_otvorene_javne_politike.md)
 - 🧭 [Metod disciplinovanog administrativnog pritiska 3.2](metod_disciplinovanog_administrativnog_pritiska.md)
 - 🔬 [Metodologija Građanske Forenzike 2.0](metodologija_gradjanske_forenzike.md)
@@ -23,6 +24,7 @@ Analiza nije završena objavljivanjem nalaza. Novi odgovor ili dokument postaje 
 
 ## Struktura repozitorijuma
 
+- 🧰 [`metodologija/`](metodologija/README.md) — operativni standardi dokazivanja, označavanja, analize odgovora i PR-a, FOI zahtjeva, rokova, eskalacije, AI kontrole i verzionisanja.
 - 🤖 [`promptovi/`](promptovi/README.md) — prompt biblioteka za analizu akata, javnih izjava, dokaznih praznina, žalbi, FOI zahtjeva, kvantitativnih tvrdnji i kontrole kvaliteta.
 - 🧭 [`promptovi/disciplinovani-administrativni-pritisak/`](promptovi/disciplinovani-administrativni-pritisak/README.md) — alati za detekciju formalizma, dokaz iza fraze, neodgovorena pitanja, rokove i dokumentovanu eskalaciju.
 - 🗣️ [`promptovi/izjave-funkcionera/`](promptovi/izjave-funkcionera/README.md) — višeslojna analiza javnih izjava, saopštenja i obećanja.

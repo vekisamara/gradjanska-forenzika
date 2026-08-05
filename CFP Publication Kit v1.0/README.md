@@ -1,120 +1,129 @@
 # CFP Publication Kit v1.0
 
-## Civic Forensics Publications
+**Civic Forensics Portfolio Publication System**
 
-Civic Forensics Publications is the publication framework of **Civic Forensics — Independent Civic Intelligence Initiative**.
+CFP Publication Kit is the strategic and institutional publication standard of **Civic Forensics — Independent Civic Intelligence Initiative**.
 
-It contains two complementary systems:
+It complements the existing **EU Compliance Watch Publication Kit**:
 
-- **ECW Publication Kit** — regulatory monitoring, compliance analysis and citizen oversight publications;
-- **CFP Publication Kit** — institutional portfolios, programme documents, capability statements, partner materials and strategic publications.
+- **ECW** covers regulatory analysis and civic compliance publications.
+- **CFP** covers strategic, organisational, partnership and portfolio documents.
 
-## CFP document identifiers
+## Publication family
 
-| ID | Document type |
-|---|---|
-| CFP-001 | Executive Portfolio |
-| CFP-002 | Programme Portfolio |
-| CFP-003 | Capability Statement |
-| CFP-004 | One-page Executive Brief |
-| CFP-005 | Partner Pack |
-| CFP-006 | Media Kit |
-| CFP-007 | Annual Report |
-| CFP-008 | Strategic Roadmap |
-| CFP-009 | Investment Memorandum |
-| CFP-010 | Presentation Deck |
+- `CFP-001` — Executive Portfolio
+- `CFP-002` — Programme Portfolio
+- `CFP-003` — Capability Statement
+- `CFP-004` — One-page Executive Brief
+- `CFP-005` — Partner Pack
+- `CFP-006` — Media Kit
+- `CFP-007` — Annual Report
+- `CFP-008` — Strategic Roadmap
+- `CFP-009` — Investment Memorandum
+- `CFP-010` — Presentation Deck
 
-The identifier describes the document type, not its version. Publication version and template version must remain separate.
+## Identity
 
-Example:
+**Primary identity:** Civic Forensics  
+**Institutional descriptor:** Independent Civic Intelligence Initiative  
+**Publication family:** Civic Forensics Publications  
+**CFP slogan:** Building democratic resilience through evidence, technology and civic intelligence.
 
-- Document ID: CFP-001
-- Publication version: 1.0
-- Template: CFP Publication Kit v1.0
+## Purpose
 
-## Institutional descriptor
+The kit provides a single reusable system for:
 
-Use consistently:
+- executive and programme portfolios;
+- donor and partner materials;
+- institutional capability statements;
+- strategic roadmaps and annual reports;
+- presentation decks and briefing papers;
+- consistent Word, PDF, Markdown and portal editions.
 
-> Civic Forensics — Independent Civic Intelligence Initiative
+## Core principles
 
-## Core positioning statement
+1. Evidence before assurance.
+2. Clear separation between existing capacity, proposed development and future ambition.
+3. No unsupported claims of impact, partnership, institutional status or readiness.
+4. Reusable and version-controlled source materials.
+5. Accessibility, traceability and consistent document metadata.
+6. One source of truth for portal, Word, PDF and presentation outputs.
 
-> Building democratic resilience through evidence, technology and civic intelligence.
+## Standard document structure
 
-## Editorial standard
-
-Every CFP publication must:
-
-1. distinguish current achievements from concepts and planned activities;
-2. provide evidence for institutional-capacity claims;
-3. identify audience, purpose, status and date;
-4. avoid implying endorsement or partnership without consent;
-5. use accessible, clear international English;
-6. preserve a version history and stable publication location;
-7. separate publication version from template version.
-
-## Standard publication structure
+Each CFP publication should include, where relevant:
 
 1. Cover
-2. Publication Information
-3. Executive Summary
-4. Purpose and Audience
-5. Main Content
-6. Evidence of Capacity
-7. Cooperation Opportunity or Next Step
-8. Scope / Methodological Note
-9. Contact
-10. Version History
-11. About Civic Forensics
-12. Back Cover
+2. Publication information
+3. Document control
+4. Executive summary
+5. Strategic context
+6. Programme or organisational architecture
+7. Existing assets and demonstrated capacity
+8. Current achievements
+9. Proposed development or pilot opportunity
+10. Partnership opportunities
+11. Roadmap
+12. Monitoring, learning and sustainability
+13. Contact and publication information
+14. Version history
+15. About Civic Forensics
 
 ## Standard callouts
 
 - Strategic Opportunity
 - Current Achievement
-- Future Development
+- Evidence of Capacity
 - Partnership Opportunity
 - Key Impact
-- Evidence of Capacity
-- Risk or Limitation
+- Future Development
+- Risk and Assumption
 - Next Step
 
-## Folder structure
+## Versioning
+
+Publication versions and template versions must remain separate.
+
+Example:
+
+- Publication: `CFP-001`, Version `1.0`
+- Template standard: `CFP Publication Kit v1.0`
+
+## Repository structure
 
 ```text
 CFP Publication Kit v1.0/
 ├── README.md
 ├── editorial/
-│   ├── editorial-guide.md
-│   └── citation-guide.md
-├── visual-identity/
-│   ├── visual-identity-guide.md
-│   └── color-palette.json
-├── metadata/
-│   └── publication-schema.json
-├── styles/
-│   └── cfp-publication.css
 ├── templates/
-│   ├── CFP-001-executive-portfolio-template.md
-│   ├── CFP-003-capability-statement-template.md
-│   ├── CFP-004-executive-brief-template.md
-│   └── template-catalogue.md
+├── visual-identity/
+├── metadata/
+├── styles/
 └── examples/
     └── CFP-001_Civic_Forensics_Executive_Portfolio_2026/
-        └── evidence-register.md
 ```
 
-## First publication
+## First publication implementation
 
-The first publication developed under this system is:
+The first publication developed under this standard is:
 
-> **CFP-001 — Civic Forensics Executive Portfolio 2026**
+**CFP-001 — Civic Forensics Executive Portfolio 2026**
 
-Its purpose is to provide a universal international portfolio for first contact with the Delegation of the European Union to Bosnia and Herzegovina, OSCE, UNDP, OECD/SIGMA, GIZ, Transparency International, Open Government Partnership, European AI Office, EDRi and other potential partners.
+Its source package is located in:
 
-The portfolio must present existing outputs as evidence of capacity and label all proposed pilot activities according to their actual development status.
+`examples/CFP-001_Civic_Forensics_Executive_Portfolio_2026/`
+
+The package contains:
+
+- the canonical Markdown portfolio source;
+- publication metadata;
+- an evidence register;
+- publication-workflow documentation.
+
+Current publication status: **Version 0.1 — Editorial draft**.
+
+CFP-001 presents Civic Forensics as an independent civic intelligence initiative combining democratic resilience, AI literacy, regulatory analysis, evidence-based civic oversight, publication infrastructure and practical citizen tools.
 
 ## Licence
 
-Unless a specific publication states otherwise, textual materials follow the repository licence: CC BY-NC-SA 4.0.
+Unless otherwise stated, materials are published under **CC BY-NC-SA 4.0**.

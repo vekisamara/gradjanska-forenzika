@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import html
 import os
 import re
 import sys
@@ -17,6 +18,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 TIMEOUT = 30
+DEFAULT_EXCERPT_LENGTH = 280
 
 
 class WordPressError(RuntimeError):
@@ -96,7 +98,6 @@ def wp_status(value: Any) -> str:
         "draft": "draft",
         "private": "private",
         "pending": "pending",
-        "future": "future",
     }
     if status not in mapping:
         raise WordPressError(f"Unsupported status '{status}'")
@@ -116,6 +117,21 @@ def render_markdown(body: str) -> str:
         extensions=["extra", "sane_lists", "smarty"],
         output_format="html5",
     )
+
+
+def plain_text_from_markdown(body: str) -> str:
+    rendered = render_markdown(body)
+    without_tags = re.sub(r"<[^>]+>", " ", rendered)
+    return re.sub(r"\s+", " ", html.unescape(without_tags)).strip()
+
+
+def automatic_excerpt(body: str, limit: int = DEFAULT_EXCERPT_LENGTH) -> str:
+    text = plain_text_from_markdown(body)
+    if len(text) <= limit:
+        return text
+
+    shortened = text[: limit + 1].rsplit(" ", 1)[0].rstrip(".,;:!?")
+    return shortened + "…"
 
 
 def find_post_by_slug(session: requests.Session, site_url: str, slug: str) -> dict[str, Any] | None:
@@ -149,22 +165,21 @@ def sync_file(session: requests.Session, site_url: str, path: Path) -> None:
         for name in list_value(metadata, "tags")
     ]
 
+    excerpt = str(metadata.get("excerpt", "")).strip() or automatic_excerpt(body)
+
     payload: dict[str, Any] = {
         "title": title,
         "slug": slug,
         "content": content,
+        "excerpt": excerpt,
         "status": wp_status(metadata.get("status")),
         "categories": category_ids,
         "tags": tag_ids,
     }
 
-    excerpt = str(metadata.get("excerpt", "")).strip()
-    if excerpt:
-        payload["excerpt"] = excerpt
-
-    date = metadata.get("date")
-    if date and payload["status"] in {"publish", "future"}:
-        payload["date"] = str(date)
+    # The front-matter date is repository metadata. It is intentionally not sent
+    # to WordPress. This prevents invalid-date errors and avoids changing the
+    # original publication date whenever an existing post is synchronized.
 
     existing = find_post_by_slug(session, site_url, slug)
     if existing:
@@ -193,7 +208,7 @@ def main() -> int:
 
     session = requests.Session()
     session.auth = HTTPBasicAuth(username, application_password)
-    session.headers.update({"User-Agent": "gradjanska-forenzika-github-sync/1.0"})
+    session.headers.update({"User-Agent": "gradjanska-forenzika-github-sync/1.1"})
 
     request(session, "GET", api_url(site_url, "users/me"), params={"context": "edit"})
 

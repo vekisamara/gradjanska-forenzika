@@ -1,0 +1,72 @@
+name: Sync blog to WordPress
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "blog/**/*.md"
+      - "scripts/sync_wordpress.py"
+      - "scripts/requirements-wordpress.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wordpress-sync-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+      WP_USERNAME: ${{ secrets.WP_USERNAME }}
+      WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements-wordpress.txt
+
+      - name: Install dependencies
+        run: python -m pip install --requirement scripts/requirements-wordpress.txt
+
+      - name: Validate required secrets
+        run: |
+          test -n "$WP_SITE_URL" || { echo "Missing WP_SITE_URL"; exit 1; }
+          test -n "$WP_USERNAME" || { echo "Missing WP_USERNAME"; exit 1; }
+          test -n "$WP_APPLICATION_PASSWORD" || { echo "Missing WP_APPLICATION_PASSWORD"; exit 1; }
+
+      - name: Select Markdown files
+        id: files
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            find blog -type f -name '*.md' -print0 | sort -z > /tmp/wp-files
+          else
+            git diff --name-only -z HEAD^ HEAD -- 'blog/**/*.md' > /tmp/wp-files
+          fi
+
+          count=$(tr -cd '\0' < /tmp/wp-files | wc -c)
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          echo "Selected $count Markdown file(s)."
+
+      - name: Synchronize posts
+        if: steps.files.outputs.count != '0'
+        shell: bash
+        run: |
+          mapfile -d '' files < /tmp/wp-files
+          python scripts/sync_wordpress.py "${files[@]}"
+
+      - name: No blog changes
+        if: steps.files.outputs.count == '0'
+        run: echo "No Markdown blog files need synchronization."

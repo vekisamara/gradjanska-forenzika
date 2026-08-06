@@ -98,13 +98,26 @@ tags:
 ---
 ```
 
+WordPress sinhronizacija koristi sljedeća polja:
+
+- `title`
+- `slug`
+- `status`
+- `excerpt`
+- `categories`
+- `tags`
+- Markdown sadržaj ispod front mattera
+
+Polja `date`, `language`, `source_document`, `license` i druga urednička polja ostaju repozitorijski metapodaci i ne šalju se WordPressu. Time se čuva postojeći datum objave i izbjegava promjena datuma pri svakom ažuriranju.
+
+Ako `excerpt` nije naveden, skripta automatski formira sažetak od približno 280 znakova iz početka članka.
+
 Podržani statusi:
 
 - `draft`
 - `published` ili `publish`
 - `private`
 - `pending`
-- `future`
 
 Za sigurniji urednički tok koristite `status: draft`. Promijenite na `published` tek nakon provjere.
 
@@ -117,6 +130,10 @@ Za sigurniji urednički tok koristite `status: draft`. Promijenite na `published
 - GitHub treba ostati primarni izvor teksta; ručne izmjene u WordPressu mogu biti prepisane sljedećom sinhronizacijom.
 
 ## Najčešće greške
+
+### `400 rest_invalid_param` za `date`
+
+Ova greška je uklonjena u verziji 1.1 skripte. Polje `date` se više ne šalje WordPressu.
 
 ### `401 rest_cannot_create`
 

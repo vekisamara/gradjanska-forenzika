@@ -4,11 +4,11 @@ Folder `research-concepts/` sadrži strateške i istraživačke dokumente za raz
 
 Ovi dokumenti nisu operativni podnesci, nego konceptualna osnova za razvoj metodologije, dashboarda, partnerstava, donatorskih prijedloga i buduće tehničke arhitekture.
 
+## Međunarodna razvojna vizija
+
+Engleska vizija Civic Intelligence Dashboarda i međunarodni istraživački koncepti održavaju se u repozitoriju [`civic-forensics/research-concepts`](https://github.com/vekisamara/civic-forensics/tree/main/research-concepts). Ovaj direktorij zadržava samo lokalne metodološke i tehničke koncepte potrebne za Građansku forenziku.
+
 ## Trenutni dokumenti
-
-### `VISION.md`
-
-Opisuje budući Civic Intelligence Dashboard kao AI-asistiranu platformu za praćenje javnih narativa, institucionalnih odluka i governance rizika kroz strukturisanu analizu podataka i metodologiju građanske forenzike.
 
 ### `kait_cde_specifikacija_v0.1.md`
 

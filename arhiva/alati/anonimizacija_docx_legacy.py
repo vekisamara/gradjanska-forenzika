@@ -1,3 +1,5 @@
+# ARHIVIRANO: alat nije odobren za aktuelnu upotrebu bez nove provjere
+# privatnosti, pokrivenosti i očuvanja DOCX formatiranja.
 import re
 import os
 from docx import Document

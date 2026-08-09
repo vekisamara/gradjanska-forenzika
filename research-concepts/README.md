@@ -4,6 +4,8 @@ Folder `research-concepts/` sadrži strateške i istraživačke dokumente za raz
 
 Ovi dokumenti nisu operativni podnesci, nego konceptualna osnova za razvoj metodologije, dashboarda, partnerstava, donatorskih prijedloga i buduće tehničke arhitekture.
 
+U okviru [`Democratic Resilience & AI Literacy Programa`](../program/README.md) ovaj direktorij služi kao inkubator: koncept ne postaje važeći standard, indikator ili javna tvrdnja dok ne dobije verziju, kriterijume prihvatanja, validaciju i dokumentovana ograničenja.
+
 ## Međunarodna razvojna vizija
 
 Engleska vizija Civic Intelligence Dashboarda i međunarodni istraživački koncepti održavaju se u repozitoriju [`civic-forensics/research-concepts`](https://github.com/vekisamara/civic-forensics/tree/main/research-concepts). Ovaj direktorij zadržava samo lokalne metodološke i tehničke koncepte potrebne za Građansku forenziku.

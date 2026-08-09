@@ -1,89 +1,48 @@
-# 🏛️ Građanska Forenzika (Civic Forensics)
+# Građanska forenzika
 
-Zvanični repozitorijum sa otvorenim metodološkim materijalima, strukturisanim AI promptovima i praktičnim alatima iz priručnika **„Vještačka inteligencija i birokratija – terenski priručnik za građansku forenziku“** autora Velimira Samare.
+**Democratic Resilience & AI Literacy Program — lokalna platforma i otvorena infrastruktura**
 
-Građanska forenzika pretvara administrativnu netransparentnost, javne tvrdnje i institucionalne propuste u provjerljive činjenice, dokazne matrice i konkretne korake građanskog nadzora.
+Građanska forenzika pomaže građanima, novinarima, organizacijama civilnog društva i istraživačima da javne odluke i institucionalne tvrdnje ispituju pomoću provjerljivih dokaza, transparentnih metoda i odgovorne upotrebe vještačke inteligencije.
 
-🔗 **Glavni portal:** [gradjanskaforenzika.org](https://gradjanskaforenzika.org)
+Repozitorij objedinjuje lokalni program demokratske otpornosti i AI pismenosti: metodologiju, edukativne materijale, publikacije, promptove, alate, primijenjene analize i istraživačke prototipove. Knjiga *Vještačka inteligencija i birokratija* ostaje jedna od temeljnih publikacija programa, ali nije njegov jedini okvir.
 
-🌐 **English-language repository:** [vekisamara/civic-forensics](https://github.com/vekisamara/civic-forensics)
+## Misija i programski stubovi
 
-## Metodološka osnova
+Misija je ojačati sposobnost javnosti da razumije, provjerava i argumentovano osporava javne odluke, uz zaštitu privatnosti, jasne dokazne standarde i ljudsku odgovornost za svaki zaključak.
 
-- 🧰 [Operativni standardi Građanske forenzike 1.0](metodologija/README.md)
-- ⚖️ [Standard za analizu javnih odluka i institucionalnog postupanja 3.2](standard_otvorene_javne_politike.md)
-- 🧭 [Metod disciplinovanog administrativnog pritiska 3.2](metod_disciplinovanog_administrativnog_pritiska.md)
-- 🔬 [Metodologija Građanske Forenzike 2.0](metodologija_gradjanske_forenzike.md)
-- 🔎 [KAIT v0.1 — kritička analiza institucionalne tvrdnje](metodologija/12_kait_kriticka_analiza_institucionalne_tvrdnje.md)
-- 🧠 [Zajedničko forenzičko jezgro AI promptova](promptovi/00_forenzicko_jezgro.md)
-- 📊 [Univerzalni modul za kvantitativne tvrdnje](promptovi/08_kvantitativni_modul.md)
-- 📈 [Forenzička analiza izvještaja o radu](promptovi/09_analiza_izvjestaja_o_radu.md)
+Program povezuje demokratsku i građansku, medijsku i informacionu, podatkovnu i kvantitativnu, pravnu i administrativnu te odgovornu AI pismenost sa građanskim djelovanjem zasnovanim na dokazima.
 
-Osnovni operativni ciklus je:
+> dokaz → provjera → analiza → objava → građansko djelovanje → institucionalni odgovor → učenje
 
-> **problem → uzroci → akteri → dokazi → analiza → intervencija → rezultat → učenje**
+Detaljan okvir nalazi se u direktoriju [`program/`](program/README.md).
 
-Analiza nije završena objavljivanjem nalaza. Novi odgovor ili dokument postaje novi dokazni unos, a prethodni zaključak se označava kao potvrđen, izmijenjen, opovrgnut ili dopunjen.
+## Struktura repozitorija
 
-## Struktura repozitorijuma
+| Direktorij | Uloga |
+|---|---|
+| [`program/`](program/README.md) | misija, teorija promjene, programski stubovi, etika i razvoj |
+| [`metodologija/`](metodologija/README.md) | dokazni standardi i ponovljiv operativni postupak |
+| [`promptovi/`](promptovi/README.md) | kontrolisani AI radni tokovi i moduli |
+| [`edukacija/`](edukacija/README.md) | pojmovnik i budući nastavni materijali |
+| [`publikacije/`](publikacije/README.md) | knjige, priručnici i drugi javni rezultati |
+| [`alati/`](alati/README.md) | lokalni alati za dokumente, dokaze, rokove i podatke |
+| [`studije-slucaja/`](studije-slucaja/README.md) | javne, provjerljive primjene metodologije |
+| [`analize/`](analize/) i [`blog/`](blog/) | postojeći članci i autorski sadržaj portala |
+| [`research-concepts/`](research-concepts/README.md) | lokalni istraživački koncepti i prototipovi |
+| [`arhiva/`](arhiva/README.md) | povučene verzije i materijali koji čekaju novu validaciju |
 
-- 🧰 [`metodologija/`](metodologija/README.md) — operativni standardi dokazivanja, označavanja, analize odgovora i PR-a, FOI zahtjeva, rokova, eskalacije, AI kontrole i verzionisanja.
-- 🤖 [`promptovi/`](promptovi/README.md) — prompt biblioteka za analizu akata, javnih izjava, dokaznih praznina, žalbi, FOI zahtjeva, kvantitativnih tvrdnji i kontrole kvaliteta.
-- 🧭 [`promptovi/disciplinovani-administrativni-pritisak/`](promptovi/disciplinovani-administrativni-pritisak/README.md) — alati za detekciju formalizma, dokaz iza fraze, neodgovorena pitanja, rokove i dokumentovanu eskalaciju.
-- 🔎 [`promptovi/kait/`](promptovi/kait/README.md) — KAIT promptovi za rekonstrukciju tvrdnji, protivdokaze, domet i adekvatnost zaključka.
-- 🗣️ [`promptovi/izjave-funkcionera/`](promptovi/izjave-funkcionera/README.md) — višeslojna analiza javnih izjava, saopštenja i obećanja.
-- 🎛️ [`promptovi/dashboard/`](promptovi/dashboard/revizor_narativa.md) — prototipovi za analizu institucionalnih narativa i kontradikcija.
-- 🛠️ [`alati/`](alati/README.md) — lokalni alati za digitalni integritet, PDF metapodatke i anonimizaciju.
-- 🌐 [`research-concepts/`](research-concepts/README.md) — strateški koncepti za Civic Intelligence Dashboard, MVP, partnerstva i data šeme.
-- 📋 `sheme/` — prostor za strukturisanje tvrdnji, dokaza, formalističkih obrazaca i indikatora javnog interesa.
+## Odakle početi
 
-## Kvantitativna građanska forenzika
+- Program: [`program/README.md`](program/README.md)
+- Analiza dokumenta: [`metodologija/README.md`](metodologija/README.md)
+- Kontrolisana upotreba AI-a: [`promptovi/README.md`](promptovi/README.md)
+- Lokalni alati: [`alati/README.md`](alati/README.md)
+- Knjiga: [`publikacije/vjestacka-inteligencija-i-birokratija/`](publikacije/vjestacka-inteligencija-i-birokratija/README.md)
 
-Standard 3.2 uvodi provjeru brojčanih, komparativnih, prediktivnih i uzročnih tvrdnji. Analiza razlikuje stvarnu pojavu od korištenog pokazatelja, provjerava brojilac i imenilac, izvor i obuhvat, odgovarajuće poređenje, pristrasnost, šum, uzročnost i praktični ili pravni značaj.
+## Status i granice
 
-Posebno se uvodi pojam **kvantitativni formalizam**: korištenje brojeva, procenata, statistike, rangiranja, grafikona ili AI rezultata radi stvaranja privida objektivnosti, iako podatak ne dokazuje stvarni javni rezultat.
+Programski koncept je u aktivnom razvoju. Objavljeni standardi, promptovi i alati mogu se koristiti u označenim verzijama, dok su buduća akademija, obuke i pilot-partnerstva razvojni pravci, a ne tvrdnja o već ostvarenim rezultatima. AI pomaže u strukturiranju i provjeri, ali nije dokaz, pravni savjet niti zamjena za ljudsku prosudbu.
 
-Metod 3.2 dodaje Protokol jednog podatkovnog pitanja, kvantitativni dokazni trag i procesne okidače za procenat bez imenioca, aktivnost predstavljenu kao ishod i promjenu metodologije.
+Lokalni sadržaj na srpskom jeziku održava se ovdje. Međunarodne publikacije i razvoj za EU publiku održavaju se u repozitoriju [`civic-forensics`](https://github.com/vekisamara/civic-forensics). Materijali u `arhiva/` nisu važeća preporuka dok ne prođu novu validaciju. Postojeći članci u `blog/` i `analize/` zadržani su bez sadržajnih izmjena.
 
-## Operativni tok rada
-
-1. **Definiši predmet i centralno pitanje.**
-2. **Sačuvaj izvorni materijal i napravi anonimizovanu radnu kopiju.**
-3. **Uradi brzu trijažu** pomoću `promptovi/02_brza_provjera.md`.
-4. **Napravi plan dokazivanja** pomoću `promptovi/06_plan_dokazivanja.md`.
-5. **Mapiraj tvrdnje, aktere, nadležnosti i nedostajuće dokumente.**
-6. **Aktiviraj kvantitativni modul** ako materijal sadrži broj, procenat, trend, indikator, poređenje ili uzročnu tvrdnju.
-7. **Uradi dubinsku analizu** pomoću `promptovi/01_analiza_rjesenja.md` ili odgovarajućeg specijalizovanog prompta.
-8. **Za izvještaje o radu koristi** `promptovi/09_analiza_izvjestaja_o_radu.md`.
-9. **Provjeri lanac** pitanje → činjenica → dokaz → pravilo → obrazloženje → zaključak.
-10. **Pribavi dodatne dokaze** kroz FOI, uvid u spis, terensku provjeru ili drugi odgovarajući postupak.
-11. **Preduzmi dokumentovanu intervenciju**: dopuna, žalba, urgencija, prijava, zahtjev za nadzor ili javna analiza.
-12. **Uradi nezavisnu kontrolu** pomoću `promptovi/07_kontrolna_analiza.md`.
-13. **Evidentiraj rezultat** i označi šta je potvrđeno, izmijenjeno, opovrgnuto i novo.
-14. **Ažuriraj bazu obrazaca, prompt ili metodologiju** kada predmet donese novo provjerljivo saznanje.
-
-## Pravilo dokazivanja
-
-Svaka važna tvrdnja mora biti povezana sa citatom, dokumentom, brojem predmeta, datumom, potpisnikom, zapisnikom, mjerenjem, metapodatkom ili drugim provjerljivim tragom. Odsustvo dokaza nije automatski dokaz odsustva.
-
-Precizan broj nije automatski dokaz tačnosti zaključka. Mora se provjeriti šta je mjereno, ko je izostavljen, u odnosu na šta je rezultat prikazan i da li broj opisuje aktivnost ili stvarno ostvarenje javne misije.
-
-## Privatnost i etika
-
-Dokumenti sa osjetljivim ličnim podacima ne smiju se javno objavljivati niti slati komercijalnim AI modelima bez anonimizacije. Fokus je na institucionalnom postupanju, javnom interesu i dokazivim administrativnim tragovima, ne na privatnom životu pojedinaca.
-
-## Civic Intelligence Dashboard
-
-**Status: konceptualna i istraživačka faza.** Razvija se osnova za AI-asistiranu platformu koja strukturisane tvrdnje, dokaze, kontradikcije, rokove, kvantitativne pokazatelje i institucionalne reakcije pretvara u mjerljive indikatore rizika i odgovornosti. Međunarodna vizija i engleska razvojna dokumentacija održavaju se u repozitoriju [`civic-forensics`](https://github.com/vekisamara/civic-forensics/tree/main/research-concepts).
-
-## Jezička granica repozitorija
-
-Ovaj repozitorij je kanonsko mjesto za materijale na srpskom jeziku, lokalni građanski nadzor i predmete iz Bosne i Hercegovine. Engleske analize, EU promptovi, međunarodni programi i izdavački sistemi održavaju se isključivo u repozitoriju [`civic-forensics`](https://github.com/vekisamara/civic-forensics).
-
-## Otvorena saradnja
-
-Za prijavu anomalije ili prijedlog novog prompta koristite strukturisan opis: dokument, organ, datum, centralno pitanje, tvrdnje, dokazni trag, nedostajući dokaz, javni interes i prethodno preduzete radnje.
-
-## Licenca
-
-Materijali su licencirani pod **Creative Commons Autorstvo-Nekomercijalno-Dijeliti pod istim uslovima 4.0 (CC BY-NC-SA 4.0)**. Detalji su u datoteci [LICENSE](LICENSE).
+Uslovi korištenja određeni su fajlom [`LICENSE`](LICENSE), osim kada pojedina publikacija navodi poseban režim.

@@ -2,6 +2,8 @@
 
 Folder `alati/` sadrži lokalne softverske alate za tehničku provjeru dokumenata, evidenciju dokaza, praćenje rokova i pripremu podataka za budući Civic Intelligence Dashboard. Osnovno pravilo je da se osjetljivi dokumenti prvo obrađuju lokalno, prije bilo kakvog slanja prema vanjskim servisima ili AI modelima.
 
+Alati su tehnički sloj [`Democratic Resilience & AI Literacy Programa`](../program/README.md). Oni proizvode pomoćne tragove i strukturisane podatke; ne utvrđuju nezakonitost, namjeru ili odgovornost bez dodatnih dokaza i ljudske provjere. Povučeni prototipovi nalaze se u [`arhiva/`](../arhiva/README.md).
+
 ## Instalacija
 
 ```bash
@@ -85,8 +87,8 @@ python foi_tracker.py update --id ABC123 --status odgovoreno
 CSV dnevnik dokaza u predmetu. Može automatski izračunati hash fajla.
 
 ```bash
-python evidencioni_dnevnik.py add --case-id ATA-1-2026 --file rjesenje.pdf --institution "Grad Banja Luka" --document-number "05-370-4373/25" --document-date 2025-09-09 --source "FOI odgovor"
-python evidencioni_dnevnik.py list --case-id ATA-1-2026
+python evidencioni_dnevnik.py add --case-id PRIMJER-2026 --file dokument.pdf --institution "Primjer institucije" --document-number "UP-01-123/26" --document-date 2026-05-09 --source "FOI odgovor"
+python evidencioni_dnevnik.py list --case-id PRIMJER-2026
 ```
 
 ### `timeline_builder.py`

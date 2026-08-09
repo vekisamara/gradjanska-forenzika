@@ -1,3 +1,5 @@
+> **ARHIVIRANO:** verzija 2.0 je zamijenjena novijim standardom i operativnim paketom. Ne koristiti kao važeću metodologiju bez nove validacije.
+
 # 🔬 Metodologija Građanske Forenzike 2.0
 
 **Autor:** Velimir Samara  

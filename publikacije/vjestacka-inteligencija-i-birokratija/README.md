@@ -2,6 +2,10 @@
 
 Ovaj dokument sadrži zvanične informacije o publikaciji, detalje o licenci, odricanju od odgovornosti i akademskom formatu citiranja, preuzete direktno iz impresuma knjige.
 
+## Uloga u programu
+
+*Vještačka inteligencija i birokratija* je temeljna publikacija Građanske forenzike i uvod u praktičnu upotrebu AI-a u susretu sa administracijom. Ona je jedan dio [`Democratic Resilience & AI Literacy Programa`](../../program/README.md), zajedno sa metodologijom, edukacijom, promptovima, alatima i primijenjenim analizama.
+
 ---
 
 ## 🏛️ Osnovni podaci o izdanju
@@ -48,6 +52,5 @@ Ukoliko koristite metodologiju ili tekstove iz ovog priručnika u svojim istraž
 
 
 <img src="naslovna.png" alt="Naslovna stranica" width="300"/>
-
 
 

@@ -1,3 +1,5 @@
+> **ARHIVIRANO:** staro uputstvo i DOCX alat zahtijevaju novu provjeru privatnosti, formatiranja i pokrivenosti prije ponovne upotrebe.
+
 # 🪟 Uputstvo za pokretanje skripte na Windows sistemu
 
 Ova skripta vam omogućava da potpuno lokalno, na svom računaru, očistite osjetljive lične podatke (JMBG, adresu, telefon, e-mail) iz rješenja i zapisnika prije nego što ih pošaljete na analizu vještačkoj inteligenciji. 

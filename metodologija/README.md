@@ -21,6 +21,9 @@ Ovaj direktorij pretvara opšta načela Građanske forenzike u ponovljiv radni p
 10. [`09_kontrola_kvaliteta_i_ponovljivost.md`](09_kontrola_kvaliteta_i_ponovljivost.md) — drugi analitički prolaz i kriterijumi objave.
 11. [`10_sablon_studije_slucaja.md`](10_sablon_studije_slucaja.md) — standardni javni format studije slučaja.
 12. [`11_registar_izvora_i_verzionisanje.md`](11_registar_izvora_i_verzionisanje.md) — porijeklo dokumenta, izmjene nalaza i verzije metodologije.
+13. [`12_kait_kriticka_analiza_institucionalne_tvrdnje.md`](12_kait_kriticka_analiza_institucionalne_tvrdnje.md) — rekonstrukcija institucionalnih tvrdnji i provjera da li opravdanje nosi sadržaj, sigurnost i domet zaključka.
+
+KAIT v0.1 ima status radnog modula u validaciji. [Prijedlog za Standard 3.3](kait/standard_v3.3_kandidat.md) ne mijenja važeći Standard 3.2 dok ne budu završeni dodatni regresioni i inter-analyst testovi na korpusima odobrenim za tu namjenu.
 
 ## Operativni ciklus
 
@@ -38,4 +41,3 @@ Svaki novi odgovor ili dokument je novi dokazni unos. Prethodni nalaz se ne bri�
 ## Odnos prema postojećim dokumentima
 
 Ovaj paket ne zamjenjuje `standard_otvorene_javne_politike.md`, `metodologija_gradjanske_forenzike.md`, `metod_disciplinovanog_administrativnog_pritiska.md` ni zajedničko forenzičko jezgro u `promptovi/00_forenzicko_jezgro.md`. On ih povezuje u operativni minimum koji se može primijeniti na svaki novi predmet.
-

@@ -12,6 +12,7 @@ Građanska forenzika pretvara administrativnu netransparentnost, javne tvrdnje i
 - ⚖️ [Standard za analizu javnih odluka i institucionalnog postupanja 3.2](standard_otvorene_javne_politike.md)
 - 🧭 [Metod disciplinovanog administrativnog pritiska 3.2](metod_disciplinovanog_administrativnog_pritiska.md)
 - 🔬 [Metodologija Građanske Forenzike 2.0](metodologija_gradjanske_forenzike.md)
+- 🔎 [KAIT v0.1 — kritička analiza institucionalne tvrdnje](metodologija/12_kait_kriticka_analiza_institucionalne_tvrdnje.md)
 - 🧠 [Zajedničko forenzičko jezgro AI promptova](promptovi/00_forenzicko_jezgro.md)
 - 📊 [Univerzalni modul za kvantitativne tvrdnje](promptovi/08_kvantitativni_modul.md)
 - 📈 [Forenzička analiza izvještaja o radu](promptovi/09_analiza_izvjestaja_o_radu.md)
@@ -27,6 +28,7 @@ Analiza nije završena objavljivanjem nalaza. Novi odgovor ili dokument postaje 
 - 🧰 [`metodologija/`](metodologija/README.md) — operativni standardi dokazivanja, označavanja, analize odgovora i PR-a, FOI zahtjeva, rokova, eskalacije, AI kontrole i verzionisanja.
 - 🤖 [`promptovi/`](promptovi/README.md) — prompt biblioteka za analizu akata, javnih izjava, dokaznih praznina, žalbi, FOI zahtjeva, kvantitativnih tvrdnji i kontrole kvaliteta.
 - 🧭 [`promptovi/disciplinovani-administrativni-pritisak/`](promptovi/disciplinovani-administrativni-pritisak/README.md) — alati za detekciju formalizma, dokaz iza fraze, neodgovorena pitanja, rokove i dokumentovanu eskalaciju.
+- 🔎 [`promptovi/kait/`](promptovi/kait/README.md) — KAIT promptovi za rekonstrukciju tvrdnji, protivdokaze, domet i adekvatnost zaključka.
 - 🗣️ [`promptovi/izjave-funkcionera/`](promptovi/izjave-funkcionera/README.md) — višeslojna analiza javnih izjava, saopštenja i obećanja.
 - 🎛️ [`promptovi/dashboard/`](promptovi/dashboard/revizor_narativa.md) — prototipovi za analizu institucionalnih narativa i kontradikcija.
 - 🛠️ [`alati/`](alati/README.md) — lokalni alati za digitalni integritet, PDF metapodatke i anonimizaciju.

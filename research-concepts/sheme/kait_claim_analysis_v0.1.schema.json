@@ -1,0 +1,243 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gradjanskaforenzika.org/schema/kait-claim-analysis-v0.1.json",
+  "title": "KAIT Claim Analysis v0.1",
+  "type": "object",
+  "required": [
+    "claim_id",
+    "case_id",
+    "claim_text",
+    "claim_type",
+    "source_refs",
+    "certainty",
+    "scope",
+    "adequacy_status",
+    "adequacy_reason",
+    "review_status"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "pattern": "^CLM-[0-9]{3,}$"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "decision_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "claim_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "exact_quote": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "claim_type": {
+      "enum": [
+        "factual",
+        "legal",
+        "causal",
+        "procedural",
+        "normative",
+        "predictive",
+        "mixed"
+      ]
+    },
+    "speaker_actor_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "locator",
+          "source_status",
+          "evidence_level"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "locator": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_status": {
+            "enum": [
+              "O",
+              "K",
+              "R",
+              "N"
+            ]
+          },
+          "evidence_level": {
+            "enum": [
+              "D1",
+              "D2",
+              "D3",
+              "D4",
+              "D5",
+              "not_assessable"
+            ]
+          }
+        }
+      }
+    },
+    "certainty": {
+      "enum": [
+        "categorical",
+        "high",
+        "moderate",
+        "tentative",
+        "unspecified"
+      ]
+    },
+    "scope": {
+      "type": "object",
+      "required": [
+        "scope_type",
+        "description"
+      ],
+      "properties": {
+        "scope_type": {
+          "enum": [
+            "document",
+            "case",
+            "period",
+            "location",
+            "class_of_cases",
+            "general",
+            "unspecified"
+          ]
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "warrants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "proposition_supported"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "proposition_supported": {
+            "type": "string"
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "premises": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "text",
+          "explicit"
+        ],
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "explicit": {
+            "type": "boolean"
+          },
+          "challenge_status": {
+            "enum": [
+              "unchallenged",
+              "challenged",
+              "supported",
+              "unknown"
+            ]
+          }
+        }
+      }
+    },
+    "counterevidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alternative_explanations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "adequacy_status": {
+      "enum": [
+        "aligned",
+        "partially_aligned",
+        "misaligned",
+        "not_assessable"
+      ]
+    },
+    "adequacy_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "missing_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "declared_purpose": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "operative_function": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "inference": {
+      "type": "boolean"
+    },
+    "review_status": {
+      "enum": [
+        "proposed",
+        "confirmed",
+        "corrected",
+        "rejected"
+      ]
+    },
+    "review_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

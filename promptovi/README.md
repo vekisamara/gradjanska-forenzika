@@ -22,6 +22,7 @@ Kada materijal sadrži broj, procenat, stopu, prosjek, trend, poređenje, budže
 10. `07_kontrolna_analiza.md` — nezavisni red-team pregled koji pokušava osporiti, ograničiti ili precizirati prvi nalaz.
 11. `analiza-izjava-iz-medija/`, `izjave-funkcionera/`, `izborni-kontekst-2026/`, `analiza-medijske-manipulacije/` i `analiza-pr-saopstenja/` — specijalizovane analize javnih komunikacija.
 12. `dashboard/revizor_narativa.md` — poređenje javnog narativa sa dokumentima i priprema indikatora.
+13. [`kait/`](kait/README.md) — KAIT-00 do KAIT-10 za rekonstrukciju tvrdnji, ocjenu veze opravdanje–zaključak, Linkage Tracker i regresiono testiranje.
 
 ## Građanski forenzički ciklus
 

@@ -10,6 +10,10 @@ Ovi dokumenti nisu operativni podnesci, nego konceptualna osnova za razvoj metod
 
 Opisuje budući Civic Intelligence Dashboard kao AI-asistiranu platformu za praćenje javnih narativa, institucionalnih odluka i governance rizika kroz strukturisanu analizu podataka i metodologiju građanske forenzike.
 
+### `kait_cde_specifikacija_v0.1.md`
+
+Definiše KAIT podatkovni model za Claim/Warrant/Premise, validacione lockove, acceptance criteria i MVP prioritete Civic Decision Enginea. Prateća JSON Schema nalazi se u `sheme/kait_claim_analysis_v0.1.schema.json`.
+
 ## Razvojni pravac
 
 Cilj ovog foldera je da se istraživačke ideje postepeno pretvore u konkretne tehničke i metodološke module:

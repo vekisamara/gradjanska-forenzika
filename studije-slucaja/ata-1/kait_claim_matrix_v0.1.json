@@ -1,0 +1,121 @@
+{
+  "case_id": "ATA1",
+  "module": "GFO-KAIT",
+  "version": "0.1-validation",
+  "basis": [
+    "Standard v3.2",
+    "GFO v0.1",
+    "GFO v0.2 ATA-1 validation package",
+    "Wallace & Wray critical reading framework"
+  ],
+  "claims": [
+    {
+      "id": "ATA1-K01",
+      "claim": "Predmetna lokacija se tretira kao javna površina na kojoj Grad može odobriti zauzimanje.",
+      "source": "05-370-4373/25; SRC-002",
+      "certainty": "categorical",
+      "scope": "konkretna parcela i godišnji ciklus 2025/26",
+      "warrant": "UTU, pozitivan izvještaj Komisije, Plan korištenja javnih površina i navodi rješenja.",
+      "counter": "ZK 6673 i GeoAstor osporavaju vlasništvo; poseban osnov upravljanja nije u validacionom korpusu.",
+      "status": "partially_aligned",
+      "reason": "Dokumenti pokazuju kako je organ lokaciju klasifikovao, ali ne zatvaraju zasebno pitanje pravnog osnova upravljanja nezavisno od vlasništva.",
+      "missing": "Akt/pravni osnov upravljanja ili raspolaganja parcelom."
+    },
+    {
+      "id": "ATA1-K02",
+      "claim": "U spisu se nalazi sva potrebna dokumentacija.",
+      "source": "05-370-4373/25, završni dio obrazloženja",
+      "certainty": "categorical",
+      "scope": "uslovi za rješenje 2025/26",
+      "warrant": "Taksativno pobrojani dokumenti u spisu.",
+      "counter": "Presuda 11 0 U 040397 25 U ukazuje na nepotpuno činjenično stanje i nedostatke obrazloženja.",
+      "status": "partially_aligned",
+      "reason": "Nabrajanje podržava postojanje određenih dokumenata, ali ne dokazuje njihovu sadržajnu potpunost niti da su svi odlučni prigovori razriješeni.",
+      "missing": "Cjelovit spis i sadržajna provjera svakog obaveznog dokumenta."
+    },
+    {
+      "id": "ATA1-K03",
+      "claim": "Ispunjeni su svi uslovi iz relevantnih odredaba Odluke o komunalnom redu.",
+      "source": "05-370-4373/25, završni zaključak obrazloženja",
+      "certainty": "categorical",
+      "scope": "svi uslovi za odobrenje 2025/26",
+      "warrant": "Dokumentacija, Komisija, UTU, idejni projekat, MUP mišljenje i uplata.",
+      "counter": "Žalbeni navodi i sudska presuda o nepotpunom činjeničnom stanju i neadekvatnom odgovoru na odlučne prigovore.",
+      "status": "misaligned",
+      "reason": "Kategoričan zaključak je širi od prikazane analize; dokumentovanje formalnih priloga nije isto što i dokaz da su svi materijalni i procesni uslovi ispunjeni.",
+      "missing": "Analiza svakog spornog uslova i protivdokaza sa jasnom vezom do zaključka."
+    },
+    {
+      "id": "ATA1-K04",
+      "claim": "Pozitivan izvještaj Komisije potvrđuje usklađenost pozicije bašte sa komunalnim pravilima i Planom.",
+      "source": "05-370-4373/25; izvještaj Komisije 16.05.2025 prema rješenju",
+      "certainty": "high",
+      "scope": "pozicija i pitanja razmatrana pred Komisijom",
+      "warrant": "UTU, idejni projekat i MUP mišljenje prema sadržaju rješenja.",
+      "counter": "Ne obuhvata nužno vlasništvo/raspolaganje, izvršni inspekcijski tok i kanalizacionu infrastrukturu.",
+      "status": "aligned",
+      "reason": "Opravdanje podržava užu tvrdnju o pozitivnoj ocjeni Komisije u okviru njenog opisanog zadatka, ali ne i širi zaključak o svim uslovima.",
+      "missing": "Izvorni izvještaj Komisije za precizno utvrđivanje obuhvata."
+    },
+    {
+      "id": "ATA1-K05",
+      "claim": "Postojanje komunalnog odobrenja i postupka novih lokacijskih uslova opravdava odlaganje prinudnog izvršenja.",
+      "source": "SRC-007/008/009",
+      "certainty": "high",
+      "scope": "odlaganje izvršenja na 60 dana",
+      "warrant": "Prijedlog ATA-1, dopis Grada i zaključak direktora.",
+      "counter": "Dostupni korpus ne pokazuje potpuno razmatranje protivnih dokaza, vlasništva, infrastrukture i statusa izvršnog naloga.",
+      "status": "partially_aligned",
+      "reason": "Dokumentovan je procesni razlog za odlaganje, ali nije dovoljno utvrđena potpunost njegove dokazne i pravne evaluacije.",
+      "missing": "Kompletan spis Republičkog inspektorata i pravni test odnosa naknadnih akata prema izvršnom rješenju."
+    },
+    {
+      "id": "ATA1-K06",
+      "claim": "Odlaganje je omogućilo izdavanje novih lokacijskih uslova.",
+      "source": "SRC-009/010; vremenski slijed",
+      "certainty": "causal implicit",
+      "scope": "period februar-mart 2026",
+      "warrant": "Novi uslovi izdati su tokom perioda nakon odlaganja.",
+      "counter": "Nema neposrednog dokaza o svrsi ili uzročnom mehanizmu.",
+      "status": "not_assessable",
+      "reason": "Dokazana je sukcesija događaja, ne i uzročnost ili namjera.",
+      "missing": "Dokumenti koji eksplicitno povezuju odlaganje sa dovršavanjem urbanističkog postupka."
+    },
+    {
+      "id": "ATA1-K07",
+      "claim": "Novo rješenje za 2026/27 može se posmatrati potpuno odvojeno od sudske presude u ciklusu 2025/26.",
+      "source": "DEC-006/DEC-007 kontekst",
+      "certainty": "unspecified",
+      "scope": "isti objekat, novi godišnji upravni predmet",
+      "warrant": "Drugi period i novi broj predmeta.",
+      "counter": "Isti fizički objekat/lokacija i ponovljena odlučna pitanja; presuda prethodi novom rješenju.",
+      "status": "not_assessable",
+      "reason": "Novi ciklus jeste poseban predmet, ali pravni domet presude prema ponovljenim premisama zavisi od sadržaja novog spisa i datuma prijema presude.",
+      "missing": "Datum prijema presude i dokaz kako je razmotrena u novom postupku."
+    },
+    {
+      "id": "ATA1-K08",
+      "claim": "ZEV-ovima je omogućeno djelotvorno učešće u postupku prije odluke 13.07.2026.",
+      "source": "SRC-011/012",
+      "certainty": "categorical hypothetical test",
+      "scope": "novi godišnji ciklus 2026/27",
+      "warrant": "Naknadni zaključak o svojstvu stranke 03.08.2026.",
+      "counter": "Rješenje doneseno 13.07, zahtjev 15.07, status priznat 03.08.",
+      "status": "misaligned",
+      "reason": "Naknadno priznanje svojstva stranke ne dokazuje učešće prije već donesene odluke.",
+      "missing": "Dokaz o ranijem obavještavanju, uvidu ili mogućnosti izjašnjenja prije 13.07.2026."
+    },
+    {
+      "id": "ATA1-K09",
+      "claim": "Platforma ugrožava pristup kanalizacionoj infrastrukturi.",
+      "source": "fotografije/navodi; SRC-015 čeka se",
+      "certainty": "moderate",
+      "scope": "konkretna lokacija",
+      "warrant": "Fotografije i terenska zapažanja.",
+      "counter": "Nema pisane tehničke potvrde Vodovoda u korpusu.",
+      "status": "not_assessable",
+      "reason": "Postoji provjerljiva hipoteza, ali nedostaje stručna potvrda trase, pristupa i potrebnog zaštitnog razmaka.",
+      "missing": "Pisani odgovor Vodovoda, skica trase i tehnički uslovi pristupa."
+    }
+  ]
+}

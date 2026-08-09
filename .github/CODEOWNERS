@@ -1,0 +1,8 @@
+# Security-sensitive publication paths
+# Enforcement requires branch protection with required code-owner review.
+
+/.github/CODEOWNERS @vekisamara
+/.github/workflows/sync-wordpress.yml @vekisamara
+/scripts/sync_wordpress.py @vekisamara
+/scripts/requirements-wordpress.txt @vekisamara
+/blog/ @vekisamara

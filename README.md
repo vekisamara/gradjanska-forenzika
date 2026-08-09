@@ -6,6 +6,8 @@ Građanska forenzika pretvara administrativnu netransparentnost, javne tvrdnje i
 
 🔗 **Glavni portal:** [gradjanskaforenzika.org](https://gradjanskaforenzika.org)
 
+🌐 **English-language repository:** [vekisamara/civic-forensics](https://github.com/vekisamara/civic-forensics)
+
 ## Metodološka osnova
 
 - 🧰 [Operativni standardi Građanske forenzike 1.0](metodologija/README.md)
@@ -72,7 +74,11 @@ Dokumenti sa osjetljivim ličnim podacima ne smiju se javno objavljivati niti sl
 
 ## Civic Intelligence Dashboard
 
-**Status: konceptualna i istraživačka faza.** Razvija se osnova za AI-asistiranu platformu koja strukturisane tvrdnje, dokaze, kontradikcije, rokove, kvantitativne pokazatelje i institucionalne reakcije pretvara u mjerljive indikatore rizika i odgovornosti. Pogledajte [research-concepts/VISION.md](research-concepts/VISION.md).
+**Status: konceptualna i istraživačka faza.** Razvija se osnova za AI-asistiranu platformu koja strukturisane tvrdnje, dokaze, kontradikcije, rokove, kvantitativne pokazatelje i institucionalne reakcije pretvara u mjerljive indikatore rizika i odgovornosti. Međunarodna vizija i engleska razvojna dokumentacija održavaju se u repozitoriju [`civic-forensics`](https://github.com/vekisamara/civic-forensics/tree/main/research-concepts).
+
+## Jezička granica repozitorija
+
+Ovaj repozitorij je kanonsko mjesto za materijale na srpskom jeziku, lokalni građanski nadzor i predmete iz Bosne i Hercegovine. Engleske analize, EU promptovi, međunarodni programi i izdavački sistemi održavaju se isključivo u repozitoriju [`civic-forensics`](https://github.com/vekisamara/civic-forensics).
 
 ## Otvorena saradnja
 

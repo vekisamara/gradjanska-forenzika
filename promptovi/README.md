@@ -21,8 +21,9 @@ Kada materijal sadrži broj, procenat, stopu, prosjek, trend, poređenje, budže
 9. `03_pisanje_zalbe.md` — nacrt pravnog podneska zasnovan na prethodno utvrđenim činjenicama i dokazima.
 10. `07_kontrolna_analiza.md` — nezavisni red-team pregled koji pokušava osporiti, ograničiti ili precizirati prvi nalaz.
 11. `analiza-izjava-iz-medija/`, `izjave-funkcionera/`, `izborni-kontekst-2026/`, `analiza-medijske-manipulacije/` i `analiza-pr-saopstenja/` — specijalizovane analize javnih komunikacija.
-12. `dashboard/revizor_narativa.md` — poređenje javnog narativa sa dokumentima i priprema indikatora.
-13. [`kait/`](kait/README.md) — KAIT-00 do KAIT-10 za rekonstrukciju tvrdnji, ocjenu veze opravdanje–zaključak, Linkage Tracker i regresiono testiranje.
+12. [`kait/`](kait/README.md) — KAIT-00 do KAIT-10 za rekonstrukciju tvrdnji, ocjenu veze opravdanje–zaključak, Linkage Tracker i regresiono testiranje.
+
+Rani prototip revizora narativa povučen je u [`arhivu/`](../arhiva/prototipovi/dashboard/revizor_narativa_rani_prototip.md) i nije dio aktuelne kontrolisane biblioteke.
 
 ## Građanski forenzički ciklus
 
@@ -63,3 +64,5 @@ Kada je primjenjivo, rezultat sadrži:
 ## Privatnost
 
 Prije unosa u AI ukloniti JMBG, brojeve ličnih dokumenata, privatne adrese, telefone, medicinske podatke i podatke o maloljetnicima kada nisu neophodni za javni interes. Izvorni dokument čuva se odvojeno od anonimizovane radne kopije.
+
+Ova biblioteka podržava stub odgovorne AI pismenosti u okviru [`Democratic Resilience & AI Literacy Programa`](../program/README.md).

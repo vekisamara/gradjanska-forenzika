@@ -1,3 +1,5 @@
+> **ARHIVIRANO:** rani prototip nije dio aktuelne kontrolisane biblioteke promptova i zahtijeva novu metodološku validaciju.
+
 # 🎭 AI Prompt: Analiza institucionalnih narativa i kontradiktornosti
 
 Ovaj prompt je rani prototip za modul **Civic Intelligence Dashboard**. Njegova funkcija je poređenje javnog narativa institucije sa njenim stvarnim pravnim i administrativnim postupanjem.

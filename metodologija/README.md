@@ -40,4 +40,6 @@ Svaki novi odgovor ili dokument je novi dokazni unos. Prethodni nalaz se ne bri�
 
 ## Odnos prema postojećim dokumentima
 
-Ovaj paket ne zamjenjuje `standard_otvorene_javne_politike.md`, `metodologija_gradjanske_forenzike.md`, `metod_disciplinovanog_administrativnog_pritiska.md` ni zajedničko forenzičko jezgro u `promptovi/00_forenzicko_jezgro.md`. On ih povezuje u operativni minimum koji se može primijeniti na svaki novi predmet.
+Ovaj paket je operativni dio šireg [`Democratic Resilience & AI Literacy Programa`](../program/README.md). Primjenjuje se zajedno sa [`Standardom za analizu javnih odluka v3.2`](osnovni-dokumenti/standard_za_analizu_javnih_odluka_v3.2.md), [`Metodom disciplinovanog administrativnog pritiska v3.2`](osnovni-dokumenti/metod_disciplinovanog_administrativnog_pritiska_v3.2.md) i zajedničkim forenzičkim jezgrom u [`promptovi/00_forenzicko_jezgro.md`](../promptovi/00_forenzicko_jezgro.md).
+
+Ranija objedinjena metodologija v2.0 povučena je u [`arhivu/`](../arhiva/metodologija/metodologija_gradjanske_forenzike_v2.0.md) radi sljedivosti i nije aktuelni standard.

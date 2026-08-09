@@ -1,3 +1,5 @@
+> **ARHIVIRANO:** ovo uputstvo izvodi prejak zaključak iz metapodatkovnog signala. Metapodaci su trag za dodatnu provjeru, ne dokaz autorstva, namjere ili sukoba interesa.
+
 # 🔍 Uputstvo za skriptu: Analiza PDF metapodataka (`forenzika_pdf.py`)
 
 Ovaj alat vam omogućava da zavirite u skrivene slojeve digitalnih PDF dokumenata (rješenja, zapisnika, odluka) koje su izdale institucije i otkrijete ko je stvarni autor, kada je dokument kreiran i koji softver je korišćen.

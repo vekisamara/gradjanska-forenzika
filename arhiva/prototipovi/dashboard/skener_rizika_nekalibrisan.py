@@ -1,3 +1,5 @@
+# ARHIVIRANO: fraze i bodovi nisu kalibrisani niti validirani kao indikator rizika.
+# Ne koristiti za rangiranje predmeta ili zaključivanje o odgovornosti.
 import os
 
 # Lista sistemskih indikatora birokratske opstrukcije i rizika

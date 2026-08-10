@@ -64,7 +64,7 @@ Mnogo zanimljivije pitanje glasi:
 
 Konačna lista pokazuje zašto je ta razlika važna.
 
-Dva projekta nisu ispunila osnovne teritorijalne uslove poziva: njihove aktivnosti trebalo je realizovati izvan četiri gradske općine obuhvaćene pozivom. Jednu prijavu podnijela je javna ustanova iako je poziv bio namijenjen udruženjima i neprofitnim organizacijama.
+Dva projekta nisu ispunila osnovne teritorijalne uslove poziva: njihove aktivnosti trebalo je realizovati izvan četiri gradske opštine obuhvaćene pozivom. Jednu prijavu podnijela je javna ustanova iako je poziv bio namijenjen udruženjima i neprofitnim organizacijama.
 
 Kod još dvije prijave nedostajao je bankovni izvod kojim je trebalo dokazati da je obezbijeđeno najmanje 20% finansijskih sredstava.
 
@@ -102,7 +102,7 @@ Upravo posljednje pitanje postaje posebno zanimljivo kada pogledamo rezultate ci
 
 ## Od 80.000 KM dodijeljeno je 40.000 KM
 
-Konačna lista navodi sedam projekata koji su zadovoljili opće odredbe i kriterije.
+Konačna lista navodi sedam projekata koji su zadovoljili opšte odredbe i kriterije.
 
 Odobreni iznosi bili su:
 

@@ -39,3 +39,14 @@ Cilj ovog foldera je da se istraživačke ideje postepeno pretvore u konkretne t
 ## Princip
 
 Svaka istraživačka ideja mora biti povezana sa stvarnim problemom iz upravne prakse i mora se moći prevesti u provjerljiv podatak, indikator, prompt, šemu ili alat.
+
+
+## Razdvajanje razvojnih slojeva
+
+- **istraživački koncept** opisuje problem, hipotezu i mogući pravac;
+- **specifikacija** definiše podatke, pravila, interfejse i kriterijume prihvatanja;
+- **prototip** demonstrira dio funkcije bez tvrdnje o produkcijskoj spremnosti;
+- **MVP** ispunjava minimalne kriterijume rada i sigurnosti na odobrenom testnom skupu;
+- **važeći alat ili standard** zahtijeva zasebnu odluku, dokumentovana ograničenja i upis u [STATUS.md](../STATUS.md).
+
+Razvojni prioriteti i kriterijumi prelaska navedeni su u [ROADMAP.md](../ROADMAP.md).

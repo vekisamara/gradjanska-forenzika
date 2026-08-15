@@ -46,3 +46,17 @@ Programski koncept je u aktivnom razvoju. Objavljeni standardi, promptovi i alat
 Lokalni sadržaj na srpskom jeziku održava se ovdje. Međunarodne publikacije i razvoj za EU publiku održavaju se u repozitoriju [`civic-forensics`](https://github.com/vekisamara/civic-forensics). Materijali u `arhiva/` nisu važeća preporuka dok ne prođu novu validaciju. Postojeći članci u `blog/` i `analize/` zadržani su bez sadržajnih izmjena.
 
 Uslovi korištenja određeni su fajlom [`LICENSE`](LICENSE), osim kada pojedina publikacija navodi poseban režim.
+
+
+## Važeće verzije i razvoj
+
+Centralni pregled važećih standarda, kandidata u validaciji i prototipova nalazi se u [STATUS.md](STATUS.md). Plan razvoja je u [ROADMAP.md](ROADMAP.md), a značajne promjene u [CHANGELOG.md](CHANGELOG.md).
+
+Kratko pravilo čitanja:
+
+- **važeće** — odobreno za upotrebu u označenoj verziji;
+- **u validaciji** — kandidat koji se testira i ne mijenja važeći standard;
+- **prototip** — razvojna specifikacija ili alat bez statusa javnog standarda;
+- **arhivirano** — sačuvano radi sljedivosti, ali nije aktuelna preporuka.
+
+Pravila doprinosa, sigurnosti i licenci nalaze se u [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) i [docs/licenciranje.md](docs/licenciranje.md).

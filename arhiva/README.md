@@ -11,3 +11,10 @@ Ovdje se čuvaju povučene verzije i prototipovi koji nisu aktuelna metodološka
 | rani prompt revizora narativa | prototip izvan aktuelne kontrolisane biblioteke |
 
 Povratak materijala u aktivni dio zahtijeva vlasnika, novu verziju, dokumentovana ograničenja, odgovarajuće testove i ažurirane veze.
+
+
+## Registar i povratak iz arhive
+
+Svaka arhivirana stavka treba da ima tačnu putanju, prethodnu verziju, datum arhiviranja, razlog, zamjenski dokument i vlasnika naredne provjere. Ako zamjena ne postoji, koristi se oznaka „bez važeće zamjene“.
+
+Materijal se vraća u aktivni dio samo kroz novu verziju i dokumentovan pregled privatnosti, metodološke tačnosti, kompatibilnosti i testova. Povratak se evidentira u [CHANGELOG.md](../CHANGELOG.md) i [STATUS.md](../STATUS.md).

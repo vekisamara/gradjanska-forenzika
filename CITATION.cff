@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Ako koristite Građansku forenziku, citirajte projekat i konkretni dokument ili verziju."
+title: "Građanska forenzika: Democratic Resilience & AI Literacy Program"
+type: software
+authors:
+  - family-names: "Šamara"
+    given-names: "Velimir"
+year: 2026
+license: "CC-BY-NC-SA-4.0"
+repository-code: "https://github.com/vekisamara/gradjanska-forenzika"
+url: "https://gradjanskaforenzika.org"
+preferred-citation:
+  type: generic
+  title: "Građanska forenzika: Democratic Resilience & AI Literacy Program"
+  authors:
+    - family-names: "Šamara"
+      given-names: "Velimir"
+  year: 2026
+  url: "https://gradjanskaforenzika.org"

@@ -10,3 +10,13 @@ Ovaj direktorij definiše programski okvir Građanske forenzike. Povezuje građa
 6. [`06_etika_privatnost_i_odgovorna_ai_upotreba.md`](06_etika_privatnost_i_odgovorna_ai_upotreba.md)
 
 Operativna primjena počinje u [`metodologija/`](../metodologija/README.md), a javni rezultati se organizuju kroz publikacije, edukaciju, studije slučaja i članke.
+
+
+## Upravljanje dokumentom
+
+**Verzija programa:** 1.0  
+**Status:** važeći programski okvir  
+**Posljednji pregled:** 15. avgust 2026.  
+**Uredništvo:** Građanska forenzika
+
+Važeće verzije svih slojeva vode se u [STATUS.md](../STATUS.md), a razvojne faze u [ROADMAP.md](../ROADMAP.md). Program se pregleda najmanje jednom godišnje ili ranije kada se mijenja metodologija, način obrade podataka ili javni model saradnje.

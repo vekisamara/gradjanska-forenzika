@@ -21,7 +21,7 @@ Ovaj dokument sadrži zvanične informacije o publikaciji, detalje o licenci, od
 
 ## 📜 Licenca i uslovi korišćenja
 
-Ova publikacija je dostupna javnosti potpuno besplatno pod međunarodnom licencom **Creative Commons Autorstvo-Nekomercijalno 4.0 (CC BY-NC 4.0)**.
+Ova publikacija je dostupna javnosti potpuno besplatno pod međunarodnom licencom **Creative Commons Autorstvo-Nekomercijalno 4.0 (CC BY-NC 4.0), u skladu sa impresumom publikacije**.
 
 * ✔️ **Dozvoljeno je:** Dijeljenje, umnožavanje, preuzimanje i prilagođavanje sadržaja u edukativne i nekomercijalne svrhe.
 * ❌ **Zabranjeno je:** Komercijalno korišćenje, prodaja materijala ili distribucija bez jasnog navođenja autora.
@@ -54,3 +54,6 @@ Ukoliko koristite metodologiju ili tekstove iz ovog priručnika u svojim istraž
 <img src="naslovna.png" alt="Naslovna stranica" width="300"/>
 
 
+
+
+Detaljna matrica licenci cijelog repozitorija nalazi se u [docs/licenciranje.md](../../docs/licenciranje.md). Licenca ove publikacije ne mijenja licence metodoloških standarda, programskih materijala ili softverskog koda.

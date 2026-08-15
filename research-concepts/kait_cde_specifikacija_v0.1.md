@@ -49,3 +49,30 @@ KAIT se implementira unutar GFO Analysis sloja i proširuje entitete Claim, Evid
 5. Regresija na najmanje tri sadržajno različita, interno kontrolisana predmeta.
 
 Referentna šema: [`sheme/kait_claim_analysis_v0.1.schema.json`](sheme/kait_claim_analysis_v0.1.schema.json).
+
+
+## Svrha i status
+
+Ovaj dokument opisuje istraživačku specifikaciju KAIT sloja unutar budućeg Civic Decision Enginea. Status je **prototip v0.1**: nije važeći javni standard, ne donosi pravne zaključke i ne smije automatski objavljivati nalaze sa pravnim ili reputacionim posljedicama.
+
+## Granice sistema
+
+CDE prima provjerene ili jasno označene dokumente i strukturisane zapise, povezuje tvrdnje, dokaze i praznine te priprema materijal za ljudski pregled. Sistem ne utvrđuje krivicu, motiv, korupciju, zakonitost ili vjerodostojnost osobe.
+
+## Ulazi i izlazi
+
+**Ulazi:** dokument, lokator izvora, status O/K/R/N, evidencioni podaci, analitičko pitanje i dozvoljeni kontekst.
+
+**Izlazi:** claim/evidence matrica, argumentni lanac, lista protivdokaza, praznine, alternativna objašnjenja, status adekvatnosti i zapis ljudske potvrde.
+
+## Ljudske kontrolne tačke
+
+Ljudski recenzent potvrđuje izvor, high-impact tvrdnje, pravno tumačenje, uzročnost, motive, obradu protivdokaza i odluku o objavi. Svaka izmjena nakon potvrde mora vratiti nalaz u status za ponovni pregled.
+
+## Zavisnosti i sljedivost
+
+Specifikacija zavisi od važećeg Standarda 3.2, GF-MET postupka, forenzičkog prompt jezgra i registra izvora. Svaki izlaz mora sačuvati verziju šeme, vrijeme obrade i identitet ili oznaku recenzenta.
+
+## Istorija verzije
+
+- **v0.1 — avgust 2026:** početni Claim/Warrant/Premise model, validacioni lockovi i acceptance criteria.

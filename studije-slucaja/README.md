@@ -5,3 +5,12 @@ Ovdje se objavljuju javne primjene metodologije koje se mogu provjeriti bez otkr
 Svaka studija treba da navede centralno pitanje, izvore, status tvrdnji, dokazne praznine, nivo pouzdanosti, pravo na odgovor, verziju i naknadne izmjene. Studija testira metodologiju, ali sama ne uspostavlja opšte pravilo.
 
 - [`Parking Banja Luka: PR narativ i odluke Ustavnog suda`](parking-banja-luka-pr-narativ-i-odluke-ustavnog-suda.md)
+
+
+## Registar
+
+| Studija | Status | Posljednji pregled |
+|---|---|---|
+| Parking Banja Luka: PR narativ i odluke Ustavnog suda | objavljeno | provjeriti u samom dokumentu |
+
+Dozvoljeni statusi su: **nacrt**, **u provjeri**, **poslano na odgovor**, **objavljeno**, **dopunjeno**, **ispravljeno** i **povučeno**. Promjena statusa mora ostaviti datum, razlog i vezu sa prethodnom verzijom. Predmeti sa neobjavljenim ili osjetljivim spisima ne navode se u javnom registru.

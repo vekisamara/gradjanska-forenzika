@@ -1,0 +1,44 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Local evidence and case work
+dokazi/
+evidence/
+spisi/
+predmeti/
+radne-kopije/
+anonimizovano/
+private/
+case-data/
+*_metadata_report.csv
+*_metadata_report.json
+hash_report.csv
+hash_report.json
+evidencija_dokaza.csv
+foi_tracker.csv
+
+# Generated and temporary files
+*.tmp
+*.bak
+*.log
+~$*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

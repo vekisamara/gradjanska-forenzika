@@ -133,3 +133,20 @@ Metapodaci, hash vrijednosti i lokalni izvještaji nisu sami po sebi dokaz nezak
 ## Privatnost
 
 Ne objavljujte neobrađene dokumente koji sadrže JMBG, broj lične karte, privatnu adresu, privatni telefon, medicinske podatke ili podatke o maloljetnicima. Prije javnog objavljivanja dokumente treba anonimizovati i ručno pregledati.
+
+
+## Zrelost i kompatibilnost
+
+| Grupa | Zavisnosti | Status | Dopuštena upotreba |
+|---|---|---|---|
+| hash i evidencioni alati | Python 3, standardna biblioteka | operativni pomoćni alat | lokalni rad uz ručnu provjeru |
+| PDF metapodaci | Python 3, pypdf | indikator za dodatnu provjeru | ne tumačiti kao dokaz nezakonitosti |
+| anonimizator teksta | Python 3 | eksperimentalna zaštitna pomoć | obavezan ručni pregled |
+| rokovi i FOI tracker | Python 3 | operativna evidencija | ne zamjenjuje pravnu provjeru roka |
+| case/report builder | Python 3 | razvojni izlaz | pregled prije objave |
+
+Minimalno podržano okruženje i tačne verzije zavisnosti treba zaključati u zasebnom dependency fajlu nakon testiranja. Do tada se alati ne predstavljaju kao produkcijski sistem za višekorisničku obradu povjerljivih podataka.
+
+## Sigurnosna ograničenja
+
+Ulazne putanje, ekstenzije, veličine datoteka i izlazne lokacije moraju se ručno provjeriti. Produkcijski spisi, ključevi i generisane evidencije ne pripadaju git repozitoriju. Pravila incidenta i prijavljivanja nalaze se u [SECURITY.md](../SECURITY.md).

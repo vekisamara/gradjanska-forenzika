@@ -8,6 +8,8 @@ Format prati principe Keep a Changelog, uz odvojeno označavanje statusa metodol
 
 ### Dodano
 
+- 18. avgust 2026: GF-PPT 0.1 kao nezavisan modul u validaciji, sa metodom, bibliotekom od 16 promptova, Project Card obrascem i validacionim slučajem Čokorska Polja–Goleši;
+
 - centralni registar statusa i verzija;
 - razvojni plan;
 - pravila doprinosa i sigurnosna politika;

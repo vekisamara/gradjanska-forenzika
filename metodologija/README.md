@@ -22,8 +22,9 @@ Ovaj direktorij pretvara opšta načela Građanske forenzike u ponovljiv radni p
 11. [`10_sablon_studije_slucaja.md`](10_sablon_studije_slucaja.md) — standardni javni format studije slučaja.
 12. [`11_registar_izvora_i_verzionisanje.md`](11_registar_izvora_i_verzionisanje.md) — porijeklo dokumenta, izmjene nalaza i verzije metodologije.
 13. [`12_kait_kriticka_analiza_institucionalne_tvrdnje.md`](12_kait_kriticka_analiza_institucionalne_tvrdnje.md) — rekonstrukcija institucionalnih tvrdnji i provjera da li opravdanje nosi sadržaj, sigurnost i domet zaključka.
+14. [`ppt/`](ppt/README.md) — PR-to-Payment Trace (GF-PPT 0.1), nezavisan modul u validaciji za povezivanje PR objave sa nabavkom, ugovorom, izvršenjem i plaćanjem.
 
-KAIT v0.1 ima status radnog modula u validaciji. [Prijedlog za Standard 3.3](kait/standard_v3.3_kandidat.md) ne mijenja važeći Standard 3.2 dok ne budu završeni dodatni regresioni i inter-analyst testovi na korpusima odobrenim za tu namjenu.
+KAIT v0.1 i GF-PPT 0.1 imaju status radnih modula u validaciji. [Prijedlog za Standard 3.3](kait/standard_v3.3_kandidat.md) ne mijenja važeći Standard 3.2 dok ne budu završeni dodatni regresioni i inter-analyst testovi na korpusima odobrenim za tu namjenu.
 
 ## Operativni ciklus
 

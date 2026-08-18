@@ -1,6 +1,6 @@
 # Status i važeće verzije
 
-**Posljednji pregled:** 15. avgust 2026.  
+**Posljednji pregled:** 18. avgust 2026.  
 **Vlasnik registra:** uredništvo Građanske forenzike
 
 Ovaj registar je glavno mjesto za provjeru statusa dokumenata. Oznaka „važeće“ znači da se dokument može koristiti u objavljenom radu; ne znači pravnu, naučnu ili institucionalnu certifikaciju.
@@ -14,6 +14,7 @@ Ovaj registar je glavno mjesto za provjeru statusa dokumenata. Oznaka „važeć
 | Prompt jezgro | GF-PROMPT-CORE | 1.1 | važeće zajedničko jezgro |
 | Kvantitativni modul | GF-PROMPT-QUANT | 1.0 | važeći uslovni modul |
 | KAIT | Kritička analiza institucionalne tvrdnje | 0.1 | kandidat u validaciji |
+| PR-to-Payment Trace | GF-PPT | 0.1 | nezavisan modul — kandidat u validaciji |
 | Civic Decision Engine | KAIT/CDE specifikacija | 0.1 | istraživački prototip |
 | Edukacija | modularni program | — | u razvoju |
 

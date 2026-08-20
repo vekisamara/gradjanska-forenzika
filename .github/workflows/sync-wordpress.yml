@@ -19,6 +19,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    environment: wordpress-production
     env:
       WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
       WP_USERNAME: ${{ secrets.WP_USERNAME }}

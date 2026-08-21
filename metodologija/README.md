@@ -2,7 +2,7 @@
 
 **Oznaka paketa:** GF-MET 1.0  
 **Status:** metodološka osnova  
-**Datum:** 5. avgust 2026.  
+**Datum:** 22. avgust 2026.  
 **Urednik:** Velimir Šamara
 
 Ovaj direktorij pretvara opšta načela Građanske forenzike u ponovljiv radni postupak. Dokumenti su opšti: ne sadrže dokazne zaključke iz pojedinačnih predmeta. Studije slučaja ostaju u `studije-slucaja/` i služe za testiranje i unapređivanje metode.
@@ -18,11 +18,13 @@ Ovaj direktorij pretvara opšta načela Građanske forenzike u ponovljiv radni p
 7. [`06_metod_eskalacije.md`](06_metod_eskalacije.md) — proporcionalni prelaz od razjašnjenja do javnog djelovanja.
 8. [`07_ai_protokol_i_promptovi.md`](07_ai_protokol_i_promptovi.md) — dozvoljena uloga AI-a, obavezni ulazi i kontrola izlaza.
 9. [`08_matrica_dokaza.md`](08_matrica_dokaza.md) — struktura registra tvrdnji i dokaza.
-10. [`09_kontrola_kvaliteta_i_ponovljivost.md`](09_kontrola_kvaliteta_i_ponovljivost.md) — drugi analitički prolaz i kriterijumi objave.
+10. [`09_kontrola_kvaliteta_i_ponovljivost.md`](09_kontrola_kvaliteta_i_ponovljivost.md) — drugi analitički prolaz, acceptance test i kriterijumi objave.
 11. [`10_sablon_studije_slucaja.md`](10_sablon_studije_slucaja.md) — standardni javni format studije slučaja.
 12. [`11_registar_izvora_i_verzionisanje.md`](11_registar_izvora_i_verzionisanje.md) — porijeklo dokumenta, izmjene nalaza i verzije metodologije.
 13. [`12_kait_kriticka_analiza_institucionalne_tvrdnje.md`](12_kait_kriticka_analiza_institucionalne_tvrdnje.md) — rekonstrukcija institucionalnih tvrdnji i provjera da li opravdanje nosi sadržaj, sigurnost i domet zaključka.
-14. [`ppt/`](ppt/README.md) — PR-to-Payment Trace (GF-PPT 0.1), nezavisan modul u validaciji za povezivanje PR objave sa nabavkom, ugovorom, izvršenjem i plaćanjem.
+14. [`13_standard_kvaliteta_promptova.md`](13_standard_kvaliteta_promptova.md) — obavezna struktura prompta, jedan primarni rezultat, dokazna pravila, neizvjesnost i acceptance criteria.
+15. [`14_validacija_promptova.md`](14_validacija_promptova.md) — benchmark, kritične greške, regresiono i inter-analyst testiranje promptova.
+16. [`ppt/`](ppt/README.md) — PR-to-Payment Trace (GF-PPT 0.1), nezavisan modul u validaciji za povezivanje PR objave sa nabavkom, ugovorom, izvršenjem i plaćanjem.
 
 KAIT v0.1 i GF-PPT 0.1 imaju status radnih modula u validaciji. [Prijedlog za Standard 3.3](kait/standard_v3.3_kandidat.md) ne mijenja važeći Standard 3.2 dok ne budu završeni dodatni regresioni i inter-analyst testovi na korpusima odobrenim za tu namjenu.
 
@@ -31,6 +33,12 @@ KAIT v0.1 i GF-PPT 0.1 imaju status radnih modula u validaciji. [Prijedlog za St
 > predmet → centralno pitanje → tvrdnje → dokazi → praznine → intervencija → novi dokaz → kontrola → objava → učenje
 
 Svaki novi odgovor ili dokument je novi dokazni unos. Prethodni nalaz se ne briše, nego dobija status: potvrđen, izmijenjen, opovrgnut, dopunjen ili i dalje otvoren.
+
+## Prompt ciklus
+
+> scope → prompt → test → analiza → red-team → greška/ograničenje → regresioni test → nova verzija
+
+Prompt se tretira kao verzionisan analitički instrument, a ne samo kao tekst instrukcije. Nova ili materijalno izmijenjena verzija složenog prompta dobija stabilan status tek nakon validacije prema GF-PROMPT-EVAL 1.0.
 
 ## Obrasci
 
@@ -41,10 +49,9 @@ Svaki novi odgovor ili dokument je novi dokazni unos. Prethodni nalaz se ne bri�
 
 ## Odnos prema postojećim dokumentima
 
-Ovaj paket je operativni dio šireg [`Democratic Resilience & AI Literacy Programa`](../program/README.md). Primjenjuje se zajedno sa [`Standardom za analizu javnih odluka v3.2`](osnovni-dokumenti/standard_za_analizu_javnih_odluka_v3.2.md), [`Metodom disciplinovanog administrativnog pritiska v3.2`](osnovni-dokumenti/metod_disciplinovanog_administrativnog_pritiska_v3.2.md) i zajedničkim forenzičkim jezgrom u [`promptovi/00_forenzicko_jezgro.md`](../promptovi/00_forenzicko_jezgro.md).
+Ovaj paket je operativni dio šireg [`Democratic Resilience & AI Literacy Programa`](../program/README.md). Primjenjuje se zajedno sa [`Standardom za analizu javnih odluka v3.2`](osnovni-dokumenti/standard_za_analizu_javnih_odluka_v3.2.md), [`Metodom disciplinovanog administrativnog pritiska v3.2`](osnovni-dokumenti/metod_disciplinovanog_administrativnog_pritiska_v3.2.md), zajedničkim forenzičkim jezgrom u [`promptovi/00_forenzicko_jezgro.md`](../promptovi/00_forenzicko_jezgro.md), standardom kvaliteta promptova GF-PROMPT-QS 1.0 i protokolom validacije GF-PROMPT-EVAL 1.0.
 
 Ranija objedinjena metodologija v2.0 povučena je u [`arhivu/`](../arhiva/metodologija/metodologija_gradjanske_forenzike_v2.0.md) radi sljedivosti i nije aktuelni standard.
-
 
 ## Hijerarhija i verzionisanje
 

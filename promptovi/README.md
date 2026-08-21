@@ -4,9 +4,29 @@ Ovaj folder sadrži operativnu biblioteku za analizu upravnih akata, javnih izja
 
 ## Zajedničko pravilo
 
-Svaki prompt mora primjenjivati `00_forenzicko_jezgro.md` (**GF-PROMPT-CORE 1.1**). Posebni prompt može proširiti zadatak, ali ne smije ukinuti obavezno razdvajanje činjenica, tvrdnji izvora, tumačenja, pretpostavki i nepoznatih okolnosti.
+Svaki prompt mora primjenjivati `00_forenzicko_jezgro.md` (**GF-PROMPT-CORE 1.2**) i [`../metodologija/13_standard_kvaliteta_promptova.md`](../metodologija/13_standard_kvaliteta_promptova.md) (**GF-PROMPT-QS 1.0**). Posebni prompt može proširiti zadatak, ali ne smije ukinuti obavezno razdvajanje činjenica, tvrdnji izvora, tumačenja, pretpostavki i nepoznatih okolnosti.
+
+Za nove i revidirane promptove koristi se [`_sablon_prompta.md`](_sablon_prompta.md) (**GF-PROMPT-TEMPLATE 1.0**).
 
 Kada materijal sadrži broj, procenat, stopu, prosjek, trend, poređenje, budžetski iznos, indikator, procjenu ili uzročnu tvrdnju, obavezno se dodaje `08_kvantitativni_modul.md` (**GF-PROMPT-QUANT 1.0**).
+
+## Standardna struktura novog prompta
+
+> Context → Task → Evidence rules → Analytical tests → Output schema → Uncertainty → Self-check / Acceptance criteria
+
+Pravilo je: **jedan prompt — jedan primarni rezultat**. Ako zadatak traži više nezavisnih proizvoda ili faza, razdvojiti ga u module.
+
+## Validacija
+
+Nova ili materijalno izmijenjena verzija složenog prompta testira se prema [`../metodologija/14_validacija_promptova.md`](../metodologija/14_validacija_promptova.md) (**GF-PROMPT-EVAL 1.0**).
+
+Status prompta je jedan od:
+
+- `STABILAN`;
+- `U VALIDACIJI`;
+- `POVUČEN`.
+
+Greška iz stvarnog rada koja zahtijeva izmjenu prompta postaje kandidat za trajni regresioni test.
 
 ## Preporučeni redoslijed rada
 
@@ -58,9 +78,10 @@ Kada je primjenjivo, rezultat sadrži:
 5. uočene obrasce;
 6. uzroke, posljedice i alternativna objašnjenja;
 7. kvantitativnu matricu i nalaze KF;
-8. nivo pouzdanosti;
+8. nivo pouzdanosti i šta bi ga moglo promijeniti;
 9. sljedeći dokazni ili procesni korak;
-10. test ponovljivosti.
+10. tvrdnje koje zahtijevaju ljudsku provjeru;
+11. test ponovljivosti.
 
 ## Privatnost
 

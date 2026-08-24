@@ -1,0 +1,97 @@
+entity,field,type,required,nullable,allowed_values_or_format,description
+Election,election_id,string,yes,no,stable identifier,Jedinstveni identifikator izbora
+Election,election_date,date,yes,no,YYYY-MM-DD,Datum glasanja
+Election,election_type,string,yes,no,controlled vocabulary,Vrsta izbora
+Election,jurisdiction,string,yes,no,text,Nadležna izborna jurisdikcija
+Election,authority,string,yes,no,text,Nadležno izborno tijelo
+Election,parent_election_id,string,no,yes,foreign key,Povezani raniji izborni događaj
+Election,event_relation,string,no,yes,original|repeat|partial_repeat|postponed|rerun|correction,Odnos prema povezanom izbornom događaju
+Election,results_determined_at,string,no,yes,ISO 8601,Vrijeme formalnog utvrđivanja rezultata
+Election,results_confirmed_at,string,no,yes,ISO 8601,Vrijeme potvrđivanja rezultata
+Election,published_at,string,no,yes,ISO 8601,Vrijeme objave izvora
+ElectoralUnit,election_id,string,yes,no,foreign key,Izbor
+ElectoralUnit,electoral_unit_id,string,yes,no,source/canonical identifier,Interni ili kanonski identifikator izborne jedinice
+ElectoralUnit,electoral_unit_code,string,no,yes,official code,Službena šifra izborne jedinice
+ElectoralUnit,electoral_unit_name,string,yes,no,text,Naziv izborne jedinice
+ElectoralUnit,source_data_from,string,no,yes,source-native timestamp,Vrijeme/stanje podataka prema izvoru
+PollingStation,election_id,string,yes,no,foreign key,Izbor
+PollingStation,snapshot_id,string,no,yes,foreign key,Snapshot iz kojeg je zapis dobijen
+PollingStation,record_retrieved_at,string,no,yes,ISO 8601,Vrijeme preuzimanja konkretnog API odgovora
+PollingStation,polling_station_id,string,yes,no,source identifier,Interni identifikator biračkog mjesta
+PollingStation,polling_station_code,string,yes,no,official code,Javna šifra biračkog mjesta
+PollingStation,electoral_unit_id,string,yes,no,foreign key,Izborna jedinica
+PollingStation,municipality_code,string,no,yes,official code,Šifra osnovne izborne jedinice/opštine
+PollingStation,polling_station_name,string,yes,no,text,Naziv biračkog mjesta
+PollingStation,location,string,no,yes,text,Lokacija koju daje izvor
+PollingStation,registered_voters,integer,yes,no,>=0,Broj registrovanih birača
+PollingStation,total_votes,integer,no,yes,>=0,Broj glasalih/obrađenih prema izvoru
+PollingStation,valid_votes,integer,no,yes,>=0,Broj važećih listića
+PollingStation,invalid_votes,integer,no,yes,>=0,Broj nevažećih listića
+PollingStation,invalid_blank_ballots,integer,no,yes,>=0,Nevažeći prazni listići
+PollingStation,invalid_other_ballots,integer,no,yes,>=0,Ostali nevažeći listići
+PollingStation,turnout_percentage,number,no,yes,0..100,Izlaznost izvora ili izvedena vrijednost
+PollingStation,number_candidates,integer,no,yes,>=0,Broj kandidata prema izvoru
+PollingStation,source_data_from,string,no,yes,source-native timestamp,Vrijeme/stanje podataka prema izvoru
+Candidate,election_id,string,yes,no,foreign key,Izbor
+Candidate,candidate_id,string,yes,no,stable within election,Identifikator kandidata
+Candidate,candidate_code,string,no,yes,official/source code,Službena ili source šifra kandidata
+Candidate,candidate_name,string,yes,no,text,Ime kandidata
+Candidate,party_id,string,no,yes,text,Identifikator političkog subjekta
+Candidate,party_name,string,no,yes,text,Naziv političkog subjekta
+Candidate,political_bloc_id,string,no,yes,text,Normalizovani istorijski blok
+Result,election_id,string,yes,no,foreign key,Izbor
+Result,snapshot_id,string,no,yes,foreign key,Snapshot iz kojeg je rezultat dobijen
+Result,record_retrieved_at,string,no,yes,ISO 8601,Vrijeme preuzimanja rezultata
+Result,polling_station_id,string,yes,no,foreign key,Biračko mjesto
+Result,candidate_id,string,yes,no,foreign key,Kandidat
+Result,candidate_code,string,no,yes,official/source code,Šifra kandidata
+Result,votes,integer,yes,no,>=0,Broj glasova kandidata
+Result,vote_percentage,number,no,yes,0..100,Procenat glasova kandidata
+Result,source_data_from,string,no,yes,source-native timestamp,Vrijeme/stanje podataka prema izvoru
+Snapshot,snapshot_id,string,yes,no,globally unique immutable identifier,Jedinstveni identifikator snapshot-a
+Snapshot,election_id,string,yes,no,foreign key,Izbor
+Snapshot,source_id,string,yes,no,foreign key,Izvor
+Snapshot,previous_snapshot_id,string,no,yes,foreign key,Prethodni snapshot u lancu
+Snapshot,snapshot_started_at,string,yes,no,ISO 8601,Vrijeme početka ingest ciklusa
+Snapshot,snapshot_completed_at,string,yes,no,ISO 8601,Vrijeme završetka ingest ciklusa
+Snapshot,retrieved_at,string,yes,no,ISO 8601,Kanonsko vrijeme manifest-a snapshot-a
+Snapshot,source_data_from_values,array/string,no,yes,source-native values,Sve zabilježene source dataFrom vrijednosti
+Snapshot,source_data_from_min,string,no,yes,ISO 8601 only when safely parsed,Najraniji source timestamp ako je semantika i format poznat
+Snapshot,source_data_from_max,string,no,yes,ISO 8601 only when safely parsed,Najkasniji source timestamp ako je semantika i format poznat
+Snapshot,completeness_status,string,yes,no,complete|partial|failed|unknown,Status potpunosti snapshot-a
+Snapshot,record_count,integer,yes,no,>=0,Broj normalizovanih redova
+Snapshot,polling_station_count,integer,yes,no,>=0,Broj uspješno obrađenih biračkih mjesta
+Snapshot,expected_polling_station_count,integer,no,yes,>=0,Očekivani broj biračkih mjesta prema list endpointima
+Snapshot,successful_request_count,integer,yes,no,>=0,Broj uspješnih HTTP/API zahtjeva
+Snapshot,failed_request_count,integer,yes,no,>=0,Broj neuspješnih zahtjeva nakon retry pokušaja
+Snapshot,dataset_hash,string,no,yes,SHA-256,Hash determinističkog manifest skupa izlaza
+Snapshot,ingestor_version,string,yes,no,semver,Verzija ingestora
+Snapshot,workers,integer,no,yes,1..32,Broj paralelnih workera
+Snapshot,retries,integer,no,yes,>=0,Broj retry pokušaja
+Snapshot,backoff_seconds,number,no,yes,>=0,Početni exponential-backoff interval
+Snapshot,timeout_seconds,integer,no,yes,>0,HTTP timeout po zahtjevu
+SnapshotDelta,election_id,string,yes,no,foreign key,Izbor
+SnapshotDelta,polling_station_id,string,yes,no,foreign key,Biračko mjesto
+SnapshotDelta,field_name,string,no,yes,text,Polje koje se poredi
+SnapshotDelta,candidate_id,string,no,yes,foreign key,Kandidat za candidate-level delta
+SnapshotDelta,snapshot_from,string,yes,no,foreign key,Početni snapshot
+SnapshotDelta,snapshot_to,string,yes,no,foreign key,Završni snapshot
+SnapshotDelta,value_from,number/string,no,yes,typed value,Prethodna vrijednost
+SnapshotDelta,value_to,number/string,no,yes,typed value,Nova vrijednost
+SnapshotDelta,delta,number,no,yes,numeric where applicable,Numerička promjena
+SnapshotDelta,comparison_status,string,yes,no,comparable|partial_snapshot|record_missing_from_source|new_record|source_time_incomparable|not_comparable,Status validnosti poređenja
+Source,source_id,string,yes,no,stable identifier,Identifikator izvora
+Source,source_type,string,yes,no,official|observer|political_party|media|polling_organization|civil_society|research|crowdsourced|other,Tip izvora
+Source,source_name,string,yes,no,text,Naziv izvora
+Source,retrieved_at,string,yes,no,ISO 8601,Vrijeme pribavljanja
+Source,verification_status,string,yes,no,unverified|single_source|multiple_source|documented|official,Status potvrđenosti
+Source,source_url,string,no,yes,URI,URL izvora
+Provenance,dataset_id,string,yes,no,stable identifier,Identifikator RAW artefakta
+Provenance,snapshot_id,string,no,yes,foreign key,Snapshot kojem RAW artefakt pripada
+Provenance,source_id,string,no,yes,foreign key,Izvor dataseta
+Provenance,source_url,string,yes,no,URI,Tačan API endpoint ili URL
+Provenance,retrieved_at,string,yes,no,ISO 8601,Vrijeme konkretnog preuzimanja
+Provenance,original_format,string,no,yes,csv|json|xlsx|pdf|html|other,Originalni format
+Provenance,sha256,string,no,yes,SHA-256,Hash RAW odgovora/fajla
+Provenance,raw_file,string,no,yes,path,Putanja RAW artefakta unutar snapshot-a
+Provenance,request_status,string,no,yes,success|failed,Status zahtjeva

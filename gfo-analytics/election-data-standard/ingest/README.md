@@ -7,7 +7,8 @@ Ovaj folder sadrži radne CIK API alate za GFO Election Data Standard.
 - `cik_ingestor_v0_1.py` — sekvencijalni validacioni ingestor (v0.1.1)
 - `cik_ingestor_v0_2.py` — prva paralelna snapshot implementacija (v0.2.0; zadržana radi validacionog traga)
 - `cik_ingestor_v0_2_1.py` — aktuelni paralelni snapshot-capable ingestor
-- `snapshot_delta_v0_1.py` — determinističko poređenje dva snapshot-a
+- `snapshot_delta_v0_1.py` — početna deterministička delta implementacija
+- `snapshot_delta_v0_1_1.py` — aktuelna delta implementacija sa jasnim brojanjem promjena i `--changes-only`
 
 ## Confirmed parameters for resId=39
 
@@ -119,29 +120,65 @@ Snapshot status je `complete` samo ako nema failed requesta i broj normalizovani
 
 Nepotpuni snapshot se kasnije ne smije tumačiti kao da su nedostajući rezultati nestali iz izvora.
 
-## Snapshot Delta Engine
+## Snapshot Delta Engine v0.1.1
+
+Aktuelni delta alat koristi se ovako:
 
 ```bash
-python3 snapshot_delta_v0_1.py \
-  ./election-day/snapshots/SNAPSHOT_1 \
-  ./election-day/snapshots/SNAPSHOT_2 \
+python3 snapshot_delta_v0_1_1.py \
+  ./SNAPSHOT_1 \
+  ./SNAPSHOT_2 \
   --output ./delta-1-2
 ```
 
-Engine deterministički poredi candidate votes, turnout, valid/invalid podatke, registered voters i prisustvo rezultata. On ne radi anomaly scoring niti fraud klasifikaciju.
+Podrazumijevani režim zadržava sve poređene vrijednosti radi auditabilnosti, uključujući i `delta = 0` redove.
+
+Konzolni izlaz jasno razlikuje:
+
+```text
+Compared values: ...
+Changed values: ...
+Revision events: ...
+Written delta rows: ...
+```
+
+Za pregled samo stvarnih promjena koristiti:
+
+```bash
+python3 snapshot_delta_v0_1_1.py \
+  ./SNAPSHOT_1 \
+  ./SNAPSHOT_2 \
+  --output ./delta-changes-only \
+  --changes-only
+```
+
+U tom režimu `snapshot_deltas.csv` sadrži samo substantive change/presence-change redove. `revision_events.csv` ostaje zaseban deskriptivni event sloj.
+
+Engine deterministički poredi:
+
+- candidate votes;
+- registered voters;
+- total votes / turnout;
+- valid votes;
+- invalid votes;
+- invalid ballot components;
+- polling-station/result presence.
+
+On ne radi anomaly scoring niti fraud klasifikaciju.
 
 ## Validation history
 
-`VALIDATION_CASE_003_FULL_RS_PARALLEL_SNAPSHOT_v0.2.md` dokumentuje prvi puni paralelni snapshot v0.2.0:
+`VALIDATION_CASE_003_FULL_RS_PARALLEL_SNAPSHOT_v0.2.md` dokumentuje prvi puni paralelni snapshot v0.2.0 i implementacijski metadata problem kasnije ispravljen u v0.2.1.
 
-- 2.164 biračka mjesta
-- 12.984 kandidatska reda
-- 4.393 uspješna zahtjeva
-- 0 failed requesta
-- `complete`
-- oko 105,6 sekundi akvizicije
+`VALIDATION_CASE_004_FULL_RS_SNAPSHOT_v0.2.1.md` potvrđuje puni v0.2.1 snapshot kao PASS.
 
-v0.2.0 je imao normalizacijski propust: `location` i `source_data_from` su čitani samo iz basic-info odgovora, iako ih CIK Race5 daje u parent polling-station objektu. RAW podaci nisu izgubljeni. v0.2.1 ispravlja taj problem fallback pravilom.
+`VALIDATION_CASE_005_UNCHANGED_SNAPSHOT_DELTA_v0.2.md` potvrđuje da dva odvojena snapshot-a nepromijenjenog CIK dataseta daju:
+
+- 28.132 poređene vrijednosti;
+- 0 stvarnih promjena;
+- 0 revision events.
+
+To potvrđuje da različiti snapshot/retrieval timestampovi ne proizvode lažne temporalne promjene.
 
 ## Preservation rule
 

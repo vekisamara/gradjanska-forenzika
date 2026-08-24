@@ -1,0 +1,3 @@
+election_id,election_date,election_type,jurisdiction,authority,source_id
+2025-BIH-SE-RS-PRES,2025-11-23,president_rs_early,Republika Srpska,Centralna izborna komisija BiH,CIK-PI-RS-2025
+2026-BIH-REPEAT-RS-PRES,2026-02-08,president_rs_early_repeat,Republika Srpska,Centralna izborna komisija BiH,CIK-PI-RS-REPEAT-2026

@@ -1,0 +1,4 @@
+source_id,source_type,source_name,source_url,retrieved_at,verification_status,notes
+CIK-PI-RS-2025,official,Centralna izborna komisija BiH - Potvrđeni rezultati prijevremenih izbora 2025,https://www.izbori.ba/Rezultati_izbora/?resId=39,2026-08-24T21:37:00+02:00,official,Dynamic official results application
+CIK-PI-RS-CONFIRM-2026,official,CIK BiH - Odluka o potvrđivanju i objavljivanju rezultata,https://www.izbori.ba/Documents/2025/pi_2025_1/odluka_potvrdjivanje_rezultata_pi_za_p_rs-bos.pdf,2026-08-24T21:37:00+02:00,official,Decision dated 2026-02-13
+CIK-PI-RS-REPEAT-2026,official,CIK BiH - Utvrđeni rezultati ponovnih prijevremenih izbora,https://www.izbori.ba/?CategoryID=64&Id=5953&Lang=3,2026-08-24T21:37:00+02:00,official,136 polling stations in 17 basic electoral units

@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gradjanskaforenzika.org/schemas/gfo-election-data-v0.1.json",
+  "title": "GFO Election Data Standard v0.1",
+  "type": "object",
+  "required": ["dataset_id", "dataset_version", "records", "provenance"],
+  "properties": {
+    "dataset_id": {"type": "string", "minLength": 1},
+    "dataset_version": {"type": "string", "minLength": 1},
+    "records": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/record"}
+    },
+    "provenance": {"$ref": "#/$defs/provenance"}
+  },
+  "$defs": {
+    "record": {
+      "oneOf": [
+        {"$ref": "#/$defs/election"},
+        {"$ref": "#/$defs/pollingStation"},
+        {"$ref": "#/$defs/candidate"},
+        {"$ref": "#/$defs/result"},
+        {"$ref": "#/$defs/turnout"},
+        {"$ref": "#/$defs/source"}
+      ]
+    },
+    "election": {
+      "type": "object",
+      "required": ["record_type", "election_id", "election_date", "election_type", "jurisdiction", "authority"],
+      "properties": {
+        "record_type": {"const": "election"},
+        "election_id": {"type": "string", "minLength": 1},
+        "election_date": {"type": "string", "format": "date"},
+        "election_type": {"type": "string", "minLength": 1},
+        "jurisdiction": {"type": "string", "minLength": 1},
+        "authority": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": true
+    },
+    "pollingStation": {
+      "type": "object",
+      "required": ["record_type", "polling_station_id", "election_id", "municipality_code", "polling_station_name", "registered_voters"],
+      "properties": {
+        "record_type": {"const": "polling_station"},
+        "polling_station_id": {"type": "string", "minLength": 1},
+        "election_id": {"type": "string", "minLength": 1},
+        "municipality_code": {"type": "string", "minLength": 1},
+        "polling_station_name": {"type": "string", "minLength": 1},
+        "registered_voters": {"type": "integer", "minimum": 0},
+        "address": {"type": ["string", "null"]},
+        "latitude": {"type": ["number", "null"], "minimum": -90, "maximum": 90},
+        "longitude": {"type": ["number", "null"], "minimum": -180, "maximum": 180}
+      },
+      "additionalProperties": true
+    },
+    "candidate": {
+      "type": "object",
+      "required": ["record_type", "candidate_id", "election_id", "candidate_name"],
+      "properties": {
+        "record_type": {"const": "candidate"},
+        "candidate_id": {"type": "string", "minLength": 1},
+        "election_id": {"type": "string", "minLength": 1},
+        "candidate_name": {"type": "string", "minLength": 1},
+        "party_id": {"type": ["string", "null"]},
+        "political_bloc_id": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "result": {
+      "type": "object",
+      "required": ["record_type", "election_id", "polling_station_id", "candidate_id", "votes"],
+      "properties": {
+        "record_type": {"const": "result"},
+        "election_id": {"type": "string", "minLength": 1},
+        "polling_station_id": {"type": "string", "minLength": 1},
+        "candidate_id": {"type": "string", "minLength": 1},
+        "votes": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": true
+    },
+    "turnout": {
+      "type": "object",
+      "required": ["record_type", "election_id", "polling_station_id", "registered_voters"],
+      "properties": {
+        "record_type": {"const": "turnout"},
+        "election_id": {"type": "string", "minLength": 1},
+        "polling_station_id": {"type": "string", "minLength": 1},
+        "registered_voters": {"type": "integer", "minimum": 0},
+        "total_votes": {"type": ["integer", "null"], "minimum": 0},
+        "valid_votes": {"type": ["integer", "null"], "minimum": 0},
+        "invalid_votes": {"type": ["integer", "null"], "minimum": 0},
+        "timestamp": {"type": ["string", "null"], "format": "date-time"},
+        "voted_so_far": {"type": ["integer", "null"], "minimum": 0}
+      },
+      "additionalProperties": true
+    },
+    "source": {
+      "type": "object",
+      "required": ["record_type", "source_id", "source_type", "source_name", "retrieved_at", "verification_status"],
+      "properties": {
+        "record_type": {"const": "source"},
+        "source_id": {"type": "string", "minLength": 1},
+        "source_type": {"enum": ["official", "observer", "political_party", "media", "polling_organization", "civil_society", "research", "crowdsourced", "other"]},
+        "source_name": {"type": "string", "minLength": 1},
+        "retrieved_at": {"type": "string", "format": "date-time"},
+        "verification_status": {"enum": ["unverified", "single_source", "multiple_source", "documented", "official"]},
+        "source_url": {"type": ["string", "null"], "format": "uri"}
+      },
+      "additionalProperties": true
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["source_id", "original_format", "retrieved_at"],
+      "properties": {
+        "source_id": {"type": "string", "minLength": 1},
+        "original_format": {"enum": ["csv", "json", "xlsx", "pdf", "html", "other"]},
+        "retrieved_at": {"type": "string", "format": "date-time"},
+        "transform_module": {"type": ["string", "null"]},
+        "transform_version": {"type": ["string", "null"]},
+        "input_hash": {"type": ["string", "null"]},
+        "notes": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

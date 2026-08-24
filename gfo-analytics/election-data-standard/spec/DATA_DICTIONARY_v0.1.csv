@@ -1,0 +1,46 @@
+entity,field,type,required,nullable,allowed_values_or_format,description
+Election,election_id,string,yes,no,stable identifier,Jedinstveni identifikator izbora
+Election,election_date,date,yes,no,YYYY-MM-DD,Datum izbora
+Election,election_type,string,yes,no,controlled vocabulary,Vrsta izbora
+Election,jurisdiction,string,yes,no,text,Nadležna izborna jurisdikcija
+Election,authority,string,yes,no,text,Nadležno izborno tijelo
+PollingStation,polling_station_id,string,yes,no,official identifier where available,Identifikator biračkog mjesta
+PollingStation,election_id,string,yes,no,foreign key,Izbor kojem zapis pripada
+PollingStation,municipality_code,string,yes,no,official code,Šifra osnovne izborne jedinice/opštine
+PollingStation,polling_station_name,string,yes,no,text,Naziv biračkog mjesta
+PollingStation,registered_voters,integer,yes,no,>=0,Broj registrovanih birača
+PollingStation,address,string,no,yes,text,Adresa biračkog mjesta
+PollingStation,latitude,number,no,yes,-90..90,Geografska širina
+PollingStation,longitude,number,no,yes,-180..180,Geografska dužina
+Candidate,candidate_id,string,yes,no,stable within election,Identifikator kandidata
+Candidate,election_id,string,yes,no,foreign key,Izbor kojem kandidat pripada
+Candidate,candidate_name,string,yes,no,text,Ime kandidata
+Candidate,party_id,string,no,yes,text,Identifikator političkog subjekta
+Candidate,political_bloc_id,string,no,yes,text,Normalizovani istorijski blok
+Result,election_id,string,yes,no,foreign key,Izbor
+Result,polling_station_id,string,yes,no,foreign key,Biračko mjesto
+Result,candidate_id,string,yes,no,foreign key,Kandidat
+Result,votes,integer,yes,no,>=0,Broj glasova kandidata
+Turnout,election_id,string,yes,no,foreign key,Izbor
+Turnout,polling_station_id,string,yes,no,foreign key,Biračko mjesto
+Turnout,registered_voters,integer,yes,no,>=0,Broj registrovanih birača
+Turnout,total_votes,integer,yes,no,>=0,Ukupan broj glasalih/obrađenih prema definiciji izvora
+Turnout,valid_votes,integer,no,yes,>=0,Broj važećih glasova
+Turnout,invalid_votes,integer,no,yes,>=0,Broj nevažećih glasova
+Turnout,timestamp,string,no,yes,ISO 8601 with timezone,Vrijeme live snapshot-a
+Turnout,voted_so_far,integer,no,yes,>=0,Broj birača koji su glasali do vremena snapshot-a
+Source,source_id,string,yes,no,stable identifier,Identifikator izvora
+Source,source_type,string,yes,no,official|observer|political_party|media|polling_organization|civil_society|research|crowdsourced|other,Tip izvora
+Source,source_name,string,yes,no,text,Naziv izvora
+Source,retrieved_at,string,yes,no,ISO 8601,Vrijeme pribavljanja
+Source,verification_status,string,yes,no,unverified|single_source|multiple_source|documented|official,Status potvrđenosti
+Source,source_url,string,no,yes,URI,URL izvora
+Provenance,dataset_id,string,yes,no,stable identifier,Identifikator dataseta
+Provenance,dataset_version,string,yes,no,semver or source version,Verzija dataseta
+Provenance,source_id,string,yes,no,foreign key,Izvor dataseta
+Provenance,original_format,string,yes,no,csv|json|xlsx|pdf|html|other,Originalni format
+Provenance,retrieved_at,string,yes,no,ISO 8601,Vrijeme pribavljanja
+Provenance,transform_module,string,no,yes,text,Naziv modula transformacije
+Provenance,transform_version,string,no,yes,text,Verzija modula transformacije
+Provenance,input_hash,string,no,yes,SHA-256 recommended,Hash ulaznog fajla
+Provenance,notes,string,no,yes,text,Napomene

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gradjanskaforenzika.org/schemas/gfo-election/snapshot-v0.2.schema.json",
+  "title": "GFO Election Snapshot v0.2",
+  "type": "object",
+  "required": [
+    "snapshot_id",
+    "election_id",
+    "snapshot_started_at",
+    "snapshot_completed_at",
+    "retrieved_at",
+    "completeness_status",
+    "record_count",
+    "polling_station_count",
+    "successful_request_count",
+    "failed_request_count",
+    "ingestor_version"
+  ],
+  "properties": {
+    "snapshot_id": {"type": "string", "minLength": 1},
+    "previous_snapshot_id": {"type": ["string", "null"]},
+    "election_id": {"type": "string", "minLength": 1},
+    "source_id": {"type": ["string", "null"]},
+    "snapshot_started_at": {"type": "string", "format": "date-time"},
+    "snapshot_completed_at": {"type": "string", "format": "date-time"},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "source_data_from_values": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "source_data_from_min": {"type": ["string", "null"], "format": "date-time"},
+    "source_data_from_max": {"type": ["string", "null"], "format": "date-time"},
+    "completeness_status": {
+      "type": "string",
+      "enum": ["complete", "partial", "failed", "unknown"]
+    },
+    "record_count": {"type": "integer", "minimum": 0},
+    "polling_station_count": {"type": "integer", "minimum": 0},
+    "expected_polling_station_count": {"type": ["integer", "null"], "minimum": 0},
+    "candidate_result_row_count": {"type": ["integer", "null"], "minimum": 0},
+    "successful_request_count": {"type": "integer", "minimum": 0},
+    "failed_request_count": {"type": "integer", "minimum": 0},
+    "dataset_hash": {"type": ["string", "null"], "pattern": "^[a-fA-F0-9]{64}$"},
+    "ingestor": {"type": ["string", "null"]},
+    "ingestor_version": {"type": "string", "minLength": 1},
+    "workers": {"type": ["integer", "null"], "minimum": 1, "maximum": 32},
+    "retries": {"type": ["integer", "null"], "minimum": 0},
+    "backoff_seconds": {"type": ["number", "null"], "minimum": 0},
+    "timeout_seconds": {"type": ["integer", "null"], "minimum": 1},
+    "validation_flag_count": {"type": ["integer", "null"], "minimum": 0}
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"completeness_status": {"const": "complete"}}
+      },
+      "then": {
+        "properties": {"failed_request_count": {"const": 0}}
+      }
+    }
+  ],
+  "additionalProperties": true
+}

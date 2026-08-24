@@ -1,0 +1,24 @@
+field,type,required,description
+election_id,string,yes,Jedinstveni identifikator izbornog ciklusa
+election_date,date,yes,Datum glasanja YYYY-MM-DD
+election_type,string,yes,Vrsta izbora
+turnout_eligible,boolean,yes,Da li izbor ulazi u turnout baseline
+structural_eligible,boolean,yes,Da li izbor ulazi u strukturni baseline
+political_share_eligible,boolean,yes,Da li izbor ulazi u candidate/bloc share baseline
+polling_station_id,string,no,Izvorni interni ID biračkog mjesta
+polling_station_code,string,yes,Javna/službena šifra biračkog mjesta
+polling_station_name,string,no,Naziv biračkog mjesta
+municipality_code,string,yes,Šifra osnovne izborne jedinice/opštine
+registered_voters,integer,yes,Broj registrovanih birača
+total_votes,integer,yes,Ukupan broj glasalih/listića prema definiciji izvora
+valid_votes,integer,no,Broj važećih glasova
+invalid_votes,integer,no,Broj nevažećih glasova
+candidate_id,string,no,Izvorni/kanonski ID kandidata
+candidate_code,string,no,Izvorna šifra kandidata
+candidate_name,string,no,Ime kandidata
+party_id,string,no,Normalizovani ID političkog subjekta
+party_name,string,no,Naziv političkog subjekta
+political_bloc_id,string,no,Eksplicitni cross-election politički blok
+votes,integer,no,Broj glasova kandidata/političkog subjekta
+source_id,string,yes,Identifikator izvora/dataseta
+source_data_from,string,no,Izvorni timestamp stanja podataka

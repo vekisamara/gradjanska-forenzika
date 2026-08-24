@@ -1,0 +1,5 @@
+canonical_polling_station_code,historical_election_id,historical_polling_station_code,mapping_type,mapping_confidence,usable_for_baseline,mapping_source,historical_polling_station_name,canonical_polling_station_name,municipality_code,registered_voters_historical,registered_voters_canonical,notes
+001B001,E2022,001B001,exact_verified,1.0,true,SYNTHETIC,CENTAR 1,CENTAR 1,001,600,620,verified synthetic identity
+001B001,E2025,001B001,exact_verified,1.0,true,SYNTHETIC,CENTAR 1,CENTAR 1,001,620,620,canonical election row
+001B002,E2022,001B002,exact_code_unverified,0.97,true,SYNTHETIC,CENTAR 2,CENTAR 2,001,500,500,exact code synthetic proposal
+,E2025,009X999,unmapped,0.0,false,SYNTHETIC,DRUGA LOKACIJA,,009,510,,intentionally unmapped test row

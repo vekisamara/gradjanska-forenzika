@@ -2,10 +2,11 @@
 
 Status: **v0.2 / experimental**
 
-Ovaj folder sadrži radne CIK API ingestore za GFO Election Data Standard.
+Ovaj folder sadrži radne CIK API alate za GFO Election Data Standard.
 
 - `cik_ingestor_v0_1.py` — sekvencijalni validacioni ingestor (v0.1.1)
 - `cik_ingestor_v0_2.py` — paralelni, snapshot-capable ingestor za temporalno praćenje
+- `snapshot_delta_v0_1.py` — determinističko poređenje dva snapshot-a
 
 ## Confirmed parameters for resId=39
 
@@ -25,7 +26,7 @@ Ovaj folder sadrži radne CIK API ingestore za GFO Election Data Standard.
 
 ## v0.2 design
 
-v0.2 uvodi dvije važne promjene:
+v0.2 uvodi dvije glavne promjene:
 
 1. ograničeno paralelno preuzimanje biračkih mjesta preko `ThreadPoolExecutor`;
 2. svaki ingest je novi nepromjenjivi snapshot sa vlastitim vremenskim i provenance metapodacima.
@@ -149,16 +150,64 @@ Ako bilo koji electoral-unit ili polling-station zahtjev ne uspije nakon retry p
 
 Nepotpuni snapshot se kasnije ne smije tumačiti kao da su nedostajući rezultati nestali iz CIK izvora.
 
+## Snapshot Delta Engine
+
+Nakon što postoje najmanje dva snapshot-a, mogu se porediti:
+
+```bash
+python3 snapshot_delta_v0_1.py \
+  ./election-day/snapshots/SNAPSHOT_1 \
+  ./election-day/snapshots/SNAPSHOT_2 \
+  --output ./delta-1-2
+```
+
+Izlaz:
+
+```text
+delta-1-2/
+├── delta_manifest.json
+├── snapshot_deltas.csv
+└── revision_events.csv
+```
+
+Engine poredi:
+
+- candidate votes;
+- registered voters;
+- total votes / turnout;
+- valid votes;
+- invalid votes;
+- invalid ballot components;
+- polling-station/result presence.
+
+Primjeri deskriptivnih događaja:
+
+- `candidate_vote_increase`
+- `candidate_vote_decrease`
+- `turnout_revision`
+- `valid_invalid_revision`
+- `registered_voter_revision`
+- `result_appeared`
+- `result_disappeared`
+- `polling_station_appeared`
+- `polling_station_disappeared`
+
+To nisu anomaly ili fraud zaključci. To su deterministički opisi promjene između dva opažena stanja.
+
+Ako je jedan snapshot `partial`, engine podrazumijevano postavlja poređenje na `partial_snapshot` i ne pretvara nedostajuće redove u događaje nestanka. `--allow-partial` postoji samo za kontrolisane eksperimente i ne treba ga koristiti kao normalan election-day režim.
+
 ## Preservation rule
 
 RAW API odgovori se čuvaju byte-for-byte prije analitičke upotrebe. Svaki RAW artefakt dobija SHA-256 i tačan source URL u `provenance.csv`.
 
 ## Analytical separation
 
-Ingestor ne izračunava anomaly score i ne zaključuje o uzroku promjene rezultata.
-
-Njegova uloga je:
+Ingestor radi:
 
 `ACQUIRE → PRESERVE → TIMESTAMP → NORMALIZE → VALIDATE`
 
-Poređenje između snapshotova pripada posebnom Snapshot Delta Engine-u.
+Delta engine radi:
+
+`SNAPSHOT N-1 → SNAPSHOT N → DERIVED DELTAS / REVISION EVENTS`
+
+Ni jedan od ova dva alata ne radi anomaly scoring, političku interpretaciju, fraud klasifikaciju ili uzročni zaključak. To pripada budućem Election Analytics sloju.

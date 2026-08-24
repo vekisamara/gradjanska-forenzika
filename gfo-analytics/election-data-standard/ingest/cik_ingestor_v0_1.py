@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""GFO Election Data Standard — CIK API Ingestor v0.1
+"""GFO Election Data Standard — CIK API Ingestor v0.1.1
 
 Purpose:
 - download official CIK BiH Race5 election data;
-- preserve RAW JSON responses;
-- emit normalized CSV/JSON files compatible with GFO Election Data Standard work-in-progress.
+- preserve RAW JSON responses byte-for-byte;
+- emit normalized CSV files compatible with the GFO Election Data Standard work-in-progress;
+- record provenance and basic validation findings.
 
 Confirmed target for the 2025 RS presidential by-election confirmed results:
 - electionResultId: 39
@@ -37,7 +38,8 @@ DEFAULT_LANGUAGE_ID = 3
 DEFAULT_ELECTION_RESULT_ID = 39
 DEFAULT_RACE_ID = 91
 DEFAULT_RACE_CODE = "5"
-USER_AGENT = "GFO-Election-Analytics/0.1 (+https://github.com/vekisamara/gradjanska-forenzika)"
+INGESTOR_VERSION = "0.1.1"
+USER_AGENT = "GFO-Election-Analytics/0.1.1 (+https://github.com/vekisamara/gradjanska-forenzika)"
 
 
 @dataclass
@@ -75,7 +77,7 @@ def sha256_bytes(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
-def save_raw_json(out_dir: Path, name: str, obj: Any, raw: bytes, source_url: str) -> ProvenanceRecord:
+def save_raw_json(out_dir: Path, name: str, raw: bytes, source_url: str) -> ProvenanceRecord:
     raw_dir = out_dir / "raw"
     raw_dir.mkdir(parents=True, exist_ok=True)
     path = raw_dir / name
@@ -101,14 +103,6 @@ def get_db_name(election_result_id: int) -> str:
     data, _ = fetch_json(url)
     if not isinstance(data, str):
         raise RuntimeError(f"Unexpected dbName response: {data!r}")
-    return data
-
-
-def get_races(election_result_id: int, language_id: int) -> list[dict[str, Any]]:
-    url = endpoint(f"administration_racecontroller_getbyelectionresultId/{election_result_id}/{language_id}")
-    data, _ = fetch_json(url)
-    if not isinstance(data, list):
-        raise RuntimeError("Unexpected races response")
     return data
 
 
@@ -160,8 +154,13 @@ def normalize_polling_station(election_id: str, eu: dict[str, Any], ps: dict[str
         "polling_station_id": first_present(ps, "pollingStationId", "PollingStationId"),
         "polling_station_code": first_present(ps, "code", "Code"),
         "polling_station_name": first_present(ps, "name", "Name"),
+        "location": first_present(ps, "location", "Location"),
+        "source_data_from": first_present(ps, "dataFrom", "DataFrom"),
+        "active": first_present(ps, "active", "Active"),
         "registered_voters": first_present(basic, "numberOfVoters", "NumberOfVoters"),
+        "number_candidates": first_present(basic, "numberCandidates", "NumberCandidates"),
         "total_votes": first_present(basic, "totalVotes", "TotalVotes"),
+        "turnout_percentage": first_present(basic, "percentageTotalVotes", "PercentageTotalVotes"),
         "valid_votes": first_present(basic, "validVotes", "ValidVotes"),
         "invalid_votes": first_present(basic, "totalInvalidVotes", "TotalInvalidVotes"),
         "invalid_blank_ballots": first_present(basic, "invalidBlankBallots", "InvalidBlankBallots"),
@@ -170,15 +169,61 @@ def normalize_polling_station(election_id: str, eu: dict[str, Any], ps: dict[str
 
 
 def normalize_candidate_result(election_id: str, polling_station_id: Any, result: dict[str, Any]) -> dict[str, Any]:
+    # Actual CIK Race5 payload observed in validation case:
+    # {"name": "...", "code": "00018", "totalVotes": 121, "percentage": 55.0}
     return {
         "election_id": election_id,
         "polling_station_id": polling_station_id,
-        "candidate_id": first_present(result, "candidateId", "CandidateId", "id", "Id"),
+        "candidate_code": first_present(result, "code", "Code"),
+        "candidate_id": first_present(result, "candidateId", "CandidateId", "id", "Id", "code", "Code"),
         "candidate_name": first_present(result, "candidateName", "CandidateName", "name", "Name"),
-        "votes": first_present(result, "votes", "Votes", "numberOfVotes", "NumberOfVotes"),
+        "votes": first_present(result, "votes", "Votes", "numberOfVotes", "NumberOfVotes", "totalVotes", "TotalVotes"),
         "vote_percentage": first_present(result, "percentage", "Percentage", "percentageVotes", "PercentageVotes"),
         "party_name": first_present(result, "politicalSubjectName", "PoliticalSubjectName", "partyName", "PartyName"),
     }
+
+
+def validate_station(station: dict[str, Any], candidate_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    flags: list[dict[str, Any]] = []
+    ps_id = station.get("polling_station_id")
+
+    def flag(code: str, severity: str, message: str) -> None:
+        flags.append({
+            "polling_station_id": ps_id,
+            "code": code,
+            "severity": severity,
+            "message": message,
+        })
+
+    registered = station.get("registered_voters")
+    total = station.get("total_votes")
+    valid = station.get("valid_votes")
+    invalid = station.get("invalid_votes")
+    blank = station.get("invalid_blank_ballots")
+    other = station.get("invalid_other_ballots")
+
+    numeric = (int, float)
+    if isinstance(total, numeric) and isinstance(registered, numeric) and total > registered:
+        flag("TOTAL_GT_REGISTERED", "error", f"total_votes={total} > registered_voters={registered}")
+
+    if all(isinstance(v, numeric) for v in (valid, invalid, total)) and valid + invalid != total:
+        flag("VALID_INVALID_MISMATCH", "error", f"valid_votes + invalid_votes = {valid + invalid}, total_votes={total}")
+
+    if all(isinstance(v, numeric) for v in (blank, other, invalid)) and blank + other != invalid:
+        flag("INVALID_COMPONENT_MISMATCH", "warning", f"blank + other = {blank + other}, invalid_votes={invalid}")
+
+    vote_values = [row.get("votes") for row in candidate_rows]
+    if vote_values and all(isinstance(v, numeric) for v in vote_values) and isinstance(valid, numeric):
+        candidate_sum = sum(vote_values)
+        if candidate_sum != valid:
+            flag("CANDIDATE_SUM_MISMATCH", "error", f"candidate vote sum={candidate_sum}, valid_votes={valid}")
+
+    if station.get("polling_station_id") in (None, ""):
+        flag("MISSING_POLLING_STATION_ID", "error", "polling_station_id missing")
+    if station.get("polling_station_code") in (None, ""):
+        flag("MISSING_POLLING_STATION_CODE", "error", "polling_station_code missing")
+
+    return flags
 
 
 def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
@@ -207,7 +252,7 @@ def run(args: argparse.Namespace) -> None:
 
     election_id = args.election_id
     units, raw, url = get_electoral_units(db_name, args.language_id)
-    provenance.append(save_raw_json(out_dir, "electoral_units.json", units, raw, url))
+    provenance.append(save_raw_json(out_dir, "electoral_units.json", raw, url))
 
     if args.electoral_unit_id is not None:
         units = [u for u in units if first_present(u, "electoralUnitId", "ElectoralUnitId") == args.electoral_unit_id]
@@ -216,6 +261,7 @@ def run(args: argparse.Namespace) -> None:
 
     normalized_stations: list[dict[str, Any]] = []
     normalized_results: list[dict[str, Any]] = []
+    validation_flags: list[dict[str, Any]] = []
 
     for eu in units:
         eu_id = int(first_present(eu, "electoralUnitId", "ElectoralUnitId"))
@@ -223,18 +269,21 @@ def run(args: argparse.Namespace) -> None:
         print(f"Electoral unit {eu_id} ({eu_code})")
 
         stations, raw, url = get_polling_stations(db_name, eu_id, args.language_id)
-        provenance.append(save_raw_json(out_dir, f"polling_stations_eu_{eu_id}.json", stations, raw, url))
+        provenance.append(save_raw_json(out_dir, f"polling_stations_eu_{eu_id}.json", raw, url))
 
         for index, ps in enumerate(stations, start=1):
             ps_id = int(first_present(ps, "pollingStationId", "PollingStationId"))
             basic, basic_raw, basic_url = get_polling_station_basic_info(db_name, ps_id)
-            provenance.append(save_raw_json(out_dir, f"polling_station_{ps_id}_basic.json", basic, basic_raw, basic_url))
+            provenance.append(save_raw_json(out_dir, f"polling_station_{ps_id}_basic.json", basic_raw, basic_url))
 
             results, result_raw, result_url = get_polling_station_candidate_results(db_name, ps_id, args.language_id)
-            provenance.append(save_raw_json(out_dir, f"polling_station_{ps_id}_candidates.json", results, result_raw, result_url))
+            provenance.append(save_raw_json(out_dir, f"polling_station_{ps_id}_candidates.json", result_raw, result_url))
 
-            normalized_stations.append(normalize_polling_station(election_id, eu, ps, basic))
-            normalized_results.extend(normalize_candidate_result(election_id, ps_id, row) for row in results)
+            station_row = normalize_polling_station(election_id, eu, ps, basic)
+            candidate_rows = [normalize_candidate_result(election_id, ps_id, row) for row in results]
+            normalized_stations.append(station_row)
+            normalized_results.extend(candidate_rows)
+            validation_flags.extend(validate_station(station_row, candidate_rows))
 
             print(f"  {index}/{len(stations)} pollingStationId={ps_id}")
             if args.delay:
@@ -244,11 +293,13 @@ def run(args: argparse.Namespace) -> None:
     write_csv(normalized_dir / "polling_stations.csv", normalized_stations)
     write_csv(normalized_dir / "candidate_results.csv", normalized_results)
     write_csv(out_dir / "provenance.csv", [asdict(p) for p in provenance])
+    write_csv(out_dir / "validation_flags.csv", validation_flags)
 
     manifest = {
         "standard": "GFO Election Data Standard",
-        "standard_version": "0.1-draft",
+        "standard_version": "0.2-draft-target",
         "ingestor": "cik_ingestor_v0_1.py",
+        "ingestor_version": INGESTOR_VERSION,
         "election_id": election_id,
         "election_result_id": args.election_result_id,
         "race_id": DEFAULT_RACE_ID,
@@ -258,9 +309,11 @@ def run(args: argparse.Namespace) -> None:
         "retrieved_at": utc_now(),
         "polling_station_count": len(normalized_stations),
         "candidate_result_row_count": len(normalized_results),
+        "validation_flag_count": len(validation_flags),
     }
     (out_dir / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    print(f"Validation flags: {len(validation_flags)}")
     print(f"Done. Output: {out_dir}")
 
 

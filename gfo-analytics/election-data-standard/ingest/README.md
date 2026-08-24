@@ -1,11 +1,12 @@
 # CIK API Ingest — working module
 
-Status: **v0.2 / experimental**
+Status: **v0.2.1 / experimental**
 
 Ovaj folder sadrži radne CIK API alate za GFO Election Data Standard.
 
 - `cik_ingestor_v0_1.py` — sekvencijalni validacioni ingestor (v0.1.1)
-- `cik_ingestor_v0_2.py` — paralelni, snapshot-capable ingestor za temporalno praćenje
+- `cik_ingestor_v0_2.py` — prva paralelna snapshot implementacija (v0.2.0; zadržana radi validacionog traga)
+- `cik_ingestor_v0_2_1.py` — aktuelni paralelni snapshot-capable ingestor
 - `snapshot_delta_v0_1.py` — determinističko poređenje dva snapshot-a
 
 ## Confirmed parameters for resId=39
@@ -17,42 +18,29 @@ Ovaj folder sadrži radne CIK API alate za GFO Election Data Standard.
 - dbName: `WebResult_2022GENP1_2025_11_19_14_41_56`
 - languageId: `3`
 
-## Confirmed Race5 endpoint family
+## v0.2.1 design
 
-- `race5_electoralunit/{dbName}/{languageId}`
-- `race5_pollingstation/{dbName}/{electoralUnitId}/{languageId}`
-- `race5_pollingstationsbasicinfo/{dbName}/{pollingStationId}`
-- `race5_pollingstationscandidatesresult/{dbName}/{pollingStationId}/{languageId}`
-
-## v0.2 design
-
-v0.2 uvodi dvije glavne promjene:
+Aktuelna verzija uvodi:
 
 1. ograničeno paralelno preuzimanje biračkih mjesta preko `ThreadPoolExecutor`;
-2. svaki ingest je novi nepromjenjivi snapshot sa vlastitim vremenskim i provenance metapodacima.
+2. svaki ingest kao novi nepromjenjivi snapshot;
+3. request-level `retrieved_at`;
+4. CIK `dataFrom` kao odvojen `source_data_from`;
+5. fallback sa basic-info odgovora na parent polling-station objekat za `location` i `dataFrom`;
+6. retry/backoff/jitter;
+7. completeness accounting i immutable provenance.
 
 Podrazumijevano se koristi `6` workera. Preporučeni raspon je `4–8`. Ne preporučuje se agresivan paralelizam prema javnom CIK API-ju.
-
-HTTP greške se ponavljaju sa eksponencijalnim backoffom i jitterom.
-
-## Novi Grad test
-
-```bash
-python3 cik_ingestor_v0_2.py \
-  --electoral-unit-id 7 \
-  --output ./test-novi-grad-v02 \
-  --workers 6
-```
 
 ## Full RS snapshot
 
 ```bash
-python3 cik_ingestor_v0_2.py \
+python3 cik_ingestor_v0_2_1.py \
   --output ./rs-election-snapshots \
   --workers 6
 ```
 
-Rezultat se ne upisuje direktno u output root, nego u jedinstveni snapshot:
+Rezultat se upisuje u jedinstveni snapshot:
 
 ```text
 rs-election-snapshots/
@@ -73,7 +61,7 @@ rs-election-snapshots/
             └── candidate_results.csv
 ```
 
-Prethodni snapshot se nikada ne prepisuje. `LATEST` je samo pokazivač na najnoviji snapshot.
+Prethodni snapshot se nikada ne prepisuje. `LATEST` je samo pokazivač.
 
 ## Temporal metadata
 
@@ -85,6 +73,8 @@ Prethodni snapshot se nikada ne prepisuje. `LATEST` je samo pokazivač na najnov
 - `snapshot_completed_at`
 - `retrieved_at`
 - `source_data_from_values`
+- `source_data_from_min`
+- `source_data_from_max`
 - `completeness_status`
 - `polling_station_count`
 - `expected_polling_station_count`
@@ -92,31 +82,27 @@ Prethodni snapshot se nikada ne prepisuje. `LATEST` je samo pokazivač na najnov
 - `failed_request_count`
 - `dataset_hash`
 
-Normalizovani redovi dodatno čuvaju:
+Normalizovani polling-station redovi čuvaju:
 
 - `snapshot_id`
 - `record_retrieved_at`
 - `source_data_from`
+- `location`
+- `active`
 
-Time se može razlikovati vrijeme GFO preuzimanja od vremena koje izvor sam navodi za podatke.
+Time se razlikuje vrijeme GFO preuzimanja od vremena koje CIK sam navodi za stanje podataka.
 
 ## Periodic election-day mode
 
-Za periodično povlačenje podataka:
-
 ```bash
-python3 cik_ingestor_v0_2.py \
+python3 cik_ingestor_v0_2_1.py \
   --output ./election-day \
   --workers 6 \
   --watch \
   --interval 1800
 ```
 
-Ovo pokreće novi snapshot svakih 30 minuta. Interval se računa između početaka ciklusa; ako jedan snapshot traje 4 minute, skripta čeka još približno 26 minuta.
-
-Minimalni dozvoljeni interval je 60 sekundi. Za javni API preporučuje se mnogo konzervativniji interval.
-
-Za prekid koristiti `Ctrl+C`.
+Ovo pokreće novi snapshot svakih 30 minuta, računato između početaka ciklusa.
 
 ## Retry/backoff
 
@@ -127,32 +113,13 @@ Podrazumijevano:
 - `--jitter 0.25`
 - `--timeout 30`
 
-Primjer konzervativnijeg poziva:
-
-```bash
-python3 cik_ingestor_v0_2.py \
-  --output ./rs-election-snapshots \
-  --workers 4 \
-  --retries 4 \
-  --backoff 1.5
-```
-
 ## Completeness
 
-Snapshot status može biti:
+Snapshot status je `complete` samo ako nema failed requesta i broj normalizovanih biračkih mjesta odgovara očekivanom broju iz CIK listi.
 
-- `complete`
-- `partial`
-- `failed`
-- `unknown`
-
-Ako bilo koji electoral-unit ili polling-station zahtjev ne uspije nakon retry pokušaja, snapshot se označava kao `partial`, a detalji ostaju u `failed_requests.csv`.
-
-Nepotpuni snapshot se kasnije ne smije tumačiti kao da su nedostajući rezultati nestali iz CIK izvora.
+Nepotpuni snapshot se kasnije ne smije tumačiti kao da su nedostajući rezultati nestali iz izvora.
 
 ## Snapshot Delta Engine
-
-Nakon što postoje najmanje dva snapshot-a, mogu se porediti:
 
 ```bash
 python3 snapshot_delta_v0_1.py \
@@ -161,44 +128,24 @@ python3 snapshot_delta_v0_1.py \
   --output ./delta-1-2
 ```
 
-Izlaz:
+Engine deterministički poredi candidate votes, turnout, valid/invalid podatke, registered voters i prisustvo rezultata. On ne radi anomaly scoring niti fraud klasifikaciju.
 
-```text
-delta-1-2/
-├── delta_manifest.json
-├── snapshot_deltas.csv
-└── revision_events.csv
-```
+## Validation history
 
-Engine poredi:
+`VALIDATION_CASE_003_FULL_RS_PARALLEL_SNAPSHOT_v0.2.md` dokumentuje prvi puni paralelni snapshot v0.2.0:
 
-- candidate votes;
-- registered voters;
-- total votes / turnout;
-- valid votes;
-- invalid votes;
-- invalid ballot components;
-- polling-station/result presence.
+- 2.164 biračka mjesta
+- 12.984 kandidatska reda
+- 4.393 uspješna zahtjeva
+- 0 failed requesta
+- `complete`
+- oko 105,6 sekundi akvizicije
 
-Primjeri deskriptivnih događaja:
-
-- `candidate_vote_increase`
-- `candidate_vote_decrease`
-- `turnout_revision`
-- `valid_invalid_revision`
-- `registered_voter_revision`
-- `result_appeared`
-- `result_disappeared`
-- `polling_station_appeared`
-- `polling_station_disappeared`
-
-To nisu anomaly ili fraud zaključci. To su deterministički opisi promjene između dva opažena stanja.
-
-Ako je jedan snapshot `partial`, engine podrazumijevano postavlja poređenje na `partial_snapshot` i ne pretvara nedostajuće redove u događaje nestanka. `--allow-partial` postoji samo za kontrolisane eksperimente i ne treba ga koristiti kao normalan election-day režim.
+v0.2.0 je imao normalizacijski propust: `location` i `source_data_from` su čitani samo iz basic-info odgovora, iako ih CIK Race5 daje u parent polling-station objektu. RAW podaci nisu izgubljeni. v0.2.1 ispravlja taj problem fallback pravilom.
 
 ## Preservation rule
 
-RAW API odgovori se čuvaju byte-for-byte prije analitičke upotrebe. Svaki RAW artefakt dobija SHA-256 i tačan source URL u `provenance.csv`.
+RAW API odgovori se čuvaju byte-for-byte. Svaki RAW artefakt dobija SHA-256, source URL, request retrieval time i broj pokušaja u `provenance.csv`.
 
 ## Analytical separation
 
@@ -210,4 +157,4 @@ Delta engine radi:
 
 `SNAPSHOT N-1 → SNAPSHOT N → DERIVED DELTAS / REVISION EVENTS`
 
-Ni jedan od ova dva alata ne radi anomaly scoring, političku interpretaciju, fraud klasifikaciju ili uzročni zaključak. To pripada budućem Election Analytics sloju.
+Ni jedan alat ne radi političku interpretaciju, anomaly scoring, fraud klasifikaciju ili uzročni zaključak.

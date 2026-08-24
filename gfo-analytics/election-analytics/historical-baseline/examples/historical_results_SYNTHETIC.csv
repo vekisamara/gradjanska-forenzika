@@ -1,0 +1,9 @@
+election_id,election_date,election_type,turnout_eligible,structural_eligible,political_share_eligible,polling_station_id,polling_station_code,polling_station_name,municipality_code,registered_voters,total_votes,valid_votes,invalid_votes,candidate_id,candidate_code,candidate_name,party_id,party_name,political_bloc_id,votes,source_id,source_data_from
+E2022,2022-10-02,president_rs,true,true,true,101,001B001,CENTAR 1,001,600,360,354,6,A,A,KANDIDAT A,P1,PARTIJA A,BLOC_A,180,SYNTHETIC-2022,
+E2022,2022-10-02,president_rs,true,true,true,101,001B001,CENTAR 1,001,600,360,354,6,B,B,KANDIDAT B,P2,PARTIJA B,BLOC_B,174,SYNTHETIC-2022,
+E2025,2025-11-23,president_rs,true,true,true,201,001B001,CENTAR 1,001,620,390,382,8,C,C,KANDIDAT C,P1,PARTIJA A,BLOC_A,210,SYNTHETIC-2025,
+E2025,2025-11-23,president_rs,true,true,true,201,001B001,CENTAR 1,001,620,390,382,8,D,D,KANDIDAT D,P2,PARTIJA B,BLOC_B,172,SYNTHETIC-2025,
+E2022,2022-10-02,president_rs,true,true,true,102,001B002,CENTAR 2,001,500,250,245,5,A,A,KANDIDAT A,P1,PARTIJA A,BLOC_A,120,SYNTHETIC-2022,
+E2022,2022-10-02,president_rs,true,true,true,102,001B002,CENTAR 2,001,500,250,245,5,B,B,KANDIDAT B,P2,PARTIJA B,BLOC_B,125,SYNTHETIC-2022,
+E2025,2025-11-23,president_rs,true,true,true,202,009X999,DRUGA LOKACIJA,009,510,260,254,6,C,C,KANDIDAT C,P1,PARTIJA A,BLOC_A,130,SYNTHETIC-2025,
+E2025,2025-11-23,president_rs,true,true,true,202,009X999,DRUGA LOKACIJA,009,510,260,254,6,D,D,KANDIDAT D,P2,PARTIJA B,BLOC_B,124,SYNTHETIC-2025,

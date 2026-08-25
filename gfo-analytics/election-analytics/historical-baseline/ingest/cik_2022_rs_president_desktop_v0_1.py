@@ -15,9 +15,8 @@ The internal 2022 raceId is intentionally left null until independently confirme
 from __future__ import annotations
 
 import argparse
-import importlib.util
-from pathlib import Path
 import sys
+from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ENGINE_PATH = SCRIPT_DIR / "cik_ingestor_v0_2_1.py"
@@ -34,20 +33,14 @@ def load_engine():
         raise SystemExit(
             f"Missing {ENGINE_PATH.name}. Put this wrapper in the same folder as cik_ingestor_v0_2_1.py."
         )
-    module_name = "gfo_cik_ingestor_v021"
-    spec = importlib.util.spec_from_file_location(module_name, ENGINE_PATH)
-    if spec is None or spec.loader is None:
-        raise SystemExit(f"Cannot load {ENGINE_PATH}")
-    module = importlib.util.module_from_spec(spec)
-    # Python 3.13 dataclasses expect the module to exist in sys.modules
-    # while class decorators are being evaluated during exec_module().
-    sys.modules[module_name] = module
+    # Ordinary import is intentionally used here. Because the wrapper and engine
+    # are in the same directory, Python places the script directory on sys.path.
+    # This also avoids Python 3.13 dataclass issues seen with manual exec_module().
     try:
-        spec.loader.exec_module(module)
-    except Exception:
-        sys.modules.pop(module_name, None)
-        raise
-    return module
+        import cik_ingestor_v0_2_1 as engine
+    except Exception as exc:
+        raise SystemExit(f"Cannot import {ENGINE_PATH.name}: {exc}") from exc
+    return engine
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -69,7 +62,7 @@ def main() -> int:
 
     engine = load_engine()
 
-    # Prevent the 2025/26 hard-coded race metadata from leaking into the 2022 manifest.
+    # Prevent 2025/26 race metadata from leaking into the 2022 manifest.
     engine.DEFAULT_RACE_ID = None
     engine.DEFAULT_RACE_CODE = RACE_CODE
 

@@ -5,7 +5,7 @@ categories:
 - Građanska forenzika
 - Komunalne teme
 - PR pod lupom
-excerpt: "Elektroprivreda BiH je navela tehnički kvar koji je smanjio efikasnost elektrofiltera Bloka 4 TE Tuzla. Ključno pitanje nije samo šta se pokvarilo, nego šta je urađeno nakon ranijih upozorenja Gradskog vijeća o funkcionalnosti filtera i kako se može dokazati da su preventivne mjere zaista provedene."
+excerpt: "Elektroprivreda BiH je navela tehnički problem koji je smanjio efikasnost elektrofiltera Bloka 4 TE Tuzla. Više od godinu dana ranije Gradsko vijeće Tuzla formalno je otvorilo pitanje funkcionalnosti filtera. To ne dokazuje da je avgustovski incident posljedica neprovedenih mjera, ali otvara provjerljivo pitanje šta je urađeno između upozorenja i novog događaja."
 language: Serbian
 slug: 2026-te-tuzla-elektrofilter-warning-to-prevention
 status: published
@@ -23,120 +23,116 @@ title: 'TE Tuzla: od upozorenja o filterima do novog incidenta na Bloku 4'
 
 ## Sažetak
 
-Grad Tuzla je 25. avgusta 2026. saopštio da je, prema informacijama Elektroprivrede Bosne i Hercegovine, na Bloku 4 Termoelektrane Tuzla došlo do privremenog povećanja emisije prašine zbog tehničkih problema u sistemu transporta šljake i pepela. Pepeo se nakupljao u koševima elektrofiltera, što je smanjilo njihovu efikasnost.
+Grad Tuzla je 25. avgusta 2026. saopštio da je, prema informacijama Elektroprivrede Bosne i Hercegovine, na Bloku 4 Termoelektrane Tuzla došlo do privremenog povećanja emisije prašine zbog tehničkih problema u sistemu transporta šljake i pepela. U saopštenju se navodi da se pepeo nakupljao u koševima elektrofiltera, što je smanjilo njihovu efikasnost.
 
-To je neuobičajeno koristan javni trag jer institucija već daje uzročno-posljedični lanac:
+Taj opis daje tehnički lanac koji je objavila institucija:
 
 **tehnički problem → nakupljanje pepela → smanjena efikasnost elektrofiltera → povećana emisija prašine.**
 
-Ali Građanska forenzika ne može iz tog lanca automatski zaključiti da je kvar posljedica lošeg održavanja. Za to su potrebni tehnički zapisi, istorija kvarova i evidencije remonta.
+Taj lanac ovdje tretiramo kao tvrdnju zasnovanu na informacijama Elektroprivrede BiH, a ne kao nezavisno tehnički potvrđen nalaz.
 
-Mnogo čvršće pitanje proizlazi iz činjenice da je Gradsko vijeće Tuzla još 28. aprila 2025. formalno razmatralo stanje zagađenosti zraka i inicijativu za provjeru funkcionalnosti filtera u dimnjacima Termoelektrane Tuzla.
+Važan prethodni događaj postoji u zvaničnoj dokumentaciji: Gradsko vijeće Tuzla je 28. aprila 2025. razmatralo stanje zagađenosti zraka i inicijativu za provjeru funkcionalnosti filtera u dimnjacima Termoelektrane Tuzla.
 
-Zato predmet analize nije samo incident iz avgusta 2026, nego lanac:
+To ne dokazuje da je tada već bio poznat isti kvar niti da je incident iz avgusta 2026. posljedica neprovedenih mjera. Ali otvara precizno dokumentarno pitanje:
 
-**ranije upozorenje → institucionalni odgovor → preventivne mjere → novi tehnički incident.**
+> Koje su provjere i preventivne mjere provedene između zaključaka Gradskog vijeća iz aprila 2025. i incidenta na Bloku 4 u avgustu 2026?
 
-## Šta je potvrđeno 25. avgusta 2026.
+## Dokazni status
 
-U zvaničnom saopštenju Grada Tuzla navodi se da je na Bloku 4 došlo do tehničkih problema u sistemu transporta šljake i pepela. Zbog nakupljanja pepela u koševima elektrofiltera smanjena je njihova efikasnost, a posljedica je bilo privremeno povećanje emisije prašine.
+**Potvrđeno iz zvaničnih izvora:** Gradsko vijeće Tuzla je u aprilu 2025. formalno otvorilo pitanje funkcionalnosti filtera; Grad Tuzla je 25. avgusta 2026. objavio informaciju o povećanoj emisiji prašine na Bloku 4 i prenio tehničko objašnjenje Elektroprivrede BiH; Grad je zatražio dodatne mjere, uključujući procjenu stanja, ulaganja, monitoring i javnu dostupnost podataka.
 
-Grad nije zatražio samo hitnu sanaciju. Od Elektroprivrede BiH traži, između ostalog, nezavisnu procjenu tehničkog stanja elektrofiltera, povećanje ulaganja u održavanje i remonte, modernizaciju opreme, kontinuiran i nezavisan monitoring, javnu dostupnost podataka o emisijama, jasne rokove i odgovornosti te višegodišnji plan ulaganja sa procijenjenim vrijednostima i izvorima finansiranja.
+**Tvrdnja institucije koja zahtijeva tehničku potvrdu:** neposredni uzrok događaja, trajanje kvara, intenzitet emisije i tačan trenutak pada efikasnosti elektrofiltera.
 
-To pokazuje da javna reakcija nije ograničena na jednu popravku. Ipak, sama činjenica da Grad traži veća ulaganja nije dokaz da je konkretni kvar nastao zbog nedovoljnog održavanja.
+**Analitičke hipoteze:** da je održavanje moglo biti nedovoljno; da su ranija upozorenja možda bila povezana sa kasnijim incidentom; da su preventivne mjere možda bile djelimične ili neprovedene. Nijedna od tih hipoteza ovdje se ne tretira kao utvrđena činjenica.
 
-## Ranije upozorenje je dokumentovano
-
-Na šestoj redovnoj sjednici Gradskog vijeća Tuzla 28. aprila 2025. pod posebnom tačkom razmatrani su **stanje zagađenosti zraka na području grada Tuzla i inicijativa za provjeru funkcionalnosti filtera u dimnjacima Termoelektrane Tuzla**.
-
-Zvanični zaključci Gradskog vijeća navode da su povod bile sve učestalije pritužbe građana, posebno iz naselja Husino, Bukinje, Miladije i Šićki Brod.
-
-Ovo je važna metodološka korekcija: nije opravdano tvrditi da je tada već bio identifikovan isti kvar koji se dogodio u avgustu 2026. Dokumenti to ne dokazuju.
-
-Ono što dokazuju jeste da je **funkcionalnost filtera bila formalno otvoreno pitanje više od godinu dana prije novog incidenta**.
+Odsustvo javno objavljenog tehničkog izvještaja nije dokaz da takav izvještaj ne postoji.
 
 ## Warning-to-Prevention Check
 
-Najvažnije pitanje zato glasi:
+Dokumentarni lanac treba rekonstruisati ovako:
 
-> Šta je urađeno između formalnog upozorenja iz aprila 2025. i tehničkog incidenta iz avgusta 2026. da se provjeri stanje filtera i smanji rizik od sličnih događaja?
+**ranije upozorenje → odgovor operatora → tehnička provjera → preporučene mjere → realizovane mjere → održavanje/remont → novi incident → sanacija → rezultat.**
 
-Odgovor ne treba tražiti u novom PR saopštenju nego u dokumentima.
+Ključno je razlikovati upozorenje na opštu funkcionalnost filtera od dokaza o istom konkretnom tehničkom riziku koji se kasnije realizovao.
 
-Potrebno je utvrditi da li su nakon zaključaka Gradskog vijeća izrađeni tehnički izvještaji o stanju filtera, da li je Elektroprivreda BiH dostavila tražene podatke, koje su mjere preporučene, ko je bio odgovoran za njihovu realizaciju i koje su zaista provedene.
+Moguća su najmanje četiri scenarija:
 
-Tek nakon toga može se razlikovati nekoliko mogućih scenarija:
+1. ranije upozorenje nije bilo povezano sa kvarom iz avgusta 2026;
+2. rizik je bio poznat i mjere su provedene, ali je kvar ipak nastao;
+3. rizik je bio poznat, a mjere su bile djelimične ili odgođene;
+4. postojala su upozorenja, ali trenutno nema dovoljno javne dokumentacije da se utvrdi šta je nakon njih urađeno.
 
-1. rizik nije bio poznat i incident je bio teško predvidiv;
-2. rizik je bio poznat, mjere su provedene, ali je kvar ipak nastao;
-3. rizik je bio poznat, ali su mjere bile djelimične ili odgođene;
-4. postojala su upozorenja, ali nije moguće dokazati da je uslijedila odgovarajuća preventivna reakcija.
+Samo dokumenti mogu pokazati koji scenario je najbliži stvarnom toku događaja.
 
-Samo treći i četvrti scenario bi opravdavali jači zaključak o institucionalnom propustu.
+## Šta znači „privremeno povećanje“
 
-## Šta znači „privremeno povećanje“?
+Kvalifikacija **„privremeno povećanje emisije prašine“** ne govori koliko je događaj trajao niti koliko je emisija odstupala od dozvoljenih vrijednosti.
 
-U saopštenju se koristi kvalifikacija **„privremeno povećanje emisije prašine“**.
+Za provjeru su potrebni:
 
-Ta formulacija sama po sebi ne govori koliko je događaj trajao niti koliko je emisija odstupala od dozvoljenih vrijednosti.
+**vrijeme početka → vrijeme završetka → satne vrijednosti emisije → primjenjive granične vrijednosti → maksimalno prekoračenje → ukupno trajanje → režim rada Bloka 4.**
 
-GFO Qualifier Check zato traži brojke:
+Bez tih brojeva „privremeno“ ostaje opis trajanja bez kvantifikacije.
 
-**vrijeme početka događaja → vrijeme završetka → satne vrijednosti emisije → granične vrijednosti → maksimalno prekoračenje → ukupno trajanje → režim rada Bloka 4 tokom događaja.**
-
-Bez tih podataka „privremeno“ može označavati vrlo različite situacije.
-
-## Kada je sistem znao da postoji problem?
+## Kada je sistem registrovao problem
 
 Drugi dokazni lanac treba rekonstruisati iz tehničkih zapisa:
 
-**prvo odstupanje sistema transporta pepela → alarm → nakupljanje u koševima → pad efikasnosti elektrofiltera → porast emisije → intervencija → obavještavanje nadležnih organa i javnosti.**
+**prvo odstupanje sistema transporta pepela → alarm → nakupljanje u koševima → pad efikasnosti elektrofiltera → porast emisije → operativna odluka → intervencija → obavještavanje nadležnih i javnosti.**
 
-Ako su alarmi postojali dovoljno rano, treba provjeriti koje su operativne odluke donesene. Ako ih nije bilo, pitanje prelazi na funkcionalnost senzora, automatike i preventivnog održavanja.
-
-U oba slučaja vrijeme događaja je ključni dokaz.
+Ako su alarmi postojali ranije, potrebno je utvrditi koje su odluke donesene i kada. Ako nisu, pitanje prelazi na funkcionalnost senzora, automatike i sistema nadzora.
 
 ## Održavanje je hipoteza, ne nalaz
 
-Grad traži povećanje ulaganja u tekuće održavanje, remonte i kapitalnu revitalizaciju. To opravdava provjeru stanja održavanja, ali ne i zaključak da je održavanje uzrok kvara.
+Grad je zatražio povećanje ulaganja u održavanje, remonte i modernizaciju. To opravdava provjeru održavanja, ali nije dokaz da je loše održavanje uzrokovalo konkretni kvar.
 
-Za takav zaključak trebaju najmanje:
+Za takav zaključak potrebni su najmanje:
 
 - plan preventivnog održavanja sistema transporta šljake i pepela;
 - evidencija realizovanih radnih naloga;
 - izvještaj posljednjeg remonta Bloka 4;
 - istorija kvarova iste ili povezane opreme;
 - evidencija odgođenih intervencija;
-- tehnički izvještaj o konkretnom događaju;
+- tehnički izvještaj o događaju;
 - DCS/SCADA zapis alarma i događaja.
 
-Posebno treba provjeriti da li je isti ili sličan kvar ranije ponavljan. Tek tada je moguće govoriti o **repeat failure** obrascu.
+Tek ako dokumentacija pokaže ponavljanje sličnog kvara ili neprovedene preporučene intervencije može se govoriti o obrascu ponovljenog rizika ili propusta u preventivi.
 
 ## Emisija iz dimnjaka nije isto što i kvalitet zraka u gradu
 
-Još jedna važna ograda: emisija Termoelektrane i koncentracija zagađujućih materija na gradskim mjernim stanicama nisu isti podatak.
+Povećana emisija iz Termoelektrane i koncentracije zagađujućih materija na gradskim mjernim stanicama nisu isti podatak.
 
-Na kvalitet zraka utiču meteorološki uslovi i drugi izvori emisija. Zato nije metodološki ispravno svaku promjenu PM vrijednosti u gradu direktno pripisati Bloku 4 bez vremenske i prostorne korelacije.
+Na kvalitet zraka utiču meteorološki uslovi i drugi izvori emisija. Zato promjene PM vrijednosti u gradu ne treba automatski pripisivati Bloku 4 bez vremenske i prostorne korelacije.
 
 Ispravan test je:
 
 **vrijeme povećane emisije TE → smjer i brzina vjetra → podaci mjernih stanica → prostorna raspodjela promjene.**
 
+## PR faze: saopštenje nije isto što i izvršena mjera
+
+Saopštenje Grada Tuzla od 25. avgusta sadrži niz zahtjeva prema Elektroprivredi BiH: procjenu stanja, ulaganja, modernizaciju, monitoring, javnu dostupnost podataka, rokove i plan ulaganja.
+
+Metodološki je važno razlikovati faze:
+
+**zahtjev/najava → odluka → plan → nabavka ili ugovaranje → izvršenje → monitoring → rezultat.**
+
+Sama činjenica da je Grad zatražio mjere ne znači da su one donesene ili provedene. Kasnija analiza zato treba pratiti dokumente i rezultate, ne samo novo saopštenje.
+
 ## Najvažniji nalaz
 
-Trenutno nije dokazano da je incident na Bloku 4 posljedica lošeg održavanja.
+Trenutno nije dokazano da je incident na Bloku 4 posljedica lošeg održavanja niti da su zaključci Gradskog vijeća iz 2025. bili neposredno upozorenje na isti tehnički kvar.
 
-Dokazano je nešto uže i dovoljno važno: **više od godinu dana prije incidenta Gradsko vijeće Tuzla formalno je otvorilo pitanje funkcionalnosti filtera, a u avgustu 2026. novi tehnički problem doveo je do smanjenja efikasnosti elektrofiltera i povećane emisije prašine.**
+Dokazano je nešto uže: **funkcionalnost filtera bila je formalno otvoreno pitanje više od godinu dana prije događaja u kojem je, prema zvanično prenesenoj informaciji, došlo do smanjenja efikasnosti elektrofiltera i povećane emisije prašine.**
 
-Zato je centralno pitanje odgovornosti:
+Centralno pitanje odgovornosti zato ostaje dokumentarno:
 
-> Koje su provjere i preventivne mjere provedene nakon zaključaka Gradskog vijeća iz aprila 2025. i da li je rizik koji se realizovao u avgustu 2026. bio ranije prepoznat?
+> Šta je urađeno nakon zaključaka iz aprila 2025, koji su rizici tada identifikovani i postoji li veza između tih nalaza i incidenta iz avgusta 2026?
 
-Ako dokumenti pokažu da je rizik bio poznat, a preporučene mjere nisu provedene, priča prestaje biti samo priča o kvaru. Tada postaje priča o lancu **poznati rizik → neprovedena preventiva → novi incident**.
+Ako dokumenti pokažu da je isti ili povezani rizik bio prepoznat, a preporučene mjere nisu provedene, analiza može biti pooštrena. Dok toga nema, takav zaključak bi bio preuranjen.
 
 ## Dokumenti koje treba tražiti
 
-Za nastavak analize najvažniji su izvještaj o kvaru Bloka 4, DCS/SCADA vremenski zapis, evidencija održavanja i remonta sistema transporta pepela i elektrofiltera, odgovor Elektroprivrede BiH na zaključke Gradskog vijeća iz 2025. i dokumentacija o realizaciji tada traženih provjera.
+Najvažniji su izvještaj o kvaru Bloka 4, DCS/SCADA vremenski zapis, satni podaci emisija, evidencija održavanja i remonta sistema transporta pepela i elektrofiltera, odgovor Elektroprivrede BiH na zaključke Gradskog vijeća iz 2025, izvještaji o tada provedenim provjerama i dokumentacija o realizaciji preporučenih mjera.
 
 ## Izvori
 
@@ -144,4 +140,4 @@ Za nastavak analize najvažniji su izvještaj o kvaru Bloka 4, DCS/SCADA vremens
 - [Gradsko vijeće Tuzla, zaključci sa 6. redovne sjednice od 28.04.2025.](https://grad.tuzla.ba/wp-content/uploads/2014/11/zakljucci-6.-sjednica-28.4.2025.-godine.pdf)
 - [Grad Tuzla, stenogram sa 6. sjednice od 28.04.2025.](https://grad.tuzla.ba/wp-content/uploads/2025/05/Stenogram-sa-6.-sjednice-GVT-odrzane-dana-28.04.2025.-godine.pdf)
 
-*Napomena: analiza razlikuje potvrđene činjenice od hipoteza o uzroku kvara. Za ocjenu odgovornosti potrebna je tehnička dokumentacija koja trenutno nije javno rekonstruisana u ovom tekstu.*
+*Metodološka napomena: analiza razlikuje potvrđene činjenice, institucionalne tvrdnje i hipoteze o uzroku. Odsustvo javno dostupne tehničke dokumentacije ne tretira se kao dokaz njenog nepostojanja, niti se namjera, uzročnost ili propust pripisuju bez odgovarajućih dokaza.*

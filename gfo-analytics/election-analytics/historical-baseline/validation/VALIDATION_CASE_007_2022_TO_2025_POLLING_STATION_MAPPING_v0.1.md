@@ -80,4 +80,4 @@ No split, merge, renumbering or boundary-change classification is asserted by th
 
 **PASS WITH REVIEW SET.**
 
-The automated mapping layer is suitable for the initial Historical Baseline. The canonical mapping proposal file is `mapping/polling_station_mapping_2022_to_2025_v0.1.csv`.
+The automated mapping layer is suitable for the initial Historical Baseline. A full mapping-proposal CSV is reproducible from the two normalized polling-station inputs with `polling_station_mapping_engine_v0_1.py`; it is not treated as a hand-curated canonical mapping until the review set is resolved.

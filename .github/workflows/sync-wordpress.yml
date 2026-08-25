@@ -4,9 +4,11 @@ on:
   push:
     branches: [main]
     paths:
+      - "blog/*.md"
       - "blog/**/*.md"
       - "scripts/sync_wordpress.py"
       - "scripts/requirements-wordpress.txt"
+      - ".github/workflows/sync-wordpress.yml"
   workflow_dispatch:
 
 permissions:
@@ -54,7 +56,7 @@ jobs:
           if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
             find blog -type f -name '*.md' -print0 | sort -z > /tmp/wp-files
           else
-            git diff --name-only -z HEAD^ HEAD -- 'blog/**/*.md' > /tmp/wp-files
+            git diff --name-only -z HEAD^ HEAD -- 'blog/*.md' 'blog/**/*.md' > /tmp/wp-files
           fi
 
           count=$(tr -cd '\0' < /tmp/wp-files | wc -c)

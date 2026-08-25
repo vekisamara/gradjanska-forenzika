@@ -21,7 +21,7 @@ tags:
 title: 'Školske uniforme u Banjoj Luci: nabavka je završena, primjena još nije'
 ---
 
-## Sažetak
+## Kratak pregled
 
 Grad Banja Luka je tokom 2026. proveo javnu nabavku školskih uniformi vrijednu **79.764,75 KM sa PDV-om**. Prema objavljenim podacima, postupak je pokrenut 17. aprila, jedina prihvatljiva ponuda bila je ponuda „GRAFO BALKAN“ Duško Skakić s.p. Banja Luka, a BL Portal je kasnije objavio da je ugovor potpisan 5. avgusta.
 

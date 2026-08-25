@@ -21,7 +21,7 @@ tags:
 title: 'TE Tuzla: od upozorenja o filterima do novog incidenta na Bloku 4'
 ---
 
-## Sažetak
+## Kratak pregled
 
 Grad Tuzla je 25. avgusta 2026. saopštio da je, prema informacijama Elektroprivrede Bosne i Hercegovine, na Bloku 4 Termoelektrane Tuzla došlo do privremenog povećanja emisije prašine zbog tehničkih problema u sistemu transporta šljake i pepela. U saopštenju se navodi da se pepeo nakupljao u koševima elektrofiltera, što je smanjilo njihovu efikasnost.
 

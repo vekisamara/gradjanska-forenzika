@@ -6,24 +6,26 @@ It reuses the validated v0.2.1 engine without requiring the repository folder st
 
 Confirmed CIK configuration:
 - electionResultId: 32
-- dbName: WebResult_2022GENP1_2022_4_20_14_10_43
+- dbName (canonical): WebResult_2022GENP1_2022_4_20_14_10_43
+- API dbName path parameter: %22WebResult_2022GENP1_2022_4_20_14_10_43%22
+- raceId: 73
 - race code: 5 (President RS)
 - languageId: 3
-
-The internal 2022 raceId is intentionally left null until independently confirmed.
 """
 from __future__ import annotations
 
 import argparse
-import sys
+import json
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 ENGINE_PATH = SCRIPT_DIR / "cik_ingestor_v0_2_1.py"
 
-DB_NAME = "WebResult_2022GENP1_2022_4_20_14_10_43"
+DB_NAME_CANONICAL = "WebResult_2022GENP1_2022_4_20_14_10_43"
+DB_NAME_API = "%22WebResult_2022GENP1_2022_4_20_14_10_43%22"
 ELECTION_RESULT_ID = 32
 ELECTION_ID = "2022-BIH-RS-PRES-GENERAL-CONFIRMED"
+RACE_ID = 73
 RACE_CODE = "5"
 LANGUAGE_ID = 3
 
@@ -33,9 +35,6 @@ def load_engine():
         raise SystemExit(
             f"Missing {ENGINE_PATH.name}. Put this wrapper in the same folder as cik_ingestor_v0_2_1.py."
         )
-    # Ordinary import is intentionally used here. Because the wrapper and engine
-    # are in the same directory, Python places the script directory on sys.path.
-    # This also avoids Python 3.13 dataclass issues seen with manual exec_module().
     try:
         import cik_ingestor_v0_2_1 as engine
     except Exception as exc:
@@ -61,15 +60,13 @@ def main() -> int:
         raise SystemExit("--workers must be >= 1")
 
     engine = load_engine()
-
-    # Prevent 2025/26 race metadata from leaking into the 2022 manifest.
-    engine.DEFAULT_RACE_ID = None
+    engine.DEFAULT_RACE_ID = RACE_ID
     engine.DEFAULT_RACE_CODE = RACE_CODE
 
     args = argparse.Namespace(
         output=cli.output,
         election_result_id=ELECTION_RESULT_ID,
-        db_name=DB_NAME,
+        db_name=DB_NAME_API,
         language_id=LANGUAGE_ID,
         election_id=ELECTION_ID,
         electoral_unit_id=cli.electoral_unit_id,
@@ -83,6 +80,17 @@ def main() -> int:
     )
 
     snapshot = engine.run_once(args)
+
+    # Keep manifest metadata canonical while retaining the exact API parameter used.
+    manifest_path = snapshot / "manifest.json"
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        manifest["db_name"] = DB_NAME_CANONICAL
+        manifest["api_db_name_parameter"] = DB_NAME_API
+        manifest["race_id"] = RACE_ID
+        manifest["race_code"] = RACE_CODE
+        manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+
     print(f"2022 historical snapshot complete: {snapshot}")
     return 0
 

@@ -1,2 +1,0 @@
-canonical_polling_station_code,historical_election_id,historical_polling_station_code,mapping_type,mapping_confidence,usable_for_baseline,mapping_source,notes,historical_polling_station_name,canonical_polling_station_name,municipality_code,registered_voters_historical,registered_voters_canonical,registered_voter_change_pct
-006B001,2022-BIH-RS-PRES-GENERAL-CONFIRMED,006B001,exact_code_unverified,0.98,true,mapping_helper_v0.1.0,Exact polling-station code and municipality match; normalized names match; registered-voter change -2.112%,KRUPA NA UNI,KRUPA NA UNI,006,426,417,-2.112

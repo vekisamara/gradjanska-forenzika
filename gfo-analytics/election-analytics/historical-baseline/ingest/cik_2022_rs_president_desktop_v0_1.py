@@ -6,8 +6,8 @@ It reuses the validated v0.2.1 engine without requiring the repository folder st
 
 Confirmed CIK configuration:
 - electionResultId: 32
-- dbName (canonical): WebResult_2022GENP1_2022_4_20_14_10_43
-- API dbName path parameter: %22WebResult_2022GENP1_2022_4_20_14_10_43%22
+- dbName (canonical): WebResult_2022GENT1_2022_4_20_14_10_43
+- API dbName path parameter: %22WebResult_2022GENT1_2022_4_20_14_10_43%22
 - raceId: 73
 - race code: 5 (President RS)
 - languageId: 3
@@ -21,8 +21,8 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 ENGINE_PATH = SCRIPT_DIR / "cik_ingestor_v0_2_1.py"
 
-DB_NAME_CANONICAL = "WebResult_2022GENP1_2022_4_20_14_10_43"
-DB_NAME_API = "%22WebResult_2022GENP1_2022_4_20_14_10_43%22"
+DB_NAME_CANONICAL = "WebResult_2022GENT1_2022_4_20_14_10_43"
+DB_NAME_API = "%22WebResult_2022GENT1_2022_4_20_14_10_43%22"
 ELECTION_RESULT_ID = 32
 ELECTION_ID = "2022-BIH-RS-PRES-GENERAL-CONFIRMED"
 RACE_ID = 73

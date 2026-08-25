@@ -5,7 +5,7 @@ categories:
 - Građanska forenzika
 - Javne nabavke
 - Urbanizam
-excerpt: "Tender za spomenik knezu Lazaru obuhvatao je izradu modela i livenje, dok je CAPITAL tri dana nakon raspisivanja tendera objavio da je model već bio izrađen i oko mjesec dana u livnici. To nije dokaz namještanja, ali jeste snažan signal za provjeru hronologije, konkurencije i budžetskog osnova."
+excerpt: "Tender za spomenik knezu Lazaru obuhvatao je izradu modela i livenje, dok je CAPITAL tri dana nakon raspisivanja tendera objavio da je model već bio izrađen i oko mjesec dana u livnici. Taj navod nije dokaz da je ugovoreni posao bio započet niti da je nabavka bila namještena, ali otvara precizno provjerljivo pitanje identiteta modela, hronologije i pravnog osnova njegovog nastanka."
 language: Serbian
 slug: 2026-banjaluka-spomenik-knez-lazar-pre-tender-check
 status: published
@@ -23,123 +23,93 @@ title: 'Spomenik knezu Lazaru: da li je dio posla postojao prije izbora izvođa�
 
 ## Sažetak
 
-Grad Banja Luka ugovorio je izgradnju spomenika knezu Lazaru u vrijednosti od **1.777.484,12 KM sa PDV-om**. Posao je dobila zajednička ponuda firmi KOTO Banja Luka i KOTO Beograd, a prema javno dostupnim podacima to je bila jedina ponuda.
+Grad Banja Luka ugovorio je izgradnju spomenika knezu Lazaru u vrijednosti od **1.777.484,12 KM sa PDV-om**. Prema javno dostupnim podacima, posao je dobila zajednička ponuda firmi KOTO Banja Luka i KOTO Beograd, a objavljeno je da je to bila jedina ponuda.
 
-Sama jedna ponuda nije dokaz nepravilnosti.
+Najvažnije pitanje proizlazi iz hronologije. Tender je raspisan 24. aprila 2026. CAPITAL je 27. aprila objavio da je model spomenika već izrađen i da se oko mjesec dana nalazi u livnici u Subotici. Prema dokumentaciji koju prenosi Gerila, predmet tendera uključivao je i izradu modela i livenje u bronzi.
 
-Mnogo važniji signal proizlazi iz hronologije. Grad je tender raspisao 24. aprila 2026. CAPITAL je 27. aprila objavio tekst pod naslovom „Stanivuković naručio spomenik Lazaru pa onda raspisao tender“ i naveo da je model već izrađen i da se oko mjesec dana nalazi u livnici u Subotici. Tender je, prema kasnijoj dokumentaciji koju prenosi Gerila, obuhvatao i izradu modela i livenje u bronzi.
+Gradonačelnik Draško Stanivuković javno je tvrdio da izrada spomenika nije počela prije izbora izvođača.
 
-Gradonačelnik Draško Stanivuković tvrdi da izrada spomenika nije počela prije izbora izvođača.
+Ove tvrdnje nisu dokazno jednake i nijedna se ne smije tretirati kao zatvorena činjenica bez primarne dokumentacije. Centralno pitanje zato nije da li je tender „namješten“, nego:
 
-Te dvije verzije trenutno ne treba nasilno pomirivati niti jednu proglašavati dokazanom bez dokumentacije.
+> Da li je model za koji je objavljeno da je postojao prije završetka nabavke isti model koji je kasnije korišten za izvršenje ugovora, ko ga je naručio, kada i na osnovu kojeg pravnog odnosa?
 
-GFO pitanje je jednostavno:
+## Dokazni status
 
-> Ako je model koji je postojao prije završetka nabavke isti model koji se koristi za realizaciju ugovora, ko ga je naručio i na osnovu kojeg pravnog odnosa?
+**Potvrđeno iz javno dostupnih podataka:** tender je raspisan 24. aprila; predmet nabavke obuhvatao je više elemenata uključujući model i livenje; kasnije je ugovorena zajednička ponuda KOTO Banja Luka/KOTO Beograd; javno je objavljena vrijednost ugovora.
 
-Ako nije isti model, Grad to može dokazati dokumentima o nastanku modela koji je predmet ugovora.
+**Medijska tvrdnja koja zahtijeva nezavisnu provjeru:** CAPITAL je 27. aprila objavio da je model već bio izrađen i oko mjesec dana u livnici. U ovoj analizi taj navod ostaje tvrdnja izvora, a ne utvrđena činjenica o izvršenju ugovora.
+
+**Tvrdnja funkcionera:** gradonačelnik je negirao da je izrada spomenika počela prije izbora izvođača. Ni ta tvrdnja sama po sebi ne zatvara pitanje bez dokumentacije.
+
+**Analitička hipoteza:** ako se dokumentima potvrdi da je isti model koji čini dio ugovorenog predmeta nastao prije izbora izvođača, treba utvrditi pravni i finansijski odnos između ranije izrade i kasnijeg ugovora. To još nije dokazano.
+
+Odsustvo trenutno javno dostupnog ugovora, narudžbenice ili dokumenta o modelu nije dokaz da takav dokument ne postoji.
 
 ## Pre-Tender Execution Check
 
-Ovo nije priča o tome da je „tender sigurno namješten“.
+Dokumentarni lanac koji treba rekonstruisati glasi:
 
-Za takav zaključak nema dovoljno dokaza.
+**ideja/projektni zadatak → autor/model → naručivanje modela → eventualni transport u livnicu → odluka o nabavci → tender → izbor izvođača → ugovor → proizvodnja/livenje → isporuka → plaćanje → rezultat.**
 
-Postoji, međutim, vremenska kontradikcija koja je dovoljno konkretna za provjeru:
+Ključne vremenske tačke su 24. april, kada je tender raspisan, i 27. april, kada je objavljen navod o ranije izrađenom modelu.
 
-**24.04.2026. — Grad raspisuje tender**
+Ako model nije isti, vremenska kontradikcija uglavnom nestaje. Ako jeste isti, potrebno je utvrditi ko je finansirao i naručio rad prije ugovora i kako je taj raniji rad uklopljen u predmet javne nabavke.
 
-**27.04.2026. — CAPITAL objavljuje da je model već izrađen i oko mjesec dana u livnici**
+Ni jedan od tih ishoda se ne može zaključiti samo iz medijskih tekstova.
 
-**predmet tendera — između ostalog, izrada modela i livenje u bronzi**
+## Tri srodna tendera i konkurencija
 
-**naknadno — ugovor dobija zajednička ponuda KOTO Banja Luka i KOTO Beograd**
+Gerila je uporedila nabavke spomenika Kulinu banu, kralju Tvrtku I i knezu Lazaru, u kojima se pojavljuje isti izvođački krug i po jedna ponuda.
 
-Najvažniji dokaz zato nije medijski članak nego dokumentacija o stvarnom nastanku modela: narudžbenica, autorski ugovor, ugovor sa vajarom, zapisnik o preuzimanju, transportna dokumentacija, dokumentacija livnice i prvi radni nalozi izabranog izvođača.
+Za Kulina bana procijenjena vrijednost bila je 134.999 KM sa PDV-om, a objavljena ponuda 134.994 KM. Za spomenik kralju Tvrtku I procijenjena vrijednost bila je 427.350 KM bez PDV-a, uz jednu ponudu u istom iznosu. Za kneza Lazara objavljena je jedna ponuda vrijedna 1.777.484,12 KM sa PDV-om.
 
-Ako se utvrdi da je ključni dio ugovorenog predmeta nastao prije nego što je izvođač izabran, onda se otvara pitanje da li je javna nabavka birala izvođača za budući posao ili formalizovala već započetu realizaciju.
+Ovaj obrazac opravdava **Competition Pattern Check**, ali nije dokaz namještanja. Za ozbiljniju ocjenu treba uporediti tehničke specifikacije, uslove sposobnosti, broj preuzetih tenderskih dokumentacija, pitanja ponuđača, izmjene dokumentacije, broj ponuda i konačne cijene.
 
-## Obrazac od tri tendera
-
-Gerila je uporedila tri gradske nabavke spomenika koje su dobile povezane firme KOTO Banja Luka i KOTO Beograd.
-
-Za Kulina bana procijenjena vrijednost bila je 134.999 KM sa PDV-om, a jedina ponuda iznosila je 134.994 KM.
-
-Za spomenik kralju Tvrtku I procijenjena vrijednost bila je 427.350 KM bez PDV-a. Ponovo je stigla samo jedna ponuda, u istom iznosu od 427.350 KM bez PDV-a.
-
-Za kneza Lazara stigla je jedna ponuda vrijedna 1.777.484,12 KM sa PDV-om.
-
-Ni ovaj obrazac nije dokaz namještanja. Ali opravdava **Competition Pattern Check**.
-
-Potrebno je za sva tri postupka uporediti:
-
-**procijenjena vrijednost → tehničke specifikacije → uslovi sposobnosti → broj preuzetih tenderskih dokumentacija → pitanja potencijalnih ponuđača → izmjene dokumentacije → broj ponuda → konačna cijena.**
-
-Tek takvo poređenje može pokazati da li je slaba konkurencija posljedica specifičnog tržišta i složenog posla ili su sami uslovi nabavke nepotrebno sužavali krug mogućih ponuđača.
+Bez takve tržišne i dokumentarne provjere nije opravdano pripisivati namjeru naručiocu.
 
 ## Referenca od 450.000 KM
 
-Prema dokumentaciji koju prenosi Gerila, od ponuđača za spomenik knezu Lazaru traženo je da dokaže da je u prethodnih pet godina realizovao najmanje jedan sličan ugovor vrijedan najmanje **450.000 KM sa PDV-om**.
+Prema dokumentaciji koju prenosi Gerila, od ponuđača za spomenik knezu Lazaru traženo je da dokaže najmanje jedan sličan ugovor vrijedan najmanje **450.000 KM sa PDV-om** u prethodnih pet godina.
 
-KOTO je kroz raniji posao spomenika kralju Tvrtku stekao referencu koja prelazi taj prag.
+Činjenica da KOTO ispunjava taj uslov ne dokazuje da je kriterijum pisan za KOTO. Relevantno pitanje je koliko drugih potencijalnih izvođača u BiH i regionu može ispuniti isti uslov i koje je obrazloženje za prag od 450.000 KM.
 
-To samo po sebi ne znači da je kriterijum pisan za KOTO. Takva tvrdnja bi zahtijevala tržišnu analizu.
+Ako je prag tehnički opravdan i tržišno razuman, indikator slabi. Ako bez jasnog razloga isključuje većinu tržišta, tada postaje važan signal za dalju provjeru.
 
-Pravo pitanje je:
+## Budžetski osnov: otvoreno pitanje
 
-> Koliko drugih izvođača u BiH i regionu je u trenutku raspisivanja tendera moglo dokazati baš takvu referencu i zašto je prag postavljen na 450.000 KM?
+Gradonačelnik tvrdi da je novac predviđen budžetom. Odbornik Igor Mandić tvrdi da u Budžetu Grada za 2026. nije pronašao takvu stavku.
 
-Ako je kriterijum tehnički opravdan i više izvođača ga može ispuniti, nalaz slabi. Ako praktično isključuje većinu tržišta bez jasnog razloga, postaje relevantan indikator smanjene konkurencije.
+Iz tih suprotstavljenih tvrdnji nije moguće zaključiti da sredstva nisu obezbijeđena. Kapitalni izdaci mogu biti planirani na širim pozicijama ili obezbijeđeni kroz dozvoljene realokacije.
 
-## Budžetski osnov: otvoreno pitanje, ne zaključak
-
-Gradonačelnik tvrdi da je novac za spomenik predviđen budžetom. Odbornik Igor Mandić tvrdi da u Budžetu Grada za 2026. nije pronašao takvu stavku.
-
-Građanska forenzika ne treba iz toga izvesti zaključak da sredstava nema.
-
-Kapitalni izdaci mogu biti planirani na širim ekonomskim ili organizacionim pozicijama, a sredstva mogu biti predmet realokacija u skladu sa propisima.
-
-Zato pitanje treba formulirati precizno:
+Dokumentarni test glasi:
 
 > Koja tačno budžetska pozicija, organizaciona jedinica i ekonomska klasifikacija pokrivaju ugovor od 1.777.484,12 KM i kada je na toj poziciji obezbijeđen dovoljan iznos?
 
-Za odgovor su potrebni nalog za pokretanje nabavke, potvrda raspoloživosti sredstava, rezervacija u trezoru, eventualne realokacije i kasnije fakture i nalozi za plaćanje.
-
-Dok ti dokumenti nisu provjereni, budžetski osnov ostaje pitanje za trag novca, a ne dokaz nepravilnosti.
+Potrebni su nalog za pokretanje nabavke, potvrda raspoloživosti sredstava, eventualne realokacije, trezorska rezervacija, fakture i nalozi za plaćanje.
 
 ## Urbanistički sloj
 
-Spomenik ove veličine nije samo bronzana skulptura. Tender obuhvata projektovanje, temelje, postament i uređenje prostora.
+Spomenik ove veličine uključuje i projektovanje, temelje, postament i uređenje prostora. Izjava predsjednika Skupštine grada Ljube Ninkovića da mu nisu poznate odluke, izmjene regulacionog plana ni način finansiranja ne dokazuje da potrebni akti ne postoje.
 
-Predsjednik Skupštine grada Ljubo Ninković izjavio je za Gerilu da mu nisu poznate odluke, izmjene regulacionog plana ni način finansiranja radova. Ta izjava ne dokazuje da potrebni akti ne postoje.
+Zato treba rekonstruisati zaseban lanac:
 
-Zato treba rekonstruisati zaseban **Permit and Planning Trace**:
+**parcela i vlasništvo → važeći planski dokument → urbanističko-tehnički/lokacijski uslovi → projektna dokumentacija → saglasnosti → odobrenje za građenje ako je potrebno → početak fizičkih radova.**
 
-**parcela i vlasništvo → važeći planski dokument → urbanističko-tehnički uslovi → lokacijski uslovi → projektna dokumentacija → saglasnosti → odobrenje za građenje ako je potrebno → početak fizičkih radova.**
+Ako bi dokumenti pokazali da su fizički radovi ili proizvodnja ugovorenih elemenata počeli prije potrebnih akata, otvorilo bi se dodatno pitanje redoslijeda odluka i izvršenja. Trenutno za takav zaključak nema dovoljno dokaza.
 
-Hronologija je ključna. Ako bi se pokazalo da su fizički radovi ili proizvodnja ugovorenih elemenata počeli prije potrebnih odobrenja, otvorio bi se dodatni Decision-before-Permit problem.
+## Najvažniji nalaz
 
-Trenutno za takav zaključak nema dovoljno dokumentacije.
+Nije dokazano da je nabavka bila namještena, da je model koji je CAPITAL opisao isti model iz ugovora, niti da je projekat finansiran bez budžetskog osnova.
 
-## Šta za sada možemo tvrditi
+Dokazivo je da postoji dovoljno konkretna vremenska i dokumentarna neusklađenost za dalju provjeru: predmet tendera uključuje izradu modela, a neposredno nakon raspisivanja tendera objavljen je navod da model već postoji.
 
-Nije dokazano da je nabavka bila namještena.
+Najjači GFO ugao zato ostaje dokumentarna rekonstrukcija:
 
-Nije dokazano ni da je projekat finansiran bez budžetskog osnova.
-
-Dokazivo je da postoje tri jaka indikatora za provjeru:
-
-1. **vremenski signal** — medijski navod da je model postojao prije završetka nabavke čiji je predmet uključivao izradu modela;
-2. **signal konkurencije** — tri uzastopna srodna tendera sa istim izvođačkim krugom i po jednom ponudom;
-3. **signal transparentnosti budžeta** — javna tvrdnja da su sredstva predviđena, bez jasno pokazane konkretne budžetske pozicije u dostupnom političkom odgovoru.
-
-Najjači GFO ugao zato nije optužba, nego dokumentarna rekonstrukcija:
-
-**ko je šta naručio → kada je fizički posao počeo → kada je raspisan tender → ko je mogao konkurisati → kada je obezbijeđen novac → kada su nastala odobrenja.**
+**ko je šta naručio → kada je model nastao → kada je raspisan tender → ko je mogao konkurisati → kada je obezbijeđen novac → kada su nastala potrebna odobrenja.**
 
 ## Dokumenti koje treba tražiti
 
-Za konačnu studiju slučaja najvažniji su kompletna tenderska dokumentacija, zapisnik o ocjeni ponuda, ugovor i eventualni aneksi, dokaz o raspoloživosti sredstava, dokumenti o nastanku modela i njegovom boravku u livnici, projektna i urbanistička dokumentacija te prve privremene situacije izvođača.
+Najvažniji su kompletna tenderska dokumentacija, zapisnik o ocjeni ponuda, ugovor i aneksi, dokaz o raspoloživosti sredstava, dokumenti o nastanku modela i njegovom boravku u livnici, ugovor ili odnos sa autorom/vajarom, transportna dokumentacija, projektna i urbanistička dokumentacija te prve privremene situacije izvođača.
 
 ## Izvori
 
@@ -147,4 +117,4 @@ Za konačnu studiju slučaja najvažniji su kompletna tenderska dokumentacija, z
 - [CAPITAL, arhiva oznake Grad Banjaluka: „Stanivuković naručio spomenik Lazaru pa onda raspisao tender“, 27.04.2026.](https://capital.ba/tag/grad-banjaluka/)
 - [CAPITAL, arhiva: „Stanivuković raspisao tender za spomenik knezu Lazaru visok osam metara“, 24.04.2026.](https://capital.ba/tag/grad-banjaluka/)
 
-*Napomena: medijski navod o postojanju modela prije izbora izvođača tretira se kao provjerljiva tvrdnja, ne kao dokazana činjenica o nezakonitosti nabavke.*
+*Metodološka napomena: medijski navod o postojanju modela tretira se kao provjerljiva tvrdnja sa jasno označenom provenijencijom, ne kao dokazana činjenica o nezakonitosti. Odsustvo javno dostupnog dokumenta ne tretira se kao dokaz njegovog nepostojanja.*

@@ -5,7 +5,7 @@ categories:
 - Građanska forenzika
 - Javne nabavke
 - PR pod lupom
-excerpt: "Grad Banja Luka je nabavio 450 kompleta uniformi za gotovo 80.000 KM, a u avgustu 2026. saopšteno je da uniforme još nisu zaživjele jer je potrebna saglasnost škola i Ministarstva. Raniji izvještaji su govorili o pilot-projektu u dvije škole, pa je ključno pitanje da li je prije nabavke postojao formalni dogovor i šta se u međuvremenu promijenilo."
+excerpt: "Grad Banja Luka je nabavio 450 kompleta uniformi za gotovo 80.000 KM, dok je 25. avgusta saopšteno da njihova primjena još nije zaživjela. Javno dostupni izvori ukazuju i na raniji plan pilot-projekta za 300 učenika u dvije škole. Ključno pitanje zato nije da li je postojao plan, nego kakav je formalni institucionalni osnov postojao prije nabavke i šta se kasnije promijenilo."
 language: Serbian
 slug: 2026-banjaluka-uniforme-procurement-before-implementation
 status: published
@@ -23,144 +23,81 @@ title: 'Školske uniforme u Banjoj Luci: nabavka je završena, primjena još nij
 
 ## Sažetak
 
-Grad Banja Luka je u 2026. proveo javnu nabavku školskih uniformi vrijednu **79.764,75 KM sa PDV-om**. Postupak je pokrenut 17. aprila, kao jedini prihvatljivi ponuđač izabran je „GRAFO BALKAN“ Duško Skakić s.p. Banja Luka, a ugovor je, prema kasnijem izvještaju BL Portala, potpisan 5. avgusta.
+Grad Banja Luka je tokom 2026. proveo javnu nabavku školskih uniformi vrijednu **79.764,75 KM sa PDV-om**. Prema objavljenim podacima, postupak je pokrenut 17. aprila, jedina prihvatljiva ponuda bila je ponuda „GRAFO BALKAN“ Duško Skakić s.p. Banja Luka, a BL Portal je kasnije objavio da je ugovor potpisan 5. avgusta.
 
-Do 25. avgusta Grad je već obezbijedio **450 kompleta uniformi za učenike prvog, drugog i trećeg razreda**, ali je gradonačelnik Draško Stanivuković saopštio da uniforme još nisu zaživjele u školama jer je za njihovo uvođenje potrebna saglasnost škola i Ministarstva prosvjete i kulture Republike Srpske.
+Do 25. avgusta Grad je saopštio da je obezbijeđeno **450 kompleta uniformi za učenike prvog, drugog i trećeg razreda**, dok je gradonačelnik Draško Stanivuković naveo da uniforme još nisu zaživjele jer je za njihovo uvođenje potrebna saglasnost škola i Ministarstva prosvjete i kulture Republike Srpske.
 
-Na prvi pogled to izgleda kao čist slučaj „nabavka prije nadležnosti“.
+Raniji medijski izvještaj, međutim, navodi plan pilot-projekta za **300 učenika u dvije škole**. Zato iz dostupnih podataka nije opravdano zaključiti da je nabavka pokrenuta bez ikakvog plana implementacije.
 
-Međutim, raniji medijski izvještaji o projektu navode da je Grad planirao **pilot-projekat za 300 učenika u dvije škole**. Taj podatak mijenja analizu.
+Preciznije pitanje glasi:
 
-Zato nije korektno unaprijed tvrditi da Grad prije nabavke nije imao nikakav plan implementacije.
+> Da li je prije pokretanja nabavke postojao formalni dogovor sa pilot-školama i nadležnim institucijama, za koji broj učenika, i šta se između planiranja, ugovaranja i početka školske godine promijenilo?
 
-Pravo pitanje je užeg i dokazivijeg tipa:
+## Dokazni status
 
-> Da li su dvije škole koje su ranije bile predviđene za pilot-projekat prije pokretanja nabavke dale formalnu saglasnost ili drugi pisani dokaz da će uniforme biti uvedene, i ako jesu, šta se kasnije promijenilo?
+U ovoj analizi razlikujemo tri nivoa.
 
-## Šta je potvrđeno u postupku nabavke
+**Potvrđeno iz javno dostupnih izvora:** pokrenuta je nabavka; objavljena je vrijednost od 79.764,75 KM sa PDV-om; javno je navedeno da je obezbijeđeno 450 kompleta; 25. avgusta primjena još nije bila realizovana; raniji medijski izvještaj navodi pilot za 300 učenika u dvije škole.
 
-Prema objavljenim podacima, javna nabavka je pokrenuta 17. aprila 2026. Jedina pristigla ponuda bila je ponuda firme „GRAFO BALKAN“ u iznosu od 79.764,75 KM sa PDV-om i ocijenjena je prihvatljivom.
+**Tvrdnje izvora koje zahtijevaju dokumentarnu provjeru:** datum i puni sadržaj ugovora, tačan status isporuke i prijema robe, priroda ranijeg dogovora sa školama i potreban nivo saglasnosti Ministarstva.
 
-Ugovor je kasnije zaključen u avgustu.
+**Analitičke hipoteze:** da je finansijska obaveza možda preuzeta prije obezbijeđenog institucionalnog puta primjene; da je projekat između dvije faze proširen sa 300 na 450 kompleta; da je prepreka mogla nastati tek nakon ranijeg dogovora. Nijedna od tih hipoteza ovdje se ne tretira kao utvrđena činjenica.
 
-Jedna ponuda sama po sebi nije dokaz nepravilnosti. Za ocjenu konkurencije potrebno je pogledati tehničke specifikacije, rokove, tražene uzorke, uslove sposobnosti i broj subjekata koji su preuzeli tendersku dokumentaciju.
+Nedostatak javno dostupne saglasnosti nije dokaz da saglasnost nije postojala.
 
-Za ovu studiju slučaja, međutim, važniji je redoslijed između **planiranja projekta, institucionalne saglasnosti i nabavke robe**.
+## Lanac faza: plan nije isto što i rezultat
 
-## Šta je Grad rekao 25. avgusta
+Za ovaj slučaj korisno je odvojiti faze:
 
-U predstavljanju kampanje „Generacija bistre glave“ Grad je školsku uniformu predstavio kao jednu od pet mjera za novu školsku godinu.
+**najava/pilot-plan → institucionalni dogovor → odluka o nabavci → postupak nabavke → ugovor → isporuka/prijem → distribucija → stvarno korištenje → rezultat.**
 
-Objavljeno je da je obezbijeđeno 450 kompleta uniformi, ali da je za njihovo uvođenje potrebna saglasnost škola i Ministarstva prosvjete i kulture RS i da uniforme zbog toga još nisu zaživjele.
+Javni izvori omogućavaju relativno jasnu rekonstrukciju nabavke i javne komunikacije, ali ne zatvaraju institucionalni dio lanca prije 17. aprila niti dokaz o stvarnoj distribuciji i korištenju nakon ugovora.
 
-To znači da 25. avgusta, nakon provedene nabavke i potpisanog ugovora, **operativna primjena još nije bila obezbijeđena**.
+Zato činjenica da je roba nabavljena nije isto što i činjenica da je mjera uvedena. Isto tako, činjenica da mjera 25. avgusta nije bila uvedena ne dokazuje da prije nabavke nije postojao dogovor.
 
-Ali to ne dokazuje da takva saglasnost nije postojala ranije.
+## Šta treba provjeriti na dvije ključne tačke
 
-## Važna korekcija: postojao je plan pilot-projekta
+**17. april 2026. — pokretanje nabavke.** Treba utvrditi koje je dokumente Grad tada imao: saglasnosti škola, prepisku sa Ministarstvom, odluke školskih organa, spiskove ili procjenu korisnika i obrazloženje količine.
 
-Mondo je u izvještaju o nabavci naveo da je Grad pokrenuo pilot-projekat uvođenja uniformi za **300 đaka u dvije škole**.
+**5. avgust 2026. — prema medijskom izvještaju, zaključenje ugovora.** Treba utvrditi da li se institucionalni status projekta do tada promijenio i da li je Grad prije preuzimanja ugovorne obaveze raspolagao potvrdom da se roba može koristiti na planirani način.
 
-Taj podatak je važan jer ruši prejednostavnu tezu da je Grad „kupio uniforme bez ikakvog plana kome su namijenjene“.
+Ako je postojao pisani dogovor i jasno definisan pravni put, predmet analize postaje kasnija blokada realizacije. Ako takvog osnova nije bilo, onda se otvara pitanje upravljanja javnim novcem prije obezbijeđene implementacije.
 
-Moguća su najmanje tri scenarija:
+## Od 300 do 450 kompleta
 
-1. dvije škole su formalno prihvatile pilot prije nabavke, ali je kasnije nastala prepreka na nivou Ministarstva ili školskih organa;
-2. škole su bile samo neformalno identifikovane kao potencijalni učesnici, bez pravno relevantne saglasnosti;
-3. projekat je između aprila i avgusta proširen sa 300 na 450 uniformi, a institucionalni uslovi nisu pratili proširenje.
+Razlika između ranije navedenih 300 učenika i kasnije objavljenih 450 kompleta jeste provjerljiva činjenica u javnom narativu, ali sama po sebi nije nepravilnost.
 
-Bez prepiske Grada, škola i Ministarstva nije moguće znati koji scenario je tačan.
+Moguća objašnjenja uključuju proširenje projekta, dodatne škole ili učenike, rezervne veličine i zamjene. Bez tehničke specifikacije, obrazloženja količina i plana distribucije nije moguće izabrati jedno od tih objašnjenja.
 
-## Procurement-before-Implementation Check
+Dokumentarni test je jednostavan: **na osnovu kojih podataka je utvrđena količina od 450 kompleta i kome su bili namijenjeni?**
 
-Najprecizniji GFO lanac je:
+## Jedna ponuda: indikator, ne zaključak
 
-**ideja projekta → identifikacija pilot-škola → saglasnosti/dogovori → utvrđivanje broja korisnika → javna nabavka → ugovor → isporuka → distribucija → stvarno korištenje.**
+Prema objavljenim podacima, pristigla je jedna prihvatljiva ponuda. To je signal za provjeru konkurencije, ali ne dokaz da je postupak bio nepravilno dizajniran.
 
-Trenutno iz javnih podataka znamo da su nabavka i ugovor završeni, a da je primjena 25. avgusta još bila neriješena.
+Za ozbiljniju ocjenu treba pregledati broj preuzetih tenderskih dokumentacija, tehničke zahtjeve, rokove, uzorke, reference, pitanja potencijalnih ponuđača i eventualne izmjene dokumentacije.
 
-Zato treba provjeriti dvije tačke vremena:
+Bez tih podataka nije opravdano slabu konkurenciju pripisivati namjeri naručioca.
 
-**17. april 2026. — šta je Grad imao u rukama kada je pokrenuo nabavku?**
+## PR provjera: pet mjera nisu ista faza
 
-**5. avgust 2026. — šta je Grad imao u rukama kada je zaključio ugovor?**
+Kampanja „Generacija bistre glave“ objedinjuje više mjera, ali njihovo zajedničko predstavljanje ne znači da su sve u istoj fazi realizacije.
 
-Ako je postojao pisani dogovor sa školama i jasno definisan pravni put implementacije, problem se značajno smanjuje. Tada bi predmet analize bio šta je nakon toga blokiralo realizaciju.
+Kod uniformi je javno vidljiva najmanje faza nabavke, dok je 25. avgusta stvarna primjena još bila otvorena. Zbog toga je preciznije razlikovati ono što je **najavljeno**, **nabavljeno**, **isporučeno**, **uvedeno** i **dalo rezultat**.
 
-Ako takav dokument nije postojao, onda je Grad preuzeo finansijsku obavezu prije nego što je imao potvrđen institucionalni put za korištenje kupljene robe.
-
-## Kako je broj porastao sa 300 na 450?
-
-Raniji izvještaji govore o pilotu za 300 učenika u dvije škole. Avgustovsko predstavljanje govori o 450 kompleta za učenike prvog, drugog i trećeg razreda.
-
-Ta razlika sama po sebi nije nepravilnost. Projekat je mogao biti proširen ili su dodatne uniforme mogle biti planirane kao rezerva zbog veličina, zamjene ili uključivanja dodatnih učenika.
-
-Ali razlika je provjerljiva i treba je objasniti dokumentima:
-
-**300 planiranih korisnika → 450 nabavljenih kompleta.**
-
-Potrebno je vidjeti tehničku specifikaciju, količine po veličinama, obrazloženje procijenjene vrijednosti i plan distribucije.
-
-Ako je broj 450 bio zasnovan na stvarnim spiskovima učenika i dogovoru sa školama, to treba biti vidljivo u dokumentaciji. Ako nije, postavlja se pitanje na osnovu čega je količina određena.
-
-## Nadležnost nije isto što i finansiranje
-
-Grad može finansirati ili podržati projekte u školama, ali to ne znači da svaku mjeru može jednostrano uvesti u rad osnovnih škola.
-
-Zato ovu priču ne treba pojednostaviti tvrdnjom „Grad nema nadležnost nad školstvom“.
-
-Mnogo je korisnije rekonstruisati konkretan lanac odluke:
-
-**ko odlučuje o uniformama u školi → da li je potrebna odluka direktora, školskog odbora, savjeta roditelja ili Ministarstva → da li je takva odluka donesena → kada → za koje škole i učenike.**
-
-Ako se institucije međusobno pozivaju na tuđu nadležnost, odgovor se ne smije tražiti u političkim izjavama nego u formalnim dopisima.
-
-## Jedna ponuda: signal za provjeru, ne dokaz
-
-Za nabavku uniformi stigla je samo jedna ponuda.
-
-To je indikator slabe konkurencije, ali ne i dokaz da je postupak bio nepravilno dizajniran.
-
-Potrebno je provjeriti:
-
-- broj preuzetih tenderskih dokumentacija;
-- tehničke zahtjeve za materijal, dizajn i izradu;
-- rok isporuke;
-- tražene uzorke i reference;
-- pitanja potencijalnih ponuđača;
-- da li su uslovi bili proporcionalni predmetu nabavke.
-
-Tek tada se može govoriti o tome da li je tržište bilo prirodno usko ili je dokumentacija dodatno suzila konkurenciju.
-
-## PR Stage Check: pet mjera nisu jedna faza
-
-Kampanja „Generacija bistre glave“ objedinjuje pet različitih mjera, ali one nisu u istoj fazi realizacije.
-
-Uniforme su nabavljene, ali njihovo stvarno uvođenje nije završeno. Aplikacija za roditeljsku kontrolu je alat čija primjena zavisi od roditelja. Zdrave užine su najavljene kroz sufinansiranje i promjene ponude. Program „Škole bez tereta“ već ima elemente realizacije, dok su ormarići za mobilne telefone predstavljeni kao prijedlog koji škole treba da prihvate.
-
-Zato je preciznije reći da Grad **predlaže, finansira ili provodi različite mjere**, a ne da je svih pet već „uveo“.
-
-Ova razlika je važna za javnu odgovornost: najava nije isto što i odluka, nabavka nije isto što i implementacija, a isporučena roba nije isto što i ostvareni rezultat.
+Ovo je analiza konkretnog sadržaja javne komunikacije i dokumentarnog lanca, a ne ocjena Grada Banja Luka kao institucije.
 
 ## Najvažniji nalaz
 
-Trenutno nije dokazano da je Grad nabavio uniforme bez ikakvog plana primjene. Naprotiv, raniji izvještaji pokazuju da je postojao plan pilot-projekta u dvije škole.
+Dostupni izvori ne dokazuju da je Grad kupio uniforme bez plana. Naprotiv, postoji javni trag o planiranom pilot-projektu.
 
-Ali je potvrđeno da je do 25. avgusta, nakon završene nabavke i ugovora, **institucionalna primjena i dalje bila neriješena**.
+Istovremeno, javno je saopšteno da 25. avgusta, nakon provedene nabavke, uniforme još nisu zaživjele zbog pitanja saglasnosti.
 
-Zato centralno pitanje nije „zašto je Grad kupio uniforme bez plana“, nego:
-
-> Da li je prije pokretanja nabavke postojao formalni dogovor sa pilot-školama i nadležnim institucijama, i ako jeste, zašto taj dogovor nije doveo do primjene do početka nove školske godine?
-
-Ako je dokumentovana saglasnost postojala pa je naknadno povučena ili blokirana, odgovornost treba tražiti u promjeni odluke.
-
-Ako saglasnost nije postojala, onda se pojavljuje mnogo čišći obrazac:
-
-**nabavka i finansijska obaveza prije obezbijeđenog institucionalnog puta implementacije.**
+Najvažnija dokazna praznina zato je **formalni status saglasnosti prije nabavke i ugovora**. Dok se taj dokumentarni sloj ne pribavi, nije opravdano tvrditi ni da je Grad postupao bez institucionalnog osnova, ni da je kasnija prepreka nastala nezavisno od njegovog planiranja.
 
 ## Dokumenti koje treba tražiti
 
-Najvažniji su odluka o pokretanju nabavke, tehnička specifikacija i obrazloženje količine 450 kompleta, ugovor i zapisnik o prijemu robe, prepiska Grada sa dvije pilot-škole i Ministarstvom prije 17. aprila 2026, odluke školskih organa i naknadna prepiska koja objašnjava zašto uniforme do 25. avgusta nisu uvedene.
+Najvažniji su odluka o pokretanju nabavke, tenderska dokumentacija i obrazloženje količine, ugovor, zapisnik o prijemu robe, prepiska Grada sa pilot-školama i Ministarstvom prije 17. aprila i prije zaključenja ugovora, odluke nadležnih školskih organa te plan distribucije 450 kompleta.
 
 ## Izvori
 
@@ -170,4 +107,4 @@ Najvažniji su odluka o pokretanju nabavke, tehnička specifikacija i obrazlože
 - [Nezavisne, 25.08.2026: Draško Stanivuković predstavio set od pet mjera](https://www.nezavisne.com/novosti/banjaluka/Drasko-Stanivukovic-predstavio-set-od-pet-mjera/979431)
 - [BL Portal, 25.08.2026: Grad obezbijedio 450 uniformi, primjena još nije zaživjela](https://www.bl-portal.com/banjaluka/stanivukovic-potrosio-pare-na-450-uniformi-priznao-da-nijedna-skola-nije-spremna-da-ih-uvede/)
 
-*Napomena: analiza ne pretpostavlja da je nabavka bila neopravdana. Ključna nepoznanica je sadržaj formalnih dogovora sa školama i Ministarstvom prije pokretanja i zaključenja nabavke.*
+*Metodološka napomena: medijski navodi koriste se uz jasno označenu provenijenciju. Odsustvo javno dostupnog dokumenta ne tretira se kao dokaz njegovog nepostojanja, a analiza ne pripisuje namjeru ili nezakonitost bez dodatnih dokaza.*

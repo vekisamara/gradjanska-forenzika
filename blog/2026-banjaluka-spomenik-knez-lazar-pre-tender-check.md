@@ -21,7 +21,7 @@ tags:
 title: 'Spomenik knezu Lazaru: da li je dio posla postojao prije izbora izvođača?'
 ---
 
-## Sažetak
+## Kratak pregled
 
 Grad Banja Luka ugovorio je izgradnju spomenika knezu Lazaru u vrijednosti od **1.777.484,12 KM sa PDV-om**. Prema javno dostupnim podacima, posao je dobila zajednička ponuda firmi KOTO Banja Luka i KOTO Beograd, a objavljeno je da je to bila jedina ponuda.
 

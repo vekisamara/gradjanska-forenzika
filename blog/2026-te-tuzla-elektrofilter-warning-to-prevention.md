@@ -1,5 +1,6 @@
 ---
 author: gradjanskaforenzika
+repository: gradjanska-forenzika
 categories:
 - Građanska forenzika
 - Komunalne teme

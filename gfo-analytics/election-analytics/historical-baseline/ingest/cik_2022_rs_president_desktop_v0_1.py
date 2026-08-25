@@ -34,11 +34,19 @@ def load_engine():
         raise SystemExit(
             f"Missing {ENGINE_PATH.name}. Put this wrapper in the same folder as cik_ingestor_v0_2_1.py."
         )
-    spec = importlib.util.spec_from_file_location("gfo_cik_ingestor_v021", ENGINE_PATH)
+    module_name = "gfo_cik_ingestor_v021"
+    spec = importlib.util.spec_from_file_location(module_name, ENGINE_PATH)
     if spec is None or spec.loader is None:
         raise SystemExit(f"Cannot load {ENGINE_PATH}")
     module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
+    # Python 3.13 dataclasses expect the module to exist in sys.modules
+    # while class decorators are being evaluated during exec_module().
+    sys.modules[module_name] = module
+    try:
+        spec.loader.exec_module(module)
+    except Exception:
+        sys.modules.pop(module_name, None)
+        raise
     return module
 
 

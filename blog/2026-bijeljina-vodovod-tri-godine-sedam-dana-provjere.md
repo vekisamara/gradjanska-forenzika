@@ -1,5 +1,6 @@
 ---
 title: "Tri godine čekanja, sedam dana provjere: šta zapravo koči 6,5 miliona KM za vodovod u Bijeljini?"
+slug: 2026-bijeljina-vodovod-tri-godine-sedam-dana-provjere
 date: 2026-08-26
 author: gradjanskaforenzika
 categories:

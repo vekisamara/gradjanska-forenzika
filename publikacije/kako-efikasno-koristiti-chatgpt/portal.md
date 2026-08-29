@@ -1,5 +1,5 @@
 ---
-title: "Kako koristiti ChatGPT bez magije i mitova: vizuelni priručnik za početnike"
+title: "Kako koristiti ChatGPT bez magije i mitova: priručnik za početnike"
 author: "gradjanskaforenzika"
 date: 2026-08-29
 categories:
@@ -19,7 +19,7 @@ tags:
 
 ChatGPT je lako početi koristiti: postavite pitanje i dobijete odgovor. Mnogo je teže razumjeti šta se dešava kada razgovor postane dug, kada AI počne ponavljati raniji zaključak, kada dokument više nije neposredno u radnom kontekstu ili kada treba odlučiti da li koristiti Instant, Medium, High, Search ili Deep Research.
 
-Građanska forenzika pripremila je vizuelni priručnik za digitalno pismene korisnike koji tek počinju ozbiljnije koristiti AI alate. Cilj nije naučiti „magične promptove“, nego razumjeti nekoliko principa koji rad sa ChatGPT-om čine korisnijim i pouzdanijim.
+Građanska forenzika pripremila je priručnik za digitalno pismene korisnike koji tek počinju ozbiljnije koristiti AI alate. Cilj nije naučiti „magične promptove“, nego razumjeti nekoliko principa koji rad sa ChatGPT-om čine korisnijim i pouzdanijim.
 
 ## Šta priručnik objašnjava
 
@@ -80,7 +80,7 @@ Ove opcije se mogu kombinovati. Ozbiljan projekat može, na primjer, koristiti P
 
 ## Preuzmite priručnik
 
-**Kako koristiti ChatGPT bez magije i mitova — Vizuelni priručnik za digitalno pismene početnike**  
+**Kako koristiti ChatGPT bez magije i mitova — Priručnik za digitalno pismene početnike**  
 Građanska forenzika, izdanje 1.0, avgust 2026.
 
 [PDF priručnik](Gradjanska_forenzika_AI_prirucnik_v1.pdf)

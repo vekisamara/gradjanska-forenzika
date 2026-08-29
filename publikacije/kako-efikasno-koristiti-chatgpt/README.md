@@ -1,6 +1,6 @@
 # Kako koristiti ChatGPT bez magije i mitova
 
-**Vizuelni priručnik Građanske forenzike za digitalno pismene početnike**
+**Priručnik Građanske forenzike za digitalno pismene početnike**
 
 Verzija: 1.0  
 Datum: 29. avgust 2026.  
@@ -30,7 +30,7 @@ Kod važnih zaključaka priručnik preporučuje povratak na originalni izvor umj
 
 ## Izdanje
 
-- [Vizuelni priručnik — PDF](Gradjanska_forenzika_AI_prirucnik_v1.pdf)
+- [Priručnik — PDF](Gradjanska_forenzika_AI_prirucnik_v1.pdf)
 - [Portal verzija / prateći tekst](portal.md)
 
 ## Napomena o aktuelnosti

@@ -1,6 +1,6 @@
-# Kako efikasno koristiti ChatGPT
+# Kako koristiti ChatGPT bez magije i mitova
 
-**Praktični priručnik Građanske forenzike za digitalno pismene početnike**
+**Vizuelni priručnik Građanske forenzike za digitalno pismene početnike**
 
 Verzija: 1.0  
 Datum: 29. avgust 2026.  

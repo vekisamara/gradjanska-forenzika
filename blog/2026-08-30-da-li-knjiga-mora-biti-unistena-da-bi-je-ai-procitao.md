@@ -36,6 +36,11 @@ Ta naizgled mala razlika — između tvrdnje da je knjiga u jednom konkretnom po
 
 Prije nastavka preporučujemo da pročitate [kolumnu „Koga briga za knjige“](https://impulsportal.net/kolumne/drustvo/koga-briga-za-knjige/), a zatim i [originalnu vijest Guardiana](https://www.theguardian.com/technology/2026/aug/15/uk-ireland-booksellers-suspect-ai-companies-bulk-orders-data-acquisition) na koju se autor poziva. Guardianovu vijest ovdje ne analiziramo zasebno; link ostavljamo kako bi čitalac mogao provjeriti izvorni kontekst.
 
+**Velimir Šamara**  
+*urednik Građanske forenzike*
+
+---
+
 ## Od sumnje do činjenice
 
 Prvi problem nastaje prilikom prenošenja Guardianove vijesti.

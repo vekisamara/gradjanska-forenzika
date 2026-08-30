@@ -1,5 +1,6 @@
 ---
 title: "Da li knjiga mora biti uništena da bi je AI „pročitao“?"
+slug: "da-li-knjiga-mora-biti-unistena-da-bi-je-ai-procitao"
 date: 2026-08-30
 author: gradjanskaforenzika
 status: published

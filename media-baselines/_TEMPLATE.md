@@ -24,66 +24,71 @@ recurrence_key: []
 supersedes: ""
 ---
 
-# GFO Media Case Baseline
+# GFO Media baseline slučaja
 
-## 1. Central claim
+## 1. Centralna tvrdnja
 
-State the material claim neutrally and precisely.
+Navedi materijalnu tvrdnju neutralno i precizno.
 
-## 2. Verified facts
+## 2. Provjerene činjenice
 
-List only facts supported by inspectable evidence. For each item include the evidence reference.
+Navedi samo činjenice podržane provjerljivim dokazom. Za svaku stavku dodaj referencu na dokaz.
 
-- `VERIFIED` — ... | Evidence: ...
+- `VERIFIED` — ... | Dokaz: ...
 
-## 3. Supported inferences
+## 3. Podržane inferencije
 
-Keep inference separate from fact.
+Drži inferenciju odvojeno od činjenice.
 
-- `SUPPORTED INFERENCE` — ... | Basis: ... | Limitation: ...
+- `SUPPORTED INFERENCE` — ... | Osnova: ... | Ograničenje: ...
 
-## 4. Unresolved / disputed facts
+## 4. Nerazriješene / sporne činjenice
 
-- `UNRESOLVED` — ... | Evidence needed: ...
-- `DISPUTED` — ... | Positions/evidence: ...
+- `UNRESOLVED` — ... | Potreban dokaz: ...
+- `DISPUTED` — ... | Stavovi/dokazi: ...
 
-## 5. Key omissions
+## 5. Ključna izostavljanja
 
-Record only omissions material to the central claim.
+Bilježi samo izostavljanja materijalna za centralnu tvrdnju.
 
-- Missing context: ...
-- Why material: ...
-- Evidence that establishes relevance: ...
+- Nedostajući kontekst: ...
+- Zašto je materijalan: ...
+- Dokaz relevantnosti: ...
 
-## 6. Contradictions / changes over time
+## 6. Kontradikcije / promjene kroz vrijeme
 
-Record concrete contradictions, revisions or changes. Do not infer motive.
+Bilježi konkretne kontradikcije, izmjene ili promjene. Ne zaključuj o namjeri.
 
-## 7. Source provenance
+## 7. Provenijencija izvora
 
-### Originating sources
-
-- ...
-
-### Independent evidence chains
+### Izvorni izvori
 
 - ...
 
-**Publication count:** ...  
-**Independent evidence chains:** ...
+### Nezavisni dokazni lanci
 
-## 8. Narrative Selection & Omission metrics
+- ...
 
-Use only when the module is applicable.
+**Broj objava:** ...  
+**Broj nezavisnih dokaznih lanaca:** ...
 
-| Metric | Score | Evidence | Materiality | Confidence |
-|---|---:|---|---|---|
-| ORS | N/A | | | |
-| FDS | N/A | | | |
-| SIS | N/A | | | |
-| PDS | N/A | | | |
-| APD | N/A | | | |
-| SVD | N/A | | | |
+## 8. Narrative Selection & Omission metrika v1.1
+
+Koristi samo kada je modul primjenjiv.
+
+| Metrika | Ocjena | Šta je utvrđeno | Zašto je materijalno |
+|---|---:|---|---|
+| ORS | N/A | | |
+| FDS | N/A | | |
+| SID | N/A | | |
+| PDS | N/A | | |
+| APD | N/A | | |
+| SVD | N/A | | |
+
+Ako nema dovoljno dokaza za pojedinu metriku, koristi `N/A — INSUFFICIENT EVIDENCE`. Ako metrika po prirodi nije primjenjiva, red se može izostaviti.
+
+**Ukupni nivo pouzdanosti nalaza:** LOW / MEDIUM / HIGH  
+**Dokazna ograničenja:** ...
 
 ## 9. Pattern fingerprint
 
@@ -93,43 +98,43 @@ Use only when the module is applicable.
 **process_stage:**  
 **recurrence_key:**
 
-Tags describe observable mechanisms, not intent, guilt or corruption.
+Tagovi opisuju uočljive mehanizme, ne namjeru, krivicu ili korupciju.
 
-## 10. Prior-baseline comparison
+## 10. Poređenje sa prethodnim baseline zapisima
 
-**Baseline search:** performed / unavailable / not applicable  
-**Matched baselines:** 0  
-**Evidence-rechecked matches:** 0  
-**Pattern level:** P0  
-**Pattern confidence:** LOW
+**Baseline pretraga:** performed / unavailable / not applicable  
+**Pronađeni baseline zapisi:** 0  
+**Ponovo provjereni dokazi:** 0  
+**Nivo obrasca:** P0  
+**Pouzdanost procjene obrasca:** LOW
 
-### Matching mechanisms
+### Podudarni mehanizmi
 
-None established.
+Nijedan nije utvrđen.
 
-### Material differences
+### Materijalne razlike
 
-Record differences capable of defeating a recurrence inference.
+Navedi razlike koje mogu osporiti zaključak o ponavljanju.
 
-### Alternative explanations
+### Alternativna objašnjenja
 
-List plausible alternatives and discriminating evidence tests.
+Navedi realne alternative i dokazne testove koji ih razlikuju.
 
 ## 11. Evidence recheck log
 
-| Prior baseline | Matching mechanism | Underlying evidence rechecked? | Still valid? | Limitation |
+| Prethodni baseline | Podudarni mehanizam | Izvorni dokaz ponovo provjeren? | I dalje važi? | Ograničenje |
 |---|---|---|---|---|
 
-## 12. Publication-safe pattern wording
+## 12. Publication-safe formulacija obrasca
 
-Use conservative evidence-proportional wording. If recurrence is not supported, state that no evidence-supported recurring pattern is established.
+Koristi konzervativan jezik proporcionalan dokazima. Ako ponavljanje nije podržano, eksplicitno navedi da dokumentovan ponavljajući obrazac nije utvrđen.
 
-## 13. Evidence needed next
+## 13. Dokazi koje treba pribaviti
 
 - ...
 
-## 14. Revision history
+## 14. Istorija izmjena
 
-| Version | Date | Change | Evidence basis |
+| Verzija | Datum | Izmjena | Dokazna osnova |
 |---|---|---|---|
-| 1.0 | YYYY-MM-DD | Initial baseline | ... |
+| 1.0 | YYYY-MM-DD | Početni baseline | ... |

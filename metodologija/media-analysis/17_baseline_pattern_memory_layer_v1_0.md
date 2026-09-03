@@ -1,7 +1,7 @@
 # GFO MEDIA — BASELINE & PATTERN MEMORY LAYER v1.0
 
 **Role:** longitudinal evidence-memory and recurrence-detection support layer  
-**Status:** CURRENT — CANDIDATE / FUNCTIONAL / OPTIONAL / NON-ELIMINATORY  
+**Status:** CURRENT — CONTROLLED OPERATIONAL / OPTIONAL / NON-ELIMINATORY  
 **Scope:** completed GFO Media analyses and published posts  
 **Archive path:** `media-baselines/`  
 **Case independence:** this specification contains no preloaded case conclusions and creates no retroactive pattern claims.
@@ -184,7 +184,7 @@ If no evidence-supported recurrence exists, explicitly say so.
 
 ## 13. Relationship to Narrative Selection & Omission Layer
 
-The Baseline layer supplies longitudinal evidence for `SVD — Systemic Visibility Deficit` and may support recurrence analysis for ORS/FDS/PDS/APD/SIS findings. It does not modify those metric definitions or canonical prompt scores.
+The Baseline layer supplies longitudinal evidence for `SVD — Systemic Visibility Deficit` and may support recurrence analysis for ORS/FDS/PDS/APD/SID findings. It does not modify those metric definitions or canonical prompt scores.
 
 ## 14. Maintenance record
 
@@ -194,3 +194,9 @@ The Baseline layer supplies longitudinal evidence for `SVD — Systemic Visibili
 - Introduced P0–P5 recurrence scale.
 - Added source evidence recheck and anti-confirmation-bias safeguards.
 - Specification deliberately independent of all previously analyzed cases.
+
+### Controlled operational acceptance — 2026-09-03
+- Historical repository analyses/blog posts were migrated into baseline records with evidence-recheck status explicitly preserved.
+- Practical test correctly treated a later communication in the same school-uniform project as P1 same-case continuity rather than manufacturing a second recurrence event.
+- Underlying source recheck remained mandatory before recurrence counting.
+- Layer accepted for controlled operational use in GFO Media v1.1; broader multi-case validation remains desirable before LOCKED status.

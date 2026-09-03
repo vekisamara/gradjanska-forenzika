@@ -1,29 +1,31 @@
-# GFO MEDIA — PRAKTIČNI TEST: PR GRADA BANJE LUKE O ŠKOLSKIM UNIFORMAMA
+# GFO MEDIA — PRAKTIČNI TEST v2: PR GRADA BANJE LUKE O ŠKOLSKIM UNIFORMAMA
 
-**Datum testa:** 2026-09-03  
-**Analizirani sadržaj:** PR Grada Banje Luke od 02.09.2026 — `Gradonačelnik: Za kladionice ima mjesta pored škola, a za uniforme, ormariće i zdrave užine nema saglasnosti`  
-**Testirani moduli:** Narrative Selection & Omission Layer v1.1 + Baseline & Pattern Memory Layer v1.0  
-**Status:** samo validacioni test — nije blog objava
+**Datum testa:** 03.09.2026.  
+**Analizirani sadržaj:** PR Grada Banje Luke, 02.09.2026. — `Gradonačelnik: Za kladionice ima mjesta pored škola, a za uniforme, ormariće i zdrave užine nema saglasnosti`  
+**Metode:** Narrative Selection & Omission Layer v1.1 + Baseline & Pattern Memory Layer v1.0  
+**Status:** validacioni test — nije tekst za objavu
 
-## 1. Prolaz 1 — primarna analiza bez uticaja baseline arhive
+## 1. Prolaz 1 — nezavisna primarna analiza
 
 ### Centralna komunikacijska tvrdnja
 
-Grad u saopštenju predstavlja Ministarstvo prosvjete i kulture Republike Srpske kao nedovoljno zainteresovano ili kao prepreku za uvođenje školskih uniformi, ormarića za telefone i zdravih užina, uz poređenje sa činjenicom da se kladionice nalaze u blizini škola i da su učenicima dostupni nezdravi proizvodi.
+Saopštenje predstavlja Ministarstvo prosvjete i kulture Republike Srpske kao potpuno nezainteresovano i nedovoljno kooperativno prema gradskim prijedlozima za školske uniforme, ormariće za telefone i zdravu užinu. Taj okvir se pojačava poređenjem sa kladionicama u blizini škola i nezdravim proizvodima dostupnim učenicima.
 
-### Direktno uočljiv sadržaj
+### Direktno uočljive tvrdnje i elementi
 
-- Grad navodi da Ministarstvo nije obezbijedilo potrebnu podršku/saglasnost;
-- gradonačelnik navodi da je Grad već obezbijedio i platio uniforme i ormariće;
-- saopštenje povezuje nedostatak saglasnosti sa kladionicama u blizini škola i nezdravom hranom/pićima;
-- Grad navodi da projekat ne želi provoditi bez saradnje Ministarstva;
-- saopštenje ne iznosi proceduralne i pedagoške razloge koje je Ministarstvo javno navelo za nedavanje saglasnosti.
+- Grad tvrdi da Ministarstvo nije pružilo potrebnu podršku/saglasnost.
+- Gradonačelnik navodi da su uniforme i ormarići već obezbijeđeni i plaćeni i da se nalaze u skladištu.
+- Navodi se da je 12 od 26 osnovnih škola iskazalo interesovanje za ormariće, dok 14 nije.
+- Navodi se da na majsku inicijativu o besplatnim zdravim obrocima nije stigao nijedan odgovor.
+- Navodi se značajno interesovanje roditelja, savjeta roditelja i prosvjetnih radnika, ali bez kvantifikacije osim tvrdnje o dvocifrenom broju odjeljenja koja žele uniforme.
+- PR ne navodi obrazloženje Ministarstva objavljeno prethodnog dana: da je tražena dopuna inicijative u pogledu pedagoške opravdanosti, načina realizacije, finansiranja i evaluacije i da, prema Ministarstvu, dopuna nije dostavljena.
+- PR ne razdvaja jasno tri različite mjere — uniforme, ormariće i zdravu ishranu — po nadležnosti, proceduri, statusu saglasnosti i dokazima o komunikaciji.
 
 ### Primarni zaključak prije baseline pretrage
 
-Saopštenje koristi snažan blame/comparison frame. Ključno pitanje nije da li Grad ima pravo da zagovara navedene mjere, nego da li objašnjenje dato javnosti dovoljno predstavlja poznati institucionalni razlog zbog kojeg saglasnost nije data.
+PR koristi snažan konfliktni okvir koji više različitih školskih mjera objedinjuje u jednu priču o institucionalnoj nezainteresovanosti. Dostupni sadržaj ne omogućava da se utvrdi da li je isti proceduralni problem postojao kod sve tri mjere niti da li Ministarstvo ima istu nadležnost i isti razlog za postupanje u svakom od tri slučaja.
 
-Iz samog PR teksta ne proizlazi zaključak o nezakonitosti, nedopuštenoj namjeri ili korupciji.
+Iz samog PR-a ne slijedi zaključak o nezakonitosti, lošoj namjeri ili korupciji.
 
 ## 2. Narrative Selection & Omission Layer v1.1
 
@@ -31,85 +33,144 @@ Iz samog PR teksta ne proizlazi zaključak o nezakonitosti, nedopuštenoj namjer
 
 | Metrika | Ocjena | Šta je utvrđeno | Zašto je materijalno |
 |---|---:|---|---|
-| ORS | 3/4 | PR problem opisuje prvenstveno kao nedostatak interesa/saradnje, ali ne navodi javno obrazloženje Ministarstva da su tražena dodatna obrazloženja i dokumentacija i da, prema Ministarstvu, dopuna do 01.09. nije dostavljena | izostavljeni kontekst materijalno mijenja objašnjenje zašto saglasnost nije data |
-| FDS | 3/4 | naslov i tekst stavljaju kladionice uz škole u direktan retorički kontrast sa nesaglasnošću za uniforme i druge mjere | poređenje podstiče moralno/političko tumačenje koje samo po sebi ne rješava pitanje administrativne i pedagoške potpunosti prijedloga |
-| SID | 4/4 | analizirani predmet je jedno izvorno institucionalno PR saopštenje bez nezavisnog dokaznog lanca unutar samog sadržaja | publika unutar samog PR-a nema nezavisnu potvrdu za objašnjenje uzroka nesaglasnosti |
-| APD | 3/4 | izostavljen je materijalni stav Ministarstva i njegovi javno navedeni dokumentarni/pedagoški razlozi | čitalac ne može iz samog saopštenja procijeniti da li je problem bio nezainteresovanost ili neriješena proceduralno-sadržajna pitanja |
-| SVD | 0/4 | nije utvrđen odvojen, ponavljajući sistemski obrazac relevantan za ovaj konkretni PR | istorija istog projekta jeste kontekst, ali nije drugi nezavisni slučaj |
+| ORS | 3/4 | Izostavljeno je javno obrazloženje Ministarstva o nedopunjenoj dokumentaciji za uniforme; dodatno, tri različite mjere se predstavljaju zajedno bez razdvajanja njihovog proceduralnog statusa. | Čitalac može zaključiti da je jedino objašnjenje izostanka realizacije nezainteresovanost Ministarstva, iako je za uniforme javno ponuđen drugi razlog, a za druge dvije mjere iz PR-a nije moguće utvrditi isti status. |
+| FDS | 3/4 | Naslov i tekst povezuju spor oko saglasnosti sa kladionicama, energetskim pićima i drugim negativnim pojavama; koristi se personalizovani izraz `ministar se češlja` i retorička pitanja `kome smetaju djeca...`. | Moralno-politički kontrast sugeriše vrijednosnu nedosljednost Ministarstva, ali ne dokazuje proceduralnu ili pravnu neopravdanost njegovog postupanja. |
+| SID | 4/4 | Unutar samog PR-a postoji samo dokazni lanac zainteresovanog aktera — Grada/gradonačelnika. Nisu priloženi dopisi, odgovori, odluke škola ili druga nezavisna dokumentacija. | Centralne tvrdnje o nezainteresovanosti, broju zainteresovanih škola/odjeljenja i izostanku odgovora nije moguće nezavisno provjeriti iz samog sadržaja. |
+| APD | 4/4 | PR je gotovo potpuno zatvoren unutar perspektive Grada. Nedostaje javno poznata pozicija Ministarstva o uniformama, stav Aktiva direktora, pojedinačni stavovi škola i dokumentarna provjera tvrdnji o interesovanju roditelja. | Izostavljene perspektive direktno testiraju centralni narativ da problem predstavlja nedostatak institucionalne saradnje, a ne spor o proceduri, nadležnosti, projektu ili nivou podrške. |
+| SVD | 0/4 | Baseline provjera ne potvrđuje odvojen ponavljajući/sistemski slučaj; riječ je o nastavku istog projekta uniformi. | Sprečava da se više komunikacijskih događaja iz istog predmeta pogrešno predstave kao sistemski obrazac. |
 
-PDS nije prikazan jer je predmet analize izvorno PR saopštenje; metrika zavisnosti medijskog teksta od PR-a ovdje nije primjenjiva.
+**PDS:** nije primjenjiv jer je predmet analize izvorno institucionalno PR saopštenje.
 
-### Klasifikacija tvrdnje
+### Ukupni nivo pouzdanosti nalaza: HIGH
 
-`FRAMED CLAIM` + `OMISSION-DRIVEN CLAIM`.
-
-Sadržaj nije klasifikovan kao `FALSE CLAIM`, jer je činjenica da saglasnost nije data podržana. Problem je u objašnjavajućem okviru: javnosti se govori da nema podrške/saradnje, ali se ne navodi da je Ministarstvo prethodno saopštilo da je tražilo dodatno obrazloženje pedagoške opravdanosti, načina realizacije, finansiranja i evaluacije i da, prema njegovom navodu, tražena dopuna do 1. septembra nije bila dostavljena.
-
-### Alternativni frame / rekonstrukcija
-
-Potpunije i dokazno neutralnije predstavljanje razdvojilo bi tri pitanja:
-
-1. Da li Grad predlaže i finansira uniforme i povezane mjere? — prema Gradu, da.
-2. Da li je Ministarstvo dalo saglasnost za uniforme? — ne.
-3. Zašto saglasnost nije data? — sporno. Grad naglašava nedostatak saradnje; Ministarstvo navodi da prijedlog nije bio dovoljno dopunjen i obrazložen.
-
-Poređenje sa kladionicama je političko/retoričko poređenje, a ne dokaz koji rješava treće pitanje.
-
-### Ukupni nivo pouzdanosti nalaza
-
-**HIGH**, ali samo za ograničeni zaključak da je PR izostavio javno dostupno objašnjenje druge nadležne institucije i da koristi snažan retorički kontrast. Ovaj nivo pouzdanosti ne odnosi se na bilo kakav zaključak o namjeri, nezakonitosti ili tome čija je institucionalna pozicija suštinski ispravna.
+Visoka pouzdanost odnosi se na utvrđivanje strukture samog PR-a: šta saopštenje navodi, šta ne navodi i kakav komunikacijski okvir koristi. Ne odnosi se na dokazivanje namjere Grada, pravne ispravnosti stava Ministarstva niti stvarnog nivoa podrške roditelja i škola.
 
 ### Dokazna ograničenja
 
-- nije pregledana kompletna službena prepiska Grada i Ministarstva;
-- nije utvrđeno da li je Grad nakon prvobitnog zahtjeva slao dopune koje javno saopštenje Ministarstva nije obuhvatilo;
-- analiza ne utvrđuje da li je zahtjev Ministarstva bio pravno ili pedagoški opravdan;
-- analiza ne utvrđuje namjeru autora PR saopštenja.
+- nije pregledana kompletna originalna prepiska Grada, Ministarstva i škola;
+- nije pregledan puni elaborat/pilot-projekat niti zahtjev Ministarstva za dopunu;
+- nisu pregledani zapisnici savjeta roditelja, školskih odbora i Aktiva direktora;
+- nisu pregledani primarni dokumenti koji potvrđuju status nabavke, isporuke, prihvata i plaćanja uniformi i ormarića;
+- tvrdnje o zdravoj ishrani i ormarićima nisu dovoljno dokumentovane da bi se njihov proceduralni status izjednačio sa uniformama.
 
-## 3. Prolaz 2 — baseline pretraga
+## 3. Dodatne nelogičnosti i analitički indikatori uočeni u ponovljenom testu
 
-Baseline arhiva je pretražena tek nakon završene primarne analize.
+### 3.1. Spajanje tri različita predmeta u jednu tvrdnju o `nesaglasnosti`
 
-**Pronađeni baseline:** `GFO-MEDIA-2026-0042` — slučaj nabavke i implementacije školskih uniformi.  
-**Izvorni dokaz ponovo provjeren:** da.  
-**Odnos:** isti projekat/slučaj u kontinuitetu, a ne nezavisan novi događaj za računanje ponavljanja.
+Naslov govori da za `uniforme, ormariće i zdrave užine nema saglasnosti`, dok tijelo teksta daje različite opise:
 
-Prethodni baseline sadrži ponovo provjerene podatke da:
+- uniforme — eksplicitno se govori o potrebi saradnje/saglasnosti Ministarstva;
+- ormarići — Grad kaže da je 12 škola zainteresovano, a 14 nije iskazalo interesovanje;
+- zdrava ishrana — Grad kaže da školama u maju šalje inicijativu i ne dobija nijedan odgovor.
 
-- je pilot-koncept u aprilu javno opisivan kao projekat za oko 300 učenika u dvije škole, dok saglasnost Ministarstva još nije bila riješena;
-- je nabavka pokrenuta u aprilu, a ugovor kasnije javno naveden u avgustu;
-- je do 25. avgusta Grad javno potvrdio da uniforme još nisu zaživjele jer je potrebna saglasnost;
-- je 1. septembra Ministarstvo javno navelo da saglasnost nije dato jer traženo dodatno obrazloženje/dokumentacija nisu dostavljeni.
+To nisu nužno isti institucionalni ili proceduralni problemi. Naslov ih homogenizuje u jedan uzrok koji tekst ne dokazuje za svaku mjeru.
 
-## 4. Procjena obrasca
+### 3.2. `Potpuna nezainteresovanost Ministarstva` nasuprot dokumentovanoj komunikaciji
 
-**Baseline pretraga:** izvršena  
-**Pronađeni baseline zapisi:** 1  
-**Ponovo provjereni dokazi:** 1  
-**Nivo obrasca:** P1 — TEMATSKI / KONTINUITET ISTOG SLUČAJA  
-**Pouzdanost procjene obrasca:** HIGH
+PR Ministarstvo opisuje kao `potpuno nezainteresovano`, ali javno saopštenje Ministarstva od 1. septembra navodi da je Ministarstvo razmatralo gradsku inicijativu, identifikovalo nedostatke i tražilo dodatno obrazloženje.
 
-### Zašto ovo nije P2
+Ako je taj opis Ministarstva tačan, `potpuno nezainteresovano` nije neutralan opis odsustva komunikacije nego vrijednosna kvalifikacija koja je u napetosti sa činjenicom da je institucionalna komunikacija postojala. Ostaje otvoreno pitanje kvaliteta i opravdanosti te komunikacije.
 
-PR od 02.09. predstavlja novu komunikacijsku fazu istog projekta uniformi. Kada bi se računao kao drugi nezavisni slučaj, sistem bi vještački proizvodio ponavljanje.
+### 3.3. Tvrdnja `sve smo pripremili u skladu sa procedurama`
 
-Praktični test time potvrđuje važnu anti-confirmation-bias zaštitu: nova objava o istom projektu može dopuniti hronologiju ili pokazati novo izostavljanje, ali ne smije automatski povećati broj slučajeva ponavljajućeg obrasca.
+PR navodi da je Grad sve pripremio `u skladu sa procedurama`. Istovremeno, Ministarstvo tvrdi da je dokumentacija pilot-projekta ostala nepotpuna i da se roditeljskim izjašnjavanjem ne mogu zaobići propisane nadležnosti.
 
-## 5. Šta je baseline promijenio
+Bez primarnih dokumenata nije moguće presuditi koja je strana u pravu. Međutim, dvije tvrdnje su direktno provjerljiva kontradikcija i zahtijevaju dokumentarnu provjeru, a ne samo komunikacijsku analizu.
 
-Bez baselinea već se može zaključiti da je PR snažno uokviren i jednostran u prikazu razloga nesaglasnosti.
+### 3.4. Nabavka i plaćanje prije riješenog implementacionog statusa
 
-Sa baselineom analiza postaje preciznija: izostavljeno obrazloženje Ministarstva nije hipotetička alternativna perspektiva, nego dokumentovan javni stav objavljen dan prije gradskog PR-a. To jača ORS i APD nalaz, ali i dalje ne dokazuje namjeru obmanjivanja.
+Grad navodi da su uniforme i ormarići već `obezbijeđeni i plaćeni` i da se nalaze u skladištu, dok istovremeno navodi da mu je tek potrebna saradnja i saglasnost za realizaciju.
 
-Baseline istovremeno sprečava pretjerani zaključak: iako postoji više objava kroz vrijeme, riječ je o jednom kontinuiranom slučaju uniformi, pa sistemski obrazac nije utvrđen.
+To ne dokazuje nepravilnost, ali otvara javno-finansijsko pitanje: na osnovu kojeg dokumentovanog plana realizacije i procjene institucionalne izvodljivosti je izvršena nabavka i plaćanje prije zatvaranja potrebnih saglasnosti/odluka?
 
-## 6. Publication-safe nalaz
+### 3.5. Nekvantifikovana tvrdnja o `značajnom interesovanju`
 
-`PR Grada tačno odražava činjenicu da saglasnost Ministarstva nije postojala, ali spor predstavlja prvenstveno kao nedostatak interesa ili saradnje. Javno saopštenje Ministarstva od prethodnog dana daje materijalno drugačije objašnjenje: pilot-prijedlog je, prema Ministarstvu, zahtijevao dodatno obrazloženje i dokumentaciju koji nisu dostavljeni. Pošto to objašnjenje nije uključeno, PR daje nepotpun prikaz razloga nesaglasnosti. To podržava nalaz selektivnog framinga i izostavljanja, ali ne i zaključak o nezakonitosti ili namjeri.`
+PR govori o `značajnom interesovanju roditelja, savjeta roditelja i prosvjetnih radnika`, ali konkretno navodi samo `dvocifren broj odjeljenja` za uniforme. Za ormariće istovremeno navodi da je 12 od 26 škola iskazalo interesovanje, dok 14 nije.
 
-## 7. Rezultat testa
+Zato pojam `značajno interesovanje` ostaje promotivna kvalifikacija dok se ne utvrde imenovane škole, broj roditelja/učenika, način izjašnjavanja i reprezentativnost uzorka.
 
-**Narrative Selection & Omission Layer v1.1:** PASS — daje dodatnu analitičku vrijednost i metrika je nakon korekcije intuitivnija: sve skale sada idu u istom smjeru, 0 = nizak indikator, 4 = visok indikator.  
-**Baseline & Pattern Memory Layer:** PASS — pronađen relevantan prethodni zapis, poboljšan kontekst, ponovo provjeren dokaz i pravilno odbijeno da se kontinuitet istog slučaja tretira kao ponavljajući/sistemski obrazac.  
-**Uticaj na kanonski scoring/routing:** NEMA.  
-**Zaštite vezane za namjeru i kauzalnost:** OČUVANE.
+### 3.6. Kladionice kao retorički comparator bez dokazne veze sa saglasnošću za uniforme
+
+Čak i ako su navodi o kladionicama u blizini škola tačni, njihovo postojanje ne daje dokaz o tome da li je projekat uniformi pedagoški, proceduralno ili pravno dovoljno pripremljen. Poređenje funkcioniše kao moralni kontrast, ne kao dokaz za centralni administrativni spor.
+
+## 4. Klasifikacija tvrdnji
+
+Glavni komunikacijski sklop klasifikuje se kao:
+
+`FRAMED CLAIM + OMISSION-DRIVEN CLAIM`.
+
+Dodatno:
+
+- `Ministarstvo je potpuno nezainteresovano` — **UNSUPPORTED / VALUE-LADEN CLAIM** u analiziranom materijalu; dostupna javna evidencija pokazuje najmanje određeni nivo institucionalne komunikacije.
+- `sve smo pripremili u skladu sa procedurama` — **DISPUTED / REQUIRES DOCUMENTARY VERIFICATION** zbog suprotne javne tvrdnje Ministarstva.
+- `postoji značajno interesovanje` — **PARTIALLY QUANTIFIED / INSUFFICIENT EVIDENCE** za procjenu reprezentativnosti.
+
+## 5. Alternativni frame / rekonstrukcija
+
+Dokazno potpuniji prikaz bi razdvojio najmanje četiri pitanja:
+
+1. **Uniforme:** Grad ih je nabavio; Ministarstvo nije dalo saglasnost; strane daju različita objašnjenja o tome ko je odgovoran za zastoj.
+2. **Ormarići:** Grad tvrdi da ih je obezbijedio; 12 od 26 škola je prema Gradu zainteresovano, dok 14 nije iskazalo interesovanje; potrebno je utvrditi da li je potrebna saglasnost Ministarstva i kakve su odluke škola.
+3. **Zdrava užina:** Grad tvrdi da je školama poslao inicijativu bez odgovora; potrebno je provjeriti dopise, nadležnost i operativni model.
+4. **Kladionice/nezdravi proizvodi:** zasebno javno-političko pitanje koje može biti relevantno za dobrobit djece, ali samo po sebi ne rješava proceduralna pitanja prve tri mjere.
+
+## 6. Prolaz 2 — baseline retrieval i evidence recheck
+
+Baseline pretraga izvršena je tek nakon primarne analize.
+
+**Relevantni baseline:** `GFO-MEDIA-2026-0042` — nabavka/implementacija školskih uniformi.  
+**Odnos:** nastavak istog predmeta, ne nezavisan slučaj.  
+**Pattern level:** `P1 — SAME-CASE / THEMATIC CONTINUITY`.
+
+Ponovno provjereni javni izvori potvrđuju:
+
+- Ministarstvo je 1. septembra javno navelo da je tražilo dopunu projekta u pogledu pedagoške opravdanosti, realizacije, finansiranja i evaluacije;
+- Ministarstvo je tvrdilo da dopuna do tog datuma nije dostavljena;
+- 2. septembra je javno izviješteno i o stavu Aktiva direktora da pitanje uniformi nije bilo delegirano na njihovim sjednicama;
+- direktor jedne škole javno je osporio način na koji je izvršena podjela/fotografisanje uniformi i tvrdio da dio djece na fotografiji nije iz te škole;
+- Grad je javno ostao pri stavu da uniforme može podijeliti iako nema saglasnost za njihovo uvođenje.
+
+Ovi podaci proširuju kontekst, ali se tretiraju kao izjave relevantnih aktera dok se ne provjere primarni dokumenti.
+
+## 7. Pattern assessment
+
+**Baseline search:** performed  
+**Matched baselines:** 1  
+**Evidence-rechecked matches:** 1  
+**Pattern level:** P1 — SAME-CASE CONTINUITY  
+**Pattern confidence:** HIGH
+
+Nema osnova da se ovaj komunikacijski događaj računa kao drugi nezavisni slučaj. Novi nalazi povećavaju dubinu istog case baselinea, ali ne povećavaju recurrence count.
+
+## 8. Šta je v1.1 promijenio u odnosu na prvi test
+
+1. `Confidence` više nije ponavljan uz svaku metriku; koristi se jedna ukupna procjena pouzdanosti sa eksplicitnim granicama.
+2. `SIS 0/4` zamijenjen je intuitivnijim `SID 4/4`: visok broj sada dosljedno znači visok deficit/rizik.
+3. APD je povećan sa 3/4 na **4/4**, jer ponovljena analiza pokazuje da nisu izostavljeni samo stav Ministarstva nego i druge materijalno relevantne perspektive/dokazi — škole, Aktiv direktora, dokumentacija i provjerljivi podaci o podršci.
+4. ORS ostaje 3/4, ali je nalaz precizniji: problem nije samo izostavljanje odgovora Ministarstva nego i spajanje tri različite mjere u jedinstven narativ o `nesaglasnosti`.
+5. FDS ostaje 3/4; novi test jasnije odvaja moralno-politički comparator od dokaznog pitanja procedure.
+6. SVD ostaje 0/4, što potvrđuje da baseline zaštita i dalje sprečava lažno proglašavanje sistemskog obrasca.
+7. Uvedena je granularna klasifikacija pojedinačnih tvrdnji, pa se više ne ocjenjuje samo PR kao cjelina.
+
+## 9. Publication-safe nalaz
+
+`PR Grada tačno prenosi da saglasnost Ministarstva za uniforme nije postojala, ali razlog zastoja predstavlja prvenstveno kao nezainteresovanost i nedostatak saradnje. Javno saopštenje Ministarstva od prethodnog dana pokazuje da je institucionalna komunikacija postojala i daje drugačije obrazloženje — nedopunjenu projektnu dokumentaciju. PR istovremeno u isti komunikacijski okvir spaja uniforme, ormariće i zdravu užinu, iako iz samog sadržaja nije vidljivo da sve tri mjere imaju isti proceduralni status ili isti razlog nerealizacije. To podržava nalaz selektivnog framinga i nepotpunog konteksta, ali ne dokazuje nezakonitost niti namjeru obmanjivanja.`
+
+## 10. Dokazi potrebni za naredni nivo provjere
+
+- originalna inicijativa/elaborat Grada o uniformama;
+- odgovor Ministarstva i zahtjev za dopunu;
+- dokaz da li je Grad dopunu dostavio;
+- odluke/dopisi škola i Aktiva direktora;
+- zapisnici ili rezultati izjašnjavanja roditelja;
+- dokumenti nabavke, ugovora, isporuke, prihvata i plaćanja uniformi i ormarića;
+- majski dopis o zdravoj ishrani i dokaz prijema u školama;
+- pravni osnov i potrebne saglasnosti za svaku od tri mjere odvojeno.
+
+## 11. Rezultat validacije
+
+**Narrative Selection & Omission Layer v1.1:** PASS — intuitivnija metrika i veća granularnost nalaza.  
+**Baseline & Pattern Memory Layer:** PASS — proširio je kontekst bez proizvodnje lažnog recurrence nalaza.  
+**Nove materijalne nelogičnosti/indikatori:** YES — homogenizacija tri različite mjere, napetost između `potpune nezainteresovanosti` i dokumentovane komunikacije, provjerljiva kontradikcija oko proceduralne pripremljenosti, nabavka/plaćanje prije zatvorenog implementacionog statusa i nekvantifikovana tvrdnja o značajnoj podršci.  
+**Uticaj na kanonski scoring/routing:** NONE.  
+**Intent/causality safeguards:** PRESERVED.

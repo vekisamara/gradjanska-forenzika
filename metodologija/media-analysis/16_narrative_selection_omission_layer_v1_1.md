@@ -1,7 +1,7 @@
 # GFO MEDIA — NARRATIVE SELECTION & OMISSION LAYER v1.1
 
 **Uloga:** opcioni horizontalni sloj za analitičko obogaćivanje  
-**Status:** CURRENT — CANDIDATE / FUNCTIONAL / OPTIONAL / NON-ELIMINATORY  
+**Status:** CURRENT — CONTROLLED OPERATIONAL / OPTIONAL / NON-ELIMINATORY  
 **Obuhvat:** javne izjave, medijski sadržaji, institucionalni PR i izborna komunikacija  
 **Autoritet:** podređen GFO Media Project Control, Runtime pravilima i kanonskim promptovima 10–13  
 **Nezavisnost od slučajeva:** specifikacija ne sadrži činjenice, aktere, institucije niti zaključke iz konkretnih slučajeva.
@@ -36,20 +36,15 @@ Sve numeričke metrike koriste isti intuitivni smjer:
 `0 = indikator nije utvrđen / nizak rizik`  
 `4 = indikator je snažno izražen / visok rizik`
 
-Time se izbjegava ranija situacija u kojoj je SIS imao obrnut smjer u odnosu na ostale metrike.
-
 ### 4.2 Confidence se ne ocjenjuje po svakoj metrici
 
-Per-metric `LOW/MEDIUM/HIGH confidence` se ukida iz glavne tabele.
-
-Razlog: confidence govori o sigurnosti analitičara u procjenu, a ne o intenzitetu samog fenomena. U praktičnom testu gotovo svi lako uočljivi elementi dobijali su `HIGH`, zbog čega kolona nije pomagala razlikovanju rezultata i mogla je pogrešno djelovati kao dodatna ocjena kvaliteta ili ozbiljnosti.
+Per-metric `LOW/MEDIUM/HIGH confidence` se ne koristi u glavnoj tabeli.
 
 Umjesto toga:
-
-- svaka metrika mora sadržati konkretnu **dokaznu osnovu**;
-- ako nema dovoljno podataka za razumnu ocjenu, koristi se `N/A — INSUFFICIENT EVIDENCE`, a ne izmišljena numerička vrijednost;
-- nakon cijele tabele daje se samo jedan **UKUPNI NIVO POUZDANOSTI NALAZA**: `LOW / MEDIUM / HIGH`, uz jednu rečenicu obrazloženja;
-- po potrebi se zasebno navodi **DOKAZNA OGRANIČENJA**.
+- svaka metrika mora sadržati konkretnu dokaznu osnovu;
+- ako nema dovoljno podataka za razumnu ocjenu, koristi se `N/A — INSUFFICIENT EVIDENCE`;
+- nakon cijele tabele daje se jedan **UKUPNI NIVO POUZDANOSTI NALAZA**: `LOW / MEDIUM / HIGH`, uz obrazloženje;
+- po potrebi se zasebno navode **DOKAZNA OGRANIČENJA**.
 
 ## 5. Procjene
 
@@ -85,11 +80,7 @@ Mjeri manjak nezavisnosti dokaznih lanaca. Viša vrijednost znači veći deficit
 - 3 — više distributera/prenosa bez materijalne nezavisne provjere.
 - 4 — jedan izvorni lanac; nema nezavisne potvrde relevantne za centralnu tvrdnju.
 
-Uvijek odvojeno prikaži:
-
-`broj_objava` i `broj_nezavisnih_dokaznih_lanaca`.
-
-SID zamjenjuje SIS iz v1.0 kako bi sve skale imale isti smjer.
+Uvijek odvojeno prikaži `broj_objava` i `broj_nezavisnih_dokaznih_lanaca`.
 
 ### D. PR Dependency Score — PDS (0–4)
 
@@ -101,7 +92,7 @@ Mjeri zavisnost medijskog sadržaja od unaprijed pripremljene komunikacije zaint
 - 3 — sadržaj gotovo u potpunosti reprodukuje izvorni narativ uz malo nezavisne provjere.
 - 4 — sadržaj funkcioniše kao praktično preneseni PR predstavljen kao nezavisno izvještavanje.
 
-Ako je predmet analize originalno PR saopštenje, PDS je `N/A — not applicable` i red se može izostaviti iz glavne tabele.
+Ako je predmet analize originalno PR saopštenje, PDS je `N/A — not applicable` i red se može izostaviti.
 
 ### E. Alternative Perspective Deficit — APD (0–4)
 
@@ -130,7 +121,6 @@ SVD koristi Baseline & Pattern Memory Layer kada je dostupan. Prethodni AI zaklj
 ## 6. Klasifikacija tvrdnje
 
 Po potrebi razlikovati:
-
 - `FALSE CLAIM` — dokazi podržavaju zaključak da je tvrdnja netačna.
 - `UNSUPPORTED CLAIM` — dostupni dokazi ne podržavaju tvrdnju dovoljno.
 - `FRAMED CLAIM` — osnovna činjenica može biti podržana, ali framing prelazi ili preusmjerava njeno dokazno značenje.
@@ -141,8 +131,6 @@ Visok ORS/FDS/APD/PDS/SID/SVD ne pretvara tvrdnju automatski u `FALSE CLAIM`.
 ## 7. Obavezni izlaz
 
 Vrati status modula: `USED`, `PARTIAL`, `NOT APPLICABLE`, `INSUFFICIENT EVIDENCE` ili `UNAVAILABLE`.
-
-Za svaku primjenjivu metriku koristi tabelu:
 
 | Metrika | Ocjena | Šta je utvrđeno | Zašto je materijalno |
 |---|---:|---|---|
@@ -156,14 +144,13 @@ Za svaku primjenjivu metriku koristi tabelu:
 Ne prikazuj numeričku ocjenu kada nema dovoljno dokaza; koristi `N/A — INSUFFICIENT EVIDENCE` ili izostavi red ako metrika po prirodi nije primjenjiva.
 
 Nakon tabele navedi:
-
 - `CENTRALNI NALAZ`
 - `PRIMARNO IZOSTAVLJANJE`, ako postoji
 - `BROJ OBJAVA`
 - `NEZAVISNI DOKAZNI LANCI`
 - `ALTERNATIVNI FRAME / REKONSTRUKCIJA`
 - `DOKAZI POTREBNI ZA POTVRDU ILI OSPORAVANJE`
-- `UKUPNI NIVO POUZDANOSTI NALAZA: LOW/MEDIUM/HIGH` — jedna procjena za cijeli modul
+- `UKUPNI NIVO POUZDANOSTI NALAZA: LOW/MEDIUM/HIGH`
 - `DOKAZNA OGRANIČENJA`
 - `DODATA ANALITIČKA VRIJEDNOST`
 
@@ -185,6 +172,13 @@ Nijedan nalaz ovog sloja ne smije neprimjetno promijeniti postojeći kanonski sc
 - Ukinut per-metric `Confidence` iz glavne tabele.
 - Uveden jedan ukupni nivo pouzdanosti nalaza nakon kompletne metrike.
 - `N/A` više ne dobija confidence vrijednost.
-- Pojednostavljena tabela na četiri intuitivna polja: Metrika / Ocjena / Šta je utvrđeno / Zašto je materijalno.
+- Pojednostavljena tabela na četiri intuitivna polja.
 - Dodata eksplicitna kategorija `N/A — INSUFFICIENT EVIDENCE` radi sprečavanja lažne preciznosti.
 - Specifikacija ostaje nezavisna od konkretnih slučajeva.
+
+### Controlled operational acceptance — 2026-09-03
+- Practical regression test completed on a current institutional PR.
+- The revised metric direction and single-confidence design produced clearer output than v1.0.
+- Canonical prompt scores and routing remained unchanged.
+- Unsupported intent and illegality inference remained blocked.
+- Module accepted for controlled operational use in GFO Media v1.1; broader heterogeneous validation remains desirable before LOCKED status.

@@ -1,6 +1,6 @@
 # GFO SHORT MESSAGE ANALYSIS — CORE-SMI prompt
 
-**Oznaka:** GF-SMA-CORE 0.1  
+**Oznaka:** GF-SMA-CORE 0.2  
 **Status:** U VALIDACIJI  
 **Primjenjuje:** `../00_forenzicko_jezgro.md` i `../../metodologija/13_standard_kvaliteta_promptova.md`
 
@@ -31,17 +31,50 @@ Centralno pitanje:
 - Neprovjerljivost sama po sebi nije manipulacija.
 - Ne kažnjavaj poruku samo zato što je kratka, emocionalna ili uvjerljiva.
 
+# MESSAGE ROLE CLASSIFICATION
+Prije scoringa označi jednu ili više uloga:
+DESCRIPTIVE CLAIM / ASPIRATIONAL / IMPERATIVE-MOBILIZING / IDENTITY-AFFILIATION / EVALUATIVE / PROMISE / THREAT-ACCUSATION.
+
+Ne tretiraj ASPIRATIONAL ili IMPERATIVE-MOBILIZING konstrukciju kao opisnu tvrdnju o činjenici bez dodatnog jezičkog ili kontekstualnog osnova.
+
+# MATERIALITY GATE
+Prije VER i OMI bodovanja odgovori:
+1. Koji konkretan zaključak poruka navodi primaoca da izvede?
+2. Da li je taj zaključak materijalno važan za odluku primaoca?
+3. Koji dokaz ili kontekst bi razumno mogao promijeniti tu odluku?
+
+Ako poruka samo izražava opštu vrijednost, identitet ili aspiraciju bez materijalnog zaključka, VER i OMI su po pravilu 0–2.
+Visoki VER/OMI (3–5) traže materijalno važan zaključak o rezultatu, prijetnji, cijeni, svojstvu, političkoj sposobnosti, institucionalnom ishodu ili slično, za koji nedostaje bitna osnova/kontekst.
+
 # CORE-SMI TESTS
 Ocijeni 0–5 i obrazloži svaki rezultat:
 
-VER — Verification Deficit
-PRE — Presupposition Loading
-EMO — Emotional Substitution
-IDA — Identity / Value Capture
-CER — Manufactured Certainty
-BIN — Binary Framing
-CAU — Causal Compression
-OMI — Omission / Context Suppression
+VER — Verification Deficit: nedostatak provjerljive osnove za materijalno važan zaključak.
+PRE — Presupposition Loading.
+EMO — Emotional Substitution.
+IDA — Identity / Value Capture.
+CER — Manufactured Certainty.
+BIN — Binary Framing.
+CAU — Causal Compression.
+OMI — Omission / Context Suppression.
+
+IDA anchor:
+0 nema identitetskog/vrijednosnog elementa;
+1–2 pozitivno povezivanje;
+3 snažno simboličko povezivanje;
+4 implicitno prisvajanje;
+5 ekskluzivno prisvajanje koje protivnika implicitno izbacuje iz legitimnog kolektiva/moralne kategorije.
+
+CER anchor:
+0 nema ishoda/izvjesnosti;
+1 aspiracija ili mobilizacijska formulacija;
+2 snažno očekivanje;
+3 implicitna izvjesnost;
+4 gotovo gotov ishod;
+5 neizvjestan politički/institucionalni/komercijalni ishod predstavljen kao činjenica/sigurnost.
+
+BIN anchor:
+visok BIN zahtijeva identifikovanu ili implicitno konstruisanu suprotnu stranu. Samo zajedništvo, kolektivni identitet ili poziv na jedinstvo nisu dovoljni.
 
 Izračunaj SMI/40, ali uvijek prikaži i puni profil.
 
@@ -79,7 +112,7 @@ ACTIVIST: provjeri šok, moralnu osudu, katastrofični okvir i mobilizacijsko po
 INSTITUTIONAL: provjeri plan→rezultat, javni novac→poklon/zasluga, početak→završetak i reputacijsko brendiranje.
 
 # PUBLIC/MONOPOLY ADVERTISING TRIGGER
-Ako je autor/naručilac institucija ili javno preduzeće, posebno monopolista/dominantan pružalac usluge, izvrši:
+Ako je autor/naručilac institucija ili javno preduzeće, posebno monopolista/dominantan pružalac usluge, izvrši CNT i PMCT.
 
 CNT — Commercial Necessity Test:
 - izbor alternativnog pružaoca;
@@ -112,23 +145,25 @@ Zamijeni autora hipotetičkim ideološki/politički suprotnim akterom uz istu st
 
 # OUTPUT SCHEMA
 1. Poruka i kontekst
-2. Doslovno značenje
-3. Implicitna poruka
-4. Presupozicije
-5. Emocije i vrijednosti
-6. Visual framing
-7. Pattern tags
-8. SMI profil: VER/PRE/EMO/IDA/CER/BIN/CAU/OMI + ukupno /40
-9. Obrazloženje svakog boda
-10. Persuasion / simplification / manipulative pattern razgraničenje
-11. Materijalno nedostajući kontekst
-12. Alternativno benigno tumačenje
-13. Rezultat kontekstualnog profila
-14. CNT/PMCT ako je aktiviran
-15. Nivo pouzdanosti
-16. Nedostajući dokazi
-17. Sljedeći dokazni/forenzički korak
-18. Namjera: UTVRĐENA / NIJE UTVRĐENA / NIJE MOGUĆE UTVRDITI, sa dokazom ako je utvrđena
+2. Message role
+3. Doslovno značenje
+4. Implicitna poruka
+5. Presupozicije
+6. Emocije i vrijednosti
+7. Visual framing
+8. Pattern tags
+9. Materiality gate: PASS / LOW MATERIALITY / NOT APPLICABLE + obrazloženje
+10. SMI profil: VER/PRE/EMO/IDA/CER/BIN/CAU/OMI + ukupno /40
+11. Obrazloženje svakog boda
+12. Persuasion / simplification / manipulative pattern razgraničenje
+13. Materijalno nedostajući kontekst
+14. Alternativno benigno tumačenje
+15. Rezultat kontekstualnog profila
+16. CNT/PMCT ako je aktiviran
+17. Nivo pouzdanosti
+18. Nedostajući dokazi
+19. Sljedeći dokazni/forenzički korak
+20. Namjera: UTVRĐENA / NIJE UTVRĐENA / NIJE MOGUĆE UTVRDITI, sa dokazom ako je utvrđena
 
 # UNCERTAINTY
 Za ključne nalaze koristi VISOKA / SREDNJA / NISKA pouzdanost.
@@ -136,8 +171,12 @@ Ako nedostaje kontekst originalne kampanje, naručilac, datum, trošak ili potpu
 
 # ACCEPTANCE CRITERIA
 - rezultat analizira poruku, ne autora;
+- message role je određen prije scoringa;
+- materiality gate je primijenjen prije visokih VER/OMI ocjena;
+- aspiracija nije bodovana kao lažna izvjesnost bez dodatnog osnova;
+- pozitivna identitetska asocijacija nije automatski tretirana kao ekskluzivno prisvajanje;
+- BIN ima stvarnu ili implicitno konstruisanu suprotnu stranu;
 - svaki SMI bod je obrazložen;
-- neprovjerljivost nije automatski označena kao manipulacija;
 - legitimno ubjeđivanje i nužno pojednostavljivanje nisu automatski penalizovani;
 - namjera nije izvedena iz efekta poruke;
 - politički/ideološki counterfactual ne mijenja rezultat bez dokaznog razloga;

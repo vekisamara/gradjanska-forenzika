@@ -41,8 +41,9 @@ Greška iz stvarnog rada koja zahtijeva izmjenu prompta postaje kandidat za traj
 9. `03_pisanje_zalbe.md` — nacrt pravnog podneska zasnovan na prethodno utvrđenim činjenicama i dokazima.
 10. `07_kontrolna_analiza.md` — nezavisni red-team pregled koji pokušava osporiti, ograničiti ili precizirati prvi nalaz.
 11. `analiza-izjava-iz-medija/`, `izjave-funkcionera/`, `izborni-kontekst-2026/`, `analiza-medijske-manipulacije/` i `analiza-pr-saopstenja/` — specijalizovane analize javnih komunikacija.
-12. [`kait/`](kait/README.md) — KAIT-00 do KAIT-10 za rekonstrukciju tvrdnji, ocjenu veze opravdanje–zaključak, Linkage Tracker i regresiono testiranje.
-13. [`../metodologija/ppt/01_prompt_library_v0.1.md`](../metodologija/ppt/01_prompt_library_v0.1.md) — PPT-01 do PPT-16 za rekonstrukciju lanca PR → nabavka → ugovor/nalog → situacija/faktura → plaćanje.
+12. [`analiza-kratkih-javnih-poruka/`](analiza-kratkih-javnih-poruka/README.md) — **GF-SMA 0.1, U VALIDACIJI**: horizontalni modul za slogane, jumbo plakate, komercijalne, političke, aktivističke i institucionalne kratke poruke; CORE-SMI indeks, vizuelno uokviravanje i posebni CNT/PMCT testovi za javno i monopolističko oglašavanje.
+13. [`kait/`](kait/README.md) — KAIT-00 do KAIT-10 za rekonstrukciju tvrdnji, ocjenu veze opravdanje–zaključak, Linkage Tracker i regresiono testiranje.
+14. [`../metodologija/ppt/01_prompt_library_v0.1.md`](../metodologija/ppt/01_prompt_library_v0.1.md) — PPT-01 do PPT-16 za rekonstrukciju lanca PR → nabavka → ugovor/nalog → situacija/faktura → plaćanje.
 
 Rani prototip revizora narativa povučen je u [`arhivu/`](../arhiva/prototipovi/dashboard/revizor_narativa_rani_prototip.md) i nije dio aktuelne kontrolisane biblioteke.
 

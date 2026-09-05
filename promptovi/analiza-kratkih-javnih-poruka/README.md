@@ -1,6 +1,6 @@
 # GFO SHORT MESSAGE ANALYSIS — analiza kratkih javnih poruka
 
-**Oznaka:** GF-SMA 0.1  
+**Oznaka:** GF-SMA 0.2  
 **Status:** U VALIDACIJI  
 **Datum:** 2026-09-06
 
@@ -17,6 +17,8 @@ Modul ne polazi od identiteta autora, već od konkretne poruke, njenog dokaznog 
 `ulaz: fotografija / slogan / plakat / kratka poruka`
 
 → identifikacija teksta i vizuelnog konteksta  
+→ klasifikacija jezičke uloge poruke  
+→ materiality gate  
 → CORE-SMI analiza  
 → klasifikacija konteksta  
 → POLITICAL / COMMERCIAL / ACTIVIST / INSTITUTIONAL profil  
@@ -28,16 +30,38 @@ Modul je horizontalan. Ne mijenja postojeće scoring sisteme MEDIA, izbornog, PR
 
 SMI mjeri **manipulativni komunikacijski potencijal konkretne poruke**, a ne karakter, namjeru ili vjerodostojnost autora.
 
-Osam dimenzija ocjenjuje se od 0 do 5:
+### Obavezna preklasifikacija poruke
 
-1. **VER — Verification Deficit** — nedostatak provjerljivog sadržaja. Neprovjerljivost sama po sebi nije manipulacija.
+Prije bodovanja poruka se označava kao jedna ili više uloga:
+
+- DESCRIPTIVE CLAIM — opisna/provjerljiva tvrdnja;
+- ASPIRATIONAL — želja, cilj ili vizija;
+- IMPERATIVE / MOBILIZING — poziv ili mobilizacija;
+- IDENTITY / AFFILIATION — identitetsko povezivanje;
+- EVALUATIVE — vrijednosna ocjena;
+- PROMISE — obećanje budućeg ishoda;
+- THREAT / ACCUSATION — prijetnja, optužba ili konstrukcija protivnika.
+
+Ova klasifikacija sprečava da se aspiracija automatski tretira kao tvrdnja o činjenici.
+
+### Materiality gate
+
+VER i OMI ne dobijaju visoke bodove samo zato što je slogan kratak. Prije bodovanja mora se utvrditi postoji li **materijalno važan zaključak** koji može uticati na odluku primaoca.
+
+Ako poruka samo izražava opštu vrijednost ili aspiraciju bez konkretnog zaključka, VER i OMI su po pravilu 0–2.
+
+Ako poruka navodi primaoca na zaključak o rezultatu, prijetnji, cijeni, svojstvu proizvoda/usluge, političkoj sposobnosti, institucionalnom ishodu ili drugoj odluci, VER/OMI mogu biti 3–5 kada relevantna dokazna osnova ili kontekst nedostaju.
+
+### Osam dimenzija
+
+1. **VER — Verification Deficit** — nedostatak provjerljive osnove za materijalno važan zaključak. Neprovjerljivost sama po sebi nije manipulacija.
 2. **PRE — Presupposition Loading** — nedokazane pretpostavke koje primalac mora prihvatiti da bi poruka funkcionisala.
 3. **EMO — Emotional Substitution** — stepen u kojem emocija zamjenjuje informaciju ili argument.
-4. **IDA — Identity / Value Capture** — prisvajanje kolektivnog identiteta ili univerzalnih vrijednosti poput naroda, države, pravde, sigurnosti ili slobode.
-5. **CER — Manufactured Certainty** — predstavljanje željenog ishoda, obećanja ili procjene kao izvjesnosti.
-6. **BIN — Binary Framing** — svođenje složene stvarnosti na mi/oni, dobro/loše, patriote/izdajnici i slične dihotomije.
+4. **IDA — Identity / Value Capture** — prisvajanje kolektivnog identiteta ili univerzalnih vrijednosti. Pozitivno povezivanje sa identitetom nije isto što i ekskluzivno prisvajanje.
+5. **CER — Manufactured Certainty** — predstavljanje željenog ishoda, obećanja ili procjene kao izvjesnosti. Aspiracija ili mobilizacijska formulacija ne dobija visok CER bez deklarativne tvrdnje o izvjesnosti.
+6. **BIN — Binary Framing** — svođenje složene stvarnosti na mi/oni, dobro/loše, patriote/izdajnici i slične dihotomije. Samo prisustvo kolektivnog identiteta nije dovoljno.
 7. **CAU — Causal Compression** — svođenje složenog uzročnog lanca na jednostavnu vezu bez dovoljne dokazne osnove.
-8. **OMI — Omission / Context Suppression** — izostavljanje informacije koja je bitna za pravilno razumijevanje poruke.
+8. **OMI — Omission / Context Suppression** — izostavljanje informacije koja je materijalno bitna za pravilno razumijevanje poruke.
 
 `SMI = VER + PRE + EMO + IDA + CER + BIN + CAU + OMI`
 
@@ -50,11 +74,32 @@ Maksimum je 40. Orijentaciona klasifikacija za validaciju:
 - 29–34: visok;
 - 35–40: vrlo visok manipulativni komunikacijski potencijal.
 
-Ukupan broj se nikada ne objavljuje bez profila, npr. `SMI 27/40 [VER4 PRE5 EMO5 IDA4 CER1 BIN3 CAU2 OMI3]`.
+Ukupan broj se nikada ne objavljuje bez profila, npr. `SMI 25/40 [VER3 PRE4 EMO5 IDA4 CER1 BIN5 CAU0 OMI3]`.
+
+## Dodatna pravila kalibracije v0.2
+
+### IDA anchor
+
+- 0: nema identitetskog/vrijednosnog elementa;
+- 1–2: pozitivno povezivanje sa vrijednošću ili zajednicom;
+- 3: snažno simboličko povezivanje;
+- 4: implicitno prisvajanje vrijednosti/identiteta;
+- 5: ekskluzivno prisvajanje koje protivnika implicitno izbacuje iz legitimnog kolektiva ili moralne kategorije.
+
+### CER anchor
+
+- 0: nema ishoda/izvjesnosti;
+- 1: aspiracija ili mobilizacijska formulacija;
+- 2: snažno očekivanje bez pune deklarativne izvjesnosti;
+- 3: implicitna izvjesnost;
+- 4: gotovo gotov ishod;
+- 5: neizvjestan politički/institucionalni/komercijalni ishod predstavljen kao činjenica ili sigurnost.
+
+### BIN anchor
+
+Binarizacija traži identifikovanu ili implicitno konstruisanu suprotnu stranu. Poziv na jedinstvo ili zajedništvo sam po sebi ne dobija visok BIN.
 
 ## Taksonomija obrazaca
-
-Modul može označiti, između ostalog:
 
 - `IDENTITY_CAPTURE`
 - `MORAL_CAPTURE`
@@ -93,14 +138,7 @@ Provjerava da li institucija plan predstavlja kao rezultat, ulaganje kao vlastit
 
 ## Visual Framing Layer
 
-Kod fotografije/plakata tekst se ne analizira izolovano. Posebno se evidentiraju:
-
-- dominantne osobe i objekti;
-- zastave, grbovi, institucionalni i politički simboli;
-- porodica, djeca, uniforma, infrastruktura i drugi emocionalni markeri;
-- hijerarhija veličine i položaja;
-- odnos slike i teksta;
-- implicitni zaključak koji nastaje njihovom kombinacijom.
+Kod fotografije/plakata tekst se ne analizira izolovano. Posebno se evidentiraju dominantne osobe i objekti, simboli, zastave i grbovi, porodica/djeca, uniforma, infrastruktura, proizvodi, hijerarhija veličine i položaja, odnos slike i teksta i implicitni zaključak kombinacije slike i teksta.
 
 Vizuelni sloj ne povećava automatski SMI. Mora se objasniti konkretna veza sa nalazom.
 
@@ -120,14 +158,7 @@ Ako je naručilac institucija ili javno preduzeće, posebno kada ima monopolisti
 
 ### Commercial Necessity Test — CNT
 
-Provjerava:
-
-1. može li korisnik realno izabrati drugog pružaoca;
-2. postoji li konkurencija kojoj oglašavanje može oduzeti tržišni udio;
-3. promoviše li se konkretna nova usluga/proizvod;
-4. može li oglašavanje razumno povećati prihod ili korištenje usluge;
-5. postoji li jasna javnoinformativna svrha;
-6. da li se ista informacija mogla prenijeti znatno jeftinijim institucionalnim kanalima.
+Provjerava: izbor alternativnog pružaoca; tržišnu konkurenciju; konkretnu novu uslugu/proizvod; razumnu vezu sa prihodom/korištenjem; javnoinformativnu svrhu; dostupnost jeftinijih institucionalnih kanala.
 
 Slabo tržišno opravdanje nije dokaz zloupotrebe; ono je trigger za dublju analizu.
 
@@ -135,18 +166,16 @@ Slabo tržišno opravdanje nije dokaz zloupotrebe; ono je trigger za dublju anal
 
 Analizira:
 
-- **NEC — Necessity:** dokaziva potreba za kampanjom;
-- **PUB — Public Utility:** konkretna korisna informacija za građanina;
-- **ALT — Alternative Channels:** dostupnost razumno jeftinijih kanala;
-- **BEN — Beneficiary:** ko prima stvarnu reputacijsku korist;
-- **POL — Political Proximity:** vremenska, semantička, personalna i vizuelna blizina političkoj promociji;
-- **TRA — Transparency:** cijena, naručilac, postupak, dobavljač i plaćanje.
+- **NEC — Necessity**;
+- **PUB — Public Utility**;
+- **ALT — Alternative Channels**;
+- **BEN — Beneficiary**;
+- **POL — Political Proximity**;
+- **TRA — Transparency**.
 
 PMCT je odvojen od SMI i njegovi bodovi se ne sabiraju sa SMI.
 
 ## Beneficiary test
-
-Postavlja se pitanje:
 
 > Čije ponašanje ova poruka pokušava promijeniti i u čiju korist?
 
@@ -154,20 +183,15 @@ Kod monopoliste posebno se provjerava da li kampanja realno promoviše uslugu il
 
 ## Logo Removal i Actor Substitution test
 
-Kod institucionalnog/javnog billboarda:
-
-1. mentalno ukloniti logo institucije i provjeriti da li ostatak izgleda kao politička promocija;
-2. hipotetički zamijeniti logo institucije logom političkog subjekta i provjeriti da li poruka i vizuelni jezik i dalje prirodno funkcionišu.
+Kod institucionalnog/javnog billboarda mentalno ukloniti logo institucije i provjeriti da li ostatak izgleda kao politička promocija; zatim hipotetički zamijeniti logo institucije logom političkog subjekta i provjeriti da li poruka i vizuelni jezik i dalje prirodno funkcionišu.
 
 Rezultat je indikator za dodatnu provjeru, nikada samostalan dokaz političke propagande.
 
 ## Izborni period
 
-Vrijeme objave tokom izborne kampanje je kontekst, ne dokaz namjere. Jači nalaz zahtijeva konvergenciju nezavisnih indikatora, npr. javni novac + izborni period + slaba javna/tržišna potreba + semantička sličnost političkoj kampanji + prisustvo funkcionera + dokumentovana nabavka/plaćanje.
+Vrijeme objave tokom izborne kampanje je kontekst, ne dokaz namjere. Jači nalaz zahtijeva konvergenciju nezavisnih indikatora.
 
 ## Routing prema finansijskoj i institucionalnoj forenzici
-
-Kada postoji javni novac, analiza se može nastaviti lancem:
 
 `kampanja → naručilac → broj/lokacije plakata → trajanje → budžetska stavka → nabavka/ugovor → marketinška agencija → vlasnik oglasnog prostora → plaćanje → dokumentovani cilj → mjerljivi rezultat`
 
@@ -177,7 +201,7 @@ Za infrastrukturne ili projektne tvrdnje routing može nastaviti u GFO PPT lanac
 
 ### Counterfactual test
 
-Model mora pitati da li bi istu tehniku i isti broj bodova dodijelio kada bi identičnu strukturu poruke koristio ideološki ili politički suprotan akter. Promjena rezultata samo zbog identiteta autora znači da analiza nije dovoljno neutralna.
+Model mora pitati da li bi istu tehniku i isti broj bodova dodijelio kada bi identičnu strukturu poruke koristio ideološki ili politički suprotan akter.
 
 ### Namjera i uzročnost
 
@@ -190,24 +214,28 @@ Odsustvo dokaza o tržišnoj/javnoj potrebi nije dokaz da potreba ne postoji. Od
 Svaka analiza treba sadržati:
 
 1. identifikaciju poruke, autora/naručioca ako je poznat, datum i lokaciju/izvor;
-2. doslovno značenje;
-3. implicitnu poruku;
-4. ključne presupozicije;
-5. dominantne emocije i vrijednosti;
-6. vizuelno uokviravanje kada postoji;
-7. označene obrasce;
-8. SMI profil i obrazloženje svakog boda;
-9. materijalno nedostajući kontekst;
-10. alternativno benigno tumačenje;
-11. kontekstualni profil i dodatne testove;
-12. nivo pouzdanosti;
-13. nedostajuće dokaze i sljedeći korak;
-14. eksplicitnu napomenu da namjera nije utvrđena ako za nju nema nezavisnih dokaza.
+2. jezičku ulogu poruke;
+3. doslovno značenje;
+4. implicitnu poruku;
+5. ključne presupozicije;
+6. dominantne emocije i vrijednosti;
+7. vizuelno uokviravanje kada postoji;
+8. označene obrasce;
+9. rezultat materiality gate-a;
+10. SMI profil i obrazloženje svakog boda;
+11. materijalno nedostajući kontekst;
+12. alternativno benigno tumačenje;
+13. kontekstualni profil i dodatne testove;
+14. nivo pouzdanosti;
+15. nedostajuće dokaze i sljedeći korak;
+16. eksplicitnu napomenu da namjera nije utvrđena ako za nju nema nezavisnih dokaza.
 
-## Validacija v0.1
+## Validacija
 
-Prije stabilizacije modul treba testirati na najmanje 20–30 stvarnih poruka iz različitih kategorija. Početni dataset može koristiti kampanju za Opšte izbore BiH 2026, ali validacija mora uključiti i komercijalne, aktivističke i institucionalne/javne kampanje.
+Prvi politički kalibracioni test izveden je 6.9.2026. na sloganima kampanje za Opšte izbore 2026. i dokumentovan u [`validation/2026-09-06_political_slogans_rs.md`](validation/2026-09-06_political_slogans_rs.md).
 
-Cilj validacije je provjeriti međuanalitičku konzistentnost, političku neutralnost, granicu persuasion/simplification/manipulative pattern, korisnost SMI profila i stabilnost CNT/PMCT testova.
+Test je doveo do tri korekcije v0.2: materiality gate za VER/OMI, razdvajanje aspiracije od proizvedene izvjesnosti u CER i preciznije razdvajanje pozitivnog identitetskog povezivanja od ekskluzivnog prisvajanja u IDA/BIN.
+
+Prije stabilizacije modul i dalje treba testirati na najmanje 20–30 poruka iz različitih kategorija, uključujući komercijalne, aktivističke i institucionalne/javne kampanje.
 
 Vidi operativni prompt: [`01_core_smi_prompt.md`](01_core_smi_prompt.md).

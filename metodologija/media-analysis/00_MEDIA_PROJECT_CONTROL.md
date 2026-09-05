@@ -1,4 +1,4 @@
-# GFO MEDIA ANALYSIS — PROJECT CONTROL v1.3
+# GFO MEDIA ANALYSIS — PROJECT CONTROL v1.4
 
 **Project release:** GFO MEDIA v1.1  
 **Project type:** operational media/public-communication analysis  
@@ -17,20 +17,19 @@ This Project analyzes public statements and media/institutional communication th
 
 The canonical prompts remain separate analytical instruments. Project routing may activate one or more prompts, but must not silently merge their scoring systems, terminology or conclusions.
 
-The Project also contains three optional cross-prompt support layers:
+The Project also contains three CURRENT optional cross-prompt support layers:
 
 - `15_EPISTEMIC_INTENT_LAYER_v1_0.md` — CURRENT / OPERATIONAL;
 - `16_narrative_selection_omission_layer_v1_1.md` — CURRENT / CONTROLLED OPERATIONAL;
 - `17_baseline_pattern_memory_layer_v1_0.md` — CURRENT / CONTROLLED OPERATIONAL.
 
-None of Sources 15–17 is a fifth canonical prompt. None may replace, terminate, weaken or silently rescore a canonical analysis.
+It also contains one EXPERIMENTAL calibrated layer:
 
-Permanent Source architecture contains ten files:
+- `18_populist_personalization_authoritarian_dogma_layer_v0_3.md` — EXPERIMENTAL / CALIBRATED-2.
 
-- 2 control/runtime Sources (`00–01`);
-- 4 canonical analytical prompt Sources (`10–13`);
-- 1 publication-layer Source (`14_PUBLICATION_OUTPUT_STANDARD_v1_0.md`);
-- 3 optional auxiliary analytical/support Sources (`15–17`).
+None of Sources 15–18 is a fifth canonical prompt. None may replace, terminate, weaken or silently rescore a canonical analysis. Source 18 is not CURRENT and must remain explicitly labeled experimental in analytical output.
+
+Permanent operational Source architecture remains the established v1.1 control/runtime + canonical + publication + CURRENT support set. Source 18 is an experimental extension and is not counted as a promoted CURRENT permanent Source until separate acceptance/promotion.
 
 The baseline records stored under `media-baselines/` are case-memory records, not permanent methodological Sources. Validation documents are test artifacts, not permanent methodological Sources.
 
@@ -49,8 +48,9 @@ When the user provides a link, article, statement, transcript, screenshot, video
 9. optionally invoke Source 16 only if it can add material omission/framing/source-independence value beyond the canonical findings;
 10. only after the primary analysis is complete, optionally invoke Source 17 for baseline retrieval and recurrence testing;
 11. recheck underlying evidence before any prior baseline is counted toward recurrence;
-12. synthesize only after separate analyses and support-layer outputs are complete;
-13. identify evidence gaps and next verification steps.
+12. optionally invoke experimental Source 18 when personalization, authoritarian narrative, political dogma/epistemic authority or longitudinal contradiction is materially relevant;
+13. synthesize only after separate analyses and support-layer outputs are complete;
+14. identify evidence gaps and next verification steps.
 
 If the user simply says `analiziraj`, perform routing automatically.
 
@@ -123,7 +123,24 @@ Rules:
 
 If the baseline archive is unavailable, return `BASELINE SEARCH: unavailable` and continue the canonical analysis normally.
 
-## 7. Multi-prompt and multi-layer rule
+## 7. Experimental Source 18 — P/A/D Layer
+
+Source 18 MAY be used after the canonical claim/evidence spine exists when the content materially raises one or more of these questions:
+
+- personalization of public benefit, agency or political credit;
+- obstacle/enemy construction;
+- threat/protector/indispensability framing;
+- institutional delegitimization or procedural exceptionalism;
+- political dogma / epistemic authority;
+- material contradiction or policy reversal across time.
+
+Source 18 keeps three independent axes: P (Populist Personalization), A (Authoritarian Narrative) and D (Political Dogma / Epistemic Authority). They must never be combined into one score.
+
+Mandatory safeguards include A-GATE, separate intensity/evidence-confidence fields, Reality Chain vs Narrative Chain, Contradiction Persistence Test for reversals, alternative-explanation testing and prohibition on intent inference from temporal correlation.
+
+Source 18 is EXPERIMENTAL / CALIBRATED-2. Its output must not silently change canonical scores or be described as a final classification of a person, party, institution or media outlet.
+
+## 8. Multi-prompt and multi-layer rule
 
 More than one canonical prompt may apply.
 
@@ -136,15 +153,16 @@ Recommended order:
 5. Source 15 runs only when it adds material novelty;
 6. Source 16 runs only when it adds material narrative-selection/omission value;
 7. Source 17 runs only after the independent primary pass and only when longitudinal comparison is useful;
-8. synthesis.
+8. experimental Source 18 runs only after evidence reconstruction and when P/A/D questions add material value;
+9. synthesis.
 
 Do not count the same indicator multiple times merely because it appears in several prompts or support layers.
 
-## 8. Fail-open rule for Sources 15–17
+## 9. Fail-open rule for Sources 15–18
 
-The four canonical prompts MUST finish independently of Sources 15–17.
+The four canonical prompts MUST finish independently of Sources 15–18.
 
-Permitted support-layer statuses include `USED`, `PARTIAL`, `NOT APPLICABLE`, `INSUFFICIENT EVIDENCE` and `UNAVAILABLE` where defined by the source.
+Permitted support/experimental-layer statuses include `USED`, `PARTIAL`, `NOT APPLICABLE`, `INSUFFICIENT EVIDENCE` and `UNAVAILABLE` where defined by the source.
 
 Only supported findings from `USED` or `PARTIAL` may enter synthesis. Neutral statuses cannot:
 
@@ -154,7 +172,9 @@ Only supported findings from `USED` or `PARTIAL` may enter synthesis. Neutral st
 - weaken an independently evidenced finding;
 - act as a publication veto.
 
-## 9. Source hierarchy for verification
+Experimental Source 18 additionally cannot promote itself to CURRENT status through use in a case analysis.
+
+## 10. Source hierarchy for verification
 
 Prefer:
 
@@ -166,7 +186,7 @@ Prefer:
 
 Multiple reproductions of one press release are not multiple independent confirmations.
 
-## 10. Baseline archive boundary
+## 11. Baseline archive boundary
 
 `media-baselines/` contains longitudinal case-memory records.
 
@@ -176,51 +196,22 @@ For SHARED deployment, only baselines derived from public/published analyses and
 
 Baseline records are not instruction Sources and must not override Project Control, Runtime or canonical prompts.
 
-## 11. Output discipline
+## 12. Output discipline
 
-A combined response should normally contain:
+Keep separate:
 
-- analyzed object and source limitation;
-- routing decision;
-- neutral reconstruction;
-- key claims and evidence status;
-- prompt-specific findings;
-- optional Source 15/16 findings only when material;
-- optional Source 17 pattern finding only after evidence recheck;
-- contradictions / missing context / missing evidence;
-- confidence and limitations;
-- next verification steps;
-- short synthesis.
+- observed content;
+- verified external facts;
+- source-dependent allegations;
+- analytical inference;
+- evidence gaps;
+- alternative explanations;
+- prompt-specific scores/findings;
+- optional support-layer findings;
+- experimental Source 18 P/A/D findings when used.
 
-Avoid verdict-first labels such as `LAŽ`, `PROPAGANDA`, `KORUPCIJA`, `ZATAŠKAVANJE` or `MANIPULACIJA` unless the applicable evidence threshold is actually satisfied. Prefer the narrowest finding supported by evidence.
+Do not present an analytical inference as a verified fact. Do not use labels about a person's character or ideology where the evidence supports only a communication pattern.
 
-## 12. Project boundary
+## 13. Change-control boundary
 
-This Project is an operational application of the locked GFO methodology. Findings from media analyses do not amend the GFO LAB baseline.
-
-Methodological problems discovered here should be recorded as candidate issues and tested before a locked-baseline change.
-
-## 13. Controlled operational status
-
-Source 15 is fully operational based on its prior five-case validation.
-
-Sources 16 and 17 are accepted for controlled operational use after the 2026-09-03 practical regression sequence. Their safeguards worked as intended, including uniform metric direction, omission/framing separation, one overall confidence assessment, independent primary pass before memory, evidence recheck, and same-case anti-recurrence protection.
-
-Broader heterogeneous validation remains desirable before Sources 16–17 are promoted to LOCKED status.
-
-## 14. Maintenance record
-
-### v1.2
-- Source 15 operational acceptance preserved.
-- Permanent architecture contained eight Sources.
-
-### v1.3 / GFO MEDIA v1.1 — 2026-09-03
-- Added Source 16 `Narrative Selection & Omission Layer v1.1` as controlled operational optional layer.
-- Added Source 17 `Baseline & Pattern Memory Layer v1.0` as controlled operational optional support layer.
-- Permanent methodological Source architecture increased from 8 to 10 files.
-- Baseline case records explicitly classified as case-memory, not permanent methodological Sources.
-- Added mandatory independent-primary-pass-before-baseline rule.
-- Added source-evidence-recheck requirement before recurrence P2–P5.
-- Added same-case anti-recurrence safeguard.
-- Added MASTER/SHARED baseline exposure boundary.
-- Canonical prompts `10–13`, their scoring systems, Publication Output Standard v1.0 and Source 15 scoring/routing authority remain unchanged.
+This control update registers Source 18 as an experimental extension only. It does not modify the text, scoring, routing logic or canonical status of Sources 10–13. Sources 15–17 retain their prior status and safeguards.

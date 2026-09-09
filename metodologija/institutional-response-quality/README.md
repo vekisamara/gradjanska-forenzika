@@ -20,6 +20,12 @@ Razvojna arhitektura za buduće skaliranje i višekanalno mjerenje definisana je
 
 - [`CF_IR_DMA_v0.1.md`](CF_IR_DMA_v0.1.md) — CF Institutional Response Data & Measurement Architecture.
 
+Širi dugoročni istraživački i organizacioni pravac definisan je u:
+
+- [`CF_RESEARCH_CENTER_CONCEPT_v0.1.md`](CF_RESEARCH_CENTER_CONCEPT_v0.1.md) — CF Istraživački centar / Civic Forensics Research Center.
+
+CF Research Center je razvojna vizija, ne tvrdnja o postojećem centru. Predviđa pet povezanih stubova: **Methodology & AI Research; Education & Real-World Validation; Academic Research & Talent Network; Data & Measurement Infrastructure; Institutional Response Observatory.**
+
 CF-IR-DMA predviđa odvojene ulazne kanale građana, nezavisnih organizacija/pravne pomoći, javnih institucija i kontrolisanih istraživačkih uzoraka; provenance, deduplikaciju, `MATTER → CASE → SOURCE_RECORD` model, privacy-by-design i zabranu populacionih zaključaka iz self-selected uzorka.
 
 ## Položaj u metodologiji
@@ -50,6 +56,12 @@ Mali početni skupovi (npr. 30–50 predmeta) tretiraju se kao kalibracioni/vali
 
 Preklapanje izvora nije samo problem deduplikacije: isti `CASE_ID` sa više odvojenih source zapisa može služiti za cross-source validaciju, pod uslovom da se očuva provenance i da odsustvo dokumenta iz jednog izvora nikada nije tretirano kao dokaz nepostojanja.
 
+Akademska komponenta je predviđena kao razvojna mreža: studentska praksa i istraživačko osposobljavanje, nezavisna akademska validacija i zajednički razvoj budućih metodologija sa profesorima, asistentima, studentima i praktičarima iz relevantnih disciplina. Nijedna konkretna ustanova nije označena kao partner bez stvarnog dogovora.
+
+Razvojna vizija Centra koristi ciklus:
+
+> **Develop → Teach → Apply → Measure → Validate → Publish → Improve**
+
 ## Status
 
-CF-IRQF, ARCM, JARM i zajednička taksonomija imaju status `U VALIDACIJI`. CF-IR-DMA 0.1 je razvojna arhitektura buduće sposobnosti. Ne tvrdi da CF trenutno ima produkcioni Data Hub, reprezentativni dataset ili pravno/tehnički odobren sistem centralnog prikupljanja podataka.
+CF-IRQF, ARCM, JARM i zajednička taksonomija imaju status `U VALIDACIJI`. CF-IR-DMA 0.1 je razvojna arhitektura buduće sposobnosti. CF-RC 0.1 je strateški razvojni koncept. Nijedan od njih ne tvrdi da CF trenutno ima formalno uspostavljen istraživački centar, produkcioni Data Hub, ugovorene akademske/institucionalne partnere ili reprezentativni nacionalni dataset.

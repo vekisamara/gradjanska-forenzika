@@ -171,3 +171,19 @@ Za promociju iz `U VALIDACIJI` potrebno je najmanje:
 - odluka uredništva i ažuriranje `STATUS.md` i `CHANGELOG.md`.
 
 Stvarni kalibracioni predmeti nisu sastavni dio ovog javnog dokumenta.
+
+## 14. Buduće skaliranje i višekanalno mjerenje
+
+CF-IRQF se projektuje tako da validirani measurement protocol u budućnosti može biti primijenjen na veće skupove podataka iz više nezavisno označenih kanala: građani, nezavisne organizacije/pravna pomoć, javne institucije i posebno dizajnirani istraživački uzorci.
+
+Za takvo skaliranje obavezno je:
+
+- zadržati provenance svakog izvora;
+- brojati jedan stvarni institucionalni predmet kao jednu case-level statističku jedinicu;
+- razlikovati povezani `MATTER`, jedinstveni `CASE` i više `SOURCE_RECORD` zapisa;
+- ne tretirati odsustvo dokumenta iz jednog izvora kao dokaz njegovog nepostojanja;
+- ne objedinjavati različite source kanale za populacione zaključke bez opravdanog sampling/coverage dizajna;
+- odvojiti korisničku analizu dokumenta od dobrovoljnog doprinosa minimalnog anonimizovanog statističkog zapisa;
+- zadržati verziju metodologije, taksonomije i AI modela radi reproduktivnosti.
+
+Detaljna razvojna pravila definisana su u [`CF_IR_DMA_v0.1.md`](CF_IR_DMA_v0.1.md). Početni mali skupovi služe kalibraciji i validaciji instrumenta, a ne procjeni prevalencije u RS/BiH.

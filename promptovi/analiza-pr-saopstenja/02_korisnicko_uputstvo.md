@@ -17,6 +17,10 @@ Može provjeriti da li komunikacija:
 - predstavlja preliminarni nalaz kao konačnu činjenicu;
 - služi promociji institucije ili funkcionera;
 - pokazuje indikatore kriznog PR-a, institucionalnog umanjivanja ili zataškavanja.
+- stvara implikaciju širu od eksplicitne tvrdnje;
+- koristi superlativ bez mjerljivog benchmarka;
+- proizvodi komunikacijski output bez dokazivog stvarnog outcomea;
+- daje građaninu operativno korisne informacije ili prvenstveno gradi imidž.
 
 Prompt ne utvrđuje krivicu i ne zamjenjuje sud, tužilaštvo, inspekciju, reviziju, medicinsko vještačenje ili drugi stručni postupak.
 
@@ -74,6 +78,23 @@ Primjer:
 ### Aktivnost nasuprot rezultatu
 
 Sastanak, plan, nacrt, radna grupa, potpisan sporazum, monitoring ili pokrenuta istraga mogu biti korisne aktivnosti, ali nisu isto što i završen rezultat.
+
+### PR–Outcome Gap (POG)
+
+POG kvalitativno poredi fazu koju poruka predstavlja sa fazom koju dokazi potvrđuju. Nizak jaz znači da se predstavljeni i dokazani status uglavnom podudaraju; visok jaz znači da se najava, procedura ili komunikacijski doseg predstavljaju kao završeni rezultat ili učinak. POG nije dokaz obmane i nema zaseban numerički score.
+
+### Public Information Utility (PIU)
+
+PIU pokazuje koliko objava građaninu daje konkretne, provjerljive i praktično korisne informacije: datum, lokaciju, rok, uslov, cijenu, kontakt, dokument ili radnju. Visok medijski doseg ne znači automatski visoku informacionu vrijednost.
+
+### CLAIMED / SUPPORTED / OMITTED / IMPLIED
+
+- **CLAIMED** — šta je izričito rečeno;
+- **SUPPORTED** — šta dostupni dokazi podržavaju;
+- **OMITTED** — koji dokazivo relevantan kontekst nedostaje;
+- **IMPLIED** — koji zaključak konkretna formulacija, naslov ili struktura razumno podstiče bez izričite tvrdnje.
+
+Implikacija mora biti vezana za konkretan element objave. Ne koristi se za nagađanje namjere autora ili stvarne reakcije publike.
 
 ### Preliminarno predstavljeno kao konačno
 

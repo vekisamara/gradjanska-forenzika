@@ -8,6 +8,8 @@ Format prati principe Keep a Changelog, uz odvojeno označavanje statusa metodol
 
 ### Dodano
 
+- 11. septembar 2026: canonical `GFO MEDIA — PR Analysis v1.1` proširen forenzičkim komunikacijskim lancem, CLAIMED/SUPPORTED/OMITTED/IMPLIED razdvajanjem, kvalitativnim POG i PIU izlazima, benchmark testom superlativa i uslovnom analizom tajminga, ponavljanja i distribucije; dodat petoslučajni A/B/regresioni validacioni zapis prema GF-PROMPT-EVAL 1.0.
+
 - 9. septembar 2026: dodat `CF Institutional Response Quality Framework (CF-IRQF) 0.1` kao case-neutral horizontalni kandidat u validaciji, sa zajedničkom Response Anomaly Taxonomy 0.1 i dvije domenske primjene: `Administrative Response & Closure Monitor (CF-ARCM) 0.1` i `Justice Accountability Response Monitor (CF-JARM) 0.1`; okvir nasljeđuje postojeće GF-MET dokazne, KAIT, AI i QA standarde, ne uvodi paralelni sistem dokazivanja i eksplicitno razdvaja kvalitet odgovora od zakonitosti i odgovornosti;
 - 9. septembar 2026: uveden pojam `Formal Closure Anomaly (FCA)` kao signal razlike između formalnog zatvaranja i materijalno otvorenog provjerljivog pitanja; kalibracioni i stvarni predmeti izričito su odvojeni od javnog metodološkog paketa;
 - 29. avgust 2026: dodat `GFO Negotiation & Institutional Response (NIR) v0.3` kao zaseban kandidat za operativnu validaciju; modul je podređen MDAP v3.2 za dokazni status, prioritete zaštite, rokove, procesne okidače i eskalaciju, a uvodi pregovarački routing gate, BATNA/leverage/concession sloj, institutional-response simulator, strategy review, MDAP→NIR case-state interfejs i Institutional Commitment Record;
@@ -24,6 +26,8 @@ Format prati principe Keep a Changelog, uz odvojeno označavanje statusa metodol
 - standardizovani akademski metapodaci za citiranje.
 
 ### Promijenjeno
+
+- 11. septembar 2026: Source 13 ažuriran sa `13_ANALIZA_PR_SAOPSTENJA_v1_0.txt` na `13_ANALIZA_PR_SAOPSTENJA_v1_1.txt`; postojeća 0–3 skala, nivoi prikrivanja 0–6, canonical routing i Source 16 scoring ostali su neizmijenjeni. Nakon prvog testnog prolaza komunikacijski lanac ograničen je na materijalne redove, IMPLIED je vezan za konkretan lokator, a POG je eksplicitno isključen iz dvostrukog bodovanja.
 
 - 9. septembar 2026: `metodologija/README.md` i `STATUS.md` usklađeni su sa CF-IRQF arhitekturom; KAIT ostaje sloj za adequacy veze opravdanje–zaključak, MDAP 3.2 određuje procesne posljedice, a NIR ostaje podređeni taktički sloj nakon routing gate-a;
 - 29. avgust 2026: NIR granica odgovornosti usklađena sa MDAP v3.2: NIR više ne bira procesni instrument ili stepen eskalacije i ne duplira Protokol jednog pitanja, kvantitativni modul, status izvora O/K/R/N ili MDAP stres-test;

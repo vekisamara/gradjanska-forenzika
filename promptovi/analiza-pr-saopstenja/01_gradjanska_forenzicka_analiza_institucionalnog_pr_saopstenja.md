@@ -22,6 +22,11 @@ Rezultat analize nije pravna, revizorska, medicinska, forenzička, regulatorna i
 
 # GRAĐANSKA FORENZIČKA ANALIZA INSTITUCIONALNOG PR SAOPŠTENJA
 
+**Oznaka:** GFO MEDIA — PR Analysis v1.1
+**Status:** CURRENT — STABILAN
+**Datum revizije:** 11. septembar 2026.
+**Prethodna verzija:** v1.0
+
 ## 1. NAMJENA
 
 Analiziraj saopštenje za javnost, konferenciju za medije, intervju, objavu, video-poruku, izvještaj ili drugi oblik institucionalne komunikacije.
@@ -103,15 +108,16 @@ Obavezni izlaz brze analize:
 1. zaključak u tri rečenice;
 2. neutralna verzija saopštenja;
 3. komunikacijski povod i dominantna funkcija;
-4. mapa najvažnijih tvrdnji;
-5. aktivnost nasuprot rezultatu;
-6. glavni nedostaci transparentnosti;
-7. sažetak pokazatelja;
-8. stepen institucionalnog prikrivanja;
-9. šta je pouzdano utvrđeno;
-10. šta nije moguće dokazati;
-11. neutralniji naslov;
-12. tri pitanja za instituciju.
+4. sažeti forenzički komunikacijski lanac;
+5. mapa najvažnijih tvrdnji;
+6. aktivnost nasuprot rezultatu i PR–Outcome Gap;
+7. glavni nedostaci transparentnosti i Public Information Utility;
+8. sažetak pokazatelja;
+9. stepen institucionalnog prikrivanja;
+10. šta je pouzdano utvrđeno;
+11. šta nije moguće dokazati;
+12. neutralniji naslov;
+13. tri pitanja za instituciju.
 
 Ne prikazuj nerelevantne odjeljke. Koristi N/P umjesto vještačkog popunjavanja neprimjenjivih pokazatelja.
 
@@ -166,6 +172,11 @@ Dužina i složenost analize moraju odgovarati ozbiljnosti događaja, broju spor
 35. Ne povećavaj više pokazatelja samo ponavljanjem istog nalaza drugim riječima.
 36. Potencijalna šteta komunikacije nije isto što i dokazano nastala šteta.
 37. Procenti nisu naučno ili statističko mjerenje, dokaz namjere ili vjerovatnoća krivice.
+38. Razlikuj komunikacijski output (objava, pregled, prenos ili doseg), administrativni/fizički outcome (dokaziva promjena stanja) i dugoročni učinak. Veliki output ne dokazuje outcome.
+39. Rekonstruiši ono što je eksplicitno tvrđeno od onoga što poruka razumno implicira prosječnom čitaocu. Implikaciju ne pripisuj autoru kao doslovnu tvrdnju.
+40. Hype riječ, slogan, simbol, emocionalni apel, autoritet ili ponavljanje nisu sami po sebi dokaz manipulacije. Oni pokreću provjeru tvrdnje, benchmarka i dokazne osnove.
+41. Tajming objave i politički, krizni ili medijski kontekst predstavljaju indikator relevantan za provjeru, ali ne dokazuju namjeru ili koordinaciju.
+42. Više medijskih prenosa jednog saopštenja predstavlja distribuciju jednog izvornog lanca, a ne više nezavisnih potvrda.
 
 ---
 
@@ -182,6 +193,58 @@ Ukloni promotivne pridjeve, političke parole, odbrambeni jezik, dramatizaciju, 
 Utvrdi da li je povod redovno informisanje, najava projekta, objava rezultata, promocija institucije ili funkcionera, odgovor na kritiku ili incident, reakcija na nadzorni nalaz, opravdavanje troška, predizborna promocija, upravljanje reputacijskom krizom, ublažavanje moguće nezakonitosti, smirivanje javnosti, korekcija ranije verzije, zaštita institucionalnog autoriteta ili preusmjeravanje pažnje.
 
 Razlikuj potvrđeni povod od zaključka izvedenog iz konteksta.
+
+### 5.2A. Forenzički komunikacijski lanac
+
+Nakon neutralne rekonstrukcije, a prije detaljnog bodovanja, prikaži samo elemente koji se mogu potkrijepiti dostupnim sadržajem:
+
+`stvarni događaj → selekcija činjenica → dominantna poruka → eksplicitna tvrdnja → razumna implikacija → tehnika uvjeravanja → kanal/distribucija → vjerovatni komunikacijski efekat → dokazivi outcome`
+
+Koristi tabelu:
+
+| Element | Nalaz | Dokaz / lokator | Status |
+|---|---|---|---|
+
+Status može biti: `potvrđeno`, `službena tvrdnja`, `analitička procjena`, `nepoznato` ili `N/P`.
+
+U brzoj analizi lanac sažmi na najviše osam materijalnih redova i izostavi elemente koji su `N/P` ili nepoznati kada ne mijenjaju zaključak. U proširenoj analizi prikaži samo elemente potrebne za rekonstrukciju mehanizma; ne popunjavaj lanac radi forme.
+
+Ne izmišljaj internu PR strategiju, ciljanu publiku, budžet kampanje, namjeru ili stvarni efekat na publiku. Ako postoje samo karakteristike poruke, koristi izraz **vjerovatni komunikacijski efekat**, ne **dokazani efekat**.
+
+Posebno razdvoji:
+
+- **CLAIMED** — šta je eksplicitno rečeno;
+- **SUPPORTED** — šta dostupni dokazi podržavaju;
+- **OMITTED** — koji je materijalno relevantan kontekst identifikovan i na osnovu čega;
+- **IMPLIED** — koji zaključak poruka razumno podstiče bez eksplicitnog izricanja.
+
+Svaku IMPLIKACIJU veži za konkretan naslov, formulaciju, redoslijed, sliku ili prećutani prelaz. Ako bi dva razumna čitaoca mogla izvesti bitno različite zaključke, označi implikaciju kao nesigurnu ili je izostavi.
+
+Ako detaljna analiza izostavljanja ili framinga može dodati novu vrijednost, nakon kanonske analize pozovi opcioni Narrative Selection & Omission Layer. Ne dupliraj njegove ORS/FDS/SID/PDS/APD/SVD ocjene u ovom promptu.
+
+### 5.2B. Funkcija javne komunikacije
+
+Klasifikuj sadržaj na kontinuumu:
+
+`PUBLIC INFORMATION ↔ INSTITUTIONAL PR ↔ PERSONAL/POLITICAL PROMOTION`
+
+Saopštenje može imati više funkcija istovremeno. Procijeni dominantnu funkciju prema sadržaju, operativnoj korisnosti za građanina, udjelu provjerljivih informacija, personalizaciji, promotivnom jeziku i odnosu između javnog rezultata i političke ili reputacijske zasluge. Klasifikacija opisuje poruku, ne dokazuje motiv autora.
+
+### 5.2C. Tehnike uvjeravanja, superlativi i kompresija
+
+Identifikuj samo materijalno relevantne tehnike: selekciju statistike, autoritet, testimonial/izjavu korisnika, endorsement, emociju, dramatizaciju, slogan, simbol, pojednostavljenje, konfliktni okvir, ponavljanje, društveni dokaz i superlativ.
+
+Za izraze poput „istorijski“, „rekordni“, „najveći“, „jedinstveni“, „revolucionarni“, „kapitalni“, „generacijski“, „najmoderniji“, „po prvi put“ ili „trajno riješeno“ traži mjerljiv benchmark: u odnosu na koji period, teritoriju, populaciju, iznos, kapacitet ili prethodno stanje? Bez benchmarka označi formulaciju kao promotivnu ili nedovoljno provjerljivu, ne automatski kao netačnu.
+
+Kod slogana ili kompresovane poruke pitaj koja je složenost stvarnog procesa izostavljena da bi se proizveo jednostavan zaključak.
+
+### 5.2D. Tajming, ponavljanje i distribucija
+
+Primijeni samo kada postoje podaci potrebni za poređenje.
+
+- **Tajming:** zabilježi vremensku blizinu izbora, krize, kritike, protesta, sjednice, budžetske odluke, nadzornog nalaza ili drugog događaja. Ne izvodi namjeru samo iz blizine.
+- **Ponavljanje:** grupiši materijalno istu tvrdnju kroz vrijeme, čak i kada se mijenjaju pridjevi. Provjeri da li se dokazna osnova razvija zajedno sa retorikom.
+- **Distribucija:** odvoji izvorno saopštenje, prenošenje, djelimično uređivanje i nezavisno novinarsko dopunjavanje. Prikaži `broj_objava` i `broj_nezavisnih_dokaznih_lanaca` kada su dostupni.
 
 ### 5.3. Hronologija institucionalne priče
 
@@ -227,6 +290,23 @@ Ocjena: korektno predstavljeno, blago prenaglašeno, značajno prenaglašeno, pr
 Provjeri da li se mali projekat predstavlja kao istorijski, zakonska obaveza kao posebno dostignuće, budžetski novac kao lična pomoć, početak projekta kao završetak, najava kao realizacija, odobrena sredstva kao korist, kratkoročni efekat kao trajno rješenje, pojedinačni slučaj kao sistemska promjena, relativna promjena bez apsolutne vrijednosti ili institucionalni rezultat kao zasluga jednog funkcionera.
 
 Za svaku formulaciju napiši neutralniju verziju.
+
+### 5.8A. PR–Outcome Gap (POG)
+
+Uporedi stepen realizacije koji poruka predstavlja sa najvišom fazom koju dostupni dokazi potvrđuju:
+
+`najava → plan → odluka → institucionalni preduslovi → nabavka/ugovor → isporuka/prijem → plaćanje → implementacija → mjerljiv rezultat → dugoročni učinak`
+
+Klasifikuj jaz kvalitativno:
+
+- `N/P` — objava ne iznosi tvrdnju o rezultatu ili nema dovoljno podataka za poređenje;
+- `nizak` — predstavljena i dokazana faza se uglavnom podudaraju;
+- `srednji` — stvarna faza postoji, ali poruka sugeriše viši ili trajniji rezultat;
+- `visok` — komunikacijski output ili rana faza predstavljeni su kao završen rezultat ili učinak bez odgovarajuće dokazne osnove.
+
+POG nije dokaz obmane. Navedi predstavljenu fazu, dokazanu fazu, odlučni dokaz i šta bi smanjilo ili povećalo jaz.
+
+POG je opisni sažetak, ne novi numerički score. Isti jaz ne koristi ponovo za povećavanje više postojećih pokazatelja; primijeni pravilo protiv dvostrukog bodovanja.
 
 ### 5.9. Prisvajanje institucionalnog rada
 
@@ -519,6 +599,8 @@ Procjena funkcije nije dokaz stvarne namjere autora.
 
 ## 12. TEST JAVNE VRIJEDNOSTI
 
+Prvo daj **Public Information Utility (PIU)** kao kvalitativnu ocjenu `niska / srednja / visoka / N/P`, uz najviše dvije rečenice obrazloženja. PIU procjenjuje koliko objava građaninu daje konkretne, provjerljive i operativno korisne informacije. Ne procjenjuje popularnost, doseg, ljepotu poruke ili namjeru autora.
+
 Odgovori:
 
 1. Koje nove provjerljive informacije je javnost dobila?
@@ -533,6 +615,8 @@ Odgovori:
 10. Da li je ranija verzija ispravljena?
 11. Da li je građanin dobio informaciju šta treba da uradi odmah?
 12. Da li je povećana ili smanjena mogućnost nezavisne provjere?
+13. Da li objava građaninu daje datum, lokaciju, rok, uslov, cijenu, kontakt ili radnju koju može praktično koristiti?
+14. Da li se komunikacijski output prikazuje kao dokaz administrativnog, fizičkog ili društvenog outcomea?
 
 ---
 
@@ -544,36 +628,41 @@ Prikaži relevantne cjeline sljedećim redoslijedom:
 2. zaključak u tri rečenice;
 3. neutralna verzija saopštenja;
 4. povod i funkcija;
-5. hronologija institucionalne priče;
-6. mapa tvrdnji, statusa i dokaza;
-7. preliminarno, planirano i završeno;
-8. aktivnost nasuprot rezultatu;
-9. prenaglašavanje učinka;
-10. test akutnosti i proporcionalnosti;
-11. događaj, šteta i odgovornost;
-12. reputacijsko preusmjeravanje;
-13. četiri vrste transparentnosti;
-14. nezavisnost provjere;
-15. odnos institucije prema dokazima;
-16. zamjena centralnog pitanja;
-17. naknadna javna korekcija;
-18. institucionalni status izvora;
-19. indikatori zataškavanja sa težinom, dokazom i alternativnim objašnjenjem;
-20. provjera dvostrukog bodovanja;
-21. stepen institucionalnog prikrivanja i razlog zašto viši ili niži nivo nije primjenjiv;
-22. potencijalna šteta komunikacije;
-23. pozitivni pokazatelji;
-24. pokazatelji PR rizika;
-25. pokazatelji rizika zataškavanja;
-26. težinsko rangiranje indikatora;
-27. matrica mogućih funkcija;
-28. šta saopštenje pouzdano pokazuje;
-29. šta snažno sugeriše;
-30. šta nije moguće dokazati;
-31. najviše sedam dokumenata koje treba zatražiti;
-32. neutralniji naslov;
-33. završna presuda;
-34. tri precizna pitanja za instituciju.
+5. forenzički komunikacijski lanac, uključujući CLAIMED/SUPPORTED/OMITTED/IMPLIED;
+6. kontinuum PUBLIC INFORMATION / INSTITUTIONAL PR / PERSONAL-POLITICAL PROMOTION;
+7. hronologija institucionalne priče;
+8. mapa tvrdnji, statusa i dokaza;
+9. preliminarno, planirano i završeno;
+10. aktivnost nasuprot rezultatu;
+11. prenaglašavanje učinka i benchmark superlativa;
+12. PR–Outcome Gap;
+13. test akutnosti i proporcionalnosti;
+14. događaj, šteta i odgovornost;
+15. reputacijsko preusmjeravanje;
+16. četiri vrste transparentnosti;
+17. nezavisnost provjere;
+18. odnos institucije prema dokazima;
+19. zamjena centralnog pitanja;
+20. naknadna javna korekcija;
+21. institucionalni status izvora;
+22. indikatori zataškavanja sa težinom, dokazom i alternativnim objašnjenjem;
+23. provjera dvostrukog bodovanja;
+24. stepen institucionalnog prikrivanja i razlog zašto viši ili niži nivo nije primjenjiv;
+25. potencijalna šteta komunikacije;
+26. pozitivni pokazatelji;
+27. pokazatelji PR rizika;
+28. pokazatelji rizika zataškavanja;
+29. težinsko rangiranje indikatora;
+30. matrica mogućih funkcija;
+31. Public Information Utility;
+32. tajming, ponavljanje i distribucija, samo kada su dokazivo primjenjivi;
+33. šta saopštenje pouzdano pokazuje;
+34. šta snažno sugeriše;
+35. šta nije moguće dokazati;
+36. najviše sedam dokumenata koje treba zatražiti;
+37. neutralniji naslov;
+38. završna presuda;
+39. tri precizna pitanja za instituciju.
 
 Tabele pokazatelja moraju sadržati rezultat, broj primjenjivih kriterijuma, dokaznu osnovu, dostupnost izvora, vrstu zaključka i kratko tumačenje.
 

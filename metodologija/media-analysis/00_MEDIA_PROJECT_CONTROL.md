@@ -1,4 +1,4 @@
-# GFO MEDIA ANALYSIS — PROJECT CONTROL v1.4
+# GFO MEDIA ANALYSIS — PROJECT CONTROL v1.5
 
 **Project release:** GFO MEDIA v1.1  
 **Project type:** operational media/public-communication analysis  
@@ -13,7 +13,7 @@ This Project analyzes public statements and media/institutional communication th
 1. `10_ANALIZA_JAVNE_IZJAVE_v2_1.txt`
 2. `11_IZBORNI_KONTEKST_2026_v1_0.txt`
 3. `12_ANALIZA_MEDIJSKE_MANIPULACIJE_v1_0.txt`
-4. `13_ANALIZA_PR_SAOPSTENJA_v1_0.txt`
+4. `13_ANALIZA_PR_SAOPSTENJA_v1_1.txt`
 
 The canonical prompts remain separate analytical instruments. Project routing may activate one or more prompts, but must not silently merge their scoring systems, terminology or conclusions.
 
@@ -74,7 +74,9 @@ Do not assess the outlet as a whole.
 
 ### D. Institutional PR
 
-Use/add `13_ANALIZA_PR_SAOPSTENJA_v1_0.txt` when the content is official/institutional communication or a public official is speaking in an institutional capacity and the relevant question concerns promotion, plan-versus-result substitution, crisis PR, minimization, responsibility shifting or verifiability of institutional claims.
+Use/add `13_ANALIZA_PR_SAOPSTENJA_v1_1.txt` when the content is official/institutional communication or a public official is speaking in an institutional capacity and the relevant question concerns promotion, plan-versus-result substitution, crisis PR, minimization, responsibility shifting, communication-output-versus-outcome, practical public-information utility or verifiability of institutional claims.
+
+Source 13 v1.1 preserves the prior canonical scoring. Its POG and PIU results are qualitative summaries, not new numerical scoring systems. Detailed omission/framing metrics remain the responsibility of optional Source 16.
 
 ## 4. Optional Source 15 — Epistemic & Intent Layer
 
@@ -214,4 +216,6 @@ Do not present an analytical inference as a verified fact. Do not use labels abo
 
 ## 13. Change-control boundary
 
-This control update registers Source 18 as an experimental extension only. It does not modify the text, scoring, routing logic or canonical status of Sources 10–13. Sources 15–17 retain their prior status and safeguards.
+Project Control v1.5 registers canonical Source 13 v1.1 after documented five-case validation. The Source 13 text changes, but its pre-existing 0–3 scoring, 0–6 concealment levels, routing role and canonical independence remain unchanged. POG and PIU are qualitative outputs and do not rescore Source 13 or Source 16.
+
+Source 18 remains an experimental extension only. Sources 10–12 and 15–18 retain their prior text, status and safeguards.

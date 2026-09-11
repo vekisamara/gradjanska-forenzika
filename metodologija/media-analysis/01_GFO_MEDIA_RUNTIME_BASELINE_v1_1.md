@@ -172,7 +172,7 @@ The four canonical prompts are separate Sources:
 - Public statement/claim spine → `10_ANALIZA_JAVNE_IZJAVE_v2_1.txt`
 - 2026 electoral context → `11_IZBORNI_KONTEKST_2026_v1_0.txt`
 - media/editorial manipulation → `12_ANALIZA_MEDIJSKE_MANIPULACIJE_v1_0.txt`
-- institutional PR → `13_ANALIZA_PR_SAOPSTENJA_v1_0.txt`
+- institutional PR → `13_ANALIZA_PR_SAOPSTENJA_v1_1.txt`
 
 Activate the minimum sufficient set. Multi-prompt analysis is allowed, but preserve each prompt's findings before synthesis.
 

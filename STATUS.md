@@ -1,6 +1,6 @@
 # Status i važeće verzije
 
-**Posljednji pregled:** 9. septembar 2026.  
+**Posljednji pregled:** 11. septembar 2026.
 **Vlasnik registra:** uredništvo Građanske forenzike
 
 Ovaj registar je glavno mjesto za provjeru statusa dokumenata. Oznaka „važeće“ znači da se dokument može koristiti u objavljenom radu; ne znači pravnu, naučnu ili institucionalnu certifikaciju.
@@ -16,6 +16,7 @@ Ovaj registar je glavno mjesto za provjeru statusa dokumenata. Oznaka „važeć
 | Validacija promptova | GF-PROMPT-EVAL | 1.0 | važeći protokol validacije promptova |
 | Kvantitativni modul | GF-PROMPT-QUANT | 1.0 | važeći uslovni modul |
 | GFO Media | Epistemic & Intent Layer | 1.0 | CURRENT — operativan, funkcionalan, opcionalan i non-eliminatory |
+| GFO Media | Institutional PR Analysis | 1.1 | CURRENT — stabilan canonical prompt; POG i PIU su kvalitativni |
 | PPTC | Parallel Proceedings / Temporal Consistency Check | — | važeće metodološko pravilo — puna kodifikacija u pripremi |
 | KAIT | Kritička analiza institucionalne tvrdnje | 0.1 | kandidat u validaciji |
 | PR-to-Payment Trace | GF-PPT | 0.1 | nezavisan modul — kandidat u validaciji |
@@ -32,11 +33,12 @@ Ovaj registar je glavno mjesto za provjeru statusa dokumenata. Oznaka „važeć
 3. Standard 3.2 i Metod 3.2 su važeći osnovni dokumenti unutar GF-MET-a.
 4. Promptovi primjenjuju metodologiju, ali je ne mijenjaju.
 5. GFO Media Epistemic & Intent Layer v1.0 je važeći pomoćni operativni sloj za media/public-communication analize; ostaje podređen Media Project Controlu, Runtimeu i kanonskim promptovima i ne uvodi paralelni scoring.
-6. PPTC je usvojeno metodološko pravilo i primjenjuje se kada postoje paralelni, prethodni ili naknadni povezani postupci; puna kodifikacija tek treba biti ugrađena u narednu konsolidovanu verziju.
-7. KAIT, GF-PPT, CF-IRQF, CF-ARCM, CF-JARM i CDE ostaju kandidati/istraživački slojevi dok ne ispune kriterijume validacije.
-8. CF-IRQF koristi postojeće D1–D5, O/K/R/N, KAIT i GF-MET QA standarde; ne uvodi paralelni dokazni sistem. ARCM i JARM su domenske primjene zajedničkog okvira.
-9. MDAP 3.2 ostaje nadređen za dokazni status u predmetu, prioritete zaštite, rokove, procesne instrumente i eskalaciju. NIR ostaje taktički sloj i aktivira se samo nakon routing gate-a.
-10. Arhivirani dokumenti nisu važeća preporuka.
+6. GFO Media Institutional PR Analysis v1.1 je važeći canonical prompt. Zadržava prethodni scoring, a komunikacijski lanac, POG i PIU koristi kao dokazno ograničene kvalitativne izlaze.
+7. PPTC je usvojeno metodološko pravilo i primjenjuje se kada postoje paralelni, prethodni ili naknadni povezani postupci; puna kodifikacija tek treba biti ugrađena u narednu konsolidovanu verziju.
+8. KAIT, GF-PPT, CF-IRQF, CF-ARCM, CF-JARM i CDE ostaju kandidati/istraživački slojevi dok ne ispune kriterijume validacije.
+9. CF-IRQF koristi postojeće D1–D5, O/K/R/N, KAIT i GF-MET QA standarde; ne uvodi paralelni dokazni sistem. ARCM i JARM su domenske primjene zajedničkog okvira.
+10. MDAP 3.2 ostaje nadređen za dokazni status u predmetu, prioritete zaštite, rokove, procesne instrumente i eskalaciju. NIR ostaje taktički sloj i aktivira se samo nakon routing gate-a.
+11. Arhivirani dokumenti nisu važeća preporuka.
 
 ## Pravilo kalibracionih materijala
 

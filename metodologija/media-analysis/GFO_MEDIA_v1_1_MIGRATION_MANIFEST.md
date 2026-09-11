@@ -1,5 +1,7 @@
 # GFO MEDIA v1.1 — CONTROLLED MIGRATION MANIFEST
 
+> **Istorijski manifest migracije od 3. septembra 2026.** Stavka Source 13 u ovom zapisu opisuje tadašnje stanje (`v1.0`). Za važeću zamjenu Source 13 sa v1.1 koristiti `GFO_MEDIA_PR_v1_1_RELEASE_MANIFEST.md` od 11. septembra 2026.
+
 **Date:** 2026-09-03  
 **Target projects:** `GFO Media Analysis MASTER` and `GFO Media Analysis - shared`  
 **Migration type:** additive controlled operational migration  

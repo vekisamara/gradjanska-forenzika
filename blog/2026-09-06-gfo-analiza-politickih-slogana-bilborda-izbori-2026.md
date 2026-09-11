@@ -32,22 +32,33 @@ Politička komunikacija mora biti kratka i pamtljiva. Emocija, pojednostavljenje
 
 Problem nastaje kada poruka prikrije ko je navodni protivnik, predstavi političku mogućnost kao izvjestan rezultat ili preskoči institucije i činjenice koje stoje između obećanja i ishoda.
 
-Zbog toga sada, uz osnovnu analizu slogana, razdvajamo četiri jednostavne stvari:
+Zbog toga u analizi slogana razdvajamo četiri jednostavne stvari:
 
 - **rečeno** — šta poruka doslovno tvrdi;
 - **potkrijepljeno** — šta se može potvrditi dostupnim činjenicama;
 - **izostavljeno** — koja je važna karika ostala van poruke;
 - **sugerisano** — šta bi prosječan čitalac mogao zaključiti iako to nije napisano.
 
-## Prvi test: pet poruka iz kampanje 2026.
+## Kako se tumači rezultat?
 
-Ponovili smo analizu pet političkih poruka uz ovaj dodatni sloj. Osnovne ocjene nisu se promijenile, ali je postalo jasnije **zašto** neke poruke nose veći manipulativni rizik.
+Svaka poruka dobija rezultat od **0 do 40 bodova**. To je SMI — indeks manipulativnog komunikacijskog potencijala. Viši broj znači da poruka sadrži više elemenata koji mogu navesti publiku na zaključak bez dovoljno informacija, dok niži broj znači da je uglavnom riječ o običnoj političkoj promociji, vrijednosnoj poruci ili pozivu na podršku.
+
+- **0–7** — minimalan potencijal;
+- **8–14** — nizak;
+- **15–21** — umjeren;
+- **22–28** — značajan;
+- **29–34** — visok;
+- **35–40** — vrlo visok manipulativni komunikacijski potencijal.
+
+Rezultat nije procenat istinitosti i ne ocjenjuje stranku, kandidata ili njihov cjelokupan program. Odnosi se samo na konkretnu poruku i nastaje procjenom osam obilježja, među kojima su provjerljivost, skrivene pretpostavke, zamjena činjenica emocijom, prisvajanje identiteta i vrijednosti, stvaranje lažne izvjesnosti, podjela na „nas“ i „njih“, pojednostavljivanje uzroka i izostavljanje važnog konteksta.
+
+## Pet poruka iz kampanje 2026.
 
 ### „Nema izdaje!“ — 25/40
 
 Poruka ne kaže ko izdaje, šta se smatra izdajom niti na koji događaj se odnosi. Upravo ta praznina omogućava publici da sama dopuni „neprijatelja“.
 
-Novi test pokazuje još nešto: slogan ne iznosi konkretnu optužbu koju je moguće provjeriti, ali sugeriše da opasnost već postoji i da se politički prostor dijeli na lojalne i izdajnike. To je snažna moralna mobilizacija sa vrlo malo javno korisnih informacija.
+Slogan ne iznosi konkretnu optužbu koju je moguće provjeriti, ali sugeriše da opasnost već postoji i da se politički prostor dijeli na lojalne i izdajnike. To je snažna moralna mobilizacija sa vrlo malo javno korisnih informacija.
 
 To ipak nije dokaz namjere autora da obmane, nego signal da poruka traži dodatni kontekst.
 
@@ -61,7 +72,7 @@ Izostaju pitanja: šta ovdje znači pravda, ko je vraća, kojim postupkom i prem
 
 Ovdje je ključna riječ **„sigurno“**. Kandidatura ili politička ambicija predstavljena je kao izvjestan institucionalni ishod.
 
-Između slogana i funkcije postoje izbori, broj osvojenih mandata, formiranje većine, prijedlog mandatara i imenovanje. Kada se taj lanac izbriše, željeni rezultat izgleda kao gotova činjenica. Novi sloj analize upravo taj preskok čini vidljivim.
+Između slogana i funkcije postoje izbori, broj osvojenih mandata, formiranje većine, prijedlog mandatara i imenovanje. Kada se taj lanac izbriše, željeni rezultat izgleda kao gotova činjenica. Analiza upravo taj preskok čini vidljivim.
 
 ### „Hrabro, sloboda nema cijenu“ — 12/40
 
@@ -75,11 +86,9 @@ I ova poruka mobilizuje emociju, ali „do pobjede“ opisuje cilj, a ne garanto
 
 Ova dva primjera važna su jer alat ne treba da kažnjava svaku političku emociju. Njegov posao je da razlikuje aspiraciju od tvrdnje o stvarnosti.
 
-## Šta se promijenilo u novoj analizi?
+## Šta analiza pokazuje?
 
-Najvažnija razlika nije u bodovima nego u objašnjenju.
-
-Ranije smo prvenstveno prepoznavali praznog neprijatelja, učitanu pretpostavku i proizvedenu sigurnost. Sada dodatno možemo pokazati **koji zaključak poruka prepušta publici i koju stvarnu institucionalnu fazu preskače**.
+Analiza ne ostaje samo na prepoznavanju praznog neprijatelja, učitane pretpostavke ili proizvedene sigurnosti. Ona pokazuje i **koji zaključak poruka prepušta publici i koju stvarnu institucionalnu fazu preskače**.
 
 Takođe razdvajamo vidljivost poruke od njenog stvarnog rezultata. Bilbord, naslov i deset medijskih prenosa mogu proizvesti snažan utisak, ali nisu dokaz da je obećanje ostvareno, postupak završen ili funkcija već osvojena.
 

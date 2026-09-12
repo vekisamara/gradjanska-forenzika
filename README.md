@@ -1,56 +1,48 @@
 # Građanska forenzika
 
-**Democratic Resilience & AI Literacy Program — lokalna platforma i otvorena infrastruktura**
+Građanska forenzika je javni repozitorij metodologija, promptova, alata, edukativnih materijala, publikacija, studija slučaja i analiza za provjeru javnih odluka i institucionalnih tvrdnji pomoću dokazno disciplinovanih i transparentnih postupaka.
 
-Građanska forenzika pomaže građanima, novinarima, organizacijama civilnog društva i istraživačima da javne odluke i institucionalne tvrdnje ispituju pomoću provjerljivih dokaza, transparentnih metoda i odgovorne upotrebe vještačke inteligencije.
-
-Repozitorij objedinjuje lokalni program demokratske otpornosti i AI pismenosti: metodologiju, edukativne materijale, publikacije, promptove, alate, primijenjene analize i istraživačke prototipove. Knjiga *Vještačka inteligencija i birokratija* ostaje jedna od temeljnih publikacija programa, ali nije njegov jedini okvir.
-
-## Misija i programski stubovi
-
-Misija je ojačati sposobnost javnosti da razumije, provjerava i argumentovano osporava javne odluke, uz zaštitu privatnosti, jasne dokazne standarde i ljudsku odgovornost za svaki zaključak.
-
-Program povezuje demokratsku i građansku, medijsku i informacionu, podatkovnu i kvantitativnu, pravnu i administrativnu te odgovornu AI pismenost sa građanskim djelovanjem zasnovanim na dokazima.
-
-> dokaz → provjera → analiza → objava → građansko djelovanje → institucionalni odgovor → učenje
-
-Detaljan okvir nalazi se u direktoriju [`program/`](program/README.md).
+Repozitorij je namijenjen javnom, operativnom i provjerljivom dijelu projekta. Interni organizacioni dokumenti, planovi formiranja NVO i razvoj istraživačkog centra ne vode se u ovom repozitoriju.
 
 ## Struktura repozitorija
 
 | Direktorij | Uloga |
 |---|---|
-| [`program/`](program/README.md) | misija, teorija promjene, programski stubovi, etika i razvoj |
 | [`metodologija/`](metodologija/README.md) | dokazni standardi i ponovljiv operativni postupak |
-| [`promptovi/`](promptovi/README.md) | kontrolisani AI radni tokovi i moduli |
-| [`edukacija/`](edukacija/README.md) | pojmovnik i budući nastavni materijali |
+| [`promptovi/`](promptovi/README.md) | kontrolisani AI radni tokovi i analitički moduli |
+| [`edukacija/`](edukacija/README.md) | pojmovnik i edukativni materijali |
 | [`publikacije/`](publikacije/README.md) | knjige, priručnici i drugi javni rezultati |
 | [`alati/`](alati/README.md) | lokalni alati za dokumente, dokaze, rokove i podatke |
 | [`studije-slucaja/`](studije-slucaja/README.md) | javne, provjerljive primjene metodologije |
-| [`analize/`](analize/) i [`blog/`](blog/) | postojeći članci i autorski sadržaj portala |
-| [`research-concepts/`](research-concepts/README.md) | lokalni istraživački koncepti i prototipovi |
+| [`analize/`](analize/) i [`blog/`](blog/) | analize i autorski sadržaj portala |
+| [`gfo-analytics/`](gfo-analytics/README.md) | podatkovni i analitički moduli |
+| [`media-baselines/`](media-baselines/README.md) | bazne evidencije za GFO MEDIA analize |
+| [`project-sources/`](project-sources/) | kontrolisani projektni izvori za određene module |
 | [`arhiva/`](arhiva/README.md) | povučene verzije i materijali koji čekaju novu validaciju |
 
 ## Odakle početi
 
-- Program: [`program/README.md`](program/README.md)
 - Analiza dokumenta: [`metodologija/README.md`](metodologija/README.md)
 - Kontrolisana upotreba AI-a: [`promptovi/README.md`](promptovi/README.md)
 - Lokalni alati: [`alati/README.md`](alati/README.md)
+- Analitički moduli: [`gfo-analytics/README.md`](gfo-analytics/README.md)
 - Knjiga: [`publikacije/vjestacka-inteligencija-i-birokratija/`](publikacije/vjestacka-inteligencija-i-birokratija/README.md)
 
-## Status i granice
+## Osnovna pravila
 
-Programski koncept je u aktivnom razvoju. Objavljeni standardi, promptovi i alati mogu se koristiti u označenim verzijama, dok su buduća akademija, obuke i pilot-partnerstva razvojni pravci, a ne tvrdnja o već ostvarenim rezultatima. AI pomaže u strukturiranju i provjeri, ali nije dokaz, pravni savjet niti zamjena za ljudsku prosudbu.
+- dokaz ima prednost nad utiskom;
+- zaključak mora biti ograničen dostupnim dokazima;
+- AI izlaz nije dokaz i zahtijeva ljudsku provjeru;
+- izvori, verzije i metodološke promjene moraju biti sljedivi;
+- pravne, činjenične i reputaciono osjetljive tvrdnje zahtijevaju provjeru primarnih izvora.
 
-Lokalni sadržaj na srpskom jeziku održava se ovdje. Međunarodne publikacije i razvoj za EU publiku održavaju se u repozitoriju [`civic-forensics`](https://github.com/vekisamara/civic-forensics). Materijali u `arhiva/` nisu važeća preporuka dok ne prođu novu validaciju. Postojeći članci u `blog/` i `analize/` zadržani su bez sadržajnih izmjena.
+Lokalni sadržaj na srpskom jeziku održava se ovdje. Međunarodne publikacije i razvoj za EU publiku održavaju se u repozitoriju [`civic-forensics`](https://github.com/vekisamara/civic-forensics).
 
-Uslovi korištenja određeni su fajlom [`LICENSE`](LICENSE), osim kada pojedina publikacija navodi poseban režim.
-
+Materijali u `arhiva/` nisu važeća preporuka dok ne prođu novu validaciju. Postojeći članci u `blog/` i `analize/` zadržavaju se kao javni analitički sadržaj.
 
 ## Važeće verzije i razvoj
 
-Centralni pregled važećih standarda, kandidata u validaciji i prototipova nalazi se u [STATUS.md](STATUS.md). Plan razvoja je u [ROADMAP.md](ROADMAP.md), a značajne promjene u [CHANGELOG.md](CHANGELOG.md).
+Centralni pregled statusa nalazi se u [STATUS.md](STATUS.md), razvojni plan u [ROADMAP.md](ROADMAP.md), a značajne promjene u [CHANGELOG.md](CHANGELOG.md).
 
 Kratko pravilo čitanja:
 

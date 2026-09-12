@@ -1,6 +1,6 @@
 # Istorija promjena
 
-Sve značajne promjene programa, metodologije, promptova, alata i organizacije bilježe se ovdje.
+Sve značajne promjene javne metodologije, promptova, alata, dokumentacije i strukture repozitorija bilježe se ovdje.
 
 Format prati principe Keep a Changelog, uz odvojeno označavanje statusa metodoloških dokumenata.
 
@@ -9,9 +9,6 @@ Format prati principe Keep a Changelog, uz odvojeno označavanje statusa metodol
 ### Dodano
 
 - 11. septembar 2026: canonical `GFO MEDIA — PR Analysis v1.1` proširen forenzičkim komunikacijskim lancem, CLAIMED/SUPPORTED/OMITTED/IMPLIED razdvajanjem, kvalitativnim POG i PIU izlazima, benchmark testom superlativa i uslovnom analizom tajminga, ponavljanja i distribucije; dodat petoslučajni A/B/regresioni validacioni zapis prema GF-PROMPT-EVAL 1.0.
-
-- 9. septembar 2026: dodat `CF Institutional Response Quality Framework (CF-IRQF) 0.1` kao case-neutral horizontalni kandidat u validaciji, sa zajedničkom Response Anomaly Taxonomy 0.1 i dvije domenske primjene: `Administrative Response & Closure Monitor (CF-ARCM) 0.1` i `Justice Accountability Response Monitor (CF-JARM) 0.1`; okvir nasljeđuje postojeće GF-MET dokazne, KAIT, AI i QA standarde, ne uvodi paralelni sistem dokazivanja i eksplicitno razdvaja kvalitet odgovora od zakonitosti i odgovornosti;
-- 9. septembar 2026: uveden pojam `Formal Closure Anomaly (FCA)` kao signal razlike između formalnog zatvaranja i materijalno otvorenog provjerljivog pitanja; kalibracioni i stvarni predmeti izričito su odvojeni od javnog metodološkog paketa;
 - 29. avgust 2026: dodat `GFO Negotiation & Institutional Response (NIR) v0.3` kao zaseban kandidat za operativnu validaciju; modul je podređen MDAP v3.2 za dokazni status, prioritete zaštite, rokove, procesne okidače i eskalaciju, a uvodi pregovarački routing gate, BATNA/leverage/concession sloj, institutional-response simulator, strategy review, MDAP→NIR case-state interfejs i Institutional Commitment Record;
 - 26. avgust 2026: `GFO Media — Epistemic & Intent Layer v1.0` prihvaćen za operativnu upotrebu nakon pet slučajeva validacije; modul je CURRENT, funkcionalan, opcionalan i non-eliminatory, uz obavezni Novelty / Utility Gate, fail-open pravilo, zabranu paralelnog scoringa i anti-duplication safeguard;
 - 26. avgust 2026: u `metodologija/media-analysis/validation/` dodan operational acceptance record za Epistemic & Intent Layer v1.0; ISSUE-EBCJ-001 i ISSUE-EBCJ-002 zatvoreni;
@@ -27,16 +24,14 @@ Format prati principe Keep a Changelog, uz odvojeno označavanje statusa metodol
 
 ### Promijenjeno
 
+- 12. septembar 2026: javni repozitorij razgraničen je od internog organizacionog razvoja. Materijali povezani sa formiranjem buduće NVO, internim strateškim planiranjem i konceptom istraživačkog centra uklonjeni su iz javnog stabla i vode se odvojeno; javna metodologija, promptovi, alati, publikacije, studije slučaja i analize ostaju u ovom repozitoriju. `README.md`, `metodologija/README.md`, `STATUS.md` i `ROADMAP.md` usklađeni su sa novom granicom javnog repozitorija. Ova promjena ne mijenja važeći Standard 3.2, MDAP 3.2, canonical prompt scoring niti status operativnih GFO Media modula.
 - 11. septembar 2026: Source 13 ažuriran sa `13_ANALIZA_PR_SAOPSTENJA_v1_0.txt` na `13_ANALIZA_PR_SAOPSTENJA_v1_1.txt`; postojeća 0–3 skala, nivoi prikrivanja 0–6, canonical routing i Source 16 scoring ostali su neizmijenjeni. Nakon prvog testnog prolaza komunikacijski lanac ograničen je na materijalne redove, IMPLIED je vezan za konkretan lokator, a POG je eksplicitno isključen iz dvostrukog bodovanja.
-
-- 9. septembar 2026: `metodologija/README.md` i `STATUS.md` usklađeni su sa CF-IRQF arhitekturom; KAIT ostaje sloj za adequacy veze opravdanje–zaključak, MDAP 3.2 određuje procesne posljedice, a NIR ostaje podređeni taktički sloj nakon routing gate-a;
 - 29. avgust 2026: NIR granica odgovornosti usklađena sa MDAP v3.2: NIR više ne bira procesni instrument ili stepen eskalacije i ne duplira Protokol jednog pitanja, kvantitativni modul, status izvora O/K/R/N ili MDAP stres-test;
 - 26. avgust 2026: GFO Media Epistemic & Intent Layer promovisan iz maintenance-tested v0.1.1 u operativni v1.0; canonical prompts `10–13`, Media Runtime v1.0, scoring i source hierarchy ostali su neizmijenjeni;
 - 23. avgust 2026: `STATUS.md` usklađen sa kanonskim `GF-PROMPT-CORE 1.2` od 22. avgusta 2026; prethodni registar je još navodio CORE 1.1;
-- 23. avgust 2026: statusni registar precizira odnos CURRENT core metodologije prema PPTC, KAIT-u, GF-PPT-u i Civic Decision Engineu;
-- programska navigacija i statusi razvojnih slojeva;
-- objašnjen odnos GF-MET 1.0, Standarda 3.2, KAIT-a i Civic Decision Enginea;
-- razdvojene licence programa, metodologije, publikacije i koda.
+- 23. avgust 2026: statusni registar precizira odnos CURRENT core metodologije prema PPTC, KAIT-u i GF-PPT-u;
+- objašnjen odnos GF-MET 1.0, Standarda 3.2 i KAIT-a;
+- usklađene licence metodologije, publikacija i koda.
 
 ## Pravila
 

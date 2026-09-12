@@ -2,10 +2,12 @@
 
 **Oznaka paketa:** GF-MET 1.0  
 **Status:** metodološka osnova  
-**Datum:** 22. avgust 2026.  
+**Datum pregleda:** 12. septembar 2026.  
 **Urednik:** Velimir Šamara
 
-Ovaj direktorij pretvara opšta načela Građanske forenzike u ponovljiv radni postupak. Dokumenti su opšti: ne sadrže dokazne zaključke iz pojedinačnih predmeta. Studije slučaja ostaju u `studije-slucaja/` i služe za testiranje i unapređivanje metode.
+Ovaj direktorij pretvara načela Građanske forenzike u ponovljiv radni postupak. Dokumenti su opšti i ne sadrže dokazne zaključke iz pojedinačnih predmeta. Studije slučaja ostaju u `studije-slucaja/` i služe za provjeru i unapređivanje metode.
+
+Interni organizacioni materijali, dokumenti formiranja NVO i razvoj budućeg istraživačkog centra nisu dio ovog javnog metodološkog repozitorija.
 
 ## Redoslijed korištenja
 
@@ -22,12 +24,15 @@ Ovaj direktorij pretvara opšta načela Građanske forenzike u ponovljiv radni p
 11. [`10_sablon_studije_slucaja.md`](10_sablon_studije_slucaja.md) — standardni javni format studije slučaja.
 12. [`11_registar_izvora_i_verzionisanje.md`](11_registar_izvora_i_verzionisanje.md) — porijeklo dokumenta, izmjene nalaza i verzije metodologije.
 13. [`12_kait_kriticka_analiza_institucionalne_tvrdnje.md`](12_kait_kriticka_analiza_institucionalne_tvrdnje.md) — rekonstrukcija institucionalnih tvrdnji i provjera da li opravdanje nosi sadržaj, sigurnost i domet zaključka.
-14. [`13_standard_kvaliteta_promptova.md`](13_standard_kvaliteta_promptova.md) — obavezna struktura prompta, jedan primarni rezultat, dokazna pravila, neizvjesnost i acceptance criteria.
+14. [`13_standard_kvaliteta_promptova.md`](13_standard_kvaliteta_promptova.md) — obavezna struktura prompta, dokazna pravila, neizvjesnost i acceptance criteria.
 15. [`14_validacija_promptova.md`](14_validacija_promptova.md) — benchmark, kritične greške, regresiono i inter-analyst testiranje promptova.
-16. [`ppt/`](ppt/README.md) — PR-to-Payment Trace (GF-PPT 0.1), nezavisan modul u validaciji za povezivanje PR objave sa nabavkom, ugovorom, izvršenjem i plaćanjem.
-17. [`institutional-response-quality/`](institutional-response-quality/README.md) — CF Institutional Response Quality Framework (CF-IRQF 0.1), razvojni horizontalni okvir za provjerljivost institucionalnih odgovora, sa Administrative Response & Closure Monitor (ARCM) i Justice Accountability Response Monitor (JARM) domenskim primjenama.
+16. [`ppt/`](ppt/README.md) — PR-to-Payment Trace (GF-PPT 0.1), modul u validaciji za povezivanje PR objave sa nabavkom, ugovorom, izvršenjem i plaćanjem.
+17. [`kait/`](kait/) — razvoj kandidata za nadogradnju KAIT metodološkog sloja.
+18. [`media-analysis/`](media-analysis/) — runtime, kontrolni i validacioni slojevi GFO MEDIA sistema.
+19. [`nir/`](nir/README.md) — NIR razvojni i operativni dokumenti.
+20. [`osnovni-dokumenti/`](osnovni-dokumenti/) — važeći temeljni dokumenti Standarda i MDAP-a.
 
-KAIT v0.1, GF-PPT 0.1 i CF-IRQF/ARCM/JARM 0.1 imaju status radnih modula u validaciji. [Prijedlog za Standard 3.3](kait/standard_v3.3_kandidat.md) ne mijenja važeći Standard 3.2 dok ne budu završeni dodatni regresioni i inter-analyst testovi na korpusima odobrenim za tu namjenu.
+KAIT v0.1 i GF-PPT 0.1 imaju status radnih modula u validaciji. [Prijedlog za Standard 3.3](kait/standard_v3.3_kandidat.md) ne mijenja važeći Standard 3.2 dok ne budu završeni dodatni regresioni i inter-analyst testovi na korpusima odobrenim za tu namjenu.
 
 ## Operativni ciklus
 
@@ -50,9 +55,7 @@ Prompt se tretira kao verzionisan analitički instrument, a ne samo kao tekst in
 
 ## Odnos prema postojećim dokumentima
 
-Ovaj paket je operativni dio šireg [`Democratic Resilience & AI Literacy Programa`](../program/README.md). Primjenjuje se zajedno sa [`Standardom za analizu javnih odluka v3.2`](osnovni-dokumenti/standard_za_analizu_javnih_odluka_v3.2.md), [`Metodom disciplinovanog administrativnog pritiska v3.2`](osnovni-dokumenti/metod_disciplinovanog_administrativnog_pritiska_v3.2.md), zajedničkim forenzičkim jezgrom u [`promptovi/00_forenzicko_jezgro.md`](../promptovi/00_forenzicko_jezgro.md), standardom kvaliteta promptova GF-PROMPT-QS 1.0 i protokolom validacije GF-PROMPT-EVAL 1.0.
-
-CF-IRQF 0.1 koristi postojeći GF-MET dokazni i QA sloj i ne uvodi paralelni standard dokazivanja. KAIT ostaje specijalizovan za adekvatnost veze opravdanje–zaključak; CF-IRQF analizira potpunost, provjerljivost i closure integritet odgovora. MDAP 3.2 ostaje nadređen za procesne posljedice, a NIR se aktivira samo kroz vlastiti routing gate.
+GF-MET se primjenjuje zajedno sa [`Standardom za analizu javnih odluka v3.2`](osnovni-dokumenti/standard_za_analizu_javnih_odluka_v3.2.md), [`Metodom disciplinovanog administrativnog pritiska v3.2`](osnovni-dokumenti/metod_disciplinovanog_administrativnog_pritiska_v3.2.md), zajedničkim forenzičkim jezgrom u [`promptovi/00_forenzicko_jezgro.md`](../promptovi/00_forenzicko_jezgro.md), standardom kvaliteta promptova GF-PROMPT-QS 1.0 i protokolom validacije GF-PROMPT-EVAL 1.0.
 
 Ranija objedinjena metodologija v2.0 povučena je u [`arhivu/`](../arhiva/metodologija/metodologija_gradjanske_forenzike_v2.0.md) radi sljedivosti i nije aktuelni standard.
 
@@ -60,6 +63,6 @@ Ranija objedinjena metodologija v2.0 povučena je u [`arhivu/`](../arhiva/metodo
 
 GF-MET 1.0 je naziv operativnog paketa i organizacionog okvira. Unutar njega su Standard za analizu javnih odluka 3.2 i Metod disciplinovanog administrativnog pritiska 3.2 važeći osnovni dokumenti. Njihova verzija 3.2 ne znači da je GF-MET u verziji 3.2.
 
-KAIT 0.1, GF-PPT 0.1, CF-IRQF/ARCM/JARM 0.1 i prijedlog Standarda 3.3 imaju status kandidata u validaciji. Civic Decision Engine koristi KAIT strukture kao istraživački prototip, ali ne mijenja metodološki status nalaza. Jedini centralni registar statusa je [STATUS.md](../STATUS.md).
+KAIT 0.1, GF-PPT 0.1 i prijedlog Standarda 3.3 imaju status kandidata u validaciji. Jedini centralni registar statusa je [STATUS.md](../STATUS.md).
 
 Promjena broja važeće verzije zahtijeva dokumentovane testove, zapis izmjena, uredničku odluku i ažuriranje registra statusa.

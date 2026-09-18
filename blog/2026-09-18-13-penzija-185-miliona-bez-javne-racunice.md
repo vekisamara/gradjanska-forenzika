@@ -1,6 +1,8 @@
 ---
 title: "13. penzija: obećanje od približno 185 miliona KM bez javno predstavljene računice"
 date: 2026-09-18
+slug: 13-penzija-185-miliona-bez-javne-racunice
+status: publish
 author: gradjanskaforenzika
 categories:
   - Građanska forenzika

@@ -81,3 +81,8 @@ Greška otkrivena u stvarnom radu koja zahtijeva izmjenu prompta postaje kandida
 ## 9. Dnevnik AI upotrebe
 
 Za objavljene ili složene predmete bilježe se datum, model/alati kada su poznati, oznaka prompta, opis ulaza, izlaz korišten u radu, ljudske korekcije i ime/verzija konačnog dokumenta. Osjetljivi ulazi se ne objavljuju.
+
+
+## Dopuna 19.09.2026. — ulazni ugovor i izolacija izvora
+
+Svaki aktivni prompt primjenjuje preflight odlučnih ulaza i tretira priloženi dokument kao SOURCE podatak, ne kao instrukciju. Za javnu objavu, pravni podnesak ili javnu optužbu obavezna je ljudska provjera. Detalji su u GF-PROMPT-QS 1.1 i GF-PROMPT-EVAL 1.1.

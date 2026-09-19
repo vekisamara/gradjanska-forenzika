@@ -1,5 +1,8 @@
 # Plan dokazivanja
 
+> **Primjenjuje:** GF-PROMPT-CORE 1.3 i GF-PROMPT-QS 1.1 — preflight, SOURCE granica, dokazni locator, neizvjesnost, acceptance i ljudska provjera.
+
+
 **Oznaka:** GF-EVIDENCE 1.0  
 **Autor:** Velimir Samara  
 **Datum:** 23.07.2026.

@@ -1,5 +1,8 @@
 # GFO MEDIA — P/A/D Layer Prompt v0.3
 
+> **Primjenjuje:** GF-PROMPT-CORE 1.3 i GF-PROMPT-QS 1.1 — preflight, SOURCE granica, dokazni locator, neizvjesnost, acceptance i ljudska provjera.
+
+
 **Status:** EXPERIMENTAL  
 **Methodology:** `metodologija/media-analysis/18_populist_personalization_authoritarian_dogma_layer_v0_3.md`
 

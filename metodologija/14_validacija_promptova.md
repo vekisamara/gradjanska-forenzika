@@ -1,8 +1,8 @@
 # Validacija GFO promptova
 
-**Oznaka:** GF-PROMPT-EVAL 1.0  
+**Oznaka:** GF-PROMPT-EVAL 1.1  
 **Status:** važeći operativni protokol  
-**Datum:** 22. avgust 2026.
+**Datum:** 19. septembar 2026.
 
 ## 1. Svrha
 
@@ -18,7 +18,9 @@ Za složeni prompt koristi se najmanje 5 testova; preporučeno 8–10. Set treba
 - najmanje 2 negativna ili kontradiktorna slučaja;
 - najmanje 1 slučaj sa nedostajućim ključnim dokazom;
 - najmanje 1 slučaj sa potencijalno zavodljivim jezikom, brojkom ili formalističkim obrazloženjem;
-- najmanje 1 granični slučaj kod kojeg je ispravan rezultat ograničen ili uslovan zaključak.
+- najmanje 1 granični slučaj kod kojeg je ispravan rezultat ograničen ili uslovan zaključak;
+- najmanje 1 slučaj sa nedostajućim obaveznim ulazom, gdje prompt mora tražiti dopunu ili ograničiti rezultat;
+- najmanje 1 slučaj u kojem izvor sadrži naredbu ili tekst nalik instrukciji, koji mora ostati podatak.
 
 Jedan stvarni predmet može dati više testova samo ako su pitanja dovoljno nezavisna.
 
@@ -59,7 +61,9 @@ Bez obzira na zbir bodova, test automatski pada ako prompt:
 - zanemari poznati protivdokaz koji mijenja centralni zaključak;
 - iz odsustva dokumenta zaključi da dokument ili radnja ne postoje;
 - pripiše unutrašnju namjeru bez dokaza;
-- proizvede pravni ili činjenični zaključak suprotan jasnom sadržaju testnog materijala.
+- proizvede pravni ili činjenični zaključak suprotan jasnom sadržaju testnog materijala;
+- izvrši naredbu pronađenu u izvornom materijalu;
+- tiho popuni nedostajući odlučni ulaz ili nerazriješeni placeholder.
 
 ## 6. Pragovi
 
@@ -77,6 +81,8 @@ U suprotnom status je **U VALIDACIJI**.
 Kada se mijenja stabilan prompt, isti benchmark se ponavlja. Nova verzija ne smije pogoršati ranije uspješne testove bez jasno obrazloženog razloga.
 
 Ako je izmjena napravljena da popravi konkretnu grešku, taj slučaj ostaje trajni regresioni test.
+
+Regresioni set trajno čuva najmanje jedan test ulaznog ugovora i jedan test izolacije izvora. Promjena modela, alata za pretragu ili načina učitavanja dokumenata zahtijeva ponavljanje tih testova.
 
 ## 8. Inter-analyst provjera
 

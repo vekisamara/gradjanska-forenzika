@@ -216,6 +216,14 @@ Do not present an analytical inference as a verified fact. Do not use labels abo
 
 ## 13. Change-control boundary
 
-Project Control v1.5 registers canonical Source 13 v1.1 after documented five-case validation. The Source 13 text changes, but its pre-existing 0–3 scoring, 0–6 concealment levels, routing role and canonical independence remain unchanged. POG and PIU are qualitative outputs and do not rescore Source 13 or Source 16.
+Project Control v1.6 registers canonical Source 13 v1.1 after documented five-case validation. The Source 13 text changes, but its pre-existing 0–3 scoring, 0–6 concealment levels, routing role and canonical independence remain unchanged. POG and PIU are qualitative outputs and do not rescore Source 13 or Source 16.
 
 Source 18 remains an experimental extension only. Sources 10–12 and 15–18 retain their prior text, status and safeguards.
+
+
+## Maintenance record — v1.6 / 2026-09-19
+
+- Activated GFO MEDIA Runtime v1.2 for GF-PROMPT-QS/EVAL 1.1 compatibility.
+- Added preflight, SOURCE/instruction isolation and acceptance status at runtime level.
+- Canonical Sources 10–13, their scoring and routing independence are byte-for-byte unchanged.
+- Sources 15–18 retain their prior status and non-eliminatory safeguards.

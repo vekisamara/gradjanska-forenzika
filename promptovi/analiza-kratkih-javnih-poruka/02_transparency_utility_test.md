@@ -1,5 +1,8 @@
 # GFO SMA — Transparency Utility Test (TUT)
 
+> **Primjenjuje:** GF-PROMPT-CORE 1.3 i GF-PROMPT-QS 1.1 — preflight, SOURCE granica, dokazni locator, neizvjesnost, acceptance i ljudska provjera.
+
+
 **Oznaka:** GF-SMA-TUT 0.1  
 **Status:** U VALIDACIJI  
 **Datum:** 2026-09-06

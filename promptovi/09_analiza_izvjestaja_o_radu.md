@@ -1,5 +1,8 @@
 # Forenzička analiza izvještaja o radu javne institucije
 
+> **Primjenjuje:** GF-PROMPT-CORE 1.3 i GF-PROMPT-QS 1.1 — preflight, SOURCE granica, dokazni locator, neizvjesnost, acceptance i ljudska provjera.
+
+
 **Oznaka:** GF-PROMPT-REPORT 1.0  
 **Autor:** Velimir Samara  
 **Datum:** 29.07.2026.

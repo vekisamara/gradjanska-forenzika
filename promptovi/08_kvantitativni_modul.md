@@ -1,5 +1,8 @@
 # Univerzalni modul za kvantitativne, komparativne i uzročne tvrdnje
 
+> **Primjenjuje:** GF-PROMPT-CORE 1.3 i GF-PROMPT-QS 1.1 — preflight, SOURCE granica, dokazni locator, neizvjesnost, acceptance i ljudska provjera.
+
+
 **Oznaka:** GF-PROMPT-QUANT 1.0  
 **Autor:** Velimir Samara  
 **Datum:** 29.07.2026.

@@ -44,7 +44,7 @@ Svaki novi odgovor ili dokument je novi dokazni unos. Prethodni nalaz se ne bri�
 
 > scope → prompt → test → analiza → red-team → greška/ograničenje → regresioni test → nova verzija
 
-Prompt se tretira kao verzionisan analitički instrument, a ne samo kao tekst instrukcije. Nova ili materijalno izmijenjena verzija složenog prompta dobija stabilan status tek nakon validacije prema GF-PROMPT-EVAL 1.0.
+Prompt se tretira kao verzionisan analitički instrument, a ne samo kao tekst instrukcije. Nova ili materijalno izmijenjena verzija složenog prompta dobija stabilan status tek nakon validacije prema GF-PROMPT-EVAL 1.1.
 
 ## Obrasci
 
@@ -55,7 +55,7 @@ Prompt se tretira kao verzionisan analitički instrument, a ne samo kao tekst in
 
 ## Odnos prema postojećim dokumentima
 
-GF-MET se primjenjuje zajedno sa [`Standardom za analizu javnih odluka v3.2`](osnovni-dokumenti/standard_za_analizu_javnih_odluka_v3.2.md), [`Metodom disciplinovanog administrativnog pritiska v3.2`](osnovni-dokumenti/metod_disciplinovanog_administrativnog_pritiska_v3.2.md), zajedničkim forenzičkim jezgrom u [`promptovi/00_forenzicko_jezgro.md`](../promptovi/00_forenzicko_jezgro.md), standardom kvaliteta promptova GF-PROMPT-QS 1.0 i protokolom validacije GF-PROMPT-EVAL 1.0.
+GF-MET se primjenjuje zajedno sa [`Standardom za analizu javnih odluka v3.2`](osnovni-dokumenti/standard_za_analizu_javnih_odluka_v3.2.md), [`Metodom disciplinovanog administrativnog pritiska v3.2`](osnovni-dokumenti/metod_disciplinovanog_administrativnog_pritiska_v3.2.md), zajedničkim forenzičkim jezgrom u [`promptovi/00_forenzicko_jezgro.md`](../promptovi/00_forenzicko_jezgro.md), standardom kvaliteta promptova GF-PROMPT-QS 1.1 i protokolom validacije GF-PROMPT-EVAL 1.1.
 
 Ranija objedinjena metodologija v2.0 povučena je u [`arhivu/`](../arhiva/metodologija/metodologija_gradjanske_forenzike_v2.0.md) radi sljedivosti i nije aktuelni standard.
 

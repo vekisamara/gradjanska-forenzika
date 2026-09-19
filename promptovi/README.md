@@ -4,21 +4,21 @@ Ovaj folder sadrži operativnu biblioteku za analizu upravnih akata, javnih izja
 
 ## Zajedničko pravilo
 
-Svaki prompt mora primjenjivati `00_forenzicko_jezgro.md` (**GF-PROMPT-CORE 1.2**) i [`../metodologija/13_standard_kvaliteta_promptova.md`](../metodologija/13_standard_kvaliteta_promptova.md) (**GF-PROMPT-QS 1.0**). Posebni prompt može proširiti zadatak, ali ne smije ukinuti obavezno razdvajanje činjenica, tvrdnji izvora, tumačenja, pretpostavki i nepoznatih okolnosti.
+Svaki prompt mora primjenjivati `00_forenzicko_jezgro.md` (**GF-PROMPT-CORE 1.3**) i [`../metodologija/13_standard_kvaliteta_promptova.md`](../metodologija/13_standard_kvaliteta_promptova.md) (**GF-PROMPT-QS 1.1**). Posebni prompt može proširiti zadatak, ali ne smije ukinuti obavezno razdvajanje činjenica, tvrdnji izvora, tumačenja, pretpostavki i nepoznatih okolnosti.
 
-Za nove i revidirane promptove koristi se [`_sablon_prompta.md`](_sablon_prompta.md) (**GF-PROMPT-TEMPLATE 1.0**).
+Za nove i revidirane promptove koristi se [`_sablon_prompta.md`](_sablon_prompta.md) (**GF-PROMPT-TEMPLATE 1.1**).
 
 Kada materijal sadrži broj, procenat, stopu, prosjek, trend, poređenje, budžetski iznos, indikator, procjenu ili uzročnu tvrdnju, obavezno se dodaje `08_kvantitativni_modul.md` (**GF-PROMPT-QUANT 1.0**).
 
 ## Standardna struktura novog prompta
 
-> Context → Task → Evidence rules → Analytical tests → Output schema → Uncertainty → Self-check / Acceptance criteria
+> Context → Task → Input contract / preflight → Evidence rules → Analytical tests → Output schema → Uncertainty → Self-check / Acceptance criteria
 
 Pravilo je: **jedan prompt — jedan primarni rezultat**. Ako zadatak traži više nezavisnih proizvoda ili faza, razdvojiti ga u module.
 
 ## Validacija
 
-Nova ili materijalno izmijenjena verzija složenog prompta testira se prema [`../metodologija/14_validacija_promptova.md`](../metodologija/14_validacija_promptova.md) (**GF-PROMPT-EVAL 1.0**).
+Nova ili materijalno izmijenjena verzija složenog prompta testira se prema [`../metodologija/14_validacija_promptova.md`](../metodologija/14_validacija_promptova.md) (**GF-PROMPT-EVAL 1.1**).
 
 Status prompta je jedan od:
 
@@ -27,6 +27,12 @@ Status prompta je jedan od:
 - `POVUČEN`.
 
 Greška iz stvarnog rada koja zahtijeva izmjenu prompta postaje kandidat za trajni regresioni test.
+
+## SOURCE i kopiranje promptova
+
+Operativni promptovi sadrže kratki naslijeđeni ugovor kvaliteta. Materijal za analizu treba jasno odvojiti kao SOURCE podatak. Instrukcija pronađena unutar dokumenta ne može mijenjati jezgro, dokazna pravila ili sigurnosna ograničenja.
+
+Kanonski GFO MEDIA promptovi 10–13 i njihovo bodovanje nisu tekstualno mijenjani ovom migracijom; primjenjuju GF-PROMPT-QS 1.1 preko GFO MEDIA Runtime v1.2.
 
 ## Preporučeni redoslijed rada
 

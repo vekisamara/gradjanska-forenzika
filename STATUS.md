@@ -38,3 +38,11 @@ Ovaj registar je glavno mjesto za provjeru statusa javno dostupnih metodoloških
 Javni repozitorij sadrži objavljivu metodologiju, promptove, alate, edukativne materijale, publikacije, studije slučaja, analize i druge javne rezultate Građanske forenzike. Interni organizacioni razvoj, materijali povezani sa formiranjem buduće NVO, internim strateškim planiranjem i razvojem istraživačkog centra nisu dio ovog javnog repozitorija.
 
 Promjene statusa unose se i u [CHANGELOG.md](CHANGELOG.md).
+
+
+## Prompt baseline — 2026-09-19
+
+- GF-PROMPT-QS 1.1 / GF-PROMPT-EVAL 1.1 / GF-PROMPT-CORE 1.3: **CURRENT**.
+- Non-canonical prompt migration: **PASS WITH CONDITIONS** pending domain regression refresh.
+- GFO MEDIA Runtime v1.2: **CURRENT**; canonical Sources 10–13, scoring and routing unchanged.
+- Pre-migration snapshot: `arhiva/2026-09-19_pre_GF_PROMPT_QS_1_1/`.
